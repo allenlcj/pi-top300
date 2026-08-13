@@ -1,0 +1,5 @@
+# Editorial overrides are separate from fetched catalog data.
+# Add a package here only after reviewing its current README, repository,
+# compatibility, maintenance, security, and overlap with existing packages.
+# recommendation: recommended | consider | niche | caution | avoid | unknown
+packages: {}

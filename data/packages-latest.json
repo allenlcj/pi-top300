@@ -1,0 +1,3197 @@
+{
+  "source": "https://pi.dev/packages?sort=downloads",
+  "scope": "All types; Most downloads; ranks 1-300",
+  "retrievedAt": "2026-08-13",
+  "packageCount": 300,
+  "packages": [
+    {
+      "rank": 1,
+      "name": "@vigolium/piolium",
+      "description": "Multi-phase security audits with specialist sub-agents, isolated context windows, capped concurrency, and resumable state — packaged as a Pi extension.",
+      "downloads": 479565,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@vigolium/piolium",
+      "repo": "https://github.com/vigolium/piolium",
+      "npm": "https://www.npmjs.com/package/@vigolium/piolium"
+    },
+    {
+      "rank": 2,
+      "name": "pi-mcp-adapter",
+      "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+      "downloads": 354380,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-mcp-adapter",
+      "repo": "https://github.com/nicobailon/pi-mcp-adapter",
+      "npm": "https://www.npmjs.com/package/pi-mcp-adapter"
+    },
+    {
+      "rank": 3,
+      "name": "pi-web-access",
+      "description": "Web search, URL fetching, GitHub repo cloning, PDF extraction, YouTube video understanding, and local video analysis for Pi coding agent. Supports OpenAI, Brave, Parallel, TinyFish, Search1API, Searchinfinity, Querit, Tavily, Jina, SERPdive, Kagi, Ollama,",
+      "downloads": 221973,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-web-access",
+      "repo": "https://github.com/nicobailon/pi-web-access",
+      "npm": "https://www.npmjs.com/package/pi-web-access"
+    },
+    {
+      "rank": 4,
+      "name": "pi-subagents",
+      "description": "Pi extension for single-agent delegation and scripted multi-agent workflows",
+      "downloads": 213951,
+      "types": [],
+      "href": "/packages/pi-subagents",
+      "repo": "https://github.com/nicobailon/pi-subagents",
+      "npm": "https://www.npmjs.com/package/pi-subagents"
+    },
+    {
+      "rank": 5,
+      "name": "context-mode",
+      "description": "MCP plugin that saves 98% of your context window. Works with Claude Code, Gemini CLI, VS Code Copilot, OpenCode, and Codex CLI. Sandboxed code execution, FTS5 knowledge base, and intent-driven search.",
+      "downloads": 73406,
+      "types": [],
+      "href": "/packages/context-mode",
+      "repo": "https://github.com/mksglu/context-mode",
+      "npm": "https://www.npmjs.com/package/context-mode"
+    },
+    {
+      "rank": 6,
+      "name": "@juicesharp/rpiv-ask-user-question",
+      "description": "Pi extension. A structured questionnaire the model can put to you when it would otherwise guess, with typed options instead of free-form replies.",
+      "downloads": 51649,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@juicesharp/rpiv-ask-user-question",
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-ask-user-question"
+    },
+    {
+      "rank": 7,
+      "name": "@juicesharp/rpiv-todo",
+      "description": "Pi extension. A todo list for the model, rendered as a live overlay that survives /reload and conversation compaction.",
+      "downloads": 43055,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@juicesharp/rpiv-todo",
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-todo"
+    },
+    {
+      "rank": 8,
+      "name": "pi-lens",
+      "description": "Real-time code feedback for pi — LSP, linters, formatters, type-checking, structural analysis & booboo",
+      "downloads": 40911,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-lens",
+      "repo": "https://github.com/apmantza/pi-lens",
+      "npm": "https://www.npmjs.com/package/pi-lens"
+    },
+    {
+      "rank": 9,
+      "name": "@tintinweb/pi-subagents",
+      "description": "A pi extension extension that brings smart Claude Code-style autonomous sub-agents to pi.",
+      "downloads": 40722,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@tintinweb/pi-subagents",
+      "repo": "https://github.com/tintinweb/pi-subagents",
+      "npm": "https://www.npmjs.com/package/@tintinweb/pi-subagents"
+    },
+    {
+      "rank": 10,
+      "name": "@dietrichgebert/ponytail",
+      "description": "Lazy senior dev mode for AI agents. The best code is the code you never wrote.",
+      "downloads": 40152,
+      "types": [
+        "skill"
+      ],
+      "href": "/packages/@dietrichgebert/ponytail",
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "npm": "https://www.npmjs.com/package/@dietrichgebert/ponytail"
+    },
+    {
+      "rank": 11,
+      "name": "@plannotator/pi-extension",
+      "description": "Plannotator Pi extension - interactive plan review with annotations, annotate agent messages, and review code/PRs",
+      "downloads": 38258,
+      "types": [],
+      "href": "/packages/@plannotator/pi-extension",
+      "repo": "https://github.com/backnotprop/plannotator",
+      "npm": "https://www.npmjs.com/package/@plannotator/pi-extension"
+    },
+    {
+      "rank": 12,
+      "name": "@7n/rules",
+      "description": "CLI еталонних правил і skills (префікс n-): синк у репозиторій, дельта-lint, конформність",
+      "downloads": 37584,
+      "types": [],
+      "href": "/packages/@7n/rules",
+      "repo": "https://github.com/nitra/7n-rules",
+      "npm": "https://www.npmjs.com/package/@7n/rules"
+    },
+    {
+      "rank": 13,
+      "name": "@tangle-network/tcloud-agent",
+      "description": "Agent run-loop primitive over Tangle sandbox transports — runs an AgentProfile against a brief with criterion gates, budget caps, and streaming events. Includes TangleToolProvider for Pi tool integration.",
+      "downloads": 33791,
+      "types": [],
+      "href": "/packages/@tangle-network/tcloud-agent",
+      "repo": "https://github.com/tangle-network/tcloud",
+      "npm": "https://www.npmjs.com/package/@tangle-network/tcloud-agent"
+    },
+    {
+      "rank": 14,
+      "name": "pi-simplify",
+      "description": "A Pi extension that reviews recently changed code for clarity, consistency, and maintainability.",
+      "downloads": 31338,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-simplify",
+      "repo": "https://github.com/MattDevy/pi-extensions",
+      "npm": "https://www.npmjs.com/package/pi-simplify"
+    },
+    {
+      "rank": 15,
+      "name": "@ff-labs/pi-fff",
+      "description": "pi extension: FFF-powered fuzzy file and content search",
+      "downloads": 31072,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@ff-labs/pi-fff",
+      "repo": "https://github.com/dmtrKovalenko/fff",
+      "npm": "https://www.npmjs.com/package/@ff-labs/pi-fff"
+    },
+    {
+      "rank": 16,
+      "name": "@narumitw/pi-goal",
+      "description": "Pi extension for autonomous /goal completion with opt-in experimental ordered queues.",
+      "downloads": 30187,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@narumitw/pi-goal",
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-goal"
+    },
+    {
+      "rank": 17,
+      "name": "@quintinshaw/pi-dynamic-workflows",
+      "description": "Claude-Code-style dynamic workflows for Pi — fan a task out across 100s of subagents with real model routing, token/cost accounting, resume, git-worktree isolation, an interactive /workflows TUI, and a real /deep-research.",
+      "downloads": 29952,
+      "types": [],
+      "href": "/packages/@quintinshaw/pi-dynamic-workflows",
+      "repo": "https://github.com/QuintinShaw/pi-dynamic-workflows",
+      "npm": "https://www.npmjs.com/package/@quintinshaw/pi-dynamic-workflows"
+    },
+    {
+      "rank": 18,
+      "name": "@remnic/plugin-pi",
+      "description": "Remnic memory extension for Pi Coding Agent",
+      "downloads": 29408,
+      "types": [],
+      "href": "/packages/@remnic/plugin-pi",
+      "repo": "https://github.com/joshuaswarren/remnic",
+      "npm": "https://www.npmjs.com/package/@remnic/plugin-pi"
+    },
+    {
+      "rank": 19,
+      "name": "pi-goal-list-loop-audit",
+      "description": "Mission control for autonomous pi: interview-drafted goals, an audited task queue, and forever-loops (metric, spec, project-audit) that run for hours. A detached extension-less auditor process re-verifies every completion with raw evidence without holding",
+      "downloads": 28459,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-goal-list-loop-audit",
+      "repo": "https://github.com/DraconDev/pi-goal-list-loop-audit",
+      "npm": "https://www.npmjs.com/package/pi-goal-list-loop-audit"
+    },
+    {
+      "rank": 20,
+      "name": "pi-fabric",
+      "description": "A programmable tool and agent runtime for Pi",
+      "downloads": 28253,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-fabric",
+      "repo": "https://github.com/monotykamary/pi-fabric",
+      "npm": "https://www.npmjs.com/package/pi-fabric"
+    },
+    {
+      "rank": 21,
+      "name": "@gotgenes/pi-permission-system",
+      "description": "Permission enforcement extension for the Pi coding agent.",
+      "downloads": 26993,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@gotgenes/pi-permission-system",
+      "repo": "https://github.com/gotgenes/pi-packages",
+      "npm": "https://www.npmjs.com/package/@gotgenes/pi-permission-system"
+    },
+    {
+      "rank": 22,
+      "name": "pi-background-tasks",
+      "description": "Pi extension for durable background shell tasks, read-only delegated agents, local attested Pi runs, and fixed-purpose Fusion workflows through child Pi processes.",
+      "downloads": 26886,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-background-tasks",
+      "repo": "https://github.com/ismailsaleekh/pi-background-tasks",
+      "npm": "https://www.npmjs.com/package/pi-background-tasks"
+    },
+    {
+      "rank": 23,
+      "name": "@raindrop-ai/pi-agent",
+      "description": "Raindrop observability for Pi Agent — automatic tracing via subscriber or pi-coding-agent extension",
+      "downloads": 25351,
+      "types": [],
+      "href": "/packages/@raindrop-ai/pi-agent",
+      "repo": "https://github.com/raindrop-ai/raindrop-js",
+      "npm": "https://www.npmjs.com/package/@raindrop-ai/pi-agent"
+    },
+    {
+      "rank": 24,
+      "name": "pi-hermes-memory",
+      "description": "🧠 Persistent memory + 🔍 session search + 🛡️ secret scanning for Pi. Token-aware policy-only memory by default, SQLite FTS5 search, auto-consolidation, procedural skills. 732 tests. Ported from Hermes agent.",
+      "downloads": 23678,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "href": "/packages/pi-hermes-memory",
+      "repo": "https://github.com/chandra447/pi-hermes-memory",
+      "npm": "https://www.npmjs.com/package/pi-hermes-memory"
+    },
+    {
+      "rank": 25,
+      "name": "@mjasnikovs/pi-task",
+      "description": "Deterministic task planning and spec-orchestration for local models — crash-safe /task pipelines with verify/enforce gates, a real-time remote web view, and web/docs/fetch/worker subagent tools.",
+      "downloads": 22549,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@mjasnikovs/pi-task",
+      "repo": "https://github.com/mjasnikovs/pi-task",
+      "npm": "https://www.npmjs.com/package/@mjasnikovs/pi-task"
+    },
+    {
+      "rank": 26,
+      "name": "pi-intercom",
+      "description": "<p>   <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>",
+      "downloads": 19835,
+      "types": [],
+      "href": "/packages/pi-intercom",
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-intercom"
+    },
+    {
+      "rank": 27,
+      "name": "pi-memory",
+      "description": "Pi coding agent extension for memory with qmd-powered semantic search across daily logs, long-term memory, and scratchpad",
+      "downloads": 19519,
+      "types": [],
+      "href": "/packages/pi-memory",
+      "repo": "https://github.com/jayzeng/pi-memory",
+      "npm": "https://www.npmjs.com/package/pi-memory"
+    },
+    {
+      "rank": 28,
+      "name": "@braintrust/pi-extension",
+      "description": "Braintrust extension for pi. Includes automatic tracing for pi sessions, turns, LLM calls, and tool executions to Braintrust.",
+      "downloads": 18008,
+      "types": [],
+      "href": "/packages/@braintrust/pi-extension",
+      "repo": "https://github.com/braintrustdata/braintrust-coding-agent-plugins",
+      "npm": "https://www.npmjs.com/package/@braintrust/pi-extension"
+    },
+    {
+      "rank": 29,
+      "name": "@nitra/cursor",
+      "description": "CLI для завантаження cursor-правил (префікс n-) у локальний репозиторій",
+      "downloads": 17617,
+      "types": [],
+      "href": "/packages/@nitra/cursor",
+      "repo": "https://github.com/n/cursor",
+      "npm": "https://www.npmjs.com/package/@nitra/cursor"
+    },
+    {
+      "rank": 30,
+      "name": "pi-powerline-footer",
+      "description": "Powerline-style status bar extension for pi coding agent",
+      "downloads": 17464,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-powerline-footer",
+      "repo": "https://github.com/nicobailon/pi-powerline-footer",
+      "npm": "https://www.npmjs.com/package/pi-powerline-footer"
+    },
+    {
+      "rank": 31,
+      "name": "@juicesharp/rpiv-voice",
+      "description": "Pi extension. Voice dictation via /voice — local on-device STT with sherpa-onnx Whisper (base multilingual int8), microphone capture via decibri.",
+      "downloads": 17219,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@juicesharp/rpiv-voice",
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-voice"
+    },
+    {
+      "rank": 32,
+      "name": "@narumitw/pi-plan-mode",
+      "description": "Pi extension that adds a Codex-like read-only /plan collaboration mode.",
+      "downloads": 16864,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@narumitw/pi-plan-mode",
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-plan-mode"
+    },
+    {
+      "rank": 33,
+      "name": "@howaboua/pi-codex-conversion",
+      "description": "Codex-oriented tool and prompt adapter for pi coding agent",
+      "downloads": 16486,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@howaboua/pi-codex-conversion",
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-codex-conversion"
+    },
+    {
+      "rank": 34,
+      "name": "@narumitw/pi-lsp",
+      "description": "Pi extension that exposes configurable, language-agnostic LSP tools through a shared runner.",
+      "downloads": 16286,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@narumitw/pi-lsp",
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-lsp"
+    },
+    {
+      "rank": 35,
+      "name": "pi-readseek",
+      "description": "Pi extension for LINE:HASH-anchored file operations and structural code navigation",
+      "downloads": 16071,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-readseek",
+      "repo": "https://gitlab.com/jarkkojs/readseek",
+      "npm": "https://www.npmjs.com/package/pi-readseek"
+    },
+    {
+      "rank": 36,
+      "name": "pi-hashline-edit-pro",
+      "description": "Hash-anchored read/replace/undo tools for pi-coding-agent. Every line gets a unique 3-char hash (A-Za-z0-9) that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restarts.",
+      "downloads": 15708,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-hashline-edit-pro",
+      "repo": "https://github.com/YuGiMob/pi-hashline-edit-pro",
+      "npm": "https://www.npmjs.com/package/pi-hashline-edit-pro"
+    },
+    {
+      "rank": 37,
+      "name": "bigpowers",
+      "description": "73 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo developers",
+      "downloads": 15439,
+      "types": [
+        "skill"
+      ],
+      "href": "/packages/bigpowers",
+      "repo": "https://github.com/danielvm-git/bigpowers",
+      "npm": "https://www.npmjs.com/package/bigpowers"
+    },
+    {
+      "rank": 38,
+      "name": "@llblab/pi-telegram",
+      "description": "Telegram runtime adapter for Pi",
+      "downloads": 14297,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/@llblab/pi-telegram",
+      "repo": "https://github.com/llblab/pi-telegram",
+      "npm": "https://www.npmjs.com/package/@llblab/pi-telegram"
+    },
+    {
+      "rank": 39,
+      "name": "gentle-pi",
+      "description": "Turn Pi into el Gentleman: a senior-architect development harness with SDD/OpenSpec, subagents, strict TDD evidence, review guardrails, and skill discovery.",
+      "downloads": 13917,
+      "types": [],
+      "href": "/packages/gentle-pi",
+      "repo": "https://github.com/Gentleman-Programming/gentle-pi",
+      "npm": "https://www.npmjs.com/package/gentle-pi"
+    },
+    {
+      "rank": 40,
+      "name": "@hypabolic/pi-hypa",
+      "description": "Pi extension that keeps noisy tool output out of your context window. Automatically rewrites shell commands through Hypa for local, deterministic compression, context-aware file tools, and recoverable evidence.",
+      "downloads": 13844,
+      "types": [],
+      "href": "/packages/@hypabolic/pi-hypa",
+      "repo": "https://github.com/Hypabolic/Hypa",
+      "npm": "https://www.npmjs.com/package/@hypabolic/pi-hypa"
+    },
+    {
+      "rank": 41,
+      "name": "pi-agent-browser-native",
+      "description": "pi extension that exposes agent-browser as a native tool for browser automation",
+      "downloads": 13780,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-agent-browser-native",
+      "repo": "https://github.com/fitchmultz/pi-agent-browser-native",
+      "npm": "https://www.npmjs.com/package/pi-agent-browser-native"
+    },
+    {
+      "rank": 42,
+      "name": "pi-prompt-template-model",
+      "description": "Prompt template model selector extension for pi coding agent",
+      "downloads": 13762,
+      "types": [
+        "extension",
+        "prompt"
+      ],
+      "href": "/packages/pi-prompt-template-model",
+      "repo": "https://github.com/nicobailon/pi-prompt-template-model",
+      "npm": "https://www.npmjs.com/package/pi-prompt-template-model"
+    },
+    {
+      "rank": 43,
+      "name": "pi-landstrip",
+      "description": "Sandboxed Bash and process-backed agents for Pi",
+      "downloads": 13694,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-landstrip",
+      "repo": "https://github.com/landstrip/landstrip",
+      "npm": "https://www.npmjs.com/package/pi-landstrip"
+    },
+    {
+      "rank": 44,
+      "name": "@reddb-io/red-skills-dev",
+      "description": "reddb.io dev plugin - engineering skills for code agents (autonomous /afk loop, /go dispatch, triage, tdd, diagnose, graph-aware codebase understanding, ...)",
+      "downloads": 12989,
+      "types": [],
+      "href": "/packages/@reddb-io/red-skills-dev",
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-dev"
+    },
+    {
+      "rank": 45,
+      "name": "pi-rtk-optimizer",
+      "description": "Pi extension that optimizes RTK command rewriting and tool output compaction for the coding agent.",
+      "downloads": 12929,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-rtk-optimizer",
+      "repo": "https://github.com/MasuRii/pi-rtk-optimizer",
+      "npm": "https://www.npmjs.com/package/pi-rtk-optimizer"
+    },
+    {
+      "rank": 46,
+      "name": "@reddb-io/red-skills-memory",
+      "description": "reddb.io memory plugin - governed operational memory for code agents that lives on top of dev. Supports markdown notes, RedDB graph memory, zero-token governed recall, context packs, claim checks, readiness, optional lifecycle hooks, MCP/HTTP read surface",
+      "downloads": 12805,
+      "types": [],
+      "href": "/packages/@reddb-io/red-skills-memory",
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-memory"
+    },
+    {
+      "rank": 47,
+      "name": "@reddb-io/red-skills-internal",
+      "description": "reddb.io internal plugin - maintainer-only skills for operating the red-skills repository.",
+      "downloads": 12780,
+      "types": [],
+      "href": "/packages/@reddb-io/red-skills-internal",
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-internal"
+    },
+    {
+      "rank": 48,
+      "name": "@reddb-io/red-skills-brain",
+      "description": "reddb.io brain plugin - project-local RedDB knowledge repository for freeform captures and graph connections.",
+      "downloads": 12643,
+      "types": [],
+      "href": "/packages/@reddb-io/red-skills-brain",
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-brain"
+    },
+    {
+      "rank": 49,
+      "name": "opencode-codebase-index",
+      "description": "Host-neutral semantic codebase search with embeddings, symbol discovery, and call-graph tooling",
+      "downloads": 12593,
+      "types": [],
+      "href": "/packages/opencode-codebase-index",
+      "repo": "https://github.com/Helweg/open-codebase-index",
+      "npm": "https://www.npmjs.com/package/opencode-codebase-index"
+    },
+    {
+      "rank": 50,
+      "name": "pi-cc-extensions",
+      "description": "A Pi productivity suite with Claude Code-style UI, context inspection, and agent/session references",
+      "downloads": 12015,
+      "types": [
+        "extension"
+      ],
+      "href": "/packages/pi-cc-extensions",
+      "repo": "https://github.com/minuque/pi-cc-extensions",
+      "npm": "https://www.npmjs.com/package/pi-cc-extensions"
+    },
+    {
+      "rank": 51,
+      "name": "@narumitw/pi-statusline",
+      "description": "Pi extension that replaces the footer with an information-rich statusline.",
+      "downloads": 11854,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-statusline"
+    },
+    {
+      "rank": 52,
+      "name": "pi-goosedump",
+      "description": "Pi extension for goosedump session search, durable memory, session management, and compaction",
+      "downloads": 11624,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://gitlab.com/jarkkojs/goosedump",
+      "npm": "https://www.npmjs.com/package/pi-goosedump"
+    },
+    {
+      "rank": 53,
+      "name": "pi-deepseek-search",
+      "description": "Web search for Pi using DeepSeek's server side search. Only works with DeepSeek models.",
+      "downloads": 11063,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/bxff/pi-deepseek-search",
+      "npm": "https://www.npmjs.com/package/pi-deepseek-search"
+    },
+    {
+      "rank": 54,
+      "name": "glimpseui",
+      "description": "Native micro-UI for scripts and agents — cross-platform WebView windows with bidirectional JSON communication",
+      "downloads": 10996,
+      "types": [
+        "prompt"
+      ],
+      "repo": "https://github.com/hazat/glimpse",
+      "npm": "https://www.npmjs.com/package/glimpseui"
+    },
+    {
+      "rank": 55,
+      "name": "pi-markdown-preview",
+      "description": "Rendered markdown + LaTeX preview for pi, with terminal, browser, and PDF output",
+      "downloads": 10904,
+      "types": [],
+      "repo": "https://github.com/omaclaren/pi-markdown-preview",
+      "npm": "https://www.npmjs.com/package/pi-markdown-preview"
+    },
+    {
+      "rank": 56,
+      "name": "@agimon-ai/log-sink-mcp",
+      "description": "Log sink MCP server with HTTP ingestion and AI analysis",
+      "downloads": 10705,
+      "types": [],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@agimon-ai/log-sink-mcp"
+    },
+    {
+      "rank": 57,
+      "name": "@narumitw/pi-btw",
+      "description": "Pi extension that adds a /btw side-question command.",
+      "downloads": 10598,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-btw"
+    },
+    {
+      "rank": 58,
+      "name": "pi-lmstudio",
+      "description": "LM Studio model provider extension for Pi coding agent",
+      "downloads": 10533,
+      "types": [],
+      "repo": "https://github.com/stakira/pi-lmstudio",
+      "npm": "https://www.npmjs.com/package/pi-lmstudio"
+    },
+    {
+      "rank": 59,
+      "name": "pi-ask-user",
+      "description": "Interactive ask_user tool for pi-coding-agent with searchable split-pane selection UI, multi-select, and freeform input",
+      "downloads": 10372,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/edlsh/pi-ask-user",
+      "npm": "https://www.npmjs.com/package/pi-ask-user"
+    },
+    {
+      "rank": 60,
+      "name": "projectops",
+      "description": "ProjectOps — 완전 자동화 GitHub 프로젝트 관리 템플릿 통합 CLI",
+      "downloads": 10043,
+      "types": [],
+      "repo": "https://github.com/Cassiiopeia/projectops",
+      "npm": "https://www.npmjs.com/package/projectops"
+    },
+    {
+      "rank": 61,
+      "name": "@juicesharp/rpiv-web-tools",
+      "description": "Pi extension. Web search and fetch for the model with pluggable providers (Brave, Tavily, Serper, Exa, You.com, Jina, Firecrawl, Perplexity, SearXNG, Ollama).",
+      "downloads": 9876,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-web-tools"
+    },
+    {
+      "rank": 62,
+      "name": "pi-cursor-sdk",
+      "description": "pi provider extension backed by @cursor/sdk local and cloud agents",
+      "downloads": 9800,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/fitchmultz/pi-cursor-sdk",
+      "npm": "https://www.npmjs.com/package/pi-cursor-sdk"
+    },
+    {
+      "rank": 63,
+      "name": "pi-provider-litellm",
+      "description": "LiteLLM proxy provider extension for Pi",
+      "downloads": 9789,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/balcsida/pi-provider-litellm",
+      "npm": "https://www.npmjs.com/package/pi-provider-litellm"
+    },
+    {
+      "rank": 64,
+      "name": "@devflow-tools/claude-code-plugin",
+      "description": "DevFlow — Developer Intelligence Platform for Claude Code",
+      "downloads": 9740,
+      "types": [
+        "skill"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@devflow-tools/claude-code-plugin"
+    },
+    {
+      "rank": 65,
+      "name": "pi-zentui",
+      "description": "A Starship-inspired statusline and Opencode-style TUI for Pi.",
+      "downloads": 9579,
+      "types": [
+        "extension",
+        "theme"
+      ],
+      "repo": "https://github.com/lmilojevicc/pi-zentui",
+      "npm": "https://www.npmjs.com/package/pi-zentui"
+    },
+    {
+      "rank": 66,
+      "name": "@ollama/pi-web-search",
+      "description": "Web search and fetch tools for Pi agent - uses Ollama's web search and fetch APIs",
+      "downloads": 9517,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@ollama/pi-web-search"
+    },
+    {
+      "rank": 67,
+      "name": "open-zk-kb",
+      "description": "Persistent memory for agents. Corrections stick, context compounds, every session starts smarter.",
+      "downloads": 9460,
+      "types": [],
+      "repo": "https://github.com/mrosnerr/open-zk-kb",
+      "npm": "https://www.npmjs.com/package/open-zk-kb"
+    },
+    {
+      "rank": 68,
+      "name": "pi-crew",
+      "description": "Pi extension for coordinated AI teams, workflows, worktrees, and async task orchestration",
+      "downloads": 9313,
+      "types": [],
+      "repo": "https://github.com/baphuongna/pi-crew",
+      "npm": "https://www.npmjs.com/package/pi-crew"
+    },
+    {
+      "rank": 69,
+      "name": "superpowers-zh",
+      "description": "AI 编程超能力中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，支持 Claude Code / Copilot CLI / Hermes Agent / Cursor / Claw Code / Windsurf / Kiro / Gemini CLI / Qoder 等 23 款工具",
+      "downloads": 9245,
+      "types": [
+        "skill"
+      ],
+      "repo": "https://github.com/jnMetaCode/superpowers-zh",
+      "npm": "https://www.npmjs.com/package/superpowers-zh"
+    },
+    {
+      "rank": 70,
+      "name": "@danypops/pi-packed",
+      "description": "Pi package lifecycle, validation, daemon, tools, profiles, and TUI",
+      "downloads": 9210,
+      "types": [],
+      "repo": "https://github.com/DanyPops/packed",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-packed"
+    },
+    {
+      "rank": 71,
+      "name": "pi-interview",
+      "description": "Interactive interview form extension for pi coding agent",
+      "downloads": 9147,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/nicobailon/pi-interview-tool",
+      "npm": "https://www.npmjs.com/package/pi-interview"
+    },
+    {
+      "rank": 72,
+      "name": "@alexanderfortin/pi-deepseek-usage",
+      "description": "Pi extension for monitoring DeepSeek API balance",
+      "downloads": 8801,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/shaftoe/pi-deepseek-usage",
+      "npm": "https://www.npmjs.com/package/@alexanderfortin/pi-deepseek-usage"
+    },
+    {
+      "rank": 73,
+      "name": "pi-harness-runtime",
+      "description": "[BETA] Codex-style /usage status + autonomous coding harness for pi. Not production ready — expect breaking changes.",
+      "downloads": 8787,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ManotLuijiu/pi-harness-runtime",
+      "npm": "https://www.npmjs.com/package/pi-harness-runtime"
+    },
+    {
+      "rank": 74,
+      "name": "pi-btw",
+      "description": "A pi extension for parallel side conversations with /btw",
+      "downloads": 8772,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/dbachelder/pi-btw",
+      "npm": "https://www.npmjs.com/package/pi-btw"
+    },
+    {
+      "rank": 75,
+      "name": "@bdsqqq/pi",
+      "description": "extensions and core utilities for pi-coding-agent",
+      "downloads": 8530,
+      "types": [],
+      "repo": "https://github.com/bdsqqq/dots",
+      "npm": "https://www.npmjs.com/package/@bdsqqq/pi"
+    },
+    {
+      "rank": 76,
+      "name": "pi-web-search",
+      "description": "Provider-native web search for pi across Google Gemini, OpenAI, and Anthropic, plus Gemini URL Context",
+      "downloads": 8514,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ttttmr/pi-web-search",
+      "npm": "https://www.npmjs.com/package/pi-web-search"
+    },
+    {
+      "rank": 77,
+      "name": "pi-mcp-extension",
+      "description": "MCP (Model Context Protocol) client extension for the Pi coding agent — connect Pi to any MCP server",
+      "downloads": 8485,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/irahardianto/pi-mcp-extension",
+      "npm": "https://www.npmjs.com/package/pi-mcp-extension"
+    },
+    {
+      "rank": 78,
+      "name": "@gotgenes/pi-subagents",
+      "description": "A focused, in-process sub-agent core for pi — autonomous agents plus a typed API and lifecycle events other extensions build on. Friendly fork of @tintinweb/pi-subagents.",
+      "downloads": 8460,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/gotgenes/pi-packages",
+      "npm": "https://www.npmjs.com/package/@gotgenes/pi-subagents"
+    },
+    {
+      "rank": 79,
+      "name": "pi-web-ui",
+      "description": "Web chat interface for the pi coding agent, powered by the pi SDK (@earendil-works/pi-coding-agent) — one-command run, Docker/systemd/launchd deployable",
+      "downloads": 8382,
+      "types": [],
+      "repo": "https://github.com/xing-shuyin/pi-web-ui",
+      "npm": "https://www.npmjs.com/package/pi-web-ui"
+    },
+    {
+      "rank": 80,
+      "name": "latchkey",
+      "description": "A CLI tool that injects API credentials into curl requests to third-party services",
+      "downloads": 8282,
+      "types": [],
+      "repo": "https://github.com/imbue-ai/latchkey",
+      "npm": "https://www.npmjs.com/package/latchkey"
+    },
+    {
+      "rank": 81,
+      "name": "@runfusion/fusion",
+      "description": "Fusion CLI: HTTP API server, daemon, dashboard launcher, and task tooling for the Fusion AI coding agent.",
+      "downloads": 8280,
+      "types": [],
+      "repo": "https://github.com/Runfusion/Fusion",
+      "npm": "https://www.npmjs.com/package/@runfusion/fusion"
+    },
+    {
+      "rank": 82,
+      "name": "betterwright",
+      "description": "A persistent, policy-guarded Playwright browser for AI agents with network controls, trusted credential filling, proof screenshots, and CAPTCHA helpers.",
+      "downloads": 8249,
+      "types": [],
+      "repo": "https://github.com/BetterWright/betterwright",
+      "npm": "https://www.npmjs.com/package/betterwright"
+    },
+    {
+      "rank": 83,
+      "name": "@amaster.ai/pi-image-gen",
+      "description": "Pi extension for image generation via OpenAI gpt-image, Google Nano Banana (Gemini), Alibaba Qwen-Image, OpenRouter, and custom providers.",
+      "downloads": 8204,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-image-gen"
+    },
+    {
+      "rank": 84,
+      "name": "pi-llama-cpp",
+      "description": "Pi extension for llama.cpp integration. Supports router, single and legacy models. Supports multiple servers.",
+      "downloads": 8193,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/gsanhueza/pi-llama-cpp",
+      "npm": "https://www.npmjs.com/package/pi-llama-cpp"
+    },
+    {
+      "rank": 85,
+      "name": "@juicesharp/rpiv-advisor",
+      "description": "Pi extension. A second opinion the model can request from a stronger reviewer model before it acts.",
+      "downloads": 7851,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-advisor"
+    },
+    {
+      "rank": 86,
+      "name": "pi-cache-optimizer",
+      "description": "Improve Pi prompt/KV cache hit rates with stable prompts, OpenAI-compatible cache keys, proxy compat warnings, and footer cache stats.",
+      "downloads": 7828,
+      "types": [],
+      "repo": "https://github.com/jiangge/pi-cache-optimizer",
+      "npm": "https://www.npmjs.com/package/pi-cache-optimizer"
+    },
+    {
+      "rank": 87,
+      "name": "pi-lean-ctx",
+      "description": "Pi Coding Agent extension — routes bash/read/grep/find/ls through lean-ctx for strong token savings. The embedded MCP bridge (on by default) adds a persistent session cache so unchanged re-reads cost ~13 tokens.",
+      "downloads": 7804,
+      "types": [],
+      "repo": "https://github.com/yvgude/lean-ctx",
+      "npm": "https://www.npmjs.com/package/pi-lean-ctx"
+    },
+    {
+      "rank": 88,
+      "name": "mitsupi",
+      "description": "Armin's pi coding agent commands, skills, extensions, and themes",
+      "downloads": 7802,
+      "types": [
+        "extension",
+        "skill",
+        "theme"
+      ],
+      "repo": "https://github.com/mitsuhiko/agent-stuff",
+      "npm": "https://www.npmjs.com/package/mitsupi"
+    },
+    {
+      "rank": 89,
+      "name": "runline",
+      "description": "Code mode for agents — turn any API or command into a callable action",
+      "downloads": 7791,
+      "types": [],
+      "repo": "https://github.com/Michaelliv/runline",
+      "npm": "https://www.npmjs.com/package/runline"
+    },
+    {
+      "rank": 90,
+      "name": "cc-safety-net",
+      "description": "A coding agent CLI hook - block destructive commands and secret file access",
+      "downloads": 7753,
+      "types": [],
+      "repo": "https://github.com/kenryu42/cc-safety-net",
+      "npm": "https://www.npmjs.com/package/cc-safety-net"
+    },
+    {
+      "rank": 91,
+      "name": "pi-codex-goal",
+      "description": "Codex-style goal tracking and continuation for pi.",
+      "downloads": 7738,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/fitchmultz/pi-codex-goal",
+      "npm": "https://www.npmjs.com/package/pi-codex-goal"
+    },
+    {
+      "rank": 92,
+      "name": "@narumitw/pi-subagents",
+      "description": "Pi extension for delegating work to specialized isolated subagents.",
+      "downloads": 7698,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-subagents"
+    },
+    {
+      "rank": 93,
+      "name": "@danypops/pi-papyrus",
+      "description": "Pi host extension for Papyrus: native tools, TUI panels, and context injection over the daemon-backed graph store",
+      "downloads": 7596,
+      "types": [],
+      "repo": "https://github.com/DanyPops/papyrus",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-papyrus"
+    },
+    {
+      "rank": 94,
+      "name": "@tmustier/pi-usage-extension",
+      "description": "Usage statistics dashboard for Pi sessions.",
+      "downloads": 7556,
+      "types": [],
+      "repo": "https://github.com/tmustier/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@tmustier/pi-usage-extension"
+    },
+    {
+      "rank": 95,
+      "name": "@xynogen/pix-pretty",
+      "description": "Enhanced tool output rendering with syntax highlighting, file icons, tree views, diff rendering, and FFF search",
+      "downloads": 7551,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-pretty"
+    },
+    {
+      "rank": 96,
+      "name": "@firstpick/pi-package-webui",
+      "description": "Pi Web UI companion package with a local browser UI CLI plus /webui-start and /webui-status commands.",
+      "downloads": 7434,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
+      "npm": "https://www.npmjs.com/package/@firstpick/pi-package-webui"
+    },
+    {
+      "rank": 97,
+      "name": "@narumitw/pi-chrome-devtools",
+      "description": "Pi extension that exposes Chrome DevTools Protocol tools.",
+      "downloads": 7418,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-chrome-devtools"
+    },
+    {
+      "rank": 98,
+      "name": "@pi-stef/atlassian",
+      "description": "Pi extension and CLI for verified Atlassian Jira and Confluence tools.",
+      "downloads": 7368,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/sfiorini/pi-stef",
+      "npm": "https://www.npmjs.com/package/@pi-stef/atlassian"
+    },
+    {
+      "rank": 99,
+      "name": "pi-subagents-j0k3r",
+      "description": "Installable Pi package that adds markdown-defined subagents, delegated task tools, history, and model profiles.",
+      "downloads": 7314,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r",
+      "npm": "https://www.npmjs.com/package/pi-subagents-j0k3r"
+    },
+    {
+      "rank": 100,
+      "name": "@shanepadgett/tau-agent",
+      "description": "Tau is a custom agentic harness built with pi extensions",
+      "downloads": 7284,
+      "types": [],
+      "repo": "https://github.com/shanepadgett/tau-agent",
+      "npm": "https://www.npmjs.com/package/@shanepadgett/tau-agent"
+    },
+    {
+      "rank": 101,
+      "name": "@juanibiapina/pi-extension-settings",
+      "description": "Pi extension for centralized settings management across extensions",
+      "downloads": 6813,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juanibiapina/pi-extension-settings",
+      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-extension-settings"
+    },
+    {
+      "rank": 102,
+      "name": "@jmfederico/pi-web",
+      "description": "Web UI for persistent Pi Coding Agent sessions in real workspaces.",
+      "downloads": 6682,
+      "types": [],
+      "repo": "https://github.com/jmfederico/pi-web",
+      "npm": "https://www.npmjs.com/package/@jmfederico/pi-web"
+    },
+    {
+      "rank": 103,
+      "name": "@galvinsan/pi-mentis",
+      "description": "Integrated Pi Mentis knowledge-first memory extension for Pi >= 0.84.0",
+      "downloads": 6675,
+      "types": [],
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis"
+    },
+    {
+      "rank": 104,
+      "name": "@langchain/langsmith-pi-extension",
+      "description": "LangSmith extension for Pi Coding Agent",
+      "downloads": 6673,
+      "types": [],
+      "repo": "https://github.com/langchain-ai/langsmith-pi-extension",
+      "npm": "https://www.npmjs.com/package/@langchain/langsmith-pi-extension"
+    },
+    {
+      "rank": 105,
+      "name": "@danypops/pi-tickets",
+      "description": "Pi extension exposing the tickets daemon (GitHub/GitLab/Jira issue tracking) as an LLM-callable tool.",
+      "downloads": 6589,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/DanyPops/tickets",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-tickets"
+    },
+    {
+      "rank": 106,
+      "name": "@companion-ai/feynman",
+      "description": "Research-first CLI agent built on Pi and alphaXiv",
+      "downloads": 6497,
+      "types": [],
+      "repo": "https://github.com/companion-inc/feynman",
+      "npm": "https://www.npmjs.com/package/@companion-ai/feynman"
+    },
+    {
+      "rank": 107,
+      "name": "@narumitw/pi-sync",
+      "description": "Pi extension that syncs Pi configuration through Git, WebDAV, Cloudflare R2, or S3-compatible storage.",
+      "downloads": 6485,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-sync"
+    },
+    {
+      "rank": 108,
+      "name": "@juicesharp/rpiv-btw",
+      "description": "Pi extension. The /btw slash command, for putting a one-off side question to the same primary model without polluting the main conversation.",
+      "downloads": 6315,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-btw"
+    },
+    {
+      "rank": 109,
+      "name": "@oas-framework/pi",
+      "description": "OAS pi runtime bridge — memory session events and pre-workspace bootstrap over the runtime-neutral @oas-framework/oas kernel",
+      "downloads": 6278,
+      "types": [],
+      "repo": "https://github.com/OAS-Framework/oas",
+      "npm": "https://www.npmjs.com/package/@oas-framework/pi"
+    },
+    {
+      "rank": 110,
+      "name": "@esso0428/pi-sidebar",
+      "description": "Floating right sidebar for pi with git diff/status and session metadata (unofficial fork).",
+      "downloads": 6161,
+      "types": [],
+      "repo": "https://github.com/esso0428/pi-sidebar",
+      "npm": "https://www.npmjs.com/package/@esso0428/pi-sidebar"
+    },
+    {
+      "rank": 111,
+      "name": "@xynogen/pix-runtime",
+      "description": "Pix shared runtime — versioned pix.json config, atomic persistence, typed change events",
+      "downloads": 6149,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-runtime"
+    },
+    {
+      "rank": 112,
+      "name": "@misunders2d/agentnet",
+      "description": "Self-hosted, agent-agnostic secure communication network for Claude, Codex, Pi, Antigravity, and A2A agents",
+      "downloads": 6123,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/misunders2d/agentnet",
+      "npm": "https://www.npmjs.com/package/@misunders2d/agentnet"
+    },
+    {
+      "rank": 113,
+      "name": "pi-caveman",
+      "description": "Why use many token when few do trick. Caveman mode for pi — cuts ~75% output tokens while keeping full technical accuracy.",
+      "downloads": 6119,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/jonjonrankin/pi-caveman",
+      "npm": "https://www.npmjs.com/package/pi-caveman"
+    },
+    {
+      "rank": 114,
+      "name": "@narumitw/pi-caffeinate",
+      "description": "Pi extension that keeps the computer awake while the agent is running.",
+      "downloads": 6080,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-caffeinate"
+    },
+    {
+      "rank": 115,
+      "name": "pi-sandbox",
+      "description": "OS-level sandboxing for pi with interactive permission prompts",
+      "downloads": 6006,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/carderne/pi-sandbox",
+      "npm": "https://www.npmjs.com/package/pi-sandbox"
+    },
+    {
+      "rank": 116,
+      "name": "@juicesharp/rpiv-i18n",
+      "description": "Pi extension. The localization foundation for rpiv-* skills: locale detection, the /languages command, the --locale flag, and a cross-package locale registry.",
+      "downloads": 5971,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-i18n"
+    },
+    {
+      "rank": 117,
+      "name": "@xynogen/pix-core",
+      "description": "Pi extension bundle — installs and activates all core pix-* extensions",
+      "downloads": 5914,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-core"
+    },
+    {
+      "rank": 118,
+      "name": "@galvinsan/pi-mentis-knowledge",
+      "description": "Standalone Pi Mentis knowledge extension for Pi >= 0.84.0",
+      "downloads": 5911,
+      "types": [],
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-knowledge"
+    },
+    {
+      "rank": 119,
+      "name": "@xynogen/pix-data",
+      "description": "Pi extension — shared model data layer (models.dev + BenchLM), cached at ~/.cache/pi",
+      "downloads": 5881,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-data"
+    },
+    {
+      "rank": 120,
+      "name": "@tintinweb/pi-tasks",
+      "description": "A pi extension that brings Claude Code-style task tracking and coordination to pi.",
+      "downloads": 5877,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/tintinweb/pi-tasks",
+      "npm": "https://www.npmjs.com/package/@tintinweb/pi-tasks"
+    },
+    {
+      "rank": 121,
+      "name": "@myka2003/pi-dpi",
+      "description": "dπ — 拆解 π：pi 的解耦 agent 仓库引擎",
+      "downloads": 5876,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/oc101363-creator/pi-dpi",
+      "npm": "https://www.npmjs.com/package/@myka2003/pi-dpi"
+    },
+    {
+      "rank": 122,
+      "name": "@bacnh85/pi-plan",
+      "description": "Plan mode with read-only gating and plan → implement → verify → review workflow for Pi.",
+      "downloads": 5856,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-plan"
+    },
+    {
+      "rank": 123,
+      "name": "@narumitw/pi-usage",
+      "description": "Pi extension that shows current-account usage for Codex, GitHub Copilot, and OpenRouter.",
+      "downloads": 5785,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-usage"
+    },
+    {
+      "rank": 124,
+      "name": "@heyhuynhgiabuu/pi-pretty",
+      "description": "Pretty terminal output for pi — syntax-highlighted file reads, colored bash output, tree-view directory listings, and more.",
+      "downloads": 5747,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/heyhuynhgiabuu/pi-pretty",
+      "npm": "https://www.npmjs.com/package/@heyhuynhgiabuu/pi-pretty"
+    },
+    {
+      "rank": 125,
+      "name": "pi-vault-mind",
+      "description": "Passive Obsidian vault extension for pi. Watches @agent markers, dispatches forked subagents (Miner, Broadcaster, Heavy-Lifter), stores in LanceDB with vector + FTS + graph. Multi-agent 'Drop & Forget' workflow for the pi agent ecosystem.",
+      "downloads": 5670,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/kylebrodeur/pi-vault-mind",
+      "npm": "https://www.npmjs.com/package/pi-vault-mind"
+    },
+    {
+      "rank": 126,
+      "name": "pi-xai-oauth",
+      "description": "xAI OAuth provider with an authenticated account-specific Grok model catalog for pi",
+      "downloads": 5663,
+      "types": [],
+      "repo": "https://github.com/BlockedPath/pi-xai-oauth",
+      "npm": "https://www.npmjs.com/package/pi-xai-oauth"
+    },
+    {
+      "rank": 127,
+      "name": "pine-of-glass",
+      "description": "Observability extensions for the Pi coding agent",
+      "downloads": 5644,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pine-of-glass"
+    },
+    {
+      "rank": 128,
+      "name": "@galvinsan/pi-mentis-memory",
+      "description": "Standalone Pi Mentis memory extension for Pi >= 0.84.0",
+      "downloads": 5614,
+      "types": [],
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-memory"
+    },
+    {
+      "rank": 129,
+      "name": "@selesai/code",
+      "description": "Maintained, extension-first Pi coding agent with built-in workflows, subagents, web research, questions, skills, and an enhanced terminal UI.",
+      "downloads": 5588,
+      "types": [],
+      "repo": "https://github.com/SelesaiInTech/selesai-code",
+      "npm": "https://www.npmjs.com/package/@selesai/code"
+    },
+    {
+      "rank": 130,
+      "name": "@howaboua/pi-stuff",
+      "description": "all Howaboua Pi extensions and skills",
+      "downloads": 5574,
+      "types": [],
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-stuff"
+    },
+    {
+      "rank": 131,
+      "name": "@sreetej510/pi-usage",
+      "description": "Pi extension that reports provider usage/rate-limit budgets (Codex, Anthropic OAuth, etc.) via /usage, with a live statusline widget.",
+      "downloads": 5574,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-usage"
+    },
+    {
+      "rank": 132,
+      "name": "pi-maestro-flow",
+      "description": "All-in-one multi-agent orchestration for the Pi coding agent — parallel teammate dispatch, goals, plans, knowledge system, MCP/LSP/browser, and cockpit visualization in a single install",
+      "downloads": 5545,
+      "types": [
+        "skill"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-maestro-flow"
+    },
+    {
+      "rank": 133,
+      "name": "pi-multica-spine",
+      "description": "Pi extension that keeps Multica work agents bound to issue, PR, evidence, and handoff contracts.",
+      "downloads": 5440,
+      "types": [],
+      "repo": "https://github.com/eiei114/pi-multica-spine",
+      "npm": "https://www.npmjs.com/package/pi-multica-spine"
+    },
+    {
+      "rank": 134,
+      "name": "@narumitw/pi-firecrawl",
+      "description": "Pi extension that exposes Firecrawl web scraping and crawling tools.",
+      "downloads": 5389,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-firecrawl"
+    },
+    {
+      "rank": 135,
+      "name": "@aliou/pi-guardrails",
+      "description": "![banner](https://assets.aliou.me/github/aliou/pi-guardrails/banner.png)",
+      "downloads": 5278,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/aliou/pi-guardrails",
+      "npm": "https://www.npmjs.com/package/@aliou/pi-guardrails"
+    },
+    {
+      "rank": 136,
+      "name": "@baylarsadigov/omp-undo-redo",
+      "description": "Undo and redo session navigation for Pi and Oh My Pi",
+      "downloads": 5272,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Baylar55/omp-undo-redo",
+      "npm": "https://www.npmjs.com/package/@baylarsadigov/omp-undo-redo"
+    },
+    {
+      "rank": 137,
+      "name": "@danypops/pi-lector",
+      "description": "Pi host adapter for Lector: overrides read/write/edit with a daemon-backed, hash-guarded filesystem",
+      "downloads": 5272,
+      "types": [],
+      "repo": "https://github.com/DanyPops/lector",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-lector"
+    },
+    {
+      "rank": 138,
+      "name": "@trim21/personal-pi-extensions",
+      "description": "Custom pi coding-agent extensions: bwrap sandbox, workspace guard, opencode edit, and more",
+      "downloads": 5258,
+      "types": [],
+      "repo": "https://github.com/trim21/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@trim21/personal-pi-extensions"
+    },
+    {
+      "rank": 139,
+      "name": "gentle-engram",
+      "description": "Persistent memory for Pi agents — one local-or-cloud brain shared across sessions, compactions, and MCP agents",
+      "downloads": 5215,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Gentleman-Programming/engram",
+      "npm": "https://www.npmjs.com/package/gentle-engram"
+    },
+    {
+      "rank": 140,
+      "name": "@sreetej510/pi-shipd-checks",
+      "description": "Pi extension that runs a strict, multi-agent fairness review of a benchmark task's agent_prompt.md, test.patch, and solution.patch, plus behavioral test-gap analysis, via /checks.",
+      "downloads": 5166,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-shipd-checks"
+    },
+    {
+      "rank": 141,
+      "name": "pi-pr-review",
+      "description": "Parallel AI code review for GitHub pull requests in the Pi coding agent, with model-agnostic tiered subagents, structured findings, optional verification, and safe COMMENT-only publishing.",
+      "downloads": 5115,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/10ego/pi-pr-review",
+      "npm": "https://www.npmjs.com/package/pi-pr-review"
+    },
+    {
+      "rank": 142,
+      "name": "@piagent/platform",
+      "description": "Reusable Pi agent platform, project adapters, MCP/tool policy, and coding workflow harness.",
+      "downloads": 5056,
+      "types": [
+        "extension",
+        "skill",
+        "prompt"
+      ],
+      "repo": "https://github.com/Vt-mmm/piagent",
+      "npm": "https://www.npmjs.com/package/@piagent/platform"
+    },
+    {
+      "rank": 143,
+      "name": "@hyperdreamer/pi-webui",
+      "description": "Web UI for persistent Pi Coding Agent sessions in real workspaces.",
+      "downloads": 5049,
+      "types": [],
+      "repo": "https://github.com/hyperdreamer/pi-webui",
+      "npm": "https://www.npmjs.com/package/@hyperdreamer/pi-webui"
+    },
+    {
+      "rank": 144,
+      "name": "@sreetej510/pi-hpc-tools",
+      "description": "Pi extension for exploring a remote HPC/SSH host (via plink) with ls/read/grep tools, gated per-project by /hpc:on and /hpc:off.",
+      "downloads": 5011,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-hpc-tools"
+    },
+    {
+      "rank": 145,
+      "name": "bladebro",
+      "description": "Stealthy and efficient agentic browser driver for AI agents. Few tools, full control, real stealth, max token efficiency.",
+      "downloads": 4999,
+      "types": [],
+      "repo": "https://github.com/dondai44423/bladebro",
+      "npm": "https://www.npmjs.com/package/bladebro"
+    },
+    {
+      "rank": 146,
+      "name": "@houndmcp/hound-mcp-pi",
+      "description": "Hound web research for Pi agent - keyless search, anti-bot fetch, deep crawl, screenshot, Internet Archive dead-link recovery. Free, MIT, no API key.",
+      "downloads": 4952,
+      "types": [],
+      "repo": "https://github.com/dondai1234/master-fetch",
+      "npm": "https://www.npmjs.com/package/@houndmcp/hound-mcp-pi"
+    },
+    {
+      "rank": 147,
+      "name": "@narumitw/pi-codex-usage",
+      "description": "Pi extension that shows Codex ChatGPT subscription usage without requiring Codex CLI.",
+      "downloads": 4877,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-codex-usage"
+    },
+    {
+      "rank": 148,
+      "name": "@sreetej510/pi-prompt-manager",
+      "description": "Pi extension to quickly save, manage, and paste reusable prompts without retyping.",
+      "downloads": 4810,
+      "types": [
+        "extension",
+        "prompt"
+      ],
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-prompt-manager"
+    },
+    {
+      "rank": 149,
+      "name": "@nklisch/pi-plugins",
+      "description": "Native marketplace and plugin lifecycle management for Pi, with Claude Code and Codex compatibility.",
+      "downloads": 4796,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/nklisch/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@nklisch/pi-plugins"
+    },
+    {
+      "rank": 150,
+      "name": "@mrclrchtr/supi-context",
+      "description": "Live context pressure and token-use reports",
+      "downloads": 4738,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-context"
+    },
+    {
+      "rank": 151,
+      "name": "pi-muselinn-harness",
+      "description": "Kimi Code-style agent orchestration harness for Pi coding agent — Swarm (concurrent subagents + braille TUI), Goal (lifecycle + budget + queue), Plan (plan mode + tool restrictions), Permission (18-level policy chain: auto/yolo/manual), Task (background +",
+      "downloads": 4630,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/MuseLinn/pi-muselinn-harness",
+      "npm": "https://www.npmjs.com/package/pi-muselinn-harness"
+    },
+    {
+      "rank": 152,
+      "name": "@zeerke/ascet-copilot-ui",
+      "description": "ASCET Copilot startup UI extension for Pi.",
+      "downloads": 4630,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Slmplez/Pi-ascet-ui-extension",
+      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot-ui"
+    },
+    {
+      "rank": 153,
+      "name": "@zzs-fun/agent-forum-skills",
+      "description": "A Git-based collaboration skill for software development agents.",
+      "downloads": 4613,
+      "types": [],
+      "repo": "https://github.com/wszzs110/agent-forum-skills",
+      "npm": "https://www.npmjs.com/package/@zzs-fun/agent-forum-skills"
+    },
+    {
+      "rank": 154,
+      "name": "@ferris1225/pi-subagents",
+      "description": "Focused sub-agent delegation for pi: explore / worker / reviewer agents in isolated context, with proactive dispatch injection and per-agent model selection.",
+      "downloads": 4565,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@ferris1225/pi-subagents"
+    },
+    {
+      "rank": 155,
+      "name": "pi-experiences",
+      "description": "Human-reviewed habits for Pi and OMP coding agents—a local-first behavioral learning layer alongside skills and memory.",
+      "downloads": 4565,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/misunders2d/pi-experiences",
+      "npm": "https://www.npmjs.com/package/pi-experiences"
+    },
+    {
+      "rank": 156,
+      "name": "pai-acp",
+      "description": "Active Context Pruning (ACP) extension for Pi — model-driven context compression that keeps conversations flowing.",
+      "downloads": 4541,
+      "types": [],
+      "repo": "https://github.com/ranxianglei/pai-acp",
+      "npm": "https://www.npmjs.com/package/pai-acp"
+    },
+    {
+      "rank": 157,
+      "name": "@amaster.ai/pi-computer-use",
+      "description": "Cross-platform computer-use tools for Pi desktop automation",
+      "downloads": 4503,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-computer-use"
+    },
+    {
+      "rank": 158,
+      "name": "pi-fovea",
+      "description": "Token-budgeted repo mapping for agent sessions: foveated heat diffusion over a cross-language code graph, with progressive disclosure.",
+      "downloads": 4489,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/monotykamary/pi-fovea",
+      "npm": "https://www.npmjs.com/package/pi-fovea"
+    },
+    {
+      "rank": 159,
+      "name": "pi-sych",
+      "description": "General project and artifact development workbench for Pi",
+      "downloads": 4479,
+      "types": [],
+      "repo": "https://gitlab.com/Joao-O-Santos/pi-sych",
+      "npm": "https://www.npmjs.com/package/pi-sych"
+    },
+    {
+      "rank": 160,
+      "name": "@zeerke/ascet-copilot",
+      "description": "ASCET Copilot package bundle for Pi.",
+      "downloads": 4478,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot"
+    },
+    {
+      "rank": 161,
+      "name": "@eleboucher/pi-memini",
+      "description": "Shared cross-session memory for the Pi coding agent, backed by a memini service.",
+      "downloads": 4470,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@eleboucher/pi-memini"
+    },
+    {
+      "rank": 162,
+      "name": "pi-oc-style-agent-switcher",
+      "description": "Keyboard-driven primary-agent model switching for Pi — switch between agent profiles with Alt+Shift+←/→",
+      "downloads": 4434,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-oc-style-agent-switcher"
+    },
+    {
+      "rank": 163,
+      "name": "dripline",
+      "description": "Query anything, one drip at a time",
+      "downloads": 4432,
+      "types": [],
+      "repo": "https://github.com/Michaelliv/dripline",
+      "npm": "https://www.npmjs.com/package/dripline"
+    },
+    {
+      "rank": 164,
+      "name": "pi-extensible-workflows",
+      "description": "Deterministic multi-agent workflow orchestration for Pi",
+      "downloads": 4388,
+      "types": [],
+      "repo": "https://github.com/vekexasia/pi-extensible-workflows",
+      "npm": "https://www.npmjs.com/package/pi-extensible-workflows"
+    },
+    {
+      "rank": 165,
+      "name": "@4fu/pi-pwsh",
+      "description": "Persistent PowerShell tasks for pi on Windows, with ConPTY sessions and user requests.",
+      "downloads": 4365,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/4fuu/pi-pwsh",
+      "npm": "https://www.npmjs.com/package/@4fu/pi-pwsh"
+    },
+    {
+      "rank": 166,
+      "name": "pi-smart-fetch",
+      "description": "Smart web_fetch with desktop-browser TLS impersonation and defuddle extraction.",
+      "downloads": 4335,
+      "types": [],
+      "repo": "https://github.com/Thinkscape/agent-smart-fetch",
+      "npm": "https://www.npmjs.com/package/pi-smart-fetch"
+    },
+    {
+      "rank": 167,
+      "name": "nervous-system",
+      "description": "NERVous System — durable multi-agent orchestration, coding-agent coordination, and workflow recovery for pi.",
+      "downloads": 4311,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/10ego/NERVous-system",
+      "npm": "https://www.npmjs.com/package/nervous-system"
+    },
+    {
+      "rank": 168,
+      "name": "@mrclrchtr/supi-web",
+      "description": "Public web pages to Markdown, plus focused Context7 docs",
+      "downloads": 4301,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-web"
+    },
+    {
+      "rank": 169,
+      "name": "killeros",
+      "description": "TUI, goals, and workflow automation for the Pi coding agent",
+      "downloads": 4293,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/KyrosHendrix/pi-KillerOS",
+      "npm": "https://www.npmjs.com/package/killeros"
+    },
+    {
+      "rank": 170,
+      "name": "openlore",
+      "description": "Persistent architectural memory and structural cognition for AI coding agents.",
+      "downloads": 4281,
+      "types": [],
+      "repo": "https://github.com/clay-good/openlore",
+      "npm": "https://www.npmjs.com/package/openlore"
+    },
+    {
+      "rank": 171,
+      "name": "@howaboua/pi-extensions",
+      "description": "all Howaboua Pi extensions",
+      "downloads": 4260,
+      "types": [],
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-extensions"
+    },
+    {
+      "rank": 172,
+      "name": "@mrclrchtr/supi-claude-md",
+      "description": "Skills to maintain CLAUDE.md and AGENTS.md guidance",
+      "downloads": 4260,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-claude-md"
+    },
+    {
+      "rank": 173,
+      "name": "@zgltyq/pi-provider-kimi-code",
+      "description": "Kimi Code models in pi-coding-agent with OAuth, K3, K2.7, and HighSpeed selection",
+      "downloads": 4260,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ZGltYQ/pi-provider-kimi-code",
+      "npm": "https://www.npmjs.com/package/@zgltyq/pi-provider-kimi-code"
+    },
+    {
+      "rank": 174,
+      "name": "@firstpick/pi-extension-git-footer-status",
+      "description": "Enhanced Pi footer with git status, token usage, context usage, and model telemetry.",
+      "downloads": 4248,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
+      "npm": "https://www.npmjs.com/package/@firstpick/pi-extension-git-footer-status"
+    },
+    {
+      "rank": 175,
+      "name": "@xaccefy/pi-xtodo",
+      "description": "Simplified todo extension for tracking multi-step progress in Pi Agent",
+      "downloads": 4245,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xtodo"
+    },
+    {
+      "rank": 176,
+      "name": "@router-for-me/pi-cliproxyapi-provider",
+      "description": "Pi provider extension that auto-registers CLIProxyAPI models, plus TUI elapsed/TPS status",
+      "downloads": 4238,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/router-for-me/pi-cliproxyapi-provider",
+      "npm": "https://www.npmjs.com/package/@router-for-me/pi-cliproxyapi-provider"
+    },
+    {
+      "rank": 177,
+      "name": "@danypops/pi-pipes",
+      "description": "Pi extension: agent-facing CI tool for cross-platform CI (GitHub Actions, GitLab CI, Jenkins)",
+      "downloads": 4216,
+      "types": [],
+      "repo": "https://github.com/DanyPops/pipes",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-pipes"
+    },
+    {
+      "rank": 178,
+      "name": "@cortexkit/pi-anthropic-auth",
+      "description": "Pi package for CortexKit Anthropic OAuth support. It overrides Pi's built-in `anthropic` provider with a CortexKit provider extension backed by the shared `@cortexkit/anthropic-auth-core` package.",
+      "downloads": 4203,
+      "types": [],
+      "repo": "https://github.com/cortexkit/anthropic-auth",
+      "npm": "https://www.npmjs.com/package/@cortexkit/pi-anthropic-auth"
+    },
+    {
+      "rank": 179,
+      "name": "@mrclrchtr/supi-ask-user",
+      "description": "Structured choice and text forms for agent-user decisions",
+      "downloads": 4197,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-ask-user"
+    },
+    {
+      "rank": 180,
+      "name": "@tunnckocore/pi-gpt-fast-mode",
+      "description": "A super basic Pi extension that toggles GPT-5.4 / GPT-5.5 / GPT-5.6 Fast mode with /fast (the default 'priority'), nothing else - one file.",
+      "downloads": 4196,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/tunnckoCore/pi-gpt-fast-mode",
+      "npm": "https://www.npmjs.com/package/@tunnckocore/pi-gpt-fast-mode"
+    },
+    {
+      "rank": 181,
+      "name": "@pi-stef/flow",
+      "description": "Pi extension for reusable multi-agent workflows and CodeRabbit-style code audit. Built on pi-subagents + pi-dynamic-workflows.",
+      "downloads": 4171,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@pi-stef/flow"
+    },
+    {
+      "rank": 182,
+      "name": "pi-goal-x",
+      "description": "Goal mode extension for pi: durable long-running objectives, five model tools, structured tasks, independent completion audit, Sisyphus mode, auto-continue, and a status overlay.",
+      "downloads": 4165,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/tmonk/pi-goal-x",
+      "npm": "https://www.npmjs.com/package/pi-goal-x"
+    },
+    {
+      "rank": 183,
+      "name": "pi-free",
+      "description": "AI model providers for Pi with free model filtering and dynamic model fetching",
+      "downloads": 4151,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/apmantza/pi-free",
+      "npm": "https://www.npmjs.com/package/pi-free"
+    },
+    {
+      "rank": 184,
+      "name": "@xaccefy/pi-casefile",
+      "description": "Offensive security case tracker for Pi Agent — bug bounties, CTFs, security audits",
+      "downloads": 4104,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-casefile"
+    },
+    {
+      "rank": 185,
+      "name": "@mrclrchtr/supi-code-intelligence",
+      "description": "LSP and AST navigation, search, diagnostics, and refactoring",
+      "downloads": 4095,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-code-intelligence"
+    },
+    {
+      "rank": 186,
+      "name": "@ayulab/pi-rewind",
+      "description": "Pi extension providing /rewind checkpoint navigation",
+      "downloads": 4091,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ayu-exorcist/oh-my-pi",
+      "npm": "https://www.npmjs.com/package/@ayulab/pi-rewind"
+    },
+    {
+      "rank": 187,
+      "name": "pi-autoresearch",
+      "description": "Autonomous experiment loop for pi — run, measure, keep or discard. Inspired by karpathy/autoresearch.",
+      "downloads": 4072,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/davebcn87/pi-autoresearch",
+      "npm": "https://www.npmjs.com/package/pi-autoresearch"
+    },
+    {
+      "rank": 188,
+      "name": "@juicesharp/rpiv-pi",
+      "description": "A skill-based development workflow for Pi Agent. 27 contract-carrying skills (discover → research → design → plan → implement → validate → code-review → commit, and more), the 15 named subagents they dispatch, and three built-in /wf workflows that chain t",
+      "downloads": 4062,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-pi"
+    },
+    {
+      "rank": 189,
+      "name": "pi-cliproxyapi-provider",
+      "description": "Pi provider package for CLIProxyAPI with automatic model discovery and models.dev enrichment.",
+      "downloads": 4042,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/0xRichardH/pi-cliproxyapi-provider",
+      "npm": "https://www.npmjs.com/package/pi-cliproxyapi-provider"
+    },
+    {
+      "rank": 190,
+      "name": "@pi9/subagent",
+      "description": "Asynchronous, resumable, and recursive subagents for Pi with stable identities and live progress.",
+      "downloads": 4028,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Chase-C/pi9",
+      "npm": "https://www.npmjs.com/package/@pi9/subagent"
+    },
+    {
+      "rank": 191,
+      "name": "@zhcsyncer/pi-extensions",
+      "description": "A collection of Pi extensions by zhcsyncer.",
+      "downloads": 4027,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/zhcsyncer/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@zhcsyncer/pi-extensions"
+    },
+    {
+      "rank": 192,
+      "name": "pi-squad",
+      "description": "Multi-agent collaboration extension for pi — task decomposition, dependency management, parallel execution, TUI panel",
+      "downloads": 4024,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/picassio/pi-squad",
+      "npm": "https://www.npmjs.com/package/pi-squad"
+    },
+    {
+      "rank": 193,
+      "name": "@jachy/pi-git-sync",
+      "description": "Sync Pi configuration across machines via GitHub Private Repository",
+      "downloads": 4021,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/jachy-h/pi-git-sync",
+      "npm": "https://www.npmjs.com/package/@jachy/pi-git-sync"
+    },
+    {
+      "rank": 194,
+      "name": "@narumitw/pi-retry",
+      "description": "Public pi extension that retries empty-detail, Codex websocket-limit, and stalled provider errors.",
+      "downloads": 3995,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-retry"
+    },
+    {
+      "rank": 195,
+      "name": "@xaccefy/pi-xpi",
+      "description": "XPI — offensive security tools for Pi Agent. Casefile tracking, web search, library docs, exploit technique search, and todo tracking.",
+      "downloads": 3993,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xpi"
+    },
+    {
+      "rank": 196,
+      "name": "@99percentpeople/pi-background-tasks",
+      "description": "Background commands and attachable PTY/TUI sessions for Pi, with SSH Remote integration",
+      "downloads": 3980,
+      "types": [],
+      "repo": "https://github.com/99percentpeople/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@99percentpeople/pi-background-tasks"
+    },
+    {
+      "rank": 197,
+      "name": "@trevonistrevon/pi-loop",
+      "description": "A pi extension for cron/event-based agent re-wake loops and background process monitoring.",
+      "downloads": 3943,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/trvon/pi-loop",
+      "npm": "https://www.npmjs.com/package/@trevonistrevon/pi-loop"
+    },
+    {
+      "rank": 198,
+      "name": "pi-context",
+      "description": "Agentic Context Management for Pi",
+      "downloads": 3924,
+      "types": [
+        "skill"
+      ],
+      "repo": "https://github.com/ttttmr/pi-context",
+      "npm": "https://www.npmjs.com/package/pi-context"
+    },
+    {
+      "rank": 199,
+      "name": "pi-maestro-teammate",
+      "description": "Pi extension — teammate agent dispatch with DAG task graphs, RPC messaging, and compact TUI",
+      "downloads": 3893,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-maestro-teammate"
+    },
+    {
+      "rank": 200,
+      "name": "@brushes/xiaohongshu-mcp-server",
+      "description": "MCP Server for Xiaohongshu (Little Red Book) content creation and publishing automation",
+      "downloads": 3883,
+      "types": [],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@brushes/xiaohongshu-mcp-server"
+    },
+    {
+      "rank": 201,
+      "name": "@dreki-gg/pi-plan-mode",
+      "description": "Two-phase planning workflow for pi — plan with claude-opus-4-6:medium, execute with gpt-5.5:low, with file-based plan-ledger handoff (default .taskman/plans/, configurable via .taskmanrc)",
+      "downloads": 3874,
+      "types": [],
+      "repo": "https://github.com/jalbarrang/pi-plan-mode",
+      "npm": "https://www.npmjs.com/package/@dreki-gg/pi-plan-mode"
+    },
+    {
+      "rank": 202,
+      "name": "@juicesharp/rpiv-args",
+      "description": "Pi extension. Shell-style $1 / $ARGUMENTS placeholders and !`cmd` / ```! shell substitution, expanded into your Pi skills at invocation.",
+      "downloads": 3869,
+      "types": [
+        "extension",
+        "skill",
+        "prompt"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-args"
+    },
+    {
+      "rank": 203,
+      "name": "@juanibiapina/pi-powerbar",
+      "description": "Pi extension that renders a persistent powerline status bar with left/right segments updated via events",
+      "downloads": 3859,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/juanibiapina/pi-powerbar",
+      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-powerbar"
+    },
+    {
+      "rank": 204,
+      "name": "@johanthoren/jeff",
+      "description": "Jeff is a model-native quality control plane and cooperative workflow protocol for trusted operators and friendly agents, not a security sandbox.",
+      "downloads": 3855,
+      "types": [],
+      "repo": "https://github.com/johanthoren/jeff",
+      "npm": "https://www.npmjs.com/package/@johanthoren/jeff"
+    },
+    {
+      "rank": 205,
+      "name": "@mrclrchtr/supi-cache",
+      "description": "Monitor prompt-cache health and investigate regressions",
+      "downloads": 3851,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-cache"
+    },
+    {
+      "rank": 206,
+      "name": "@mrclrchtr/supi-bash-timeout",
+      "description": "Default shell timeouts that prevent stalled Pi sessions",
+      "downloads": 3849,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-bash-timeout"
+    },
+    {
+      "rank": 207,
+      "name": "@mrclrchtr/supi-insights",
+      "description": "Historical Pi-session reports and shareable HTML",
+      "downloads": 3837,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-insights"
+    },
+    {
+      "rank": 208,
+      "name": "@agentapprove/pi",
+      "description": "Agent Approve extension for Pi - approve or deny AI agent tool calls from your iPhone and Apple Watch",
+      "downloads": 3802,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@agentapprove/pi"
+    },
+    {
+      "rank": 209,
+      "name": "@aliou/pi-processes",
+      "description": "![banner](https://assets.aliou.me/github/aliou/pi-processes/banner-v0.10.x.png)",
+      "downloads": 3801,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/aliou/pi-processes",
+      "npm": "https://www.npmjs.com/package/@aliou/pi-processes"
+    },
+    {
+      "rank": 210,
+      "name": "@yusukeshib/pi-babysit",
+      "description": "Run any shell command and pi subagents under babysit, with context-safe captured output.",
+      "downloads": 3798,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/yusukeshib/pi-babysit",
+      "npm": "https://www.npmjs.com/package/@yusukeshib/pi-babysit"
+    },
+    {
+      "rank": 211,
+      "name": "@undefineds.co/models",
+      "description": "`@undefineds.co/models` is the shared Solid Pod data model contract for LinX apps, desktop, CLI, sidecars, and future workers.",
+      "downloads": 3783,
+      "types": [],
+      "repo": "https://github.com/undefinedsco/models",
+      "npm": "https://www.npmjs.com/package/@undefineds.co/models"
+    },
+    {
+      "rank": 212,
+      "name": "pi-smart-router",
+      "description": "Auto-model router middleware for the pi.dev coding agent",
+      "downloads": 3778,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/beettlle/pi-smart-router",
+      "npm": "https://www.npmjs.com/package/pi-smart-router"
+    },
+    {
+      "rank": 213,
+      "name": "@mrclrchtr/supi-review",
+      "description": "Parallel isolated reviews of trees, comparisons, and commits",
+      "downloads": 3766,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-review"
+    },
+    {
+      "rank": 214,
+      "name": "pi-observational-memory",
+      "description": "Observational memory extension for pi — cache-friendly tiered compaction with observations and reflections.",
+      "downloads": 3758,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/elpapi42/pi-observational-memory",
+      "npm": "https://www.npmjs.com/package/pi-observational-memory"
+    },
+    {
+      "rank": 215,
+      "name": "@narumitw/pi-webui",
+      "description": "Experimental Radix UI web companion for the current Pi terminal session.",
+      "downloads": 3747,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-webui"
+    },
+    {
+      "rank": 216,
+      "name": "@danypops/enigma",
+      "description": "Encrypted credential vault daemon: holds delegated OAuth/API credentials, serves each registered consumer only its own scoped credentials over an authenticated local endpoint",
+      "downloads": 3736,
+      "types": [],
+      "repo": "https://github.com/DanyPops/enigma",
+      "npm": "https://www.npmjs.com/package/@danypops/enigma"
+    },
+    {
+      "rank": 217,
+      "name": "@getpipher/armory-fleet",
+      "description": "The armory suite's subagent orchestrator for the pi coding agent — a cross-harness, superpowers-native fleet where every agent is armory-native from birth.",
+      "downloads": 3734,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/getpipher/armory-fleet",
+      "npm": "https://www.npmjs.com/package/@getpipher/armory-fleet"
+    },
+    {
+      "rank": 218,
+      "name": "@agent-plan/pi-adapter",
+      "description": "Pi agent extension for Agent Plan — structured project planning in .planner/",
+      "downloads": 3729,
+      "types": [],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@agent-plan/pi-adapter"
+    },
+    {
+      "rank": 219,
+      "name": "@mrclrchtr/supi-extras",
+      "description": "Shortcuts, prompt stash, activity indicators, and small session helpers",
+      "downloads": 3729,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-extras"
+    },
+    {
+      "rank": 220,
+      "name": "@mrclrchtr/supi-prompt-suggestions",
+      "description": "Optional model-powered ghost-text prompt suggestions",
+      "downloads": 3719,
+      "types": [
+        "extension",
+        "prompt"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-prompt-suggestions"
+    },
+    {
+      "rank": 221,
+      "name": "pi-spark",
+      "description": "Pi package that polishes your daily experience.",
+      "downloads": 3711,
+      "types": [],
+      "repo": "https://github.com/zlliang/pi-spark",
+      "npm": "https://www.npmjs.com/package/pi-spark"
+    },
+    {
+      "rank": 222,
+      "name": "@rahularya01/pi-cursor",
+      "description": "Native Cursor provider for Pi Coding Agent (OAuth + Connect/protobuf streamSimple)",
+      "downloads": 3710,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Rahularya01/pi-cursor",
+      "npm": "https://www.npmjs.com/package/@rahularya01/pi-cursor"
+    },
+    {
+      "rank": 223,
+      "name": "pi-atelier",
+      "description": "A responsive status rail and live activity sidebar for Pi",
+      "downloads": 3701,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/michaelmjhhhh/pi-atelier",
+      "npm": "https://www.npmjs.com/package/pi-atelier"
+    },
+    {
+      "rank": 224,
+      "name": "pi-studio",
+      "description": "Two-pane browser workspace for pi with prompt/response editing, annotations, critiques, active quiz, prompt/response history, live previews, and tmux-backed REPL/literate REPL workflows",
+      "downloads": 3697,
+      "types": [
+        "extension",
+        "theme"
+      ],
+      "repo": "https://github.com/omaclaren/pi-studio",
+      "npm": "https://www.npmjs.com/package/pi-studio"
+    },
+    {
+      "rank": 225,
+      "name": "@zosmaai/pi-llm-wiki",
+      "description": "Self-maintaining LLM Wiki for Pi — Karpathy-pattern knowledge base with immutable source capture, automated ingestion, search, linting, and Obsidian-compatible vault. auto-updating personal & company wiki.",
+      "downloads": 3681,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/zosmaai/pi-llm-wiki",
+      "npm": "https://www.npmjs.com/package/@zosmaai/pi-llm-wiki"
+    },
+    {
+      "rank": 226,
+      "name": "pi-aftc-toolset",
+      "description": "Stats bar. Isolated SSH. Documentation generation (docx). Persistent self-educating cache-aware skills on demand (codex). Usage reports. Audio notifications. Shortcuts. Skills. Themes ++",
+      "downloads": 3634,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/DarceyLloyd/pi-aftc-toolset",
+      "npm": "https://www.npmjs.com/package/pi-aftc-toolset"
+    },
+    {
+      "rank": 227,
+      "name": "@amaster.ai/pi-task-scheduler",
+      "description": "Pi extension for cron-based scheduled task management with LLM-callable tools",
+      "downloads": 3627,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-task-scheduler"
+    },
+    {
+      "rank": 228,
+      "name": "pi-phoenix",
+      "description": "Phoenix tracing extension for pi",
+      "downloads": 3591,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/philipbjorge/pi-phoenix",
+      "npm": "https://www.npmjs.com/package/pi-phoenix"
+    },
+    {
+      "rank": 229,
+      "name": "ultra-fabric",
+      "description": "A resilient, adaptive orchestration runtime for Pi",
+      "downloads": 3586,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ryan-brosas/ultra-fabric",
+      "npm": "https://www.npmjs.com/package/ultra-fabric"
+    },
+    {
+      "rank": 230,
+      "name": "@narumitw/pi-google-genai",
+      "description": "Pi extension that exposes Google GenAI search, maps, and URL context grounding tools.",
+      "downloads": 3573,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-google-genai"
+    },
+    {
+      "rank": 231,
+      "name": "@misunders2d/pi-goal",
+      "description": "Fire-and-forget goal mode for Pi with visual planning, autonomous recovery, evidence, and independent completion audit.",
+      "downloads": 3569,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/misunders2d/pi-goal",
+      "npm": "https://www.npmjs.com/package/@misunders2d/pi-goal"
+    },
+    {
+      "rank": 232,
+      "name": "pi-agent-suite",
+      "description": "Adds a configurable multi-agent layer to pi, with context management, Codex quota status, a custom footer, and more.",
+      "downloads": 3561,
+      "types": [],
+      "repo": "https://github.com/n-r-w/pi-agent-suite",
+      "npm": "https://www.npmjs.com/package/pi-agent-suite"
+    },
+    {
+      "rank": 233,
+      "name": "@zhushanwen/pi-subagent-workflow",
+      "description": "Unified subagent execution and multi-agent workflow orchestration for Pi — spawned-process agent runtime with sync/background modes, stateful workflow management with persistence, state machine, and execution tracing.",
+      "downloads": 3548,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-subagent-workflow"
+    },
+    {
+      "rank": 234,
+      "name": "@tunglam/pi-lark-cli",
+      "description": "Lark/Feishu CLI for the pi coding agent: bundles the official lark-cli binary for your platform plus the full set of official lark-* skills, kept in sync with upstream releases.",
+      "downloads": 3545,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/TungLamC/pi-packages",
+      "npm": "https://www.npmjs.com/package/@tunglam/pi-lark-cli"
+    },
+    {
+      "rank": 235,
+      "name": "pi-interactive-shell",
+      "description": "Run AI coding agents in pi TUI overlays with interactive, hands-free, and dispatch supervision",
+      "downloads": 3532,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/nicobailon/pi-interactive-shell",
+      "npm": "https://www.npmjs.com/package/pi-interactive-shell"
+    },
+    {
+      "rank": 236,
+      "name": "pi-spine",
+      "description": "Orchestration spine for long-running pi development",
+      "downloads": 3527,
+      "types": [],
+      "repo": "https://github.com/beettlle/pi-spine",
+      "npm": "https://www.npmjs.com/package/pi-spine"
+    },
+    {
+      "rank": 237,
+      "name": "@xynogen/pix-skills",
+      "description": "Pi extension — agent skill loader (skill tool + skills bundle)",
+      "downloads": 3525,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-skills"
+    },
+    {
+      "rank": 238,
+      "name": "pi-dgoal",
+      "description": "Pi extension with one Work List and independently selectable execution, goal-check, and staged-check assurance.",
+      "downloads": 3516,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-dgoal"
+    },
+    {
+      "rank": 239,
+      "name": "@narumitw/pi-langfuse",
+      "description": "Pi extension that traces LLM generations and tool activity to Langfuse.",
+      "downloads": 3512,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-langfuse"
+    },
+    {
+      "rank": 240,
+      "name": "pi-antigravity",
+      "description": "Personal Antigravity / Cloud Code Assist provider for Pi Coding Agent",
+      "downloads": 3507,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Rahularya01/pi-antigravity",
+      "npm": "https://www.npmjs.com/package/pi-antigravity"
+    },
+    {
+      "rank": 241,
+      "name": "pi-advisor-flow",
+      "description": "Advanced Executor/Advisor flow for Pi, fully configurable and extendable.",
+      "downloads": 3500,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/philipbrembeck/pi-advisor",
+      "npm": "https://www.npmjs.com/package/pi-advisor-flow"
+    },
+    {
+      "rank": 242,
+      "name": "@narumitw/pi-starship",
+      "description": "Native Starship-style TOML statusline for the Pi coding agent.",
+      "downloads": 3497,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-starship"
+    },
+    {
+      "rank": 243,
+      "name": "@llmgates_api/pi-llmgates-provider",
+      "description": "Pi provider extension for LLMGates: dynamic models from /v1/models and /login setup",
+      "downloads": 3487,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ax128/pi-llmgates",
+      "npm": "https://www.npmjs.com/package/@llmgates_api/pi-llmgates-provider"
+    },
+    {
+      "rank": 244,
+      "name": "@mrclrchtr/supi-settings",
+      "description": "One project/global settings UI for SuPi packages",
+      "downloads": 3472,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-settings"
+    },
+    {
+      "rank": 245,
+      "name": "pi-smart-compact",
+      "description": "Verification-oriented smart compaction extension for Pi Coding Agent — deterministic extraction, exploration, synthesis, verification, metrics, and safety checks.",
+      "downloads": 3470,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/alpertarhan/pi-smart-compact",
+      "npm": "https://www.npmjs.com/package/pi-smart-compact"
+    },
+    {
+      "rank": 246,
+      "name": "@realvendex/pi-token-router",
+      "description": "TokenRouter.com unified API gateway as a native Pi provider for accessing 300+ LLM models via a single API key",
+      "downloads": 3460,
+      "types": [],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@realvendex/pi-token-router"
+    },
+    {
+      "rank": 247,
+      "name": "@tmustier/pi-ralph-wiggum",
+      "description": "Long-running agent loops for iterative development in Pi.",
+      "downloads": 3457,
+      "types": [],
+      "repo": "https://github.com/tmustier/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@tmustier/pi-ralph-wiggum"
+    },
+    {
+      "rank": 248,
+      "name": "@zhushanwen/pi-ask-user",
+      "description": "Inline adaptive ask_user tool for Pi — single/multi-question structured input with split-pane preview, inline editor and optional comments.",
+      "downloads": 3421,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-ask-user"
+    },
+    {
+      "rank": 249,
+      "name": "@cad0p/pi-napkin",
+      "description": "📜 Napkin integration for pi — vault context, knowledge tools, and automatic distillation with git-worktree concurrency safety",
+      "downloads": 3412,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/cad0p/pi-napkin",
+      "npm": "https://www.npmjs.com/package/@cad0p/pi-napkin"
+    },
+    {
+      "rank": 250,
+      "name": "@balaenis/pi-agents",
+      "description": "Delegate tasks to specialized subagents with isolated context windows.",
+      "downloads": 3408,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/balaenis/pi-toolset",
+      "npm": "https://www.npmjs.com/package/@balaenis/pi-agents"
+    },
+    {
+      "rank": 251,
+      "name": "@juicesharp/rpiv-workflow",
+      "description": "Pi extension. Chain skills into typed multi-stage workflows with audited JSONL state, predicate routing, and per-stage output validation. Skill-agnostic — bring your own skills.",
+      "downloads": 3397,
+      "types": [
+        "extension",
+        "skill"
+      ],
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-workflow"
+    },
+    {
+      "rank": 252,
+      "name": "@narumitw/pi-github-pr",
+      "description": "Pi extension that shows GitHub pull request review, checks, and comment status.",
+      "downloads": 3371,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-github-pr"
+    },
+    {
+      "rank": 253,
+      "name": "pi-yaml-hooks",
+      "description": "YAML hook automation for the Pi and OMP coding agents: tool guards, session hooks, prompts, notifications, and bash actions.",
+      "downloads": 3371,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/KristjanPikhof/pi-yaml-hooks",
+      "npm": "https://www.npmjs.com/package/pi-yaml-hooks"
+    },
+    {
+      "rank": 254,
+      "name": "@amaster.ai/pi-web-access",
+      "description": "Pi extension for web search (Tavily, Kimi, DeepSeek, Mimo, Z.AI) and URL content extraction",
+      "downloads": 3368,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-web-access"
+    },
+    {
+      "rank": 255,
+      "name": "@upstash/context7-pi",
+      "description": "Official Context7 extension for pi.dev — adds resolve-library-id and query-docs tools to the pi coding agent",
+      "downloads": 3356,
+      "types": [],
+      "repo": "https://github.com/upstash/context7",
+      "npm": "https://www.npmjs.com/package/@upstash/context7-pi"
+    },
+    {
+      "rank": 256,
+      "name": "@amaster.ai/pi-browser-use",
+      "description": "Pi extension for browser automation via chrome-devtools-mcp with browser_ prefixed tools",
+      "downloads": 3352,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-browser-use"
+    },
+    {
+      "rank": 257,
+      "name": "pi-courier",
+      "description": "Run pi coding agent from Matrix. Slash commands, skills and prompts fully work from messengers via the RPC protocol.",
+      "downloads": 3346,
+      "types": [],
+      "repo": "https://github.com/Hi-Barry/pi-courier",
+      "npm": "https://www.npmjs.com/package/pi-courier"
+    },
+    {
+      "rank": 258,
+      "name": "pi-tool-display",
+      "description": "Compact tool call rendering, diff visualization, and output truncation extension for Pi coding agent. Hides, collapses, and truncates verbose tool output for cleaner TUI display.",
+      "downloads": 3345,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/MasuRii/pi-tool-display",
+      "npm": "https://www.npmjs.com/package/pi-tool-display"
+    },
+    {
+      "rank": 259,
+      "name": "@mrclrchtr/supi-debug",
+      "description": "Capture and inspect SuPi debug events",
+      "downloads": 3342,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-debug"
+    },
+    {
+      "rank": 260,
+      "name": "pi-loop-police",
+      "description": "Pi extension: detects and interrupts infinite thinking-block and tool-call loops in real time before they exhaust your context window.",
+      "downloads": 3324,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/sebaxzero/pi-loop-police",
+      "npm": "https://www.npmjs.com/package/pi-loop-police"
+    },
+    {
+      "rank": 261,
+      "name": "pi-cockpit",
+      "description": "Responsive Maestro operations sidebar, fallback status widgets, and footer for Pi.",
+      "downloads": 3316,
+      "types": [
+        "extension"
+      ],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/pi-cockpit"
+    },
+    {
+      "rank": 262,
+      "name": "pi-soly",
+      "description": "Workflow + project management for pi-coding-agent. Plans, state, MANDATORY rules, self-review, multi-question picker. One npm install, zero config. LLM drives the workflow inline via the soly_workflow tool — no external subagent plugin.",
+      "downloads": 3314,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/lowern1ght/pi-soly",
+      "npm": "https://www.npmjs.com/package/pi-soly"
+    },
+    {
+      "rank": 263,
+      "name": "@amaster.ai/pi-channels",
+      "description": "Pi extension for native messaging channels including Feishu, DingTalk, WeCom, and webhooks.",
+      "downloads": 3310,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-channels"
+    },
+    {
+      "rank": 264,
+      "name": "@nguyenquangthai/pi-todo",
+      "description": "OpenCode-like session todo checklist for the pi coding agent — todowrite/todoread with a live TUI overlay",
+      "downloads": 3303,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/QuangThai/pi-todo",
+      "npm": "https://www.npmjs.com/package/@nguyenquangthai/pi-todo"
+    },
+    {
+      "rank": 265,
+      "name": "@brushes/course-proxy-ordering",
+      "description": "代客下单(纯API版)——通过curl接口走完全流程：登录鉴权→选择客户→选购商品→加入购物车→购物车结算→确认订单→提交支付→验证订单。全程不依赖浏览器，零Playwright、零截图",
+      "downloads": 3302,
+      "types": [],
+      "repo": null,
+      "npm": "https://www.npmjs.com/package/@brushes/course-proxy-ordering"
+    },
+    {
+      "rank": 266,
+      "name": "@amaster.ai/pi-telemetry",
+      "description": "Pi extension for runtime telemetry with Langfuse and OpenTelemetry exporters",
+      "downloads": 3272,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-telemetry"
+    },
+    {
+      "rank": 267,
+      "name": "@danypops/pi-web-spider",
+      "description": "Pi extension for web_fetch, web_search, and live browser sessions: 7 search providers (Brave, Brave LLM Context, Tavily, Exa, Serper, SerpApi, You.com) with automatic fallback, robots.txt-respecting crawl, GitHub/Wikipedia/llms.txt-aware fetching, and a d",
+      "downloads": 3266,
+      "types": [],
+      "repo": "https://github.com/DanyPops/web-spider",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-web-spider"
+    },
+    {
+      "rank": 268,
+      "name": "@xaccefy/pi-lookup",
+      "description": "Web search, page fetch, library docs (Context7), and GitHub repo Q&A (DeepWiki) for Pi Agent",
+      "downloads": 3261,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-lookup"
+    },
+    {
+      "rank": 269,
+      "name": "pi-autopilot",
+      "description": "Standalone perfect-quality Autopilot orchestration for Pi with transactional coordination, deterministic deadlock resolution, contradiction-only escalation, isolated worktrees, and quality gates.",
+      "downloads": 3237,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/ismailsaleekh/pi-autopilot",
+      "npm": "https://www.npmjs.com/package/pi-autopilot"
+    },
+    {
+      "rank": 270,
+      "name": "pi-cc-header",
+      "description": "Claude Code–style startup header for Pi — animated Pi logo with a 9-color palette, toggleable IBM stripes and Minecraft themes; configurable info bar displays version, model, resource stats, AGENTS.md marker, cwd, and a customizable slogan.",
+      "downloads": 3225,
+      "types": [
+        "extension",
+        "theme"
+      ],
+      "repo": "https://github.com/eriiic7z/pi-cc-header",
+      "npm": "https://www.npmjs.com/package/pi-cc-header"
+    },
+    {
+      "rank": 271,
+      "name": "pi-hashline-edit",
+      "description": "Hashline read/edit tool override for pi-coding-agent",
+      "downloads": 3172,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/RimuruW/pi-hashline-edit",
+      "npm": "https://www.npmjs.com/package/pi-hashline-edit"
+    },
+    {
+      "rank": 272,
+      "name": "@bacnh85/pi-subagent",
+      "description": "In-process subagents for Pi with isolated SDK sessions, parallel and chained delegation, and inspectable threads.",
+      "downloads": 3163,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-subagent"
+    },
+    {
+      "rank": 273,
+      "name": "@xynogen/pix-subagent",
+      "description": "Pi tool — planner-driven sub-agents: spawn, fetch, steer scoped child agents",
+      "downloads": 3160,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-subagent"
+    },
+    {
+      "rank": 274,
+      "name": "@chainingintention/pi-web-cn",
+      "description": "Remote web UI and browser control plane for persistent Pi Coding Agent sessions.",
+      "downloads": 3159,
+      "types": [],
+      "repo": "https://github.com/nayuto-wakusei/pi-web-ChineseTranslation",
+      "npm": "https://www.npmjs.com/package/@chainingintention/pi-web-cn"
+    },
+    {
+      "rank": 275,
+      "name": "@amaster.ai/pi-attachments",
+      "description": "Pi extension for attachment processing — classifies, parses, and renders file attachments into LLM-visible prompt context",
+      "downloads": 3155,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-attachments"
+    },
+    {
+      "rank": 276,
+      "name": "@cgh567/agent",
+      "description": "Helios self-improvement lab",
+      "downloads": 3153,
+      "types": [],
+      "repo": "https://github.com/helios-agi/helios-agent",
+      "npm": "https://www.npmjs.com/package/@cgh567/agent"
+    },
+    {
+      "rank": 277,
+      "name": "pi-langfuse",
+      "description": "Langfuse extension for Pi coding agent",
+      "downloads": 3143,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/gooyoung/pi-langfuse",
+      "npm": "https://www.npmjs.com/package/pi-langfuse"
+    },
+    {
+      "rank": 278,
+      "name": "piwi-tui",
+      "description": "Pi + Wiki: a playful, safe, full-featured TUI extension pack for pi.dev.",
+      "downloads": 3119,
+      "types": [],
+      "repo": "https://github.com/JoulesDotDev/piwi-tui",
+      "npm": "https://www.npmjs.com/package/piwi-tui"
+    },
+    {
+      "rank": 279,
+      "name": "@maestria/pi",
+      "description": "Maestria extension for the Pi coding agent",
+      "downloads": 3114,
+      "types": [],
+      "repo": "https://github.com/agustinusnathaniel/maestria",
+      "npm": "https://www.npmjs.com/package/@maestria/pi"
+    },
+    {
+      "rank": 280,
+      "name": "@koltmcbride/pi-loop",
+      "description": "A pi coding-agent extension that runs a prompt repeatedly on a timer, pi event, or self-paced (Claude Code-style /loop)",
+      "downloads": 3110,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/kolt-mcb/pi-loop",
+      "npm": "https://www.npmjs.com/package/@koltmcbride/pi-loop"
+    },
+    {
+      "rank": 281,
+      "name": "@ch1nyzzz/pi-evo",
+      "description": "Self-evolving coding agent workflows for pi",
+      "downloads": 3104,
+      "types": [],
+      "repo": "https://github.com/Ch1nyzzz/pi",
+      "npm": "https://www.npmjs.com/package/@ch1nyzzz/pi-evo"
+    },
+    {
+      "rank": 282,
+      "name": "@pi-stef/catalog",
+      "description": "Pi extension for managing skill/package catalogs.",
+      "downloads": 3099,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/sfiorini/pi-stef",
+      "npm": "https://www.npmjs.com/package/@pi-stef/catalog"
+    },
+    {
+      "rank": 283,
+      "name": "@kky42/pi-flow",
+      "description": "Multi-backend subagents and dynamic workflow orchestration for pi.",
+      "downloads": 3096,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/kky42/pi-flow",
+      "npm": "https://www.npmjs.com/package/@kky42/pi-flow"
+    },
+    {
+      "rank": 284,
+      "name": "@amaster.ai/pi-memory",
+      "description": "Pi extension providing persistent curated memory (MEMORY.md + USER.md) injected into the system prompt as a frozen snapshot.",
+      "downloads": 3089,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory"
+    },
+    {
+      "rank": 285,
+      "name": "@narumitw/pi-worktree",
+      "description": "Pi extension for safe interactive Git worktree management and workspace switching.",
+      "downloads": 3084,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-worktree"
+    },
+    {
+      "rank": 286,
+      "name": "@amaster.ai/pi-security",
+      "description": "Pi extension for resource-aware security policy engine and tool authorization",
+      "downloads": 3082,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-security"
+    },
+    {
+      "rank": 287,
+      "name": "@narumitw/pi-accounts",
+      "description": "Pi extension for switching named subscription OAuth accounts across supported providers.",
+      "downloads": 3082,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-accounts"
+    },
+    {
+      "rank": 288,
+      "name": "@amaster.ai/pi-memory-mem0",
+      "description": "Explicit Mem0 semantic memory tools for pi — Platform cloud or local SQLite.",
+      "downloads": 3064,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory-mem0"
+    },
+    {
+      "rank": 289,
+      "name": "pi-provider-kimi-code",
+      "description": "Kimi Code models (K3, K2.7, HighSpeed) in Pi: OAuth shared login with kimi-code CLI, file uploads, and Kimi-native tools",
+      "downloads": 3063,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Leechael/pi-provider-kimi-code",
+      "npm": "https://www.npmjs.com/package/pi-provider-kimi-code"
+    },
+    {
+      "rank": 290,
+      "name": "zob-harness",
+      "description": "A governed Agent Factory for Pi: launch communicating agent teams, run tmux-backed factories, validate artifacts, and package repeatable workflows.",
+      "downloads": 3063,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/cgarrot/zob-harness",
+      "npm": "https://www.npmjs.com/package/zob-harness"
+    },
+    {
+      "rank": 291,
+      "name": "@shvax/pi-statusline",
+      "description": "Configurable single-line status footer for pi",
+      "downloads": 3054,
+      "types": [],
+      "repo": "https://github.com/martin-tahli/pi-statusline",
+      "npm": "https://www.npmjs.com/package/@shvax/pi-statusline"
+    },
+    {
+      "rank": 292,
+      "name": "@patimweb/pi-email",
+      "description": "IMAP/SMTP email client extension for pi coding agent. Read, search, send, move, and delete emails from your inbox.",
+      "downloads": 3053,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/Smotherer007/pi-email",
+      "npm": "https://www.npmjs.com/package/@patimweb/pi-email"
+    },
+    {
+      "rank": 293,
+      "name": "@amaster.ai/pi-teamwork",
+      "description": "Pi extension for team collaboration and issue management via Multica",
+      "downloads": 3048,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-teamwork"
+    },
+    {
+      "rank": 294,
+      "name": "diffing",
+      "description": "local-first CLI for reviewing, navigating, and discussing git diffs with AI",
+      "downloads": 3040,
+      "types": [],
+      "repo": "https://github.com/ahmedragab20/diffing",
+      "npm": "https://www.npmjs.com/package/diffing"
+    },
+    {
+      "rank": 295,
+      "name": "@amaster.ai/pi-lark",
+      "description": "Pi extension for Lark/Feishu workspace — calendar, docs, drive, sheets, tasks, mail and more via lark-cli.",
+      "downloads": 3039,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-lark"
+    },
+    {
+      "rank": 296,
+      "name": "pi-distill",
+      "description": "Pi tool-output distillation with file-first configuration",
+      "downloads": 3037,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/maplezzk/pi-extensions",
+      "npm": "https://www.npmjs.com/package/pi-distill"
+    },
+    {
+      "rank": 297,
+      "name": "@nquandt/pi-azure-foundry",
+      "description": "Pi extension for Azure AI Foundry — discovers deployments and registers models",
+      "downloads": 3025,
+      "types": [],
+      "repo": "https://github.com/nquandt/pi-azure-foundry",
+      "npm": "https://www.npmjs.com/package/@nquandt/pi-azure-foundry"
+    },
+    {
+      "rank": 298,
+      "name": "pi-llm-bridge",
+      "description": "bridge any raw llm stream to be used with pi",
+      "downloads": 3022,
+      "types": [],
+      "repo": "https://github.com/theabbie/pi-llm-bridge",
+      "npm": "https://www.npmjs.com/package/pi-llm-bridge"
+    },
+    {
+      "rank": 299,
+      "name": "@bacnh85/pi-obsidian",
+      "description": "Pi extension for Obsidian vault tools — read, search, create, and manage notes via the Obsidian CLI.",
+      "downloads": 3001,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-obsidian"
+    },
+    {
+      "rank": 300,
+      "name": "pi-tian-usage",
+      "description": "Show OpenAI Codex, GitHub Copilot, Z.ai GLM Coding Plan (global and China), and DeepSeek balance usage in the pi coding agent.",
+      "downloads": 2996,
+      "types": [
+        "extension"
+      ],
+      "repo": "https://github.com/TianZuo555/pi-tian-extensions",
+      "npm": "https://www.npmjs.com/package/pi-tian-usage"
+    }
+  ]
+}

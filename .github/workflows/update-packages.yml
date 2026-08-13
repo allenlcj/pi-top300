@@ -1,0 +1,19 @@
+name: Update Pi Top 300
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain why automatic update is not enabled yet
+        run: |
+          echo "The initial snapshot is published."
+          echo "Enable the parser/update job after it has been verified against the rendered catalog."
