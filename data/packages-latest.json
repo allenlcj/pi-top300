@@ -13,8 +13,8 @@
         "extension"
       ],
       "href": "/packages/@vigolium/piolium",
-      "repo": "https://github.com/vigolium/piolium",
-      "npm": "https://www.npmjs.com/package/@vigolium/piolium"
+      "repo": "/packages/@vigolium/piolium",
+      "npm": "/packages/@vigolium/piolium"
     },
     {
       "rank": 2,
@@ -25,8 +25,8 @@
         "extension"
       ],
       "href": "/packages/pi-mcp-adapter",
-      "repo": "https://github.com/nicobailon/pi-mcp-adapter",
-      "npm": "https://www.npmjs.com/package/pi-mcp-adapter"
+      "repo": "/packages/pi-mcp-adapter",
+      "npm": "/packages/pi-mcp-adapter"
     },
     {
       "rank": 3,
@@ -37,28 +37,32 @@
         "extension"
       ],
       "href": "/packages/pi-web-access",
-      "repo": "https://github.com/nicobailon/pi-web-access",
-      "npm": "https://www.npmjs.com/package/pi-web-access"
+      "repo": "/packages/pi-web-access",
+      "npm": "/packages/pi-web-access"
     },
     {
       "rank": 4,
       "name": "pi-subagents",
       "description": "Pi extension for single-agent delegation and scripted multi-agent workflows",
       "downloads": 213951,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/pi-subagents",
-      "repo": "https://github.com/nicobailon/pi-subagents",
-      "npm": "https://www.npmjs.com/package/pi-subagents"
+      "repo": "/packages/pi-subagents",
+      "npm": "/packages/pi-subagents"
     },
     {
       "rank": 5,
       "name": "context-mode",
       "description": "MCP plugin that saves 98% of your context window. Works with Claude Code, Gemini CLI, VS Code Copilot, OpenCode, and Codex CLI. Sandboxed code execution, FTS5 knowledge base, and intent-driven search.",
       "downloads": 73406,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/context-mode",
-      "repo": "https://github.com/mksglu/context-mode",
-      "npm": "https://www.npmjs.com/package/context-mode"
+      "repo": "/packages/context-mode",
+      "npm": "/packages/context-mode"
     },
     {
       "rank": 6,
@@ -69,8 +73,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-ask-user-question",
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-ask-user-question"
+      "repo": "/packages/@juicesharp/rpiv-ask-user-question",
+      "npm": "/packages/@juicesharp/rpiv-ask-user-question"
     },
     {
       "rank": 7,
@@ -81,8 +85,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-todo",
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-todo"
+      "repo": "/packages/@juicesharp/rpiv-todo",
+      "npm": "/packages/@juicesharp/rpiv-todo"
     },
     {
       "rank": 8,
@@ -93,8 +97,8 @@
         "extension"
       ],
       "href": "/packages/pi-lens",
-      "repo": "https://github.com/apmantza/pi-lens",
-      "npm": "https://www.npmjs.com/package/pi-lens"
+      "repo": "/packages/pi-lens",
+      "npm": "/packages/pi-lens"
     },
     {
       "rank": 9,
@@ -105,8 +109,8 @@
         "extension"
       ],
       "href": "/packages/@tintinweb/pi-subagents",
-      "repo": "https://github.com/tintinweb/pi-subagents",
-      "npm": "https://www.npmjs.com/package/@tintinweb/pi-subagents"
+      "repo": "/packages/@tintinweb/pi-subagents",
+      "npm": "/packages/@tintinweb/pi-subagents"
     },
     {
       "rank": 10,
@@ -117,38 +121,44 @@
         "skill"
       ],
       "href": "/packages/@dietrichgebert/ponytail",
-      "repo": "https://github.com/DietrichGebert/ponytail",
-      "npm": "https://www.npmjs.com/package/@dietrichgebert/ponytail"
+      "repo": "/packages/@dietrichgebert/ponytail",
+      "npm": "/packages/@dietrichgebert/ponytail"
     },
     {
       "rank": 11,
       "name": "@plannotator/pi-extension",
       "description": "Plannotator Pi extension - interactive plan review with annotations, annotate agent messages, and review code/PRs",
       "downloads": 38258,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@plannotator/pi-extension",
-      "repo": "https://github.com/backnotprop/plannotator",
-      "npm": "https://www.npmjs.com/package/@plannotator/pi-extension"
+      "repo": "/packages/@plannotator/pi-extension",
+      "npm": "/packages/@plannotator/pi-extension"
     },
     {
       "rank": 12,
       "name": "@7n/rules",
       "description": "CLI еталонних правил і skills (префікс n-): синк у репозиторій, дельта-lint, конформність",
       "downloads": 37584,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@7n/rules",
-      "repo": "https://github.com/nitra/7n-rules",
-      "npm": "https://www.npmjs.com/package/@7n/rules"
+      "repo": "/packages/@7n/rules",
+      "npm": "/packages/@7n/rules"
     },
     {
       "rank": 13,
       "name": "@tangle-network/tcloud-agent",
       "description": "Agent run-loop primitive over Tangle sandbox transports — runs an AgentProfile against a brief with criterion gates, budget caps, and streaming events. Includes TangleToolProvider for Pi tool integration.",
       "downloads": 33791,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@tangle-network/tcloud-agent",
-      "repo": "https://github.com/tangle-network/tcloud",
-      "npm": "https://www.npmjs.com/package/@tangle-network/tcloud-agent"
+      "repo": "/packages/@tangle-network/tcloud-agent",
+      "npm": "/packages/@tangle-network/tcloud-agent"
     },
     {
       "rank": 14,
@@ -159,8 +169,8 @@
         "extension"
       ],
       "href": "/packages/pi-simplify",
-      "repo": "https://github.com/MattDevy/pi-extensions",
-      "npm": "https://www.npmjs.com/package/pi-simplify"
+      "repo": "/packages/pi-simplify",
+      "npm": "/packages/pi-simplify"
     },
     {
       "rank": 15,
@@ -171,8 +181,8 @@
         "extension"
       ],
       "href": "/packages/@ff-labs/pi-fff",
-      "repo": "https://github.com/dmtrKovalenko/fff",
-      "npm": "https://www.npmjs.com/package/@ff-labs/pi-fff"
+      "repo": "/packages/@ff-labs/pi-fff",
+      "npm": "/packages/@ff-labs/pi-fff"
     },
     {
       "rank": 16,
@@ -183,28 +193,32 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-goal",
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-goal"
+      "repo": "/packages/@narumitw/pi-goal",
+      "npm": "/packages/@narumitw/pi-goal"
     },
     {
       "rank": 17,
       "name": "@quintinshaw/pi-dynamic-workflows",
       "description": "Claude-Code-style dynamic workflows for Pi — fan a task out across 100s of subagents with real model routing, token/cost accounting, resume, git-worktree isolation, an interactive /workflows TUI, and a real /deep-research.",
       "downloads": 29952,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@quintinshaw/pi-dynamic-workflows",
-      "repo": "https://github.com/QuintinShaw/pi-dynamic-workflows",
-      "npm": "https://www.npmjs.com/package/@quintinshaw/pi-dynamic-workflows"
+      "repo": "/packages/@quintinshaw/pi-dynamic-workflows",
+      "npm": "/packages/@quintinshaw/pi-dynamic-workflows"
     },
     {
       "rank": 18,
       "name": "@remnic/plugin-pi",
       "description": "Remnic memory extension for Pi Coding Agent",
       "downloads": 29408,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@remnic/plugin-pi",
-      "repo": "https://github.com/joshuaswarren/remnic",
-      "npm": "https://www.npmjs.com/package/@remnic/plugin-pi"
+      "repo": "/packages/@remnic/plugin-pi",
+      "npm": "/packages/@remnic/plugin-pi"
     },
     {
       "rank": 19,
@@ -215,8 +229,8 @@
         "extension"
       ],
       "href": "/packages/pi-goal-list-loop-audit",
-      "repo": "https://github.com/DraconDev/pi-goal-list-loop-audit",
-      "npm": "https://www.npmjs.com/package/pi-goal-list-loop-audit"
+      "repo": "/packages/pi-goal-list-loop-audit",
+      "npm": "/packages/pi-goal-list-loop-audit"
     },
     {
       "rank": 20,
@@ -227,8 +241,8 @@
         "extension"
       ],
       "href": "/packages/pi-fabric",
-      "repo": "https://github.com/monotykamary/pi-fabric",
-      "npm": "https://www.npmjs.com/package/pi-fabric"
+      "repo": "/packages/pi-fabric",
+      "npm": "/packages/pi-fabric"
     },
     {
       "rank": 21,
@@ -239,8 +253,8 @@
         "extension"
       ],
       "href": "/packages/@gotgenes/pi-permission-system",
-      "repo": "https://github.com/gotgenes/pi-packages",
-      "npm": "https://www.npmjs.com/package/@gotgenes/pi-permission-system"
+      "repo": "/packages/@gotgenes/pi-permission-system",
+      "npm": "/packages/@gotgenes/pi-permission-system"
     },
     {
       "rank": 22,
@@ -251,18 +265,20 @@
         "extension"
       ],
       "href": "/packages/pi-background-tasks",
-      "repo": "https://github.com/ismailsaleekh/pi-background-tasks",
-      "npm": "https://www.npmjs.com/package/pi-background-tasks"
+      "repo": "/packages/pi-background-tasks",
+      "npm": "/packages/pi-background-tasks"
     },
     {
       "rank": 23,
       "name": "@raindrop-ai/pi-agent",
       "description": "Raindrop observability for Pi Agent — automatic tracing via subscriber or pi-coding-agent extension",
       "downloads": 25351,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@raindrop-ai/pi-agent",
-      "repo": "https://github.com/raindrop-ai/raindrop-js",
-      "npm": "https://www.npmjs.com/package/@raindrop-ai/pi-agent"
+      "repo": "/packages/@raindrop-ai/pi-agent",
+      "npm": "/packages/@raindrop-ai/pi-agent"
     },
     {
       "rank": 24,
@@ -274,8 +290,8 @@
         "skill"
       ],
       "href": "/packages/pi-hermes-memory",
-      "repo": "https://github.com/chandra447/pi-hermes-memory",
-      "npm": "https://www.npmjs.com/package/pi-hermes-memory"
+      "repo": "/packages/pi-hermes-memory",
+      "npm": "/packages/pi-hermes-memory"
     },
     {
       "rank": 25,
@@ -286,48 +302,56 @@
         "extension"
       ],
       "href": "/packages/@mjasnikovs/pi-task",
-      "repo": "https://github.com/mjasnikovs/pi-task",
-      "npm": "https://www.npmjs.com/package/@mjasnikovs/pi-task"
+      "repo": "/packages/@mjasnikovs/pi-task",
+      "npm": "/packages/@mjasnikovs/pi-task"
     },
     {
       "rank": 26,
       "name": "pi-intercom",
-      "description": "<p>   <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>",
+      "description": "<p> <img src=\"banner.png\" alt=\"pi-intercom\" width=\"1100\"> </p>",
       "downloads": 19835,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/pi-intercom",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-intercom"
+      "npm": "/packages/pi-intercom"
     },
     {
       "rank": 27,
       "name": "pi-memory",
       "description": "Pi coding agent extension for memory with qmd-powered semantic search across daily logs, long-term memory, and scratchpad",
       "downloads": 19519,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/pi-memory",
-      "repo": "https://github.com/jayzeng/pi-memory",
-      "npm": "https://www.npmjs.com/package/pi-memory"
+      "repo": "/packages/pi-memory",
+      "npm": "/packages/pi-memory"
     },
     {
       "rank": 28,
       "name": "@braintrust/pi-extension",
       "description": "Braintrust extension for pi. Includes automatic tracing for pi sessions, turns, LLM calls, and tool executions to Braintrust.",
       "downloads": 18008,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@braintrust/pi-extension",
-      "repo": "https://github.com/braintrustdata/braintrust-coding-agent-plugins",
-      "npm": "https://www.npmjs.com/package/@braintrust/pi-extension"
+      "repo": "/packages/@braintrust/pi-extension",
+      "npm": "/packages/@braintrust/pi-extension"
     },
     {
       "rank": 29,
       "name": "@nitra/cursor",
       "description": "CLI для завантаження cursor-правил (префікс n-) у локальний репозиторій",
       "downloads": 17617,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@nitra/cursor",
-      "repo": "https://github.com/n/cursor",
-      "npm": "https://www.npmjs.com/package/@nitra/cursor"
+      "repo": "/packages/@nitra/cursor",
+      "npm": "/packages/@nitra/cursor"
     },
     {
       "rank": 30,
@@ -338,8 +362,8 @@
         "extension"
       ],
       "href": "/packages/pi-powerline-footer",
-      "repo": "https://github.com/nicobailon/pi-powerline-footer",
-      "npm": "https://www.npmjs.com/package/pi-powerline-footer"
+      "repo": "/packages/pi-powerline-footer",
+      "npm": "/packages/pi-powerline-footer"
     },
     {
       "rank": 31,
@@ -350,8 +374,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-voice",
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-voice"
+      "repo": "/packages/@juicesharp/rpiv-voice",
+      "npm": "/packages/@juicesharp/rpiv-voice"
     },
     {
       "rank": 32,
@@ -362,8 +386,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-plan-mode",
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-plan-mode"
+      "repo": "/packages/@narumitw/pi-plan-mode",
+      "npm": "/packages/@narumitw/pi-plan-mode"
     },
     {
       "rank": 33,
@@ -374,8 +398,8 @@
         "extension"
       ],
       "href": "/packages/@howaboua/pi-codex-conversion",
-      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
-      "npm": "https://www.npmjs.com/package/@howaboua/pi-codex-conversion"
+      "repo": "/packages/@howaboua/pi-codex-conversion",
+      "npm": "/packages/@howaboua/pi-codex-conversion"
     },
     {
       "rank": 34,
@@ -386,8 +410,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-lsp",
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-lsp"
+      "repo": "/packages/@narumitw/pi-lsp",
+      "npm": "/packages/@narumitw/pi-lsp"
     },
     {
       "rank": 35,
@@ -398,8 +422,8 @@
         "extension"
       ],
       "href": "/packages/pi-readseek",
-      "repo": "https://gitlab.com/jarkkojs/readseek",
-      "npm": "https://www.npmjs.com/package/pi-readseek"
+      "repo": "/packages/pi-readseek",
+      "npm": "/packages/pi-readseek"
     },
     {
       "rank": 36,
@@ -410,8 +434,8 @@
         "extension"
       ],
       "href": "/packages/pi-hashline-edit-pro",
-      "repo": "https://github.com/YuGiMob/pi-hashline-edit-pro",
-      "npm": "https://www.npmjs.com/package/pi-hashline-edit-pro"
+      "repo": "/packages/pi-hashline-edit-pro",
+      "npm": "/packages/pi-hashline-edit-pro"
     },
     {
       "rank": 37,
@@ -422,8 +446,8 @@
         "skill"
       ],
       "href": "/packages/bigpowers",
-      "repo": "https://github.com/danielvm-git/bigpowers",
-      "npm": "https://www.npmjs.com/package/bigpowers"
+      "repo": "/packages/bigpowers",
+      "npm": "/packages/bigpowers"
     },
     {
       "rank": 38,
@@ -434,28 +458,32 @@
         "extension"
       ],
       "href": "/packages/@llblab/pi-telegram",
-      "repo": "https://github.com/llblab/pi-telegram",
-      "npm": "https://www.npmjs.com/package/@llblab/pi-telegram"
+      "repo": "/packages/@llblab/pi-telegram",
+      "npm": "/packages/@llblab/pi-telegram"
     },
     {
       "rank": 39,
       "name": "gentle-pi",
       "description": "Turn Pi into el Gentleman: a senior-architect development harness with SDD/OpenSpec, subagents, strict TDD evidence, review guardrails, and skill discovery.",
       "downloads": 13917,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/gentle-pi",
-      "repo": "https://github.com/Gentleman-Programming/gentle-pi",
-      "npm": "https://www.npmjs.com/package/gentle-pi"
+      "repo": "/packages/gentle-pi",
+      "npm": "/packages/gentle-pi"
     },
     {
       "rank": 40,
       "name": "@hypabolic/pi-hypa",
       "description": "Pi extension that keeps noisy tool output out of your context window. Automatically rewrites shell commands through Hypa for local, deterministic compression, context-aware file tools, and recoverable evidence.",
       "downloads": 13844,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@hypabolic/pi-hypa",
-      "repo": "https://github.com/Hypabolic/Hypa",
-      "npm": "https://www.npmjs.com/package/@hypabolic/pi-hypa"
+      "repo": "/packages/@hypabolic/pi-hypa",
+      "npm": "/packages/@hypabolic/pi-hypa"
     },
     {
       "rank": 41,
@@ -466,8 +494,8 @@
         "extension"
       ],
       "href": "/packages/pi-agent-browser-native",
-      "repo": "https://github.com/fitchmultz/pi-agent-browser-native",
-      "npm": "https://www.npmjs.com/package/pi-agent-browser-native"
+      "repo": "/packages/pi-agent-browser-native",
+      "npm": "/packages/pi-agent-browser-native"
     },
     {
       "rank": 42,
@@ -479,8 +507,8 @@
         "prompt"
       ],
       "href": "/packages/pi-prompt-template-model",
-      "repo": "https://github.com/nicobailon/pi-prompt-template-model",
-      "npm": "https://www.npmjs.com/package/pi-prompt-template-model"
+      "repo": "/packages/pi-prompt-template-model",
+      "npm": "/packages/pi-prompt-template-model"
     },
     {
       "rank": 43,
@@ -491,18 +519,20 @@
         "extension"
       ],
       "href": "/packages/pi-landstrip",
-      "repo": "https://github.com/landstrip/landstrip",
-      "npm": "https://www.npmjs.com/package/pi-landstrip"
+      "repo": "/packages/pi-landstrip",
+      "npm": "/packages/pi-landstrip"
     },
     {
       "rank": 44,
       "name": "@reddb-io/red-skills-dev",
       "description": "reddb.io dev plugin - engineering skills for code agents (autonomous /afk loop, /go dispatch, triage, tdd, diagnose, graph-aware codebase understanding, ...)",
       "downloads": 12989,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@reddb-io/red-skills-dev",
-      "repo": "https://github.com/reddb-io/red-skills",
-      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-dev"
+      "repo": "/packages/@reddb-io/red-skills-dev",
+      "npm": "/packages/@reddb-io/red-skills-dev"
     },
     {
       "rank": 45,
@@ -513,48 +543,56 @@
         "extension"
       ],
       "href": "/packages/pi-rtk-optimizer",
-      "repo": "https://github.com/MasuRii/pi-rtk-optimizer",
-      "npm": "https://www.npmjs.com/package/pi-rtk-optimizer"
+      "repo": "/packages/pi-rtk-optimizer",
+      "npm": "/packages/pi-rtk-optimizer"
     },
     {
       "rank": 46,
       "name": "@reddb-io/red-skills-memory",
       "description": "reddb.io memory plugin - governed operational memory for code agents that lives on top of dev. Supports markdown notes, RedDB graph memory, zero-token governed recall, context packs, claim checks, readiness, optional lifecycle hooks, MCP/HTTP read surface",
       "downloads": 12805,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@reddb-io/red-skills-memory",
-      "repo": "https://github.com/reddb-io/red-skills",
-      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-memory"
+      "repo": "/packages/@reddb-io/red-skills-memory",
+      "npm": "/packages/@reddb-io/red-skills-memory"
     },
     {
       "rank": 47,
       "name": "@reddb-io/red-skills-internal",
       "description": "reddb.io internal plugin - maintainer-only skills for operating the red-skills repository.",
       "downloads": 12780,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@reddb-io/red-skills-internal",
-      "repo": "https://github.com/reddb-io/red-skills",
-      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-internal"
+      "repo": "/packages/@reddb-io/red-skills-internal",
+      "npm": "/packages/@reddb-io/red-skills-internal"
     },
     {
       "rank": 48,
       "name": "@reddb-io/red-skills-brain",
       "description": "reddb.io brain plugin - project-local RedDB knowledge repository for freeform captures and graph connections.",
       "downloads": 12643,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/@reddb-io/red-skills-brain",
-      "repo": "https://github.com/reddb-io/red-skills",
-      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-brain"
+      "repo": "/packages/@reddb-io/red-skills-brain",
+      "npm": "/packages/@reddb-io/red-skills-brain"
     },
     {
       "rank": 49,
       "name": "opencode-codebase-index",
       "description": "Host-neutral semantic codebase search with embeddings, symbol discovery, and call-graph tooling",
       "downloads": 12593,
-      "types": [],
+      "types": [
+        "package"
+      ],
       "href": "/packages/opencode-codebase-index",
-      "repo": "https://github.com/Helweg/open-codebase-index",
-      "npm": "https://www.npmjs.com/package/opencode-codebase-index"
+      "repo": "/packages/opencode-codebase-index",
+      "npm": "/packages/opencode-codebase-index"
     },
     {
       "rank": 50,
@@ -565,8 +603,8 @@
         "extension"
       ],
       "href": "/packages/pi-cc-extensions",
-      "repo": "https://github.com/minuque/pi-cc-extensions",
-      "npm": "https://www.npmjs.com/package/pi-cc-extensions"
+      "repo": "/packages/pi-cc-extensions",
+      "npm": "/packages/pi-cc-extensions"
     },
     {
       "rank": 51,
@@ -576,8 +614,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-statusline"
+      "href": "/packages/@narumitw/pi-statusline?page=2",
+      "repo": "/packages/@narumitw/pi-statusline?page=2",
+      "npm": "/packages/@narumitw/pi-statusline?page=2"
     },
     {
       "rank": 52,
@@ -587,8 +626,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://gitlab.com/jarkkojs/goosedump",
-      "npm": "https://www.npmjs.com/package/pi-goosedump"
+      "href": "/packages/pi-goosedump?page=2",
+      "repo": "/packages/pi-goosedump?page=2",
+      "npm": "/packages/pi-goosedump?page=2"
     },
     {
       "rank": 53,
@@ -598,8 +638,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/bxff/pi-deepseek-search",
-      "npm": "https://www.npmjs.com/package/pi-deepseek-search"
+      "href": "/packages/pi-deepseek-search?page=2",
+      "repo": "/packages/pi-deepseek-search?page=2",
+      "npm": "/packages/pi-deepseek-search?page=2"
     },
     {
       "rank": 54,
@@ -609,26 +650,33 @@
       "types": [
         "prompt"
       ],
-      "repo": "https://github.com/hazat/glimpse",
-      "npm": "https://www.npmjs.com/package/glimpseui"
+      "href": "/packages/glimpseui?page=2",
+      "repo": "/packages/glimpseui?page=2",
+      "npm": "/packages/glimpseui?page=2"
     },
     {
       "rank": 55,
       "name": "pi-markdown-preview",
       "description": "Rendered markdown + LaTeX preview for pi, with terminal, browser, and PDF output",
       "downloads": 10904,
-      "types": [],
-      "repo": "https://github.com/omaclaren/pi-markdown-preview",
-      "npm": "https://www.npmjs.com/package/pi-markdown-preview"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-markdown-preview?page=2",
+      "repo": "/packages/pi-markdown-preview?page=2",
+      "npm": "/packages/pi-markdown-preview?page=2"
     },
     {
       "rank": 56,
       "name": "@agimon-ai/log-sink-mcp",
       "description": "Log sink MCP server with HTTP ingestion and AI analysis",
       "downloads": 10705,
-      "types": [],
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@agimon-ai/log-sink-mcp?page=2",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@agimon-ai/log-sink-mcp"
+      "npm": "/packages/@agimon-ai/log-sink-mcp?page=2"
     },
     {
       "rank": 57,
@@ -638,17 +686,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-btw"
+      "href": "/packages/@narumitw/pi-btw?page=2",
+      "repo": "/packages/@narumitw/pi-btw?page=2",
+      "npm": "/packages/@narumitw/pi-btw?page=2"
     },
     {
       "rank": 58,
       "name": "pi-lmstudio",
       "description": "LM Studio model provider extension for Pi coding agent",
       "downloads": 10533,
-      "types": [],
-      "repo": "https://github.com/stakira/pi-lmstudio",
-      "npm": "https://www.npmjs.com/package/pi-lmstudio"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-lmstudio?page=2",
+      "repo": "/packages/pi-lmstudio?page=2",
+      "npm": "/packages/pi-lmstudio?page=2"
     },
     {
       "rank": 59,
@@ -658,17 +710,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/edlsh/pi-ask-user",
-      "npm": "https://www.npmjs.com/package/pi-ask-user"
+      "href": "/packages/pi-ask-user?page=2",
+      "repo": "/packages/pi-ask-user?page=2",
+      "npm": "/packages/pi-ask-user?page=2"
     },
     {
       "rank": 60,
       "name": "projectops",
       "description": "ProjectOps — 완전 자동화 GitHub 프로젝트 관리 템플릿 통합 CLI",
       "downloads": 10043,
-      "types": [],
-      "repo": "https://github.com/Cassiiopeia/projectops",
-      "npm": "https://www.npmjs.com/package/projectops"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/projectops?page=2",
+      "repo": "/packages/projectops?page=2",
+      "npm": "/packages/projectops?page=2"
     },
     {
       "rank": 61,
@@ -678,8 +734,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-web-tools"
+      "href": "/packages/@juicesharp/rpiv-web-tools?page=2",
+      "repo": "/packages/@juicesharp/rpiv-web-tools?page=2",
+      "npm": "/packages/@juicesharp/rpiv-web-tools?page=2"
     },
     {
       "rank": 62,
@@ -689,8 +746,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/fitchmultz/pi-cursor-sdk",
-      "npm": "https://www.npmjs.com/package/pi-cursor-sdk"
+      "href": "/packages/pi-cursor-sdk?page=2",
+      "repo": "/packages/pi-cursor-sdk?page=2",
+      "npm": "/packages/pi-cursor-sdk?page=2"
     },
     {
       "rank": 63,
@@ -700,8 +758,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/balcsida/pi-provider-litellm",
-      "npm": "https://www.npmjs.com/package/pi-provider-litellm"
+      "href": "/packages/pi-provider-litellm?page=2",
+      "repo": "/packages/pi-provider-litellm?page=2",
+      "npm": "/packages/pi-provider-litellm?page=2"
     },
     {
       "rank": 64,
@@ -711,8 +770,9 @@
       "types": [
         "skill"
       ],
+      "href": "/packages/@devflow-tools/claude-code-plugin?page=2",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@devflow-tools/claude-code-plugin"
+      "npm": "/packages/@devflow-tools/claude-code-plugin?page=2"
     },
     {
       "rank": 65,
@@ -723,8 +783,9 @@
         "extension",
         "theme"
       ],
-      "repo": "https://github.com/lmilojevicc/pi-zentui",
-      "npm": "https://www.npmjs.com/package/pi-zentui"
+      "href": "/packages/pi-zentui?page=2",
+      "repo": "/packages/pi-zentui?page=2",
+      "npm": "/packages/pi-zentui?page=2"
     },
     {
       "rank": 66,
@@ -734,26 +795,33 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@ollama/pi-web-search?page=2",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@ollama/pi-web-search"
+      "npm": "/packages/@ollama/pi-web-search?page=2"
     },
     {
       "rank": 67,
       "name": "open-zk-kb",
       "description": "Persistent memory for agents. Corrections stick, context compounds, every session starts smarter.",
       "downloads": 9460,
-      "types": [],
-      "repo": "https://github.com/mrosnerr/open-zk-kb",
-      "npm": "https://www.npmjs.com/package/open-zk-kb"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/open-zk-kb?page=2",
+      "repo": "/packages/open-zk-kb?page=2",
+      "npm": "/packages/open-zk-kb?page=2"
     },
     {
       "rank": 68,
       "name": "pi-crew",
       "description": "Pi extension for coordinated AI teams, workflows, worktrees, and async task orchestration",
       "downloads": 9313,
-      "types": [],
-      "repo": "https://github.com/baphuongna/pi-crew",
-      "npm": "https://www.npmjs.com/package/pi-crew"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-crew?page=2",
+      "repo": "/packages/pi-crew?page=2",
+      "npm": "/packages/pi-crew?page=2"
     },
     {
       "rank": 69,
@@ -763,17 +831,21 @@
       "types": [
         "skill"
       ],
-      "repo": "https://github.com/jnMetaCode/superpowers-zh",
-      "npm": "https://www.npmjs.com/package/superpowers-zh"
+      "href": "/packages/superpowers-zh?page=2",
+      "repo": "/packages/superpowers-zh?page=2",
+      "npm": "/packages/superpowers-zh?page=2"
     },
     {
       "rank": 70,
       "name": "@danypops/pi-packed",
       "description": "Pi package lifecycle, validation, daemon, tools, profiles, and TUI",
       "downloads": 9210,
-      "types": [],
-      "repo": "https://github.com/DanyPops/packed",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-packed"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/pi-packed?page=2",
+      "repo": "/packages/@danypops/pi-packed?page=2",
+      "npm": "/packages/@danypops/pi-packed?page=2"
     },
     {
       "rank": 71,
@@ -783,8 +855,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/nicobailon/pi-interview-tool",
-      "npm": "https://www.npmjs.com/package/pi-interview"
+      "href": "/packages/pi-interview?page=2",
+      "repo": "/packages/pi-interview?page=2",
+      "npm": "/packages/pi-interview?page=2"
     },
     {
       "rank": 72,
@@ -794,8 +867,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/shaftoe/pi-deepseek-usage",
-      "npm": "https://www.npmjs.com/package/@alexanderfortin/pi-deepseek-usage"
+      "href": "/packages/@alexanderfortin/pi-deepseek-usage?page=2",
+      "repo": "/packages/@alexanderfortin/pi-deepseek-usage?page=2",
+      "npm": "/packages/@alexanderfortin/pi-deepseek-usage?page=2"
     },
     {
       "rank": 73,
@@ -805,8 +879,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ManotLuijiu/pi-harness-runtime",
-      "npm": "https://www.npmjs.com/package/pi-harness-runtime"
+      "href": "/packages/pi-harness-runtime?page=2",
+      "repo": "/packages/pi-harness-runtime?page=2",
+      "npm": "/packages/pi-harness-runtime?page=2"
     },
     {
       "rank": 74,
@@ -816,17 +891,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/dbachelder/pi-btw",
-      "npm": "https://www.npmjs.com/package/pi-btw"
+      "href": "/packages/pi-btw?page=2",
+      "repo": "/packages/pi-btw?page=2",
+      "npm": "/packages/pi-btw?page=2"
     },
     {
       "rank": 75,
       "name": "@bdsqqq/pi",
       "description": "extensions and core utilities for pi-coding-agent",
       "downloads": 8530,
-      "types": [],
-      "repo": "https://github.com/bdsqqq/dots",
-      "npm": "https://www.npmjs.com/package/@bdsqqq/pi"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@bdsqqq/pi?page=2",
+      "repo": "/packages/@bdsqqq/pi?page=2",
+      "npm": "/packages/@bdsqqq/pi?page=2"
     },
     {
       "rank": 76,
@@ -836,8 +915,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ttttmr/pi-web-search",
-      "npm": "https://www.npmjs.com/package/pi-web-search"
+      "href": "/packages/pi-web-search?page=2",
+      "repo": "/packages/pi-web-search?page=2",
+      "npm": "/packages/pi-web-search?page=2"
     },
     {
       "rank": 77,
@@ -847,8 +927,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/irahardianto/pi-mcp-extension",
-      "npm": "https://www.npmjs.com/package/pi-mcp-extension"
+      "href": "/packages/pi-mcp-extension?page=2",
+      "repo": "/packages/pi-mcp-extension?page=2",
+      "npm": "/packages/pi-mcp-extension?page=2"
     },
     {
       "rank": 78,
@@ -858,44 +939,57 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/gotgenes/pi-packages",
-      "npm": "https://www.npmjs.com/package/@gotgenes/pi-subagents"
+      "href": "/packages/@gotgenes/pi-subagents?page=2",
+      "repo": "/packages/@gotgenes/pi-subagents?page=2",
+      "npm": "/packages/@gotgenes/pi-subagents?page=2"
     },
     {
       "rank": 79,
       "name": "pi-web-ui",
       "description": "Web chat interface for the pi coding agent, powered by the pi SDK (@earendil-works/pi-coding-agent) — one-command run, Docker/systemd/launchd deployable",
       "downloads": 8382,
-      "types": [],
-      "repo": "https://github.com/xing-shuyin/pi-web-ui",
-      "npm": "https://www.npmjs.com/package/pi-web-ui"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-web-ui?page=2",
+      "repo": "/packages/pi-web-ui?page=2",
+      "npm": "/packages/pi-web-ui?page=2"
     },
     {
       "rank": 80,
       "name": "latchkey",
       "description": "A CLI tool that injects API credentials into curl requests to third-party services",
       "downloads": 8282,
-      "types": [],
-      "repo": "https://github.com/imbue-ai/latchkey",
-      "npm": "https://www.npmjs.com/package/latchkey"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/latchkey?page=2",
+      "repo": "/packages/latchkey?page=2",
+      "npm": "/packages/latchkey?page=2"
     },
     {
       "rank": 81,
       "name": "@runfusion/fusion",
       "description": "Fusion CLI: HTTP API server, daemon, dashboard launcher, and task tooling for the Fusion AI coding agent.",
       "downloads": 8280,
-      "types": [],
-      "repo": "https://github.com/Runfusion/Fusion",
-      "npm": "https://www.npmjs.com/package/@runfusion/fusion"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@runfusion/fusion?page=2",
+      "repo": "/packages/@runfusion/fusion?page=2",
+      "npm": "/packages/@runfusion/fusion?page=2"
     },
     {
       "rank": 82,
       "name": "betterwright",
       "description": "A persistent, policy-guarded Playwright browser for AI agents with network controls, trusted credential filling, proof screenshots, and CAPTCHA helpers.",
       "downloads": 8249,
-      "types": [],
-      "repo": "https://github.com/BetterWright/betterwright",
-      "npm": "https://www.npmjs.com/package/betterwright"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/betterwright?page=2",
+      "repo": "/packages/betterwright?page=2",
+      "npm": "/packages/betterwright?page=2"
     },
     {
       "rank": 83,
@@ -905,8 +999,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-image-gen"
+      "href": "/packages/@amaster.ai/pi-image-gen?page=2",
+      "repo": "/packages/@amaster.ai/pi-image-gen?page=2",
+      "npm": "/packages/@amaster.ai/pi-image-gen?page=2"
     },
     {
       "rank": 84,
@@ -916,8 +1011,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/gsanhueza/pi-llama-cpp",
-      "npm": "https://www.npmjs.com/package/pi-llama-cpp"
+      "href": "/packages/pi-llama-cpp?page=2",
+      "repo": "/packages/pi-llama-cpp?page=2",
+      "npm": "/packages/pi-llama-cpp?page=2"
     },
     {
       "rank": 85,
@@ -927,26 +1023,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-advisor"
+      "href": "/packages/@juicesharp/rpiv-advisor?page=2",
+      "repo": "/packages/@juicesharp/rpiv-advisor?page=2",
+      "npm": "/packages/@juicesharp/rpiv-advisor?page=2"
     },
     {
       "rank": 86,
       "name": "pi-cache-optimizer",
       "description": "Improve Pi prompt/KV cache hit rates with stable prompts, OpenAI-compatible cache keys, proxy compat warnings, and footer cache stats.",
       "downloads": 7828,
-      "types": [],
-      "repo": "https://github.com/jiangge/pi-cache-optimizer",
-      "npm": "https://www.npmjs.com/package/pi-cache-optimizer"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-cache-optimizer?page=2",
+      "repo": "/packages/pi-cache-optimizer?page=2",
+      "npm": "/packages/pi-cache-optimizer?page=2"
     },
     {
       "rank": 87,
       "name": "pi-lean-ctx",
       "description": "Pi Coding Agent extension — routes bash/read/grep/find/ls through lean-ctx for strong token savings. The embedded MCP bridge (on by default) adds a persistent session cache so unchanged re-reads cost ~13 tokens.",
       "downloads": 7804,
-      "types": [],
-      "repo": "https://github.com/yvgude/lean-ctx",
-      "npm": "https://www.npmjs.com/package/pi-lean-ctx"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-lean-ctx?page=2",
+      "repo": "/packages/pi-lean-ctx?page=2",
+      "npm": "/packages/pi-lean-ctx?page=2"
     },
     {
       "rank": 88,
@@ -958,26 +1061,33 @@
         "skill",
         "theme"
       ],
-      "repo": "https://github.com/mitsuhiko/agent-stuff",
-      "npm": "https://www.npmjs.com/package/mitsupi"
+      "href": "/packages/mitsupi?page=2",
+      "repo": "/packages/mitsupi?page=2",
+      "npm": "/packages/mitsupi?page=2"
     },
     {
       "rank": 89,
       "name": "runline",
       "description": "Code mode for agents — turn any API or command into a callable action",
       "downloads": 7791,
-      "types": [],
-      "repo": "https://github.com/Michaelliv/runline",
-      "npm": "https://www.npmjs.com/package/runline"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/runline?page=2",
+      "repo": "/packages/runline?page=2",
+      "npm": "/packages/runline?page=2"
     },
     {
       "rank": 90,
       "name": "cc-safety-net",
       "description": "A coding agent CLI hook - block destructive commands and secret file access",
       "downloads": 7753,
-      "types": [],
-      "repo": "https://github.com/kenryu42/cc-safety-net",
-      "npm": "https://www.npmjs.com/package/cc-safety-net"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/cc-safety-net?page=2",
+      "repo": "/packages/cc-safety-net?page=2",
+      "npm": "/packages/cc-safety-net?page=2"
     },
     {
       "rank": 91,
@@ -987,8 +1097,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/fitchmultz/pi-codex-goal",
-      "npm": "https://www.npmjs.com/package/pi-codex-goal"
+      "href": "/packages/pi-codex-goal?page=2",
+      "repo": "/packages/pi-codex-goal?page=2",
+      "npm": "/packages/pi-codex-goal?page=2"
     },
     {
       "rank": 92,
@@ -998,26 +1109,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-subagents"
+      "href": "/packages/@narumitw/pi-subagents?page=2",
+      "repo": "/packages/@narumitw/pi-subagents?page=2",
+      "npm": "/packages/@narumitw/pi-subagents?page=2"
     },
     {
       "rank": 93,
       "name": "@danypops/pi-papyrus",
       "description": "Pi host extension for Papyrus: native tools, TUI panels, and context injection over the daemon-backed graph store",
       "downloads": 7596,
-      "types": [],
-      "repo": "https://github.com/DanyPops/papyrus",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-papyrus"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/pi-papyrus?page=2",
+      "repo": "/packages/@danypops/pi-papyrus?page=2",
+      "npm": "/packages/@danypops/pi-papyrus?page=2"
     },
     {
       "rank": 94,
       "name": "@tmustier/pi-usage-extension",
       "description": "Usage statistics dashboard for Pi sessions.",
       "downloads": 7556,
-      "types": [],
-      "repo": "https://github.com/tmustier/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@tmustier/pi-usage-extension"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@tmustier/pi-usage-extension?page=2",
+      "repo": "/packages/@tmustier/pi-usage-extension?page=2",
+      "npm": "/packages/@tmustier/pi-usage-extension?page=2"
     },
     {
       "rank": 95,
@@ -1027,8 +1145,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-pretty"
+      "href": "/packages/@xynogen/pix-pretty?page=2",
+      "repo": "/packages/@xynogen/pix-pretty?page=2",
+      "npm": "/packages/@xynogen/pix-pretty?page=2"
     },
     {
       "rank": 96,
@@ -1038,8 +1157,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
-      "npm": "https://www.npmjs.com/package/@firstpick/pi-package-webui"
+      "href": "/packages/@firstpick/pi-package-webui?page=2",
+      "repo": "/packages/@firstpick/pi-package-webui?page=2",
+      "npm": "/packages/@firstpick/pi-package-webui?page=2"
     },
     {
       "rank": 97,
@@ -1049,8 +1169,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-chrome-devtools"
+      "href": "/packages/@narumitw/pi-chrome-devtools?page=2",
+      "repo": "/packages/@narumitw/pi-chrome-devtools?page=2",
+      "npm": "/packages/@narumitw/pi-chrome-devtools?page=2"
     },
     {
       "rank": 98,
@@ -1060,8 +1181,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/sfiorini/pi-stef",
-      "npm": "https://www.npmjs.com/package/@pi-stef/atlassian"
+      "href": "/packages/@pi-stef/atlassian?page=2",
+      "repo": "/packages/@pi-stef/atlassian?page=2",
+      "npm": "/packages/@pi-stef/atlassian?page=2"
     },
     {
       "rank": 99,
@@ -1071,17 +1193,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r",
-      "npm": "https://www.npmjs.com/package/pi-subagents-j0k3r"
+      "href": "/packages/pi-subagents-j0k3r?page=2",
+      "repo": "/packages/pi-subagents-j0k3r?page=2",
+      "npm": "/packages/pi-subagents-j0k3r?page=2"
     },
     {
       "rank": 100,
       "name": "@shanepadgett/tau-agent",
       "description": "Tau is a custom agentic harness built with pi extensions",
       "downloads": 7284,
-      "types": [],
-      "repo": "https://github.com/shanepadgett/tau-agent",
-      "npm": "https://www.npmjs.com/package/@shanepadgett/tau-agent"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@shanepadgett/tau-agent?page=2",
+      "repo": "/packages/@shanepadgett/tau-agent?page=2",
+      "npm": "/packages/@shanepadgett/tau-agent?page=2"
     },
     {
       "rank": 101,
@@ -1091,35 +1217,45 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juanibiapina/pi-extension-settings",
-      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-extension-settings"
+      "href": "/packages/@juanibiapina/pi-extension-settings?page=3",
+      "repo": "/packages/@juanibiapina/pi-extension-settings?page=3",
+      "npm": "/packages/@juanibiapina/pi-extension-settings?page=3"
     },
     {
       "rank": 102,
       "name": "@jmfederico/pi-web",
       "description": "Web UI for persistent Pi Coding Agent sessions in real workspaces.",
       "downloads": 6682,
-      "types": [],
-      "repo": "https://github.com/jmfederico/pi-web",
-      "npm": "https://www.npmjs.com/package/@jmfederico/pi-web"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@jmfederico/pi-web?page=3",
+      "repo": "/packages/@jmfederico/pi-web?page=3",
+      "npm": "/packages/@jmfederico/pi-web?page=3"
     },
     {
       "rank": 103,
       "name": "@galvinsan/pi-mentis",
       "description": "Integrated Pi Mentis knowledge-first memory extension for Pi >= 0.84.0",
       "downloads": 6675,
-      "types": [],
-      "repo": "https://github.com/guchengod/pi-mentis",
-      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@galvinsan/pi-mentis?page=3",
+      "repo": "/packages/@galvinsan/pi-mentis?page=3",
+      "npm": "/packages/@galvinsan/pi-mentis?page=3"
     },
     {
       "rank": 104,
       "name": "@langchain/langsmith-pi-extension",
       "description": "LangSmith extension for Pi Coding Agent",
       "downloads": 6673,
-      "types": [],
-      "repo": "https://github.com/langchain-ai/langsmith-pi-extension",
-      "npm": "https://www.npmjs.com/package/@langchain/langsmith-pi-extension"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@langchain/langsmith-pi-extension?page=3",
+      "repo": "/packages/@langchain/langsmith-pi-extension?page=3",
+      "npm": "/packages/@langchain/langsmith-pi-extension?page=3"
     },
     {
       "rank": 105,
@@ -1129,17 +1265,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/DanyPops/tickets",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-tickets"
+      "href": "/packages/@danypops/pi-tickets?page=3",
+      "repo": "/packages/@danypops/pi-tickets?page=3",
+      "npm": "/packages/@danypops/pi-tickets?page=3"
     },
     {
       "rank": 106,
       "name": "@companion-ai/feynman",
       "description": "Research-first CLI agent built on Pi and alphaXiv",
       "downloads": 6497,
-      "types": [],
-      "repo": "https://github.com/companion-inc/feynman",
-      "npm": "https://www.npmjs.com/package/@companion-ai/feynman"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@companion-ai/feynman?page=3",
+      "repo": "/packages/@companion-ai/feynman?page=3",
+      "npm": "/packages/@companion-ai/feynman?page=3"
     },
     {
       "rank": 107,
@@ -1149,8 +1289,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-sync"
+      "href": "/packages/@narumitw/pi-sync?page=3",
+      "repo": "/packages/@narumitw/pi-sync?page=3",
+      "npm": "/packages/@narumitw/pi-sync?page=3"
     },
     {
       "rank": 108,
@@ -1160,26 +1301,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-btw"
+      "href": "/packages/@juicesharp/rpiv-btw?page=3",
+      "repo": "/packages/@juicesharp/rpiv-btw?page=3",
+      "npm": "/packages/@juicesharp/rpiv-btw?page=3"
     },
     {
       "rank": 109,
       "name": "@oas-framework/pi",
       "description": "OAS pi runtime bridge — memory session events and pre-workspace bootstrap over the runtime-neutral @oas-framework/oas kernel",
       "downloads": 6278,
-      "types": [],
-      "repo": "https://github.com/OAS-Framework/oas",
-      "npm": "https://www.npmjs.com/package/@oas-framework/pi"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@oas-framework/pi?page=3",
+      "repo": "/packages/@oas-framework/pi?page=3",
+      "npm": "/packages/@oas-framework/pi?page=3"
     },
     {
       "rank": 110,
       "name": "@esso0428/pi-sidebar",
       "description": "Floating right sidebar for pi with git diff/status and session metadata (unofficial fork).",
       "downloads": 6161,
-      "types": [],
-      "repo": "https://github.com/esso0428/pi-sidebar",
-      "npm": "https://www.npmjs.com/package/@esso0428/pi-sidebar"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@esso0428/pi-sidebar?page=3",
+      "repo": "/packages/@esso0428/pi-sidebar?page=3",
+      "npm": "/packages/@esso0428/pi-sidebar?page=3"
     },
     {
       "rank": 111,
@@ -1189,8 +1337,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-runtime"
+      "href": "/packages/@xynogen/pix-runtime?page=3",
+      "repo": "/packages/@xynogen/pix-runtime?page=3",
+      "npm": "/packages/@xynogen/pix-runtime?page=3"
     },
     {
       "rank": 112,
@@ -1200,8 +1349,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/misunders2d/agentnet",
-      "npm": "https://www.npmjs.com/package/@misunders2d/agentnet"
+      "href": "/packages/@misunders2d/agentnet?page=3",
+      "repo": "/packages/@misunders2d/agentnet?page=3",
+      "npm": "/packages/@misunders2d/agentnet?page=3"
     },
     {
       "rank": 113,
@@ -1211,8 +1361,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/jonjonrankin/pi-caveman",
-      "npm": "https://www.npmjs.com/package/pi-caveman"
+      "href": "/packages/pi-caveman?page=3",
+      "repo": "/packages/pi-caveman?page=3",
+      "npm": "/packages/pi-caveman?page=3"
     },
     {
       "rank": 114,
@@ -1222,8 +1373,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-caffeinate"
+      "href": "/packages/@narumitw/pi-caffeinate?page=3",
+      "repo": "/packages/@narumitw/pi-caffeinate?page=3",
+      "npm": "/packages/@narumitw/pi-caffeinate?page=3"
     },
     {
       "rank": 115,
@@ -1233,8 +1385,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/carderne/pi-sandbox",
-      "npm": "https://www.npmjs.com/package/pi-sandbox"
+      "href": "/packages/pi-sandbox?page=3",
+      "repo": "/packages/pi-sandbox?page=3",
+      "npm": "/packages/pi-sandbox?page=3"
     },
     {
       "rank": 116,
@@ -1244,8 +1397,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-i18n"
+      "href": "/packages/@juicesharp/rpiv-i18n?page=3",
+      "repo": "/packages/@juicesharp/rpiv-i18n?page=3",
+      "npm": "/packages/@juicesharp/rpiv-i18n?page=3"
     },
     {
       "rank": 117,
@@ -1255,17 +1409,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-core"
+      "href": "/packages/@xynogen/pix-core?page=3",
+      "repo": "/packages/@xynogen/pix-core?page=3",
+      "npm": "/packages/@xynogen/pix-core?page=3"
     },
     {
       "rank": 118,
       "name": "@galvinsan/pi-mentis-knowledge",
       "description": "Standalone Pi Mentis knowledge extension for Pi >= 0.84.0",
       "downloads": 5911,
-      "types": [],
-      "repo": "https://github.com/guchengod/pi-mentis",
-      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-knowledge"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@galvinsan/pi-mentis-knowledge?page=3",
+      "repo": "/packages/@galvinsan/pi-mentis-knowledge?page=3",
+      "npm": "/packages/@galvinsan/pi-mentis-knowledge?page=3"
     },
     {
       "rank": 119,
@@ -1275,8 +1433,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-data"
+      "href": "/packages/@xynogen/pix-data?page=3",
+      "repo": "/packages/@xynogen/pix-data?page=3",
+      "npm": "/packages/@xynogen/pix-data?page=3"
     },
     {
       "rank": 120,
@@ -1286,8 +1445,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/tintinweb/pi-tasks",
-      "npm": "https://www.npmjs.com/package/@tintinweb/pi-tasks"
+      "href": "/packages/@tintinweb/pi-tasks?page=3",
+      "repo": "/packages/@tintinweb/pi-tasks?page=3",
+      "npm": "/packages/@tintinweb/pi-tasks?page=3"
     },
     {
       "rank": 121,
@@ -1297,8 +1457,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/oc101363-creator/pi-dpi",
-      "npm": "https://www.npmjs.com/package/@myka2003/pi-dpi"
+      "href": "/packages/@myka2003/pi-dpi?page=3",
+      "repo": "/packages/@myka2003/pi-dpi?page=3",
+      "npm": "/packages/@myka2003/pi-dpi?page=3"
     },
     {
       "rank": 122,
@@ -1308,8 +1469,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/bacnh85/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@bacnh85/pi-plan"
+      "href": "/packages/@bacnh85/pi-plan?page=3",
+      "repo": "/packages/@bacnh85/pi-plan?page=3",
+      "npm": "/packages/@bacnh85/pi-plan?page=3"
     },
     {
       "rank": 123,
@@ -1319,8 +1481,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-usage"
+      "href": "/packages/@narumitw/pi-usage?page=3",
+      "repo": "/packages/@narumitw/pi-usage?page=3",
+      "npm": "/packages/@narumitw/pi-usage?page=3"
     },
     {
       "rank": 124,
@@ -1330,8 +1493,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/heyhuynhgiabuu/pi-pretty",
-      "npm": "https://www.npmjs.com/package/@heyhuynhgiabuu/pi-pretty"
+      "href": "/packages/@heyhuynhgiabuu/pi-pretty?page=3",
+      "repo": "/packages/@heyhuynhgiabuu/pi-pretty?page=3",
+      "npm": "/packages/@heyhuynhgiabuu/pi-pretty?page=3"
     },
     {
       "rank": 125,
@@ -1342,17 +1506,21 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/kylebrodeur/pi-vault-mind",
-      "npm": "https://www.npmjs.com/package/pi-vault-mind"
+      "href": "/packages/pi-vault-mind?page=3",
+      "repo": "/packages/pi-vault-mind?page=3",
+      "npm": "/packages/pi-vault-mind?page=3"
     },
     {
       "rank": 126,
       "name": "pi-xai-oauth",
       "description": "xAI OAuth provider with an authenticated account-specific Grok model catalog for pi",
       "downloads": 5663,
-      "types": [],
-      "repo": "https://github.com/BlockedPath/pi-xai-oauth",
-      "npm": "https://www.npmjs.com/package/pi-xai-oauth"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-xai-oauth?page=3",
+      "repo": "/packages/pi-xai-oauth?page=3",
+      "npm": "/packages/pi-xai-oauth?page=3"
     },
     {
       "rank": 127,
@@ -1362,35 +1530,45 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/pine-of-glass?page=3",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pine-of-glass"
+      "npm": "/packages/pine-of-glass?page=3"
     },
     {
       "rank": 128,
       "name": "@galvinsan/pi-mentis-memory",
       "description": "Standalone Pi Mentis memory extension for Pi >= 0.84.0",
       "downloads": 5614,
-      "types": [],
-      "repo": "https://github.com/guchengod/pi-mentis",
-      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-memory"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@galvinsan/pi-mentis-memory?page=3",
+      "repo": "/packages/@galvinsan/pi-mentis-memory?page=3",
+      "npm": "/packages/@galvinsan/pi-mentis-memory?page=3"
     },
     {
       "rank": 129,
       "name": "@selesai/code",
       "description": "Maintained, extension-first Pi coding agent with built-in workflows, subagents, web research, questions, skills, and an enhanced terminal UI.",
       "downloads": 5588,
-      "types": [],
-      "repo": "https://github.com/SelesaiInTech/selesai-code",
-      "npm": "https://www.npmjs.com/package/@selesai/code"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@selesai/code?page=3",
+      "repo": "/packages/@selesai/code?page=3",
+      "npm": "/packages/@selesai/code?page=3"
     },
     {
       "rank": 130,
       "name": "@howaboua/pi-stuff",
       "description": "all Howaboua Pi extensions and skills",
       "downloads": 5574,
-      "types": [],
-      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
-      "npm": "https://www.npmjs.com/package/@howaboua/pi-stuff"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@howaboua/pi-stuff?page=3",
+      "repo": "/packages/@howaboua/pi-stuff?page=3",
+      "npm": "/packages/@howaboua/pi-stuff?page=3"
     },
     {
       "rank": 131,
@@ -1400,8 +1578,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Sreetej510/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@sreetej510/pi-usage"
+      "href": "/packages/@sreetej510/pi-usage?page=3",
+      "repo": "/packages/@sreetej510/pi-usage?page=3",
+      "npm": "/packages/@sreetej510/pi-usage?page=3"
     },
     {
       "rank": 132,
@@ -1411,17 +1590,21 @@
       "types": [
         "skill"
       ],
+      "href": "/packages/pi-maestro-flow?page=3",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-maestro-flow"
+      "npm": "/packages/pi-maestro-flow?page=3"
     },
     {
       "rank": 133,
       "name": "pi-multica-spine",
       "description": "Pi extension that keeps Multica work agents bound to issue, PR, evidence, and handoff contracts.",
       "downloads": 5440,
-      "types": [],
-      "repo": "https://github.com/eiei114/pi-multica-spine",
-      "npm": "https://www.npmjs.com/package/pi-multica-spine"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-multica-spine?page=3",
+      "repo": "/packages/pi-multica-spine?page=3",
+      "npm": "/packages/pi-multica-spine?page=3"
     },
     {
       "rank": 134,
@@ -1431,8 +1614,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-firecrawl"
+      "href": "/packages/@narumitw/pi-firecrawl?page=3",
+      "repo": "/packages/@narumitw/pi-firecrawl?page=3",
+      "npm": "/packages/@narumitw/pi-firecrawl?page=3"
     },
     {
       "rank": 135,
@@ -1442,8 +1626,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/aliou/pi-guardrails",
-      "npm": "https://www.npmjs.com/package/@aliou/pi-guardrails"
+      "href": "/packages/@aliou/pi-guardrails?page=3",
+      "repo": "/packages/@aliou/pi-guardrails?page=3",
+      "npm": "/packages/@aliou/pi-guardrails?page=3"
     },
     {
       "rank": 136,
@@ -1453,26 +1638,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Baylar55/omp-undo-redo",
-      "npm": "https://www.npmjs.com/package/@baylarsadigov/omp-undo-redo"
+      "href": "/packages/@baylarsadigov/omp-undo-redo?page=3",
+      "repo": "/packages/@baylarsadigov/omp-undo-redo?page=3",
+      "npm": "/packages/@baylarsadigov/omp-undo-redo?page=3"
     },
     {
       "rank": 137,
       "name": "@danypops/pi-lector",
       "description": "Pi host adapter for Lector: overrides read/write/edit with a daemon-backed, hash-guarded filesystem",
       "downloads": 5272,
-      "types": [],
-      "repo": "https://github.com/DanyPops/lector",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-lector"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/pi-lector?page=3",
+      "repo": "/packages/@danypops/pi-lector?page=3",
+      "npm": "/packages/@danypops/pi-lector?page=3"
     },
     {
       "rank": 138,
       "name": "@trim21/personal-pi-extensions",
       "description": "Custom pi coding-agent extensions: bwrap sandbox, workspace guard, opencode edit, and more",
       "downloads": 5258,
-      "types": [],
-      "repo": "https://github.com/trim21/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@trim21/personal-pi-extensions"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@trim21/personal-pi-extensions?page=3",
+      "repo": "/packages/@trim21/personal-pi-extensions?page=3",
+      "npm": "/packages/@trim21/personal-pi-extensions?page=3"
     },
     {
       "rank": 139,
@@ -1482,8 +1674,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Gentleman-Programming/engram",
-      "npm": "https://www.npmjs.com/package/gentle-engram"
+      "href": "/packages/gentle-engram?page=3",
+      "repo": "/packages/gentle-engram?page=3",
+      "npm": "/packages/gentle-engram?page=3"
     },
     {
       "rank": 140,
@@ -1493,8 +1686,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Sreetej510/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@sreetej510/pi-shipd-checks"
+      "href": "/packages/@sreetej510/pi-shipd-checks?page=3",
+      "repo": "/packages/@sreetej510/pi-shipd-checks?page=3",
+      "npm": "/packages/@sreetej510/pi-shipd-checks?page=3"
     },
     {
       "rank": 141,
@@ -1504,8 +1698,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/10ego/pi-pr-review",
-      "npm": "https://www.npmjs.com/package/pi-pr-review"
+      "href": "/packages/pi-pr-review?page=3",
+      "repo": "/packages/pi-pr-review?page=3",
+      "npm": "/packages/pi-pr-review?page=3"
     },
     {
       "rank": 142,
@@ -1517,17 +1712,21 @@
         "skill",
         "prompt"
       ],
-      "repo": "https://github.com/Vt-mmm/piagent",
-      "npm": "https://www.npmjs.com/package/@piagent/platform"
+      "href": "/packages/@piagent/platform?page=3",
+      "repo": "/packages/@piagent/platform?page=3",
+      "npm": "/packages/@piagent/platform?page=3"
     },
     {
       "rank": 143,
       "name": "@hyperdreamer/pi-webui",
       "description": "Web UI for persistent Pi Coding Agent sessions in real workspaces.",
       "downloads": 5049,
-      "types": [],
-      "repo": "https://github.com/hyperdreamer/pi-webui",
-      "npm": "https://www.npmjs.com/package/@hyperdreamer/pi-webui"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@hyperdreamer/pi-webui?page=3",
+      "repo": "/packages/@hyperdreamer/pi-webui?page=3",
+      "npm": "/packages/@hyperdreamer/pi-webui?page=3"
     },
     {
       "rank": 144,
@@ -1537,26 +1736,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Sreetej510/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@sreetej510/pi-hpc-tools"
+      "href": "/packages/@sreetej510/pi-hpc-tools?page=3",
+      "repo": "/packages/@sreetej510/pi-hpc-tools?page=3",
+      "npm": "/packages/@sreetej510/pi-hpc-tools?page=3"
     },
     {
       "rank": 145,
       "name": "bladebro",
       "description": "Stealthy and efficient agentic browser driver for AI agents. Few tools, full control, real stealth, max token efficiency.",
       "downloads": 4999,
-      "types": [],
-      "repo": "https://github.com/dondai44423/bladebro",
-      "npm": "https://www.npmjs.com/package/bladebro"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/bladebro?page=3",
+      "repo": "/packages/bladebro?page=3",
+      "npm": "/packages/bladebro?page=3"
     },
     {
       "rank": 146,
       "name": "@houndmcp/hound-mcp-pi",
       "description": "Hound web research for Pi agent - keyless search, anti-bot fetch, deep crawl, screenshot, Internet Archive dead-link recovery. Free, MIT, no API key.",
       "downloads": 4952,
-      "types": [],
-      "repo": "https://github.com/dondai1234/master-fetch",
-      "npm": "https://www.npmjs.com/package/@houndmcp/hound-mcp-pi"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@houndmcp/hound-mcp-pi?page=3",
+      "repo": "/packages/@houndmcp/hound-mcp-pi?page=3",
+      "npm": "/packages/@houndmcp/hound-mcp-pi?page=3"
     },
     {
       "rank": 147,
@@ -1566,8 +1772,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-codex-usage"
+      "href": "/packages/@narumitw/pi-codex-usage?page=3",
+      "repo": "/packages/@narumitw/pi-codex-usage?page=3",
+      "npm": "/packages/@narumitw/pi-codex-usage?page=3"
     },
     {
       "rank": 148,
@@ -1578,8 +1785,9 @@
         "extension",
         "prompt"
       ],
-      "repo": "https://github.com/Sreetej510/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@sreetej510/pi-prompt-manager"
+      "href": "/packages/@sreetej510/pi-prompt-manager?page=3",
+      "repo": "/packages/@sreetej510/pi-prompt-manager?page=3",
+      "npm": "/packages/@sreetej510/pi-prompt-manager?page=3"
     },
     {
       "rank": 149,
@@ -1589,8 +1797,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/nklisch/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@nklisch/pi-plugins"
+      "href": "/packages/@nklisch/pi-plugins?page=3",
+      "repo": "/packages/@nklisch/pi-plugins?page=3",
+      "npm": "/packages/@nklisch/pi-plugins?page=3"
     },
     {
       "rank": 150,
@@ -1600,8 +1809,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-context"
+      "href": "/packages/@mrclrchtr/supi-context?page=3",
+      "repo": "/packages/@mrclrchtr/supi-context?page=3",
+      "npm": "/packages/@mrclrchtr/supi-context?page=3"
     },
     {
       "rank": 151,
@@ -1611,8 +1821,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/MuseLinn/pi-muselinn-harness",
-      "npm": "https://www.npmjs.com/package/pi-muselinn-harness"
+      "href": "/packages/pi-muselinn-harness?page=4",
+      "repo": "/packages/pi-muselinn-harness?page=4",
+      "npm": "/packages/pi-muselinn-harness?page=4"
     },
     {
       "rank": 152,
@@ -1622,17 +1833,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Slmplez/Pi-ascet-ui-extension",
-      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot-ui"
+      "href": "/packages/@zeerke/ascet-copilot-ui?page=4",
+      "repo": "/packages/@zeerke/ascet-copilot-ui?page=4",
+      "npm": "/packages/@zeerke/ascet-copilot-ui?page=4"
     },
     {
       "rank": 153,
       "name": "@zzs-fun/agent-forum-skills",
       "description": "A Git-based collaboration skill for software development agents.",
       "downloads": 4613,
-      "types": [],
-      "repo": "https://github.com/wszzs110/agent-forum-skills",
-      "npm": "https://www.npmjs.com/package/@zzs-fun/agent-forum-skills"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@zzs-fun/agent-forum-skills?page=4",
+      "repo": "/packages/@zzs-fun/agent-forum-skills?page=4",
+      "npm": "/packages/@zzs-fun/agent-forum-skills?page=4"
     },
     {
       "rank": 154,
@@ -1642,8 +1857,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@ferris1225/pi-subagents?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@ferris1225/pi-subagents"
+      "npm": "/packages/@ferris1225/pi-subagents?page=4"
     },
     {
       "rank": 155,
@@ -1653,17 +1869,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/misunders2d/pi-experiences",
-      "npm": "https://www.npmjs.com/package/pi-experiences"
+      "href": "/packages/pi-experiences?page=4",
+      "repo": "/packages/pi-experiences?page=4",
+      "npm": "/packages/pi-experiences?page=4"
     },
     {
       "rank": 156,
       "name": "pai-acp",
       "description": "Active Context Pruning (ACP) extension for Pi — model-driven context compression that keeps conversations flowing.",
       "downloads": 4541,
-      "types": [],
-      "repo": "https://github.com/ranxianglei/pai-acp",
-      "npm": "https://www.npmjs.com/package/pai-acp"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pai-acp?page=4",
+      "repo": "/packages/pai-acp?page=4",
+      "npm": "/packages/pai-acp?page=4"
     },
     {
       "rank": 157,
@@ -1673,8 +1893,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-computer-use"
+      "href": "/packages/@amaster.ai/pi-computer-use?page=4",
+      "repo": "/packages/@amaster.ai/pi-computer-use?page=4",
+      "npm": "/packages/@amaster.ai/pi-computer-use?page=4"
     },
     {
       "rank": 158,
@@ -1684,17 +1905,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/monotykamary/pi-fovea",
-      "npm": "https://www.npmjs.com/package/pi-fovea"
+      "href": "/packages/pi-fovea?page=4",
+      "repo": "/packages/pi-fovea?page=4",
+      "npm": "/packages/pi-fovea?page=4"
     },
     {
       "rank": 159,
       "name": "pi-sych",
       "description": "General project and artifact development workbench for Pi",
       "downloads": 4479,
-      "types": [],
-      "repo": "https://gitlab.com/Joao-O-Santos/pi-sych",
-      "npm": "https://www.npmjs.com/package/pi-sych"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-sych?page=4",
+      "repo": "/packages/pi-sych?page=4",
+      "npm": "/packages/pi-sych?page=4"
     },
     {
       "rank": 160,
@@ -1704,8 +1929,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@zeerke/ascet-copilot?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot"
+      "npm": "/packages/@zeerke/ascet-copilot?page=4"
     },
     {
       "rank": 161,
@@ -1715,8 +1941,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@eleboucher/pi-memini?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@eleboucher/pi-memini"
+      "npm": "/packages/@eleboucher/pi-memini?page=4"
     },
     {
       "rank": 162,
@@ -1726,26 +1953,33 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/pi-oc-style-agent-switcher?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-oc-style-agent-switcher"
+      "npm": "/packages/pi-oc-style-agent-switcher?page=4"
     },
     {
       "rank": 163,
       "name": "dripline",
       "description": "Query anything, one drip at a time",
       "downloads": 4432,
-      "types": [],
-      "repo": "https://github.com/Michaelliv/dripline",
-      "npm": "https://www.npmjs.com/package/dripline"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/dripline?page=4",
+      "repo": "/packages/dripline?page=4",
+      "npm": "/packages/dripline?page=4"
     },
     {
       "rank": 164,
       "name": "pi-extensible-workflows",
       "description": "Deterministic multi-agent workflow orchestration for Pi",
       "downloads": 4388,
-      "types": [],
-      "repo": "https://github.com/vekexasia/pi-extensible-workflows",
-      "npm": "https://www.npmjs.com/package/pi-extensible-workflows"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-extensible-workflows?page=4",
+      "repo": "/packages/pi-extensible-workflows?page=4",
+      "npm": "/packages/pi-extensible-workflows?page=4"
     },
     {
       "rank": 165,
@@ -1755,17 +1989,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/4fuu/pi-pwsh",
-      "npm": "https://www.npmjs.com/package/@4fu/pi-pwsh"
+      "href": "/packages/@4fu/pi-pwsh?page=4",
+      "repo": "/packages/@4fu/pi-pwsh?page=4",
+      "npm": "/packages/@4fu/pi-pwsh?page=4"
     },
     {
       "rank": 166,
       "name": "pi-smart-fetch",
       "description": "Smart web_fetch with desktop-browser TLS impersonation and defuddle extraction.",
       "downloads": 4335,
-      "types": [],
-      "repo": "https://github.com/Thinkscape/agent-smart-fetch",
-      "npm": "https://www.npmjs.com/package/pi-smart-fetch"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-smart-fetch?page=4",
+      "repo": "/packages/pi-smart-fetch?page=4",
+      "npm": "/packages/pi-smart-fetch?page=4"
     },
     {
       "rank": 167,
@@ -1775,8 +2013,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/10ego/NERVous-system",
-      "npm": "https://www.npmjs.com/package/nervous-system"
+      "href": "/packages/nervous-system?page=4",
+      "repo": "/packages/nervous-system?page=4",
+      "npm": "/packages/nervous-system?page=4"
     },
     {
       "rank": 168,
@@ -1786,8 +2025,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-web"
+      "href": "/packages/@mrclrchtr/supi-web?page=4",
+      "repo": "/packages/@mrclrchtr/supi-web?page=4",
+      "npm": "/packages/@mrclrchtr/supi-web?page=4"
     },
     {
       "rank": 169,
@@ -1797,26 +2037,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/KyrosHendrix/pi-KillerOS",
-      "npm": "https://www.npmjs.com/package/killeros"
+      "href": "/packages/killeros?page=4",
+      "repo": "/packages/killeros?page=4",
+      "npm": "/packages/killeros?page=4"
     },
     {
       "rank": 170,
       "name": "openlore",
       "description": "Persistent architectural memory and structural cognition for AI coding agents.",
       "downloads": 4281,
-      "types": [],
-      "repo": "https://github.com/clay-good/openlore",
-      "npm": "https://www.npmjs.com/package/openlore"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/openlore?page=4",
+      "repo": "/packages/openlore?page=4",
+      "npm": "/packages/openlore?page=4"
     },
     {
       "rank": 171,
       "name": "@howaboua/pi-extensions",
       "description": "all Howaboua Pi extensions",
       "downloads": 4260,
-      "types": [],
-      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
-      "npm": "https://www.npmjs.com/package/@howaboua/pi-extensions"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@howaboua/pi-extensions?page=4",
+      "repo": "/packages/@howaboua/pi-extensions?page=4",
+      "npm": "/packages/@howaboua/pi-extensions?page=4"
     },
     {
       "rank": 172,
@@ -1827,8 +2074,9 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-claude-md"
+      "href": "/packages/@mrclrchtr/supi-claude-md?page=4",
+      "repo": "/packages/@mrclrchtr/supi-claude-md?page=4",
+      "npm": "/packages/@mrclrchtr/supi-claude-md?page=4"
     },
     {
       "rank": 173,
@@ -1838,8 +2086,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ZGltYQ/pi-provider-kimi-code",
-      "npm": "https://www.npmjs.com/package/@zgltyq/pi-provider-kimi-code"
+      "href": "/packages/@zgltyq/pi-provider-kimi-code?page=4",
+      "repo": "/packages/@zgltyq/pi-provider-kimi-code?page=4",
+      "npm": "/packages/@zgltyq/pi-provider-kimi-code?page=4"
     },
     {
       "rank": 174,
@@ -1849,8 +2098,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
-      "npm": "https://www.npmjs.com/package/@firstpick/pi-extension-git-footer-status"
+      "href": "/packages/@firstpick/pi-extension-git-footer-status?page=4",
+      "repo": "/packages/@firstpick/pi-extension-git-footer-status?page=4",
+      "npm": "/packages/@firstpick/pi-extension-git-footer-status?page=4"
     },
     {
       "rank": 175,
@@ -1860,8 +2110,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/x4cc3/pi-xpi",
-      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xtodo"
+      "href": "/packages/@xaccefy/pi-xtodo?page=4",
+      "repo": "/packages/@xaccefy/pi-xtodo?page=4",
+      "npm": "/packages/@xaccefy/pi-xtodo?page=4"
     },
     {
       "rank": 176,
@@ -1871,26 +2122,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/router-for-me/pi-cliproxyapi-provider",
-      "npm": "https://www.npmjs.com/package/@router-for-me/pi-cliproxyapi-provider"
+      "href": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4",
+      "repo": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4",
+      "npm": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4"
     },
     {
       "rank": 177,
       "name": "@danypops/pi-pipes",
       "description": "Pi extension: agent-facing CI tool for cross-platform CI (GitHub Actions, GitLab CI, Jenkins)",
       "downloads": 4216,
-      "types": [],
-      "repo": "https://github.com/DanyPops/pipes",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-pipes"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/pi-pipes?page=4",
+      "repo": "/packages/@danypops/pi-pipes?page=4",
+      "npm": "/packages/@danypops/pi-pipes?page=4"
     },
     {
       "rank": 178,
       "name": "@cortexkit/pi-anthropic-auth",
       "description": "Pi package for CortexKit Anthropic OAuth support. It overrides Pi's built-in `anthropic` provider with a CortexKit provider extension backed by the shared `@cortexkit/anthropic-auth-core` package.",
       "downloads": 4203,
-      "types": [],
-      "repo": "https://github.com/cortexkit/anthropic-auth",
-      "npm": "https://www.npmjs.com/package/@cortexkit/pi-anthropic-auth"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@cortexkit/pi-anthropic-auth?page=4",
+      "repo": "/packages/@cortexkit/pi-anthropic-auth?page=4",
+      "npm": "/packages/@cortexkit/pi-anthropic-auth?page=4"
     },
     {
       "rank": 179,
@@ -1900,8 +2158,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-ask-user"
+      "href": "/packages/@mrclrchtr/supi-ask-user?page=4",
+      "repo": "/packages/@mrclrchtr/supi-ask-user?page=4",
+      "npm": "/packages/@mrclrchtr/supi-ask-user?page=4"
     },
     {
       "rank": 180,
@@ -1911,8 +2170,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/tunnckoCore/pi-gpt-fast-mode",
-      "npm": "https://www.npmjs.com/package/@tunnckocore/pi-gpt-fast-mode"
+      "href": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4",
+      "repo": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4",
+      "npm": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4"
     },
     {
       "rank": 181,
@@ -1922,8 +2182,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@pi-stef/flow?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@pi-stef/flow"
+      "npm": "/packages/@pi-stef/flow?page=4"
     },
     {
       "rank": 182,
@@ -1933,8 +2194,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/tmonk/pi-goal-x",
-      "npm": "https://www.npmjs.com/package/pi-goal-x"
+      "href": "/packages/pi-goal-x?page=4",
+      "repo": "/packages/pi-goal-x?page=4",
+      "npm": "/packages/pi-goal-x?page=4"
     },
     {
       "rank": 183,
@@ -1944,8 +2206,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/apmantza/pi-free",
-      "npm": "https://www.npmjs.com/package/pi-free"
+      "href": "/packages/pi-free?page=4",
+      "repo": "/packages/pi-free?page=4",
+      "npm": "/packages/pi-free?page=4"
     },
     {
       "rank": 184,
@@ -1955,8 +2218,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/x4cc3/pi-xpi",
-      "npm": "https://www.npmjs.com/package/@xaccefy/pi-casefile"
+      "href": "/packages/@xaccefy/pi-casefile?page=4",
+      "repo": "/packages/@xaccefy/pi-casefile?page=4",
+      "npm": "/packages/@xaccefy/pi-casefile?page=4"
     },
     {
       "rank": 185,
@@ -1966,8 +2230,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-code-intelligence"
+      "href": "/packages/@mrclrchtr/supi-code-intelligence?page=4",
+      "repo": "/packages/@mrclrchtr/supi-code-intelligence?page=4",
+      "npm": "/packages/@mrclrchtr/supi-code-intelligence?page=4"
     },
     {
       "rank": 186,
@@ -1977,8 +2242,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ayu-exorcist/oh-my-pi",
-      "npm": "https://www.npmjs.com/package/@ayulab/pi-rewind"
+      "href": "/packages/@ayulab/pi-rewind?page=4",
+      "repo": "/packages/@ayulab/pi-rewind?page=4",
+      "npm": "/packages/@ayulab/pi-rewind?page=4"
     },
     {
       "rank": 187,
@@ -1988,8 +2254,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/davebcn87/pi-autoresearch",
-      "npm": "https://www.npmjs.com/package/pi-autoresearch"
+      "href": "/packages/pi-autoresearch?page=4",
+      "repo": "/packages/pi-autoresearch?page=4",
+      "npm": "/packages/pi-autoresearch?page=4"
     },
     {
       "rank": 188,
@@ -2000,8 +2267,9 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-pi"
+      "href": "/packages/@juicesharp/rpiv-pi?page=4",
+      "repo": "/packages/@juicesharp/rpiv-pi?page=4",
+      "npm": "/packages/@juicesharp/rpiv-pi?page=4"
     },
     {
       "rank": 189,
@@ -2011,8 +2279,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/0xRichardH/pi-cliproxyapi-provider",
-      "npm": "https://www.npmjs.com/package/pi-cliproxyapi-provider"
+      "href": "/packages/pi-cliproxyapi-provider?page=4",
+      "repo": "/packages/pi-cliproxyapi-provider?page=4",
+      "npm": "/packages/pi-cliproxyapi-provider?page=4"
     },
     {
       "rank": 190,
@@ -2022,8 +2291,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Chase-C/pi9",
-      "npm": "https://www.npmjs.com/package/@pi9/subagent"
+      "href": "/packages/@pi9/subagent?page=4",
+      "repo": "/packages/@pi9/subagent?page=4",
+      "npm": "/packages/@pi9/subagent?page=4"
     },
     {
       "rank": 191,
@@ -2033,8 +2303,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/zhcsyncer/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@zhcsyncer/pi-extensions"
+      "href": "/packages/@zhcsyncer/pi-extensions?page=4",
+      "repo": "/packages/@zhcsyncer/pi-extensions?page=4",
+      "npm": "/packages/@zhcsyncer/pi-extensions?page=4"
     },
     {
       "rank": 192,
@@ -2044,8 +2315,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/picassio/pi-squad",
-      "npm": "https://www.npmjs.com/package/pi-squad"
+      "href": "/packages/pi-squad?page=4",
+      "repo": "/packages/pi-squad?page=4",
+      "npm": "/packages/pi-squad?page=4"
     },
     {
       "rank": 193,
@@ -2055,8 +2327,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/jachy-h/pi-git-sync",
-      "npm": "https://www.npmjs.com/package/@jachy/pi-git-sync"
+      "href": "/packages/@jachy/pi-git-sync?page=4",
+      "repo": "/packages/@jachy/pi-git-sync?page=4",
+      "npm": "/packages/@jachy/pi-git-sync?page=4"
     },
     {
       "rank": 194,
@@ -2066,8 +2339,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-retry"
+      "href": "/packages/@narumitw/pi-retry?page=4",
+      "repo": "/packages/@narumitw/pi-retry?page=4",
+      "npm": "/packages/@narumitw/pi-retry?page=4"
     },
     {
       "rank": 195,
@@ -2077,17 +2351,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/x4cc3/pi-xpi",
-      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xpi"
+      "href": "/packages/@xaccefy/pi-xpi?page=4",
+      "repo": "/packages/@xaccefy/pi-xpi?page=4",
+      "npm": "/packages/@xaccefy/pi-xpi?page=4"
     },
     {
       "rank": 196,
       "name": "@99percentpeople/pi-background-tasks",
       "description": "Background commands and attachable PTY/TUI sessions for Pi, with SSH Remote integration",
       "downloads": 3980,
-      "types": [],
-      "repo": "https://github.com/99percentpeople/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@99percentpeople/pi-background-tasks"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@99percentpeople/pi-background-tasks?page=4",
+      "repo": "/packages/@99percentpeople/pi-background-tasks?page=4",
+      "npm": "/packages/@99percentpeople/pi-background-tasks?page=4"
     },
     {
       "rank": 197,
@@ -2097,8 +2375,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/trvon/pi-loop",
-      "npm": "https://www.npmjs.com/package/@trevonistrevon/pi-loop"
+      "href": "/packages/@trevonistrevon/pi-loop?page=4",
+      "repo": "/packages/@trevonistrevon/pi-loop?page=4",
+      "npm": "/packages/@trevonistrevon/pi-loop?page=4"
     },
     {
       "rank": 198,
@@ -2108,8 +2387,9 @@
       "types": [
         "skill"
       ],
-      "repo": "https://github.com/ttttmr/pi-context",
-      "npm": "https://www.npmjs.com/package/pi-context"
+      "href": "/packages/pi-context?page=4",
+      "repo": "/packages/pi-context?page=4",
+      "npm": "/packages/pi-context?page=4"
     },
     {
       "rank": 199,
@@ -2119,26 +2399,33 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/pi-maestro-teammate?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-maestro-teammate"
+      "npm": "/packages/pi-maestro-teammate?page=4"
     },
     {
       "rank": 200,
       "name": "@brushes/xiaohongshu-mcp-server",
       "description": "MCP Server for Xiaohongshu (Little Red Book) content creation and publishing automation",
       "downloads": 3883,
-      "types": [],
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@brushes/xiaohongshu-mcp-server?page=4",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@brushes/xiaohongshu-mcp-server"
+      "npm": "/packages/@brushes/xiaohongshu-mcp-server?page=4"
     },
     {
       "rank": 201,
       "name": "@dreki-gg/pi-plan-mode",
       "description": "Two-phase planning workflow for pi — plan with claude-opus-4-6:medium, execute with gpt-5.5:low, with file-based plan-ledger handoff (default .taskman/plans/, configurable via .taskmanrc)",
       "downloads": 3874,
-      "types": [],
-      "repo": "https://github.com/jalbarrang/pi-plan-mode",
-      "npm": "https://www.npmjs.com/package/@dreki-gg/pi-plan-mode"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@dreki-gg/pi-plan-mode?page=5",
+      "repo": "/packages/@dreki-gg/pi-plan-mode?page=5",
+      "npm": "/packages/@dreki-gg/pi-plan-mode?page=5"
     },
     {
       "rank": 202,
@@ -2150,8 +2437,9 @@
         "skill",
         "prompt"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-args"
+      "href": "/packages/@juicesharp/rpiv-args?page=5",
+      "repo": "/packages/@juicesharp/rpiv-args?page=5",
+      "npm": "/packages/@juicesharp/rpiv-args?page=5"
     },
     {
       "rank": 203,
@@ -2161,17 +2449,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/juanibiapina/pi-powerbar",
-      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-powerbar"
+      "href": "/packages/@juanibiapina/pi-powerbar?page=5",
+      "repo": "/packages/@juanibiapina/pi-powerbar?page=5",
+      "npm": "/packages/@juanibiapina/pi-powerbar?page=5"
     },
     {
       "rank": 204,
       "name": "@johanthoren/jeff",
       "description": "Jeff is a model-native quality control plane and cooperative workflow protocol for trusted operators and friendly agents, not a security sandbox.",
       "downloads": 3855,
-      "types": [],
-      "repo": "https://github.com/johanthoren/jeff",
-      "npm": "https://www.npmjs.com/package/@johanthoren/jeff"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@johanthoren/jeff?page=5",
+      "repo": "/packages/@johanthoren/jeff?page=5",
+      "npm": "/packages/@johanthoren/jeff?page=5"
     },
     {
       "rank": 205,
@@ -2181,8 +2473,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-cache"
+      "href": "/packages/@mrclrchtr/supi-cache?page=5",
+      "repo": "/packages/@mrclrchtr/supi-cache?page=5",
+      "npm": "/packages/@mrclrchtr/supi-cache?page=5"
     },
     {
       "rank": 206,
@@ -2192,8 +2485,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-bash-timeout"
+      "href": "/packages/@mrclrchtr/supi-bash-timeout?page=5",
+      "repo": "/packages/@mrclrchtr/supi-bash-timeout?page=5",
+      "npm": "/packages/@mrclrchtr/supi-bash-timeout?page=5"
     },
     {
       "rank": 207,
@@ -2203,8 +2497,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-insights"
+      "href": "/packages/@mrclrchtr/supi-insights?page=5",
+      "repo": "/packages/@mrclrchtr/supi-insights?page=5",
+      "npm": "/packages/@mrclrchtr/supi-insights?page=5"
     },
     {
       "rank": 208,
@@ -2214,8 +2509,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@agentapprove/pi?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@agentapprove/pi"
+      "npm": "/packages/@agentapprove/pi?page=5"
     },
     {
       "rank": 209,
@@ -2225,8 +2521,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/aliou/pi-processes",
-      "npm": "https://www.npmjs.com/package/@aliou/pi-processes"
+      "href": "/packages/@aliou/pi-processes?page=5",
+      "repo": "/packages/@aliou/pi-processes?page=5",
+      "npm": "/packages/@aliou/pi-processes?page=5"
     },
     {
       "rank": 210,
@@ -2236,17 +2533,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/yusukeshib/pi-babysit",
-      "npm": "https://www.npmjs.com/package/@yusukeshib/pi-babysit"
+      "href": "/packages/@yusukeshib/pi-babysit?page=5",
+      "repo": "/packages/@yusukeshib/pi-babysit?page=5",
+      "npm": "/packages/@yusukeshib/pi-babysit?page=5"
     },
     {
       "rank": 211,
       "name": "@undefineds.co/models",
       "description": "`@undefineds.co/models` is the shared Solid Pod data model contract for LinX apps, desktop, CLI, sidecars, and future workers.",
       "downloads": 3783,
-      "types": [],
-      "repo": "https://github.com/undefinedsco/models",
-      "npm": "https://www.npmjs.com/package/@undefineds.co/models"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@undefineds.co/models?page=5",
+      "repo": "/packages/@undefineds.co/models?page=5",
+      "npm": "/packages/@undefineds.co/models?page=5"
     },
     {
       "rank": 212,
@@ -2256,8 +2557,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/beettlle/pi-smart-router",
-      "npm": "https://www.npmjs.com/package/pi-smart-router"
+      "href": "/packages/pi-smart-router?page=5",
+      "repo": "/packages/pi-smart-router?page=5",
+      "npm": "/packages/pi-smart-router?page=5"
     },
     {
       "rank": 213,
@@ -2267,8 +2569,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-review"
+      "href": "/packages/@mrclrchtr/supi-review?page=5",
+      "repo": "/packages/@mrclrchtr/supi-review?page=5",
+      "npm": "/packages/@mrclrchtr/supi-review?page=5"
     },
     {
       "rank": 214,
@@ -2278,8 +2581,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/elpapi42/pi-observational-memory",
-      "npm": "https://www.npmjs.com/package/pi-observational-memory"
+      "href": "/packages/pi-observational-memory?page=5",
+      "repo": "/packages/pi-observational-memory?page=5",
+      "npm": "/packages/pi-observational-memory?page=5"
     },
     {
       "rank": 215,
@@ -2289,17 +2593,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-webui"
+      "href": "/packages/@narumitw/pi-webui?page=5",
+      "repo": "/packages/@narumitw/pi-webui?page=5",
+      "npm": "/packages/@narumitw/pi-webui?page=5"
     },
     {
       "rank": 216,
       "name": "@danypops/enigma",
       "description": "Encrypted credential vault daemon: holds delegated OAuth/API credentials, serves each registered consumer only its own scoped credentials over an authenticated local endpoint",
       "downloads": 3736,
-      "types": [],
-      "repo": "https://github.com/DanyPops/enigma",
-      "npm": "https://www.npmjs.com/package/@danypops/enigma"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/enigma?page=5",
+      "repo": "/packages/@danypops/enigma?page=5",
+      "npm": "/packages/@danypops/enigma?page=5"
     },
     {
       "rank": 217,
@@ -2309,17 +2617,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/getpipher/armory-fleet",
-      "npm": "https://www.npmjs.com/package/@getpipher/armory-fleet"
+      "href": "/packages/@getpipher/armory-fleet?page=5",
+      "repo": "/packages/@getpipher/armory-fleet?page=5",
+      "npm": "/packages/@getpipher/armory-fleet?page=5"
     },
     {
       "rank": 218,
       "name": "@agent-plan/pi-adapter",
       "description": "Pi agent extension for Agent Plan — structured project planning in .planner/",
       "downloads": 3729,
-      "types": [],
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@agent-plan/pi-adapter?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@agent-plan/pi-adapter"
+      "npm": "/packages/@agent-plan/pi-adapter?page=5"
     },
     {
       "rank": 219,
@@ -2329,8 +2641,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-extras"
+      "href": "/packages/@mrclrchtr/supi-extras?page=5",
+      "repo": "/packages/@mrclrchtr/supi-extras?page=5",
+      "npm": "/packages/@mrclrchtr/supi-extras?page=5"
     },
     {
       "rank": 220,
@@ -2341,17 +2654,21 @@
         "extension",
         "prompt"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-prompt-suggestions"
+      "href": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5",
+      "repo": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5",
+      "npm": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5"
     },
     {
       "rank": 221,
       "name": "pi-spark",
       "description": "Pi package that polishes your daily experience.",
       "downloads": 3711,
-      "types": [],
-      "repo": "https://github.com/zlliang/pi-spark",
-      "npm": "https://www.npmjs.com/package/pi-spark"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-spark?page=5",
+      "repo": "/packages/pi-spark?page=5",
+      "npm": "/packages/pi-spark?page=5"
     },
     {
       "rank": 222,
@@ -2361,8 +2678,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Rahularya01/pi-cursor",
-      "npm": "https://www.npmjs.com/package/@rahularya01/pi-cursor"
+      "href": "/packages/@rahularya01/pi-cursor?page=5",
+      "repo": "/packages/@rahularya01/pi-cursor?page=5",
+      "npm": "/packages/@rahularya01/pi-cursor?page=5"
     },
     {
       "rank": 223,
@@ -2372,8 +2690,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/michaelmjhhhh/pi-atelier",
-      "npm": "https://www.npmjs.com/package/pi-atelier"
+      "href": "/packages/pi-atelier?page=5",
+      "repo": "/packages/pi-atelier?page=5",
+      "npm": "/packages/pi-atelier?page=5"
     },
     {
       "rank": 224,
@@ -2384,8 +2703,9 @@
         "extension",
         "theme"
       ],
-      "repo": "https://github.com/omaclaren/pi-studio",
-      "npm": "https://www.npmjs.com/package/pi-studio"
+      "href": "/packages/pi-studio?page=5",
+      "repo": "/packages/pi-studio?page=5",
+      "npm": "/packages/pi-studio?page=5"
     },
     {
       "rank": 225,
@@ -2396,8 +2716,9 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/zosmaai/pi-llm-wiki",
-      "npm": "https://www.npmjs.com/package/@zosmaai/pi-llm-wiki"
+      "href": "/packages/@zosmaai/pi-llm-wiki?page=5",
+      "repo": "/packages/@zosmaai/pi-llm-wiki?page=5",
+      "npm": "/packages/@zosmaai/pi-llm-wiki?page=5"
     },
     {
       "rank": 226,
@@ -2407,8 +2728,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/DarceyLloyd/pi-aftc-toolset",
-      "npm": "https://www.npmjs.com/package/pi-aftc-toolset"
+      "href": "/packages/pi-aftc-toolset?page=5",
+      "repo": "/packages/pi-aftc-toolset?page=5",
+      "npm": "/packages/pi-aftc-toolset?page=5"
     },
     {
       "rank": 227,
@@ -2418,8 +2740,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-task-scheduler"
+      "href": "/packages/@amaster.ai/pi-task-scheduler?page=5",
+      "repo": "/packages/@amaster.ai/pi-task-scheduler?page=5",
+      "npm": "/packages/@amaster.ai/pi-task-scheduler?page=5"
     },
     {
       "rank": 228,
@@ -2429,8 +2752,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/philipbjorge/pi-phoenix",
-      "npm": "https://www.npmjs.com/package/pi-phoenix"
+      "href": "/packages/pi-phoenix?page=5",
+      "repo": "/packages/pi-phoenix?page=5",
+      "npm": "/packages/pi-phoenix?page=5"
     },
     {
       "rank": 229,
@@ -2440,8 +2764,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ryan-brosas/ultra-fabric",
-      "npm": "https://www.npmjs.com/package/ultra-fabric"
+      "href": "/packages/ultra-fabric?page=5",
+      "repo": "/packages/ultra-fabric?page=5",
+      "npm": "/packages/ultra-fabric?page=5"
     },
     {
       "rank": 230,
@@ -2451,8 +2776,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-google-genai"
+      "href": "/packages/@narumitw/pi-google-genai?page=5",
+      "repo": "/packages/@narumitw/pi-google-genai?page=5",
+      "npm": "/packages/@narumitw/pi-google-genai?page=5"
     },
     {
       "rank": 231,
@@ -2462,17 +2788,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/misunders2d/pi-goal",
-      "npm": "https://www.npmjs.com/package/@misunders2d/pi-goal"
+      "href": "/packages/@misunders2d/pi-goal?page=5",
+      "repo": "/packages/@misunders2d/pi-goal?page=5",
+      "npm": "/packages/@misunders2d/pi-goal?page=5"
     },
     {
       "rank": 232,
       "name": "pi-agent-suite",
       "description": "Adds a configurable multi-agent layer to pi, with context management, Codex quota status, a custom footer, and more.",
       "downloads": 3561,
-      "types": [],
-      "repo": "https://github.com/n-r-w/pi-agent-suite",
-      "npm": "https://www.npmjs.com/package/pi-agent-suite"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-agent-suite?page=5",
+      "repo": "/packages/pi-agent-suite?page=5",
+      "npm": "/packages/pi-agent-suite?page=5"
     },
     {
       "rank": 233,
@@ -2482,8 +2812,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@zhushanwen/pi-subagent-workflow?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-subagent-workflow"
+      "npm": "/packages/@zhushanwen/pi-subagent-workflow?page=5"
     },
     {
       "rank": 234,
@@ -2494,8 +2825,9 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/TungLamC/pi-packages",
-      "npm": "https://www.npmjs.com/package/@tunglam/pi-lark-cli"
+      "href": "/packages/@tunglam/pi-lark-cli?page=5",
+      "repo": "/packages/@tunglam/pi-lark-cli?page=5",
+      "npm": "/packages/@tunglam/pi-lark-cli?page=5"
     },
     {
       "rank": 235,
@@ -2505,17 +2837,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/nicobailon/pi-interactive-shell",
-      "npm": "https://www.npmjs.com/package/pi-interactive-shell"
+      "href": "/packages/pi-interactive-shell?page=5",
+      "repo": "/packages/pi-interactive-shell?page=5",
+      "npm": "/packages/pi-interactive-shell?page=5"
     },
     {
       "rank": 236,
       "name": "pi-spine",
       "description": "Orchestration spine for long-running pi development",
       "downloads": 3527,
-      "types": [],
-      "repo": "https://github.com/beettlle/pi-spine",
-      "npm": "https://www.npmjs.com/package/pi-spine"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-spine?page=5",
+      "repo": "/packages/pi-spine?page=5",
+      "npm": "/packages/pi-spine?page=5"
     },
     {
       "rank": 237,
@@ -2525,8 +2861,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-skills"
+      "href": "/packages/@xynogen/pix-skills?page=5",
+      "repo": "/packages/@xynogen/pix-skills?page=5",
+      "npm": "/packages/@xynogen/pix-skills?page=5"
     },
     {
       "rank": 238,
@@ -2536,8 +2873,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/pi-dgoal?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-dgoal"
+      "npm": "/packages/pi-dgoal?page=5"
     },
     {
       "rank": 239,
@@ -2547,8 +2885,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-langfuse"
+      "href": "/packages/@narumitw/pi-langfuse?page=5",
+      "repo": "/packages/@narumitw/pi-langfuse?page=5",
+      "npm": "/packages/@narumitw/pi-langfuse?page=5"
     },
     {
       "rank": 240,
@@ -2558,8 +2897,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Rahularya01/pi-antigravity",
-      "npm": "https://www.npmjs.com/package/pi-antigravity"
+      "href": "/packages/pi-antigravity?page=5",
+      "repo": "/packages/pi-antigravity?page=5",
+      "npm": "/packages/pi-antigravity?page=5"
     },
     {
       "rank": 241,
@@ -2569,8 +2909,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/philipbrembeck/pi-advisor",
-      "npm": "https://www.npmjs.com/package/pi-advisor-flow"
+      "href": "/packages/pi-advisor-flow?page=5",
+      "repo": "/packages/pi-advisor-flow?page=5",
+      "npm": "/packages/pi-advisor-flow?page=5"
     },
     {
       "rank": 242,
@@ -2580,8 +2921,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-starship"
+      "href": "/packages/@narumitw/pi-starship?page=5",
+      "repo": "/packages/@narumitw/pi-starship?page=5",
+      "npm": "/packages/@narumitw/pi-starship?page=5"
     },
     {
       "rank": 243,
@@ -2591,8 +2933,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ax128/pi-llmgates",
-      "npm": "https://www.npmjs.com/package/@llmgates_api/pi-llmgates-provider"
+      "href": "/packages/@llmgates_api/pi-llmgates-provider?page=5",
+      "repo": "/packages/@llmgates_api/pi-llmgates-provider?page=5",
+      "npm": "/packages/@llmgates_api/pi-llmgates-provider?page=5"
     },
     {
       "rank": 244,
@@ -2602,8 +2945,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-settings"
+      "href": "/packages/@mrclrchtr/supi-settings?page=5",
+      "repo": "/packages/@mrclrchtr/supi-settings?page=5",
+      "npm": "/packages/@mrclrchtr/supi-settings?page=5"
     },
     {
       "rank": 245,
@@ -2613,26 +2957,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/alpertarhan/pi-smart-compact",
-      "npm": "https://www.npmjs.com/package/pi-smart-compact"
+      "href": "/packages/pi-smart-compact?page=5",
+      "repo": "/packages/pi-smart-compact?page=5",
+      "npm": "/packages/pi-smart-compact?page=5"
     },
     {
       "rank": 246,
       "name": "@realvendex/pi-token-router",
       "description": "TokenRouter.com unified API gateway as a native Pi provider for accessing 300+ LLM models via a single API key",
       "downloads": 3460,
-      "types": [],
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@realvendex/pi-token-router?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@realvendex/pi-token-router"
+      "npm": "/packages/@realvendex/pi-token-router?page=5"
     },
     {
       "rank": 247,
       "name": "@tmustier/pi-ralph-wiggum",
       "description": "Long-running agent loops for iterative development in Pi.",
       "downloads": 3457,
-      "types": [],
-      "repo": "https://github.com/tmustier/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@tmustier/pi-ralph-wiggum"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@tmustier/pi-ralph-wiggum?page=5",
+      "repo": "/packages/@tmustier/pi-ralph-wiggum?page=5",
+      "npm": "/packages/@tmustier/pi-ralph-wiggum?page=5"
     },
     {
       "rank": 248,
@@ -2642,8 +2993,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/@zhushanwen/pi-ask-user?page=5",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-ask-user"
+      "npm": "/packages/@zhushanwen/pi-ask-user?page=5"
     },
     {
       "rank": 249,
@@ -2653,8 +3005,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/cad0p/pi-napkin",
-      "npm": "https://www.npmjs.com/package/@cad0p/pi-napkin"
+      "href": "/packages/@cad0p/pi-napkin?page=5",
+      "repo": "/packages/@cad0p/pi-napkin?page=5",
+      "npm": "/packages/@cad0p/pi-napkin?page=5"
     },
     {
       "rank": 250,
@@ -2664,8 +3017,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/balaenis/pi-toolset",
-      "npm": "https://www.npmjs.com/package/@balaenis/pi-agents"
+      "href": "/packages/@balaenis/pi-agents?page=5",
+      "repo": "/packages/@balaenis/pi-agents?page=5",
+      "npm": "/packages/@balaenis/pi-agents?page=5"
     },
     {
       "rank": 251,
@@ -2676,8 +3030,9 @@
         "extension",
         "skill"
       ],
-      "repo": "https://github.com/juicesharp/rpiv-mono",
-      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-workflow"
+      "href": "/packages/@juicesharp/rpiv-workflow?page=6",
+      "repo": "/packages/@juicesharp/rpiv-workflow?page=6",
+      "npm": "/packages/@juicesharp/rpiv-workflow?page=6"
     },
     {
       "rank": 252,
@@ -2687,8 +3042,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-github-pr"
+      "href": "/packages/@narumitw/pi-github-pr?page=6",
+      "repo": "/packages/@narumitw/pi-github-pr?page=6",
+      "npm": "/packages/@narumitw/pi-github-pr?page=6"
     },
     {
       "rank": 253,
@@ -2698,8 +3054,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/KristjanPikhof/pi-yaml-hooks",
-      "npm": "https://www.npmjs.com/package/pi-yaml-hooks"
+      "href": "/packages/pi-yaml-hooks?page=6",
+      "repo": "/packages/pi-yaml-hooks?page=6",
+      "npm": "/packages/pi-yaml-hooks?page=6"
     },
     {
       "rank": 254,
@@ -2709,17 +3066,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-web-access"
+      "href": "/packages/@amaster.ai/pi-web-access?page=6",
+      "repo": "/packages/@amaster.ai/pi-web-access?page=6",
+      "npm": "/packages/@amaster.ai/pi-web-access?page=6"
     },
     {
       "rank": 255,
       "name": "@upstash/context7-pi",
       "description": "Official Context7 extension for pi.dev — adds resolve-library-id and query-docs tools to the pi coding agent",
       "downloads": 3356,
-      "types": [],
-      "repo": "https://github.com/upstash/context7",
-      "npm": "https://www.npmjs.com/package/@upstash/context7-pi"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@upstash/context7-pi?page=6",
+      "repo": "/packages/@upstash/context7-pi?page=6",
+      "npm": "/packages/@upstash/context7-pi?page=6"
     },
     {
       "rank": 256,
@@ -2729,17 +3090,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-browser-use"
+      "href": "/packages/@amaster.ai/pi-browser-use?page=6",
+      "repo": "/packages/@amaster.ai/pi-browser-use?page=6",
+      "npm": "/packages/@amaster.ai/pi-browser-use?page=6"
     },
     {
       "rank": 257,
       "name": "pi-courier",
       "description": "Run pi coding agent from Matrix. Slash commands, skills and prompts fully work from messengers via the RPC protocol.",
       "downloads": 3346,
-      "types": [],
-      "repo": "https://github.com/Hi-Barry/pi-courier",
-      "npm": "https://www.npmjs.com/package/pi-courier"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-courier?page=6",
+      "repo": "/packages/pi-courier?page=6",
+      "npm": "/packages/pi-courier?page=6"
     },
     {
       "rank": 258,
@@ -2749,8 +3114,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/MasuRii/pi-tool-display",
-      "npm": "https://www.npmjs.com/package/pi-tool-display"
+      "href": "/packages/pi-tool-display?page=6",
+      "repo": "/packages/pi-tool-display?page=6",
+      "npm": "/packages/pi-tool-display?page=6"
     },
     {
       "rank": 259,
@@ -2760,8 +3126,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/mrclrchtr/supi",
-      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-debug"
+      "href": "/packages/@mrclrchtr/supi-debug?page=6",
+      "repo": "/packages/@mrclrchtr/supi-debug?page=6",
+      "npm": "/packages/@mrclrchtr/supi-debug?page=6"
     },
     {
       "rank": 260,
@@ -2771,8 +3138,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/sebaxzero/pi-loop-police",
-      "npm": "https://www.npmjs.com/package/pi-loop-police"
+      "href": "/packages/pi-loop-police?page=6",
+      "repo": "/packages/pi-loop-police?page=6",
+      "npm": "/packages/pi-loop-police?page=6"
     },
     {
       "rank": 261,
@@ -2782,8 +3150,9 @@
       "types": [
         "extension"
       ],
+      "href": "/packages/pi-cockpit?page=6",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/pi-cockpit"
+      "npm": "/packages/pi-cockpit?page=6"
     },
     {
       "rank": 262,
@@ -2793,8 +3162,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/lowern1ght/pi-soly",
-      "npm": "https://www.npmjs.com/package/pi-soly"
+      "href": "/packages/pi-soly?page=6",
+      "repo": "/packages/pi-soly?page=6",
+      "npm": "/packages/pi-soly?page=6"
     },
     {
       "rank": 263,
@@ -2804,8 +3174,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-channels"
+      "href": "/packages/@amaster.ai/pi-channels?page=6",
+      "repo": "/packages/@amaster.ai/pi-channels?page=6",
+      "npm": "/packages/@amaster.ai/pi-channels?page=6"
     },
     {
       "rank": 264,
@@ -2815,17 +3186,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/QuangThai/pi-todo",
-      "npm": "https://www.npmjs.com/package/@nguyenquangthai/pi-todo"
+      "href": "/packages/@nguyenquangthai/pi-todo?page=6",
+      "repo": "/packages/@nguyenquangthai/pi-todo?page=6",
+      "npm": "/packages/@nguyenquangthai/pi-todo?page=6"
     },
     {
       "rank": 265,
       "name": "@brushes/course-proxy-ordering",
       "description": "代客下单(纯API版)——通过curl接口走完全流程：登录鉴权→选择客户→选购商品→加入购物车→购物车结算→确认订单→提交支付→验证订单。全程不依赖浏览器，零Playwright、零截图",
       "downloads": 3302,
-      "types": [],
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@brushes/course-proxy-ordering?page=6",
       "repo": null,
-      "npm": "https://www.npmjs.com/package/@brushes/course-proxy-ordering"
+      "npm": "/packages/@brushes/course-proxy-ordering?page=6"
     },
     {
       "rank": 266,
@@ -2835,17 +3210,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-telemetry"
+      "href": "/packages/@amaster.ai/pi-telemetry?page=6",
+      "repo": "/packages/@amaster.ai/pi-telemetry?page=6",
+      "npm": "/packages/@amaster.ai/pi-telemetry?page=6"
     },
     {
       "rank": 267,
       "name": "@danypops/pi-web-spider",
       "description": "Pi extension for web_fetch, web_search, and live browser sessions: 7 search providers (Brave, Brave LLM Context, Tavily, Exa, Serper, SerpApi, You.com) with automatic fallback, robots.txt-respecting crawl, GitHub/Wikipedia/llms.txt-aware fetching, and a d",
       "downloads": 3266,
-      "types": [],
-      "repo": "https://github.com/DanyPops/web-spider",
-      "npm": "https://www.npmjs.com/package/@danypops/pi-web-spider"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@danypops/pi-web-spider?page=6",
+      "repo": "/packages/@danypops/pi-web-spider?page=6",
+      "npm": "/packages/@danypops/pi-web-spider?page=6"
     },
     {
       "rank": 268,
@@ -2855,8 +3234,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/x4cc3/pi-xpi",
-      "npm": "https://www.npmjs.com/package/@xaccefy/pi-lookup"
+      "href": "/packages/@xaccefy/pi-lookup?page=6",
+      "repo": "/packages/@xaccefy/pi-lookup?page=6",
+      "npm": "/packages/@xaccefy/pi-lookup?page=6"
     },
     {
       "rank": 269,
@@ -2866,8 +3246,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/ismailsaleekh/pi-autopilot",
-      "npm": "https://www.npmjs.com/package/pi-autopilot"
+      "href": "/packages/pi-autopilot?page=6",
+      "repo": "/packages/pi-autopilot?page=6",
+      "npm": "/packages/pi-autopilot?page=6"
     },
     {
       "rank": 270,
@@ -2878,8 +3259,9 @@
         "extension",
         "theme"
       ],
-      "repo": "https://github.com/eriiic7z/pi-cc-header",
-      "npm": "https://www.npmjs.com/package/pi-cc-header"
+      "href": "/packages/pi-cc-header?page=6",
+      "repo": "/packages/pi-cc-header?page=6",
+      "npm": "/packages/pi-cc-header?page=6"
     },
     {
       "rank": 271,
@@ -2889,8 +3271,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/RimuruW/pi-hashline-edit",
-      "npm": "https://www.npmjs.com/package/pi-hashline-edit"
+      "href": "/packages/pi-hashline-edit?page=6",
+      "repo": "/packages/pi-hashline-edit?page=6",
+      "npm": "/packages/pi-hashline-edit?page=6"
     },
     {
       "rank": 272,
@@ -2900,8 +3283,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/bacnh85/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@bacnh85/pi-subagent"
+      "href": "/packages/@bacnh85/pi-subagent?page=6",
+      "repo": "/packages/@bacnh85/pi-subagent?page=6",
+      "npm": "/packages/@bacnh85/pi-subagent?page=6"
     },
     {
       "rank": 273,
@@ -2911,17 +3295,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/xynogen/pix-mono",
-      "npm": "https://www.npmjs.com/package/@xynogen/pix-subagent"
+      "href": "/packages/@xynogen/pix-subagent?page=6",
+      "repo": "/packages/@xynogen/pix-subagent?page=6",
+      "npm": "/packages/@xynogen/pix-subagent?page=6"
     },
     {
       "rank": 274,
       "name": "@chainingintention/pi-web-cn",
       "description": "Remote web UI and browser control plane for persistent Pi Coding Agent sessions.",
       "downloads": 3159,
-      "types": [],
-      "repo": "https://github.com/nayuto-wakusei/pi-web-ChineseTranslation",
-      "npm": "https://www.npmjs.com/package/@chainingintention/pi-web-cn"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@chainingintention/pi-web-cn?page=6",
+      "repo": "/packages/@chainingintention/pi-web-cn?page=6",
+      "npm": "/packages/@chainingintention/pi-web-cn?page=6"
     },
     {
       "rank": 275,
@@ -2931,17 +3319,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-attachments"
+      "href": "/packages/@amaster.ai/pi-attachments?page=6",
+      "repo": "/packages/@amaster.ai/pi-attachments?page=6",
+      "npm": "/packages/@amaster.ai/pi-attachments?page=6"
     },
     {
       "rank": 276,
       "name": "@cgh567/agent",
       "description": "Helios self-improvement lab",
       "downloads": 3153,
-      "types": [],
-      "repo": "https://github.com/helios-agi/helios-agent",
-      "npm": "https://www.npmjs.com/package/@cgh567/agent"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@cgh567/agent?page=6",
+      "repo": "/packages/@cgh567/agent?page=6",
+      "npm": "/packages/@cgh567/agent?page=6"
     },
     {
       "rank": 277,
@@ -2951,26 +3343,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/gooyoung/pi-langfuse",
-      "npm": "https://www.npmjs.com/package/pi-langfuse"
+      "href": "/packages/pi-langfuse?page=6",
+      "repo": "/packages/pi-langfuse?page=6",
+      "npm": "/packages/pi-langfuse?page=6"
     },
     {
       "rank": 278,
       "name": "piwi-tui",
       "description": "Pi + Wiki: a playful, safe, full-featured TUI extension pack for pi.dev.",
       "downloads": 3119,
-      "types": [],
-      "repo": "https://github.com/JoulesDotDev/piwi-tui",
-      "npm": "https://www.npmjs.com/package/piwi-tui"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/piwi-tui?page=6",
+      "repo": "/packages/piwi-tui?page=6",
+      "npm": "/packages/piwi-tui?page=6"
     },
     {
       "rank": 279,
       "name": "@maestria/pi",
       "description": "Maestria extension for the Pi coding agent",
       "downloads": 3114,
-      "types": [],
-      "repo": "https://github.com/agustinusnathaniel/maestria",
-      "npm": "https://www.npmjs.com/package/@maestria/pi"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@maestria/pi?page=6",
+      "repo": "/packages/@maestria/pi?page=6",
+      "npm": "/packages/@maestria/pi?page=6"
     },
     {
       "rank": 280,
@@ -2980,17 +3379,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/kolt-mcb/pi-loop",
-      "npm": "https://www.npmjs.com/package/@koltmcbride/pi-loop"
+      "href": "/packages/@koltmcbride/pi-loop?page=6",
+      "repo": "/packages/@koltmcbride/pi-loop?page=6",
+      "npm": "/packages/@koltmcbride/pi-loop?page=6"
     },
     {
       "rank": 281,
       "name": "@ch1nyzzz/pi-evo",
       "description": "Self-evolving coding agent workflows for pi",
       "downloads": 3104,
-      "types": [],
-      "repo": "https://github.com/Ch1nyzzz/pi",
-      "npm": "https://www.npmjs.com/package/@ch1nyzzz/pi-evo"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@ch1nyzzz/pi-evo?page=6",
+      "repo": "/packages/@ch1nyzzz/pi-evo?page=6",
+      "npm": "/packages/@ch1nyzzz/pi-evo?page=6"
     },
     {
       "rank": 282,
@@ -3000,8 +3403,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/sfiorini/pi-stef",
-      "npm": "https://www.npmjs.com/package/@pi-stef/catalog"
+      "href": "/packages/@pi-stef/catalog?page=6",
+      "repo": "/packages/@pi-stef/catalog?page=6",
+      "npm": "/packages/@pi-stef/catalog?page=6"
     },
     {
       "rank": 283,
@@ -3011,8 +3415,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/kky42/pi-flow",
-      "npm": "https://www.npmjs.com/package/@kky42/pi-flow"
+      "href": "/packages/@kky42/pi-flow?page=6",
+      "repo": "/packages/@kky42/pi-flow?page=6",
+      "npm": "/packages/@kky42/pi-flow?page=6"
     },
     {
       "rank": 284,
@@ -3022,8 +3427,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory"
+      "href": "/packages/@amaster.ai/pi-memory?page=6",
+      "repo": "/packages/@amaster.ai/pi-memory?page=6",
+      "npm": "/packages/@amaster.ai/pi-memory?page=6"
     },
     {
       "rank": 285,
@@ -3033,8 +3439,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-worktree"
+      "href": "/packages/@narumitw/pi-worktree?page=6",
+      "repo": "/packages/@narumitw/pi-worktree?page=6",
+      "npm": "/packages/@narumitw/pi-worktree?page=6"
     },
     {
       "rank": 286,
@@ -3044,8 +3451,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-security"
+      "href": "/packages/@amaster.ai/pi-security?page=6",
+      "repo": "/packages/@amaster.ai/pi-security?page=6",
+      "npm": "/packages/@amaster.ai/pi-security?page=6"
     },
     {
       "rank": 287,
@@ -3055,8 +3463,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/narumiruna/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@narumitw/pi-accounts"
+      "href": "/packages/@narumitw/pi-accounts?page=6",
+      "repo": "/packages/@narumitw/pi-accounts?page=6",
+      "npm": "/packages/@narumitw/pi-accounts?page=6"
     },
     {
       "rank": 288,
@@ -3066,8 +3475,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory-mem0"
+      "href": "/packages/@amaster.ai/pi-memory-mem0?page=6",
+      "repo": "/packages/@amaster.ai/pi-memory-mem0?page=6",
+      "npm": "/packages/@amaster.ai/pi-memory-mem0?page=6"
     },
     {
       "rank": 289,
@@ -3077,8 +3487,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Leechael/pi-provider-kimi-code",
-      "npm": "https://www.npmjs.com/package/pi-provider-kimi-code"
+      "href": "/packages/pi-provider-kimi-code?page=6",
+      "repo": "/packages/pi-provider-kimi-code?page=6",
+      "npm": "/packages/pi-provider-kimi-code?page=6"
     },
     {
       "rank": 290,
@@ -3088,17 +3499,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/cgarrot/zob-harness",
-      "npm": "https://www.npmjs.com/package/zob-harness"
+      "href": "/packages/zob-harness?page=6",
+      "repo": "/packages/zob-harness?page=6",
+      "npm": "/packages/zob-harness?page=6"
     },
     {
       "rank": 291,
       "name": "@shvax/pi-statusline",
       "description": "Configurable single-line status footer for pi",
       "downloads": 3054,
-      "types": [],
-      "repo": "https://github.com/martin-tahli/pi-statusline",
-      "npm": "https://www.npmjs.com/package/@shvax/pi-statusline"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@shvax/pi-statusline?page=6",
+      "repo": "/packages/@shvax/pi-statusline?page=6",
+      "npm": "/packages/@shvax/pi-statusline?page=6"
     },
     {
       "rank": 292,
@@ -3108,8 +3523,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/Smotherer007/pi-email",
-      "npm": "https://www.npmjs.com/package/@patimweb/pi-email"
+      "href": "/packages/@patimweb/pi-email?page=6",
+      "repo": "/packages/@patimweb/pi-email?page=6",
+      "npm": "/packages/@patimweb/pi-email?page=6"
     },
     {
       "rank": 293,
@@ -3119,17 +3535,21 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-teamwork"
+      "href": "/packages/@amaster.ai/pi-teamwork?page=6",
+      "repo": "/packages/@amaster.ai/pi-teamwork?page=6",
+      "npm": "/packages/@amaster.ai/pi-teamwork?page=6"
     },
     {
       "rank": 294,
       "name": "diffing",
       "description": "local-first CLI for reviewing, navigating, and discussing git diffs with AI",
       "downloads": 3040,
-      "types": [],
-      "repo": "https://github.com/ahmedragab20/diffing",
-      "npm": "https://www.npmjs.com/package/diffing"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/diffing?page=6",
+      "repo": "/packages/diffing?page=6",
+      "npm": "/packages/diffing?page=6"
     },
     {
       "rank": 295,
@@ -3139,8 +3559,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TGYD-helige/pi",
-      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-lark"
+      "href": "/packages/@amaster.ai/pi-lark?page=6",
+      "repo": "/packages/@amaster.ai/pi-lark?page=6",
+      "npm": "/packages/@amaster.ai/pi-lark?page=6"
     },
     {
       "rank": 296,
@@ -3150,26 +3571,33 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/maplezzk/pi-extensions",
-      "npm": "https://www.npmjs.com/package/pi-distill"
+      "href": "/packages/pi-distill?page=6",
+      "repo": "/packages/pi-distill?page=6",
+      "npm": "/packages/pi-distill?page=6"
     },
     {
       "rank": 297,
       "name": "@nquandt/pi-azure-foundry",
       "description": "Pi extension for Azure AI Foundry — discovers deployments and registers models",
       "downloads": 3025,
-      "types": [],
-      "repo": "https://github.com/nquandt/pi-azure-foundry",
-      "npm": "https://www.npmjs.com/package/@nquandt/pi-azure-foundry"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/@nquandt/pi-azure-foundry?page=6",
+      "repo": "/packages/@nquandt/pi-azure-foundry?page=6",
+      "npm": "/packages/@nquandt/pi-azure-foundry?page=6"
     },
     {
       "rank": 298,
       "name": "pi-llm-bridge",
       "description": "bridge any raw llm stream to be used with pi",
       "downloads": 3022,
-      "types": [],
-      "repo": "https://github.com/theabbie/pi-llm-bridge",
-      "npm": "https://www.npmjs.com/package/pi-llm-bridge"
+      "types": [
+        "package"
+      ],
+      "href": "/packages/pi-llm-bridge?page=6",
+      "repo": "/packages/pi-llm-bridge?page=6",
+      "npm": "/packages/pi-llm-bridge?page=6"
     },
     {
       "rank": 299,
@@ -3179,8 +3607,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/bacnh85/pi-extensions",
-      "npm": "https://www.npmjs.com/package/@bacnh85/pi-obsidian"
+      "href": "/packages/@bacnh85/pi-obsidian?page=6",
+      "repo": "/packages/@bacnh85/pi-obsidian?page=6",
+      "npm": "/packages/@bacnh85/pi-obsidian?page=6"
     },
     {
       "rank": 300,
@@ -3190,8 +3619,9 @@
       "types": [
         "extension"
       ],
-      "repo": "https://github.com/TianZuo555/pi-tian-extensions",
-      "npm": "https://www.npmjs.com/package/pi-tian-usage"
+      "href": "/packages/pi-tian-usage?page=6",
+      "repo": "/packages/pi-tian-usage?page=6",
+      "npm": "/packages/pi-tian-usage?page=6"
     }
   ]
 }

@@ -10,10 +10,32 @@ permissions:
   pull-requests: write
 
 jobs:
-  placeholder:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Explain why automatic update is not enabled yet
-        run: |
-          echo "The initial snapshot is published."
-          echo "Enable the parser/update job after it has been verified against the rendered catalog."
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch the official Pi catalog
+        run: python scripts/update_catalog.py
+
+      - name: Validate the snapshot
+        run: python scripts/validate_catalog.py
+
+      - name: Create an update pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/update-pi-top300
+          delete-branch: true
+          title: "chore: update Pi top 300 snapshot"
+          commit-message: "chore: update Pi top 300 snapshot"
+          body: |
+            Automated snapshot refresh from the official Pi package catalog.
+
+            Please review ranking changes, package descriptions, and editorial classifications before merging.
+          labels: automated-update
