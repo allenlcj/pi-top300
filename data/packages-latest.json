@@ -13,8 +13,8 @@
         "extension"
       ],
       "href": "/packages/@vigolium/piolium",
-      "repo": "/packages/@vigolium/piolium",
-      "npm": "/packages/@vigolium/piolium"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 2,
@@ -25,8 +25,8 @@
         "extension"
       ],
       "href": "/packages/pi-mcp-adapter",
-      "repo": "/packages/pi-mcp-adapter",
-      "npm": "/packages/pi-mcp-adapter"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 3,
@@ -37,8 +37,8 @@
         "extension"
       ],
       "href": "/packages/pi-web-access",
-      "repo": "/packages/pi-web-access",
-      "npm": "/packages/pi-web-access"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 4,
@@ -49,8 +49,8 @@
         "package"
       ],
       "href": "/packages/pi-subagents",
-      "repo": "/packages/pi-subagents",
-      "npm": "/packages/pi-subagents"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 5,
@@ -61,8 +61,8 @@
         "package"
       ],
       "href": "/packages/context-mode",
-      "repo": "/packages/context-mode",
-      "npm": "/packages/context-mode"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 6,
@@ -73,8 +73,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-ask-user-question",
-      "repo": "/packages/@juicesharp/rpiv-ask-user-question",
-      "npm": "/packages/@juicesharp/rpiv-ask-user-question"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 7,
@@ -85,8 +85,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-todo",
-      "repo": "/packages/@juicesharp/rpiv-todo",
-      "npm": "/packages/@juicesharp/rpiv-todo"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 8,
@@ -97,8 +97,8 @@
         "extension"
       ],
       "href": "/packages/pi-lens",
-      "repo": "/packages/pi-lens",
-      "npm": "/packages/pi-lens"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 9,
@@ -109,8 +109,8 @@
         "extension"
       ],
       "href": "/packages/@tintinweb/pi-subagents",
-      "repo": "/packages/@tintinweb/pi-subagents",
-      "npm": "/packages/@tintinweb/pi-subagents"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 10,
@@ -121,8 +121,8 @@
         "skill"
       ],
       "href": "/packages/@dietrichgebert/ponytail",
-      "repo": "/packages/@dietrichgebert/ponytail",
-      "npm": "/packages/@dietrichgebert/ponytail"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 11,
@@ -133,8 +133,8 @@
         "package"
       ],
       "href": "/packages/@plannotator/pi-extension",
-      "repo": "/packages/@plannotator/pi-extension",
-      "npm": "/packages/@plannotator/pi-extension"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 12,
@@ -145,8 +145,8 @@
         "package"
       ],
       "href": "/packages/@7n/rules",
-      "repo": "/packages/@7n/rules",
-      "npm": "/packages/@7n/rules"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 13,
@@ -157,8 +157,8 @@
         "package"
       ],
       "href": "/packages/@tangle-network/tcloud-agent",
-      "repo": "/packages/@tangle-network/tcloud-agent",
-      "npm": "/packages/@tangle-network/tcloud-agent"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 14,
@@ -169,8 +169,8 @@
         "extension"
       ],
       "href": "/packages/pi-simplify",
-      "repo": "/packages/pi-simplify",
-      "npm": "/packages/pi-simplify"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 15,
@@ -181,8 +181,8 @@
         "extension"
       ],
       "href": "/packages/@ff-labs/pi-fff",
-      "repo": "/packages/@ff-labs/pi-fff",
-      "npm": "/packages/@ff-labs/pi-fff"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 16,
@@ -193,8 +193,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-goal",
-      "repo": "/packages/@narumitw/pi-goal",
-      "npm": "/packages/@narumitw/pi-goal"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 17,
@@ -205,8 +205,8 @@
         "package"
       ],
       "href": "/packages/@quintinshaw/pi-dynamic-workflows",
-      "repo": "/packages/@quintinshaw/pi-dynamic-workflows",
-      "npm": "/packages/@quintinshaw/pi-dynamic-workflows"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 18,
@@ -217,8 +217,8 @@
         "package"
       ],
       "href": "/packages/@remnic/plugin-pi",
-      "repo": "/packages/@remnic/plugin-pi",
-      "npm": "/packages/@remnic/plugin-pi"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 19,
@@ -229,8 +229,8 @@
         "extension"
       ],
       "href": "/packages/pi-goal-list-loop-audit",
-      "repo": "/packages/pi-goal-list-loop-audit",
-      "npm": "/packages/pi-goal-list-loop-audit"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 20,
@@ -241,8 +241,8 @@
         "extension"
       ],
       "href": "/packages/pi-fabric",
-      "repo": "/packages/pi-fabric",
-      "npm": "/packages/pi-fabric"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 21,
@@ -253,8 +253,8 @@
         "extension"
       ],
       "href": "/packages/@gotgenes/pi-permission-system",
-      "repo": "/packages/@gotgenes/pi-permission-system",
-      "npm": "/packages/@gotgenes/pi-permission-system"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 22,
@@ -265,8 +265,8 @@
         "extension"
       ],
       "href": "/packages/pi-background-tasks",
-      "repo": "/packages/pi-background-tasks",
-      "npm": "/packages/pi-background-tasks"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 23,
@@ -277,8 +277,8 @@
         "package"
       ],
       "href": "/packages/@raindrop-ai/pi-agent",
-      "repo": "/packages/@raindrop-ai/pi-agent",
-      "npm": "/packages/@raindrop-ai/pi-agent"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 24,
@@ -290,8 +290,8 @@
         "skill"
       ],
       "href": "/packages/pi-hermes-memory",
-      "repo": "/packages/pi-hermes-memory",
-      "npm": "/packages/pi-hermes-memory"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 25,
@@ -302,8 +302,8 @@
         "extension"
       ],
       "href": "/packages/@mjasnikovs/pi-task",
-      "repo": "/packages/@mjasnikovs/pi-task",
-      "npm": "/packages/@mjasnikovs/pi-task"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 26,
@@ -315,7 +315,7 @@
       ],
       "href": "/packages/pi-intercom",
       "repo": null,
-      "npm": "/packages/pi-intercom"
+      "npm": null
     },
     {
       "rank": 27,
@@ -326,8 +326,8 @@
         "package"
       ],
       "href": "/packages/pi-memory",
-      "repo": "/packages/pi-memory",
-      "npm": "/packages/pi-memory"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 28,
@@ -338,8 +338,8 @@
         "package"
       ],
       "href": "/packages/@braintrust/pi-extension",
-      "repo": "/packages/@braintrust/pi-extension",
-      "npm": "/packages/@braintrust/pi-extension"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 29,
@@ -350,8 +350,8 @@
         "package"
       ],
       "href": "/packages/@nitra/cursor",
-      "repo": "/packages/@nitra/cursor",
-      "npm": "/packages/@nitra/cursor"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 30,
@@ -362,8 +362,8 @@
         "extension"
       ],
       "href": "/packages/pi-powerline-footer",
-      "repo": "/packages/pi-powerline-footer",
-      "npm": "/packages/pi-powerline-footer"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 31,
@@ -374,8 +374,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-voice",
-      "repo": "/packages/@juicesharp/rpiv-voice",
-      "npm": "/packages/@juicesharp/rpiv-voice"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 32,
@@ -386,8 +386,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-plan-mode",
-      "repo": "/packages/@narumitw/pi-plan-mode",
-      "npm": "/packages/@narumitw/pi-plan-mode"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 33,
@@ -398,8 +398,8 @@
         "extension"
       ],
       "href": "/packages/@howaboua/pi-codex-conversion",
-      "repo": "/packages/@howaboua/pi-codex-conversion",
-      "npm": "/packages/@howaboua/pi-codex-conversion"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 34,
@@ -410,8 +410,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-lsp",
-      "repo": "/packages/@narumitw/pi-lsp",
-      "npm": "/packages/@narumitw/pi-lsp"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 35,
@@ -422,8 +422,8 @@
         "extension"
       ],
       "href": "/packages/pi-readseek",
-      "repo": "/packages/pi-readseek",
-      "npm": "/packages/pi-readseek"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 36,
@@ -434,8 +434,8 @@
         "extension"
       ],
       "href": "/packages/pi-hashline-edit-pro",
-      "repo": "/packages/pi-hashline-edit-pro",
-      "npm": "/packages/pi-hashline-edit-pro"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 37,
@@ -446,8 +446,8 @@
         "skill"
       ],
       "href": "/packages/bigpowers",
-      "repo": "/packages/bigpowers",
-      "npm": "/packages/bigpowers"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 38,
@@ -458,8 +458,8 @@
         "extension"
       ],
       "href": "/packages/@llblab/pi-telegram",
-      "repo": "/packages/@llblab/pi-telegram",
-      "npm": "/packages/@llblab/pi-telegram"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 39,
@@ -470,8 +470,8 @@
         "package"
       ],
       "href": "/packages/gentle-pi",
-      "repo": "/packages/gentle-pi",
-      "npm": "/packages/gentle-pi"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 40,
@@ -482,8 +482,8 @@
         "package"
       ],
       "href": "/packages/@hypabolic/pi-hypa",
-      "repo": "/packages/@hypabolic/pi-hypa",
-      "npm": "/packages/@hypabolic/pi-hypa"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 41,
@@ -494,8 +494,8 @@
         "extension"
       ],
       "href": "/packages/pi-agent-browser-native",
-      "repo": "/packages/pi-agent-browser-native",
-      "npm": "/packages/pi-agent-browser-native"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 42,
@@ -507,8 +507,8 @@
         "prompt"
       ],
       "href": "/packages/pi-prompt-template-model",
-      "repo": "/packages/pi-prompt-template-model",
-      "npm": "/packages/pi-prompt-template-model"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 43,
@@ -519,8 +519,8 @@
         "extension"
       ],
       "href": "/packages/pi-landstrip",
-      "repo": "/packages/pi-landstrip",
-      "npm": "/packages/pi-landstrip"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 44,
@@ -531,8 +531,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-dev",
-      "repo": "/packages/@reddb-io/red-skills-dev",
-      "npm": "/packages/@reddb-io/red-skills-dev"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 45,
@@ -543,8 +543,8 @@
         "extension"
       ],
       "href": "/packages/pi-rtk-optimizer",
-      "repo": "/packages/pi-rtk-optimizer",
-      "npm": "/packages/pi-rtk-optimizer"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 46,
@@ -555,8 +555,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-memory",
-      "repo": "/packages/@reddb-io/red-skills-memory",
-      "npm": "/packages/@reddb-io/red-skills-memory"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 47,
@@ -567,8 +567,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-internal",
-      "repo": "/packages/@reddb-io/red-skills-internal",
-      "npm": "/packages/@reddb-io/red-skills-internal"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 48,
@@ -579,8 +579,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-brain",
-      "repo": "/packages/@reddb-io/red-skills-brain",
-      "npm": "/packages/@reddb-io/red-skills-brain"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 49,
@@ -591,8 +591,8 @@
         "package"
       ],
       "href": "/packages/opencode-codebase-index",
-      "repo": "/packages/opencode-codebase-index",
-      "npm": "/packages/opencode-codebase-index"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 50,
@@ -603,8 +603,8 @@
         "extension"
       ],
       "href": "/packages/pi-cc-extensions",
-      "repo": "/packages/pi-cc-extensions",
-      "npm": "/packages/pi-cc-extensions"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 51,
@@ -615,8 +615,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-statusline?page=2",
-      "repo": "/packages/@narumitw/pi-statusline?page=2",
-      "npm": "/packages/@narumitw/pi-statusline?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 52,
@@ -627,8 +627,8 @@
         "extension"
       ],
       "href": "/packages/pi-goosedump?page=2",
-      "repo": "/packages/pi-goosedump?page=2",
-      "npm": "/packages/pi-goosedump?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 53,
@@ -639,8 +639,8 @@
         "extension"
       ],
       "href": "/packages/pi-deepseek-search?page=2",
-      "repo": "/packages/pi-deepseek-search?page=2",
-      "npm": "/packages/pi-deepseek-search?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 54,
@@ -651,8 +651,8 @@
         "prompt"
       ],
       "href": "/packages/glimpseui?page=2",
-      "repo": "/packages/glimpseui?page=2",
-      "npm": "/packages/glimpseui?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 55,
@@ -663,8 +663,8 @@
         "package"
       ],
       "href": "/packages/pi-markdown-preview?page=2",
-      "repo": "/packages/pi-markdown-preview?page=2",
-      "npm": "/packages/pi-markdown-preview?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 56,
@@ -676,7 +676,7 @@
       ],
       "href": "/packages/@agimon-ai/log-sink-mcp?page=2",
       "repo": null,
-      "npm": "/packages/@agimon-ai/log-sink-mcp?page=2"
+      "npm": null
     },
     {
       "rank": 57,
@@ -687,8 +687,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-btw?page=2",
-      "repo": "/packages/@narumitw/pi-btw?page=2",
-      "npm": "/packages/@narumitw/pi-btw?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 58,
@@ -699,8 +699,8 @@
         "package"
       ],
       "href": "/packages/pi-lmstudio?page=2",
-      "repo": "/packages/pi-lmstudio?page=2",
-      "npm": "/packages/pi-lmstudio?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 59,
@@ -711,8 +711,8 @@
         "extension"
       ],
       "href": "/packages/pi-ask-user?page=2",
-      "repo": "/packages/pi-ask-user?page=2",
-      "npm": "/packages/pi-ask-user?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 60,
@@ -723,8 +723,8 @@
         "package"
       ],
       "href": "/packages/projectops?page=2",
-      "repo": "/packages/projectops?page=2",
-      "npm": "/packages/projectops?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 61,
@@ -735,8 +735,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-web-tools?page=2",
-      "repo": "/packages/@juicesharp/rpiv-web-tools?page=2",
-      "npm": "/packages/@juicesharp/rpiv-web-tools?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 62,
@@ -747,8 +747,8 @@
         "extension"
       ],
       "href": "/packages/pi-cursor-sdk?page=2",
-      "repo": "/packages/pi-cursor-sdk?page=2",
-      "npm": "/packages/pi-cursor-sdk?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 63,
@@ -759,8 +759,8 @@
         "extension"
       ],
       "href": "/packages/pi-provider-litellm?page=2",
-      "repo": "/packages/pi-provider-litellm?page=2",
-      "npm": "/packages/pi-provider-litellm?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 64,
@@ -772,7 +772,7 @@
       ],
       "href": "/packages/@devflow-tools/claude-code-plugin?page=2",
       "repo": null,
-      "npm": "/packages/@devflow-tools/claude-code-plugin?page=2"
+      "npm": null
     },
     {
       "rank": 65,
@@ -784,8 +784,8 @@
         "theme"
       ],
       "href": "/packages/pi-zentui?page=2",
-      "repo": "/packages/pi-zentui?page=2",
-      "npm": "/packages/pi-zentui?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 66,
@@ -797,7 +797,7 @@
       ],
       "href": "/packages/@ollama/pi-web-search?page=2",
       "repo": null,
-      "npm": "/packages/@ollama/pi-web-search?page=2"
+      "npm": null
     },
     {
       "rank": 67,
@@ -808,8 +808,8 @@
         "package"
       ],
       "href": "/packages/open-zk-kb?page=2",
-      "repo": "/packages/open-zk-kb?page=2",
-      "npm": "/packages/open-zk-kb?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 68,
@@ -820,8 +820,8 @@
         "package"
       ],
       "href": "/packages/pi-crew?page=2",
-      "repo": "/packages/pi-crew?page=2",
-      "npm": "/packages/pi-crew?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 69,
@@ -832,8 +832,8 @@
         "skill"
       ],
       "href": "/packages/superpowers-zh?page=2",
-      "repo": "/packages/superpowers-zh?page=2",
-      "npm": "/packages/superpowers-zh?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 70,
@@ -844,8 +844,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-packed?page=2",
-      "repo": "/packages/@danypops/pi-packed?page=2",
-      "npm": "/packages/@danypops/pi-packed?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 71,
@@ -856,8 +856,8 @@
         "extension"
       ],
       "href": "/packages/pi-interview?page=2",
-      "repo": "/packages/pi-interview?page=2",
-      "npm": "/packages/pi-interview?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 72,
@@ -868,8 +868,8 @@
         "extension"
       ],
       "href": "/packages/@alexanderfortin/pi-deepseek-usage?page=2",
-      "repo": "/packages/@alexanderfortin/pi-deepseek-usage?page=2",
-      "npm": "/packages/@alexanderfortin/pi-deepseek-usage?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 73,
@@ -880,8 +880,8 @@
         "extension"
       ],
       "href": "/packages/pi-harness-runtime?page=2",
-      "repo": "/packages/pi-harness-runtime?page=2",
-      "npm": "/packages/pi-harness-runtime?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 74,
@@ -892,8 +892,8 @@
         "extension"
       ],
       "href": "/packages/pi-btw?page=2",
-      "repo": "/packages/pi-btw?page=2",
-      "npm": "/packages/pi-btw?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 75,
@@ -904,8 +904,8 @@
         "package"
       ],
       "href": "/packages/@bdsqqq/pi?page=2",
-      "repo": "/packages/@bdsqqq/pi?page=2",
-      "npm": "/packages/@bdsqqq/pi?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 76,
@@ -916,8 +916,8 @@
         "extension"
       ],
       "href": "/packages/pi-web-search?page=2",
-      "repo": "/packages/pi-web-search?page=2",
-      "npm": "/packages/pi-web-search?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 77,
@@ -928,8 +928,8 @@
         "extension"
       ],
       "href": "/packages/pi-mcp-extension?page=2",
-      "repo": "/packages/pi-mcp-extension?page=2",
-      "npm": "/packages/pi-mcp-extension?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 78,
@@ -940,8 +940,8 @@
         "extension"
       ],
       "href": "/packages/@gotgenes/pi-subagents?page=2",
-      "repo": "/packages/@gotgenes/pi-subagents?page=2",
-      "npm": "/packages/@gotgenes/pi-subagents?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 79,
@@ -952,8 +952,8 @@
         "package"
       ],
       "href": "/packages/pi-web-ui?page=2",
-      "repo": "/packages/pi-web-ui?page=2",
-      "npm": "/packages/pi-web-ui?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 80,
@@ -964,8 +964,8 @@
         "package"
       ],
       "href": "/packages/latchkey?page=2",
-      "repo": "/packages/latchkey?page=2",
-      "npm": "/packages/latchkey?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 81,
@@ -976,8 +976,8 @@
         "package"
       ],
       "href": "/packages/@runfusion/fusion?page=2",
-      "repo": "/packages/@runfusion/fusion?page=2",
-      "npm": "/packages/@runfusion/fusion?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 82,
@@ -988,8 +988,8 @@
         "package"
       ],
       "href": "/packages/betterwright?page=2",
-      "repo": "/packages/betterwright?page=2",
-      "npm": "/packages/betterwright?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 83,
@@ -1000,8 +1000,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-image-gen?page=2",
-      "repo": "/packages/@amaster.ai/pi-image-gen?page=2",
-      "npm": "/packages/@amaster.ai/pi-image-gen?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 84,
@@ -1012,8 +1012,8 @@
         "extension"
       ],
       "href": "/packages/pi-llama-cpp?page=2",
-      "repo": "/packages/pi-llama-cpp?page=2",
-      "npm": "/packages/pi-llama-cpp?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 85,
@@ -1024,8 +1024,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-advisor?page=2",
-      "repo": "/packages/@juicesharp/rpiv-advisor?page=2",
-      "npm": "/packages/@juicesharp/rpiv-advisor?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 86,
@@ -1036,8 +1036,8 @@
         "package"
       ],
       "href": "/packages/pi-cache-optimizer?page=2",
-      "repo": "/packages/pi-cache-optimizer?page=2",
-      "npm": "/packages/pi-cache-optimizer?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 87,
@@ -1048,8 +1048,8 @@
         "package"
       ],
       "href": "/packages/pi-lean-ctx?page=2",
-      "repo": "/packages/pi-lean-ctx?page=2",
-      "npm": "/packages/pi-lean-ctx?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 88,
@@ -1062,8 +1062,8 @@
         "theme"
       ],
       "href": "/packages/mitsupi?page=2",
-      "repo": "/packages/mitsupi?page=2",
-      "npm": "/packages/mitsupi?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 89,
@@ -1074,8 +1074,8 @@
         "package"
       ],
       "href": "/packages/runline?page=2",
-      "repo": "/packages/runline?page=2",
-      "npm": "/packages/runline?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 90,
@@ -1086,8 +1086,8 @@
         "package"
       ],
       "href": "/packages/cc-safety-net?page=2",
-      "repo": "/packages/cc-safety-net?page=2",
-      "npm": "/packages/cc-safety-net?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 91,
@@ -1098,8 +1098,8 @@
         "extension"
       ],
       "href": "/packages/pi-codex-goal?page=2",
-      "repo": "/packages/pi-codex-goal?page=2",
-      "npm": "/packages/pi-codex-goal?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 92,
@@ -1110,8 +1110,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-subagents?page=2",
-      "repo": "/packages/@narumitw/pi-subagents?page=2",
-      "npm": "/packages/@narumitw/pi-subagents?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 93,
@@ -1122,8 +1122,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-papyrus?page=2",
-      "repo": "/packages/@danypops/pi-papyrus?page=2",
-      "npm": "/packages/@danypops/pi-papyrus?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 94,
@@ -1134,8 +1134,8 @@
         "package"
       ],
       "href": "/packages/@tmustier/pi-usage-extension?page=2",
-      "repo": "/packages/@tmustier/pi-usage-extension?page=2",
-      "npm": "/packages/@tmustier/pi-usage-extension?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 95,
@@ -1146,8 +1146,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-pretty?page=2",
-      "repo": "/packages/@xynogen/pix-pretty?page=2",
-      "npm": "/packages/@xynogen/pix-pretty?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 96,
@@ -1158,8 +1158,8 @@
         "extension"
       ],
       "href": "/packages/@firstpick/pi-package-webui?page=2",
-      "repo": "/packages/@firstpick/pi-package-webui?page=2",
-      "npm": "/packages/@firstpick/pi-package-webui?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 97,
@@ -1170,8 +1170,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-chrome-devtools?page=2",
-      "repo": "/packages/@narumitw/pi-chrome-devtools?page=2",
-      "npm": "/packages/@narumitw/pi-chrome-devtools?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 98,
@@ -1182,8 +1182,8 @@
         "extension"
       ],
       "href": "/packages/@pi-stef/atlassian?page=2",
-      "repo": "/packages/@pi-stef/atlassian?page=2",
-      "npm": "/packages/@pi-stef/atlassian?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 99,
@@ -1194,8 +1194,8 @@
         "extension"
       ],
       "href": "/packages/pi-subagents-j0k3r?page=2",
-      "repo": "/packages/pi-subagents-j0k3r?page=2",
-      "npm": "/packages/pi-subagents-j0k3r?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 100,
@@ -1206,8 +1206,8 @@
         "package"
       ],
       "href": "/packages/@shanepadgett/tau-agent?page=2",
-      "repo": "/packages/@shanepadgett/tau-agent?page=2",
-      "npm": "/packages/@shanepadgett/tau-agent?page=2"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 101,
@@ -1218,8 +1218,8 @@
         "extension"
       ],
       "href": "/packages/@juanibiapina/pi-extension-settings?page=3",
-      "repo": "/packages/@juanibiapina/pi-extension-settings?page=3",
-      "npm": "/packages/@juanibiapina/pi-extension-settings?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 102,
@@ -1230,8 +1230,8 @@
         "package"
       ],
       "href": "/packages/@jmfederico/pi-web?page=3",
-      "repo": "/packages/@jmfederico/pi-web?page=3",
-      "npm": "/packages/@jmfederico/pi-web?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 103,
@@ -1242,8 +1242,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis?page=3",
-      "repo": "/packages/@galvinsan/pi-mentis?page=3",
-      "npm": "/packages/@galvinsan/pi-mentis?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 104,
@@ -1254,8 +1254,8 @@
         "package"
       ],
       "href": "/packages/@langchain/langsmith-pi-extension?page=3",
-      "repo": "/packages/@langchain/langsmith-pi-extension?page=3",
-      "npm": "/packages/@langchain/langsmith-pi-extension?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 105,
@@ -1266,8 +1266,8 @@
         "extension"
       ],
       "href": "/packages/@danypops/pi-tickets?page=3",
-      "repo": "/packages/@danypops/pi-tickets?page=3",
-      "npm": "/packages/@danypops/pi-tickets?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 106,
@@ -1278,8 +1278,8 @@
         "package"
       ],
       "href": "/packages/@companion-ai/feynman?page=3",
-      "repo": "/packages/@companion-ai/feynman?page=3",
-      "npm": "/packages/@companion-ai/feynman?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 107,
@@ -1290,8 +1290,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-sync?page=3",
-      "repo": "/packages/@narumitw/pi-sync?page=3",
-      "npm": "/packages/@narumitw/pi-sync?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 108,
@@ -1302,8 +1302,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-btw?page=3",
-      "repo": "/packages/@juicesharp/rpiv-btw?page=3",
-      "npm": "/packages/@juicesharp/rpiv-btw?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 109,
@@ -1314,8 +1314,8 @@
         "package"
       ],
       "href": "/packages/@oas-framework/pi?page=3",
-      "repo": "/packages/@oas-framework/pi?page=3",
-      "npm": "/packages/@oas-framework/pi?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 110,
@@ -1326,8 +1326,8 @@
         "package"
       ],
       "href": "/packages/@esso0428/pi-sidebar?page=3",
-      "repo": "/packages/@esso0428/pi-sidebar?page=3",
-      "npm": "/packages/@esso0428/pi-sidebar?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 111,
@@ -1338,8 +1338,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-runtime?page=3",
-      "repo": "/packages/@xynogen/pix-runtime?page=3",
-      "npm": "/packages/@xynogen/pix-runtime?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 112,
@@ -1350,8 +1350,8 @@
         "extension"
       ],
       "href": "/packages/@misunders2d/agentnet?page=3",
-      "repo": "/packages/@misunders2d/agentnet?page=3",
-      "npm": "/packages/@misunders2d/agentnet?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 113,
@@ -1362,8 +1362,8 @@
         "extension"
       ],
       "href": "/packages/pi-caveman?page=3",
-      "repo": "/packages/pi-caveman?page=3",
-      "npm": "/packages/pi-caveman?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 114,
@@ -1374,8 +1374,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-caffeinate?page=3",
-      "repo": "/packages/@narumitw/pi-caffeinate?page=3",
-      "npm": "/packages/@narumitw/pi-caffeinate?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 115,
@@ -1386,8 +1386,8 @@
         "extension"
       ],
       "href": "/packages/pi-sandbox?page=3",
-      "repo": "/packages/pi-sandbox?page=3",
-      "npm": "/packages/pi-sandbox?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 116,
@@ -1398,8 +1398,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-i18n?page=3",
-      "repo": "/packages/@juicesharp/rpiv-i18n?page=3",
-      "npm": "/packages/@juicesharp/rpiv-i18n?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 117,
@@ -1410,8 +1410,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-core?page=3",
-      "repo": "/packages/@xynogen/pix-core?page=3",
-      "npm": "/packages/@xynogen/pix-core?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 118,
@@ -1422,8 +1422,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis-knowledge?page=3",
-      "repo": "/packages/@galvinsan/pi-mentis-knowledge?page=3",
-      "npm": "/packages/@galvinsan/pi-mentis-knowledge?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 119,
@@ -1434,8 +1434,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-data?page=3",
-      "repo": "/packages/@xynogen/pix-data?page=3",
-      "npm": "/packages/@xynogen/pix-data?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 120,
@@ -1446,8 +1446,8 @@
         "extension"
       ],
       "href": "/packages/@tintinweb/pi-tasks?page=3",
-      "repo": "/packages/@tintinweb/pi-tasks?page=3",
-      "npm": "/packages/@tintinweb/pi-tasks?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 121,
@@ -1458,8 +1458,8 @@
         "extension"
       ],
       "href": "/packages/@myka2003/pi-dpi?page=3",
-      "repo": "/packages/@myka2003/pi-dpi?page=3",
-      "npm": "/packages/@myka2003/pi-dpi?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 122,
@@ -1470,8 +1470,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-plan?page=3",
-      "repo": "/packages/@bacnh85/pi-plan?page=3",
-      "npm": "/packages/@bacnh85/pi-plan?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 123,
@@ -1482,8 +1482,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-usage?page=3",
-      "repo": "/packages/@narumitw/pi-usage?page=3",
-      "npm": "/packages/@narumitw/pi-usage?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 124,
@@ -1494,8 +1494,8 @@
         "extension"
       ],
       "href": "/packages/@heyhuynhgiabuu/pi-pretty?page=3",
-      "repo": "/packages/@heyhuynhgiabuu/pi-pretty?page=3",
-      "npm": "/packages/@heyhuynhgiabuu/pi-pretty?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 125,
@@ -1507,8 +1507,8 @@
         "skill"
       ],
       "href": "/packages/pi-vault-mind?page=3",
-      "repo": "/packages/pi-vault-mind?page=3",
-      "npm": "/packages/pi-vault-mind?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 126,
@@ -1519,8 +1519,8 @@
         "package"
       ],
       "href": "/packages/pi-xai-oauth?page=3",
-      "repo": "/packages/pi-xai-oauth?page=3",
-      "npm": "/packages/pi-xai-oauth?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 127,
@@ -1532,7 +1532,7 @@
       ],
       "href": "/packages/pine-of-glass?page=3",
       "repo": null,
-      "npm": "/packages/pine-of-glass?page=3"
+      "npm": null
     },
     {
       "rank": 128,
@@ -1543,8 +1543,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis-memory?page=3",
-      "repo": "/packages/@galvinsan/pi-mentis-memory?page=3",
-      "npm": "/packages/@galvinsan/pi-mentis-memory?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 129,
@@ -1555,8 +1555,8 @@
         "package"
       ],
       "href": "/packages/@selesai/code?page=3",
-      "repo": "/packages/@selesai/code?page=3",
-      "npm": "/packages/@selesai/code?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 130,
@@ -1567,8 +1567,8 @@
         "package"
       ],
       "href": "/packages/@howaboua/pi-stuff?page=3",
-      "repo": "/packages/@howaboua/pi-stuff?page=3",
-      "npm": "/packages/@howaboua/pi-stuff?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 131,
@@ -1579,8 +1579,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-usage?page=3",
-      "repo": "/packages/@sreetej510/pi-usage?page=3",
-      "npm": "/packages/@sreetej510/pi-usage?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 132,
@@ -1592,7 +1592,7 @@
       ],
       "href": "/packages/pi-maestro-flow?page=3",
       "repo": null,
-      "npm": "/packages/pi-maestro-flow?page=3"
+      "npm": null
     },
     {
       "rank": 133,
@@ -1603,8 +1603,8 @@
         "package"
       ],
       "href": "/packages/pi-multica-spine?page=3",
-      "repo": "/packages/pi-multica-spine?page=3",
-      "npm": "/packages/pi-multica-spine?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 134,
@@ -1615,8 +1615,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-firecrawl?page=3",
-      "repo": "/packages/@narumitw/pi-firecrawl?page=3",
-      "npm": "/packages/@narumitw/pi-firecrawl?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 135,
@@ -1627,8 +1627,8 @@
         "extension"
       ],
       "href": "/packages/@aliou/pi-guardrails?page=3",
-      "repo": "/packages/@aliou/pi-guardrails?page=3",
-      "npm": "/packages/@aliou/pi-guardrails?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 136,
@@ -1639,8 +1639,8 @@
         "extension"
       ],
       "href": "/packages/@baylarsadigov/omp-undo-redo?page=3",
-      "repo": "/packages/@baylarsadigov/omp-undo-redo?page=3",
-      "npm": "/packages/@baylarsadigov/omp-undo-redo?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 137,
@@ -1651,8 +1651,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-lector?page=3",
-      "repo": "/packages/@danypops/pi-lector?page=3",
-      "npm": "/packages/@danypops/pi-lector?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 138,
@@ -1663,8 +1663,8 @@
         "package"
       ],
       "href": "/packages/@trim21/personal-pi-extensions?page=3",
-      "repo": "/packages/@trim21/personal-pi-extensions?page=3",
-      "npm": "/packages/@trim21/personal-pi-extensions?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 139,
@@ -1675,8 +1675,8 @@
         "extension"
       ],
       "href": "/packages/gentle-engram?page=3",
-      "repo": "/packages/gentle-engram?page=3",
-      "npm": "/packages/gentle-engram?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 140,
@@ -1687,8 +1687,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-shipd-checks?page=3",
-      "repo": "/packages/@sreetej510/pi-shipd-checks?page=3",
-      "npm": "/packages/@sreetej510/pi-shipd-checks?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 141,
@@ -1699,8 +1699,8 @@
         "extension"
       ],
       "href": "/packages/pi-pr-review?page=3",
-      "repo": "/packages/pi-pr-review?page=3",
-      "npm": "/packages/pi-pr-review?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 142,
@@ -1713,8 +1713,8 @@
         "prompt"
       ],
       "href": "/packages/@piagent/platform?page=3",
-      "repo": "/packages/@piagent/platform?page=3",
-      "npm": "/packages/@piagent/platform?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 143,
@@ -1725,8 +1725,8 @@
         "package"
       ],
       "href": "/packages/@hyperdreamer/pi-webui?page=3",
-      "repo": "/packages/@hyperdreamer/pi-webui?page=3",
-      "npm": "/packages/@hyperdreamer/pi-webui?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 144,
@@ -1737,8 +1737,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-hpc-tools?page=3",
-      "repo": "/packages/@sreetej510/pi-hpc-tools?page=3",
-      "npm": "/packages/@sreetej510/pi-hpc-tools?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 145,
@@ -1749,8 +1749,8 @@
         "package"
       ],
       "href": "/packages/bladebro?page=3",
-      "repo": "/packages/bladebro?page=3",
-      "npm": "/packages/bladebro?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 146,
@@ -1761,8 +1761,8 @@
         "package"
       ],
       "href": "/packages/@houndmcp/hound-mcp-pi?page=3",
-      "repo": "/packages/@houndmcp/hound-mcp-pi?page=3",
-      "npm": "/packages/@houndmcp/hound-mcp-pi?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 147,
@@ -1773,8 +1773,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-codex-usage?page=3",
-      "repo": "/packages/@narumitw/pi-codex-usage?page=3",
-      "npm": "/packages/@narumitw/pi-codex-usage?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 148,
@@ -1786,8 +1786,8 @@
         "prompt"
       ],
       "href": "/packages/@sreetej510/pi-prompt-manager?page=3",
-      "repo": "/packages/@sreetej510/pi-prompt-manager?page=3",
-      "npm": "/packages/@sreetej510/pi-prompt-manager?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 149,
@@ -1798,8 +1798,8 @@
         "extension"
       ],
       "href": "/packages/@nklisch/pi-plugins?page=3",
-      "repo": "/packages/@nklisch/pi-plugins?page=3",
-      "npm": "/packages/@nklisch/pi-plugins?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 150,
@@ -1810,8 +1810,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-context?page=3",
-      "repo": "/packages/@mrclrchtr/supi-context?page=3",
-      "npm": "/packages/@mrclrchtr/supi-context?page=3"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 151,
@@ -1822,8 +1822,8 @@
         "extension"
       ],
       "href": "/packages/pi-muselinn-harness?page=4",
-      "repo": "/packages/pi-muselinn-harness?page=4",
-      "npm": "/packages/pi-muselinn-harness?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 152,
@@ -1834,8 +1834,8 @@
         "extension"
       ],
       "href": "/packages/@zeerke/ascet-copilot-ui?page=4",
-      "repo": "/packages/@zeerke/ascet-copilot-ui?page=4",
-      "npm": "/packages/@zeerke/ascet-copilot-ui?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 153,
@@ -1846,8 +1846,8 @@
         "package"
       ],
       "href": "/packages/@zzs-fun/agent-forum-skills?page=4",
-      "repo": "/packages/@zzs-fun/agent-forum-skills?page=4",
-      "npm": "/packages/@zzs-fun/agent-forum-skills?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 154,
@@ -1859,7 +1859,7 @@
       ],
       "href": "/packages/@ferris1225/pi-subagents?page=4",
       "repo": null,
-      "npm": "/packages/@ferris1225/pi-subagents?page=4"
+      "npm": null
     },
     {
       "rank": 155,
@@ -1870,8 +1870,8 @@
         "extension"
       ],
       "href": "/packages/pi-experiences?page=4",
-      "repo": "/packages/pi-experiences?page=4",
-      "npm": "/packages/pi-experiences?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 156,
@@ -1882,8 +1882,8 @@
         "package"
       ],
       "href": "/packages/pai-acp?page=4",
-      "repo": "/packages/pai-acp?page=4",
-      "npm": "/packages/pai-acp?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 157,
@@ -1894,8 +1894,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-computer-use?page=4",
-      "repo": "/packages/@amaster.ai/pi-computer-use?page=4",
-      "npm": "/packages/@amaster.ai/pi-computer-use?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 158,
@@ -1906,8 +1906,8 @@
         "extension"
       ],
       "href": "/packages/pi-fovea?page=4",
-      "repo": "/packages/pi-fovea?page=4",
-      "npm": "/packages/pi-fovea?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 159,
@@ -1918,8 +1918,8 @@
         "package"
       ],
       "href": "/packages/pi-sych?page=4",
-      "repo": "/packages/pi-sych?page=4",
-      "npm": "/packages/pi-sych?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 160,
@@ -1931,7 +1931,7 @@
       ],
       "href": "/packages/@zeerke/ascet-copilot?page=4",
       "repo": null,
-      "npm": "/packages/@zeerke/ascet-copilot?page=4"
+      "npm": null
     },
     {
       "rank": 161,
@@ -1943,7 +1943,7 @@
       ],
       "href": "/packages/@eleboucher/pi-memini?page=4",
       "repo": null,
-      "npm": "/packages/@eleboucher/pi-memini?page=4"
+      "npm": null
     },
     {
       "rank": 162,
@@ -1955,7 +1955,7 @@
       ],
       "href": "/packages/pi-oc-style-agent-switcher?page=4",
       "repo": null,
-      "npm": "/packages/pi-oc-style-agent-switcher?page=4"
+      "npm": null
     },
     {
       "rank": 163,
@@ -1966,8 +1966,8 @@
         "package"
       ],
       "href": "/packages/dripline?page=4",
-      "repo": "/packages/dripline?page=4",
-      "npm": "/packages/dripline?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 164,
@@ -1978,8 +1978,8 @@
         "package"
       ],
       "href": "/packages/pi-extensible-workflows?page=4",
-      "repo": "/packages/pi-extensible-workflows?page=4",
-      "npm": "/packages/pi-extensible-workflows?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 165,
@@ -1990,8 +1990,8 @@
         "extension"
       ],
       "href": "/packages/@4fu/pi-pwsh?page=4",
-      "repo": "/packages/@4fu/pi-pwsh?page=4",
-      "npm": "/packages/@4fu/pi-pwsh?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 166,
@@ -2002,8 +2002,8 @@
         "package"
       ],
       "href": "/packages/pi-smart-fetch?page=4",
-      "repo": "/packages/pi-smart-fetch?page=4",
-      "npm": "/packages/pi-smart-fetch?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 167,
@@ -2014,8 +2014,8 @@
         "extension"
       ],
       "href": "/packages/nervous-system?page=4",
-      "repo": "/packages/nervous-system?page=4",
-      "npm": "/packages/nervous-system?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 168,
@@ -2026,8 +2026,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-web?page=4",
-      "repo": "/packages/@mrclrchtr/supi-web?page=4",
-      "npm": "/packages/@mrclrchtr/supi-web?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 169,
@@ -2038,8 +2038,8 @@
         "extension"
       ],
       "href": "/packages/killeros?page=4",
-      "repo": "/packages/killeros?page=4",
-      "npm": "/packages/killeros?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 170,
@@ -2050,8 +2050,8 @@
         "package"
       ],
       "href": "/packages/openlore?page=4",
-      "repo": "/packages/openlore?page=4",
-      "npm": "/packages/openlore?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 171,
@@ -2062,8 +2062,8 @@
         "package"
       ],
       "href": "/packages/@howaboua/pi-extensions?page=4",
-      "repo": "/packages/@howaboua/pi-extensions?page=4",
-      "npm": "/packages/@howaboua/pi-extensions?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 172,
@@ -2075,8 +2075,8 @@
         "skill"
       ],
       "href": "/packages/@mrclrchtr/supi-claude-md?page=4",
-      "repo": "/packages/@mrclrchtr/supi-claude-md?page=4",
-      "npm": "/packages/@mrclrchtr/supi-claude-md?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 173,
@@ -2087,8 +2087,8 @@
         "extension"
       ],
       "href": "/packages/@zgltyq/pi-provider-kimi-code?page=4",
-      "repo": "/packages/@zgltyq/pi-provider-kimi-code?page=4",
-      "npm": "/packages/@zgltyq/pi-provider-kimi-code?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 174,
@@ -2099,8 +2099,8 @@
         "extension"
       ],
       "href": "/packages/@firstpick/pi-extension-git-footer-status?page=4",
-      "repo": "/packages/@firstpick/pi-extension-git-footer-status?page=4",
-      "npm": "/packages/@firstpick/pi-extension-git-footer-status?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 175,
@@ -2111,8 +2111,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-xtodo?page=4",
-      "repo": "/packages/@xaccefy/pi-xtodo?page=4",
-      "npm": "/packages/@xaccefy/pi-xtodo?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 176,
@@ -2123,8 +2123,8 @@
         "extension"
       ],
       "href": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4",
-      "repo": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4",
-      "npm": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 177,
@@ -2135,8 +2135,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-pipes?page=4",
-      "repo": "/packages/@danypops/pi-pipes?page=4",
-      "npm": "/packages/@danypops/pi-pipes?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 178,
@@ -2147,8 +2147,8 @@
         "package"
       ],
       "href": "/packages/@cortexkit/pi-anthropic-auth?page=4",
-      "repo": "/packages/@cortexkit/pi-anthropic-auth?page=4",
-      "npm": "/packages/@cortexkit/pi-anthropic-auth?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 179,
@@ -2159,8 +2159,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-ask-user?page=4",
-      "repo": "/packages/@mrclrchtr/supi-ask-user?page=4",
-      "npm": "/packages/@mrclrchtr/supi-ask-user?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 180,
@@ -2171,8 +2171,8 @@
         "extension"
       ],
       "href": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4",
-      "repo": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4",
-      "npm": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 181,
@@ -2184,7 +2184,7 @@
       ],
       "href": "/packages/@pi-stef/flow?page=4",
       "repo": null,
-      "npm": "/packages/@pi-stef/flow?page=4"
+      "npm": null
     },
     {
       "rank": 182,
@@ -2195,8 +2195,8 @@
         "extension"
       ],
       "href": "/packages/pi-goal-x?page=4",
-      "repo": "/packages/pi-goal-x?page=4",
-      "npm": "/packages/pi-goal-x?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 183,
@@ -2207,8 +2207,8 @@
         "extension"
       ],
       "href": "/packages/pi-free?page=4",
-      "repo": "/packages/pi-free?page=4",
-      "npm": "/packages/pi-free?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 184,
@@ -2219,8 +2219,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-casefile?page=4",
-      "repo": "/packages/@xaccefy/pi-casefile?page=4",
-      "npm": "/packages/@xaccefy/pi-casefile?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 185,
@@ -2231,8 +2231,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-code-intelligence?page=4",
-      "repo": "/packages/@mrclrchtr/supi-code-intelligence?page=4",
-      "npm": "/packages/@mrclrchtr/supi-code-intelligence?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 186,
@@ -2243,8 +2243,8 @@
         "extension"
       ],
       "href": "/packages/@ayulab/pi-rewind?page=4",
-      "repo": "/packages/@ayulab/pi-rewind?page=4",
-      "npm": "/packages/@ayulab/pi-rewind?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 187,
@@ -2255,8 +2255,8 @@
         "extension"
       ],
       "href": "/packages/pi-autoresearch?page=4",
-      "repo": "/packages/pi-autoresearch?page=4",
-      "npm": "/packages/pi-autoresearch?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 188,
@@ -2268,8 +2268,8 @@
         "skill"
       ],
       "href": "/packages/@juicesharp/rpiv-pi?page=4",
-      "repo": "/packages/@juicesharp/rpiv-pi?page=4",
-      "npm": "/packages/@juicesharp/rpiv-pi?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 189,
@@ -2280,8 +2280,8 @@
         "extension"
       ],
       "href": "/packages/pi-cliproxyapi-provider?page=4",
-      "repo": "/packages/pi-cliproxyapi-provider?page=4",
-      "npm": "/packages/pi-cliproxyapi-provider?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 190,
@@ -2292,8 +2292,8 @@
         "extension"
       ],
       "href": "/packages/@pi9/subagent?page=4",
-      "repo": "/packages/@pi9/subagent?page=4",
-      "npm": "/packages/@pi9/subagent?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 191,
@@ -2304,8 +2304,8 @@
         "extension"
       ],
       "href": "/packages/@zhcsyncer/pi-extensions?page=4",
-      "repo": "/packages/@zhcsyncer/pi-extensions?page=4",
-      "npm": "/packages/@zhcsyncer/pi-extensions?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 192,
@@ -2316,8 +2316,8 @@
         "extension"
       ],
       "href": "/packages/pi-squad?page=4",
-      "repo": "/packages/pi-squad?page=4",
-      "npm": "/packages/pi-squad?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 193,
@@ -2328,8 +2328,8 @@
         "extension"
       ],
       "href": "/packages/@jachy/pi-git-sync?page=4",
-      "repo": "/packages/@jachy/pi-git-sync?page=4",
-      "npm": "/packages/@jachy/pi-git-sync?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 194,
@@ -2340,8 +2340,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-retry?page=4",
-      "repo": "/packages/@narumitw/pi-retry?page=4",
-      "npm": "/packages/@narumitw/pi-retry?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 195,
@@ -2352,8 +2352,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-xpi?page=4",
-      "repo": "/packages/@xaccefy/pi-xpi?page=4",
-      "npm": "/packages/@xaccefy/pi-xpi?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 196,
@@ -2364,8 +2364,8 @@
         "package"
       ],
       "href": "/packages/@99percentpeople/pi-background-tasks?page=4",
-      "repo": "/packages/@99percentpeople/pi-background-tasks?page=4",
-      "npm": "/packages/@99percentpeople/pi-background-tasks?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 197,
@@ -2376,8 +2376,8 @@
         "extension"
       ],
       "href": "/packages/@trevonistrevon/pi-loop?page=4",
-      "repo": "/packages/@trevonistrevon/pi-loop?page=4",
-      "npm": "/packages/@trevonistrevon/pi-loop?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 198,
@@ -2388,8 +2388,8 @@
         "skill"
       ],
       "href": "/packages/pi-context?page=4",
-      "repo": "/packages/pi-context?page=4",
-      "npm": "/packages/pi-context?page=4"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 199,
@@ -2401,7 +2401,7 @@
       ],
       "href": "/packages/pi-maestro-teammate?page=4",
       "repo": null,
-      "npm": "/packages/pi-maestro-teammate?page=4"
+      "npm": null
     },
     {
       "rank": 200,
@@ -2413,7 +2413,7 @@
       ],
       "href": "/packages/@brushes/xiaohongshu-mcp-server?page=4",
       "repo": null,
-      "npm": "/packages/@brushes/xiaohongshu-mcp-server?page=4"
+      "npm": null
     },
     {
       "rank": 201,
@@ -2424,8 +2424,8 @@
         "package"
       ],
       "href": "/packages/@dreki-gg/pi-plan-mode?page=5",
-      "repo": "/packages/@dreki-gg/pi-plan-mode?page=5",
-      "npm": "/packages/@dreki-gg/pi-plan-mode?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 202,
@@ -2438,8 +2438,8 @@
         "prompt"
       ],
       "href": "/packages/@juicesharp/rpiv-args?page=5",
-      "repo": "/packages/@juicesharp/rpiv-args?page=5",
-      "npm": "/packages/@juicesharp/rpiv-args?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 203,
@@ -2450,8 +2450,8 @@
         "extension"
       ],
       "href": "/packages/@juanibiapina/pi-powerbar?page=5",
-      "repo": "/packages/@juanibiapina/pi-powerbar?page=5",
-      "npm": "/packages/@juanibiapina/pi-powerbar?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 204,
@@ -2462,8 +2462,8 @@
         "package"
       ],
       "href": "/packages/@johanthoren/jeff?page=5",
-      "repo": "/packages/@johanthoren/jeff?page=5",
-      "npm": "/packages/@johanthoren/jeff?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 205,
@@ -2474,8 +2474,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-cache?page=5",
-      "repo": "/packages/@mrclrchtr/supi-cache?page=5",
-      "npm": "/packages/@mrclrchtr/supi-cache?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 206,
@@ -2486,8 +2486,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-bash-timeout?page=5",
-      "repo": "/packages/@mrclrchtr/supi-bash-timeout?page=5",
-      "npm": "/packages/@mrclrchtr/supi-bash-timeout?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 207,
@@ -2498,8 +2498,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-insights?page=5",
-      "repo": "/packages/@mrclrchtr/supi-insights?page=5",
-      "npm": "/packages/@mrclrchtr/supi-insights?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 208,
@@ -2511,7 +2511,7 @@
       ],
       "href": "/packages/@agentapprove/pi?page=5",
       "repo": null,
-      "npm": "/packages/@agentapprove/pi?page=5"
+      "npm": null
     },
     {
       "rank": 209,
@@ -2522,8 +2522,8 @@
         "extension"
       ],
       "href": "/packages/@aliou/pi-processes?page=5",
-      "repo": "/packages/@aliou/pi-processes?page=5",
-      "npm": "/packages/@aliou/pi-processes?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 210,
@@ -2534,8 +2534,8 @@
         "extension"
       ],
       "href": "/packages/@yusukeshib/pi-babysit?page=5",
-      "repo": "/packages/@yusukeshib/pi-babysit?page=5",
-      "npm": "/packages/@yusukeshib/pi-babysit?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 211,
@@ -2546,8 +2546,8 @@
         "package"
       ],
       "href": "/packages/@undefineds.co/models?page=5",
-      "repo": "/packages/@undefineds.co/models?page=5",
-      "npm": "/packages/@undefineds.co/models?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 212,
@@ -2558,8 +2558,8 @@
         "extension"
       ],
       "href": "/packages/pi-smart-router?page=5",
-      "repo": "/packages/pi-smart-router?page=5",
-      "npm": "/packages/pi-smart-router?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 213,
@@ -2570,8 +2570,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-review?page=5",
-      "repo": "/packages/@mrclrchtr/supi-review?page=5",
-      "npm": "/packages/@mrclrchtr/supi-review?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 214,
@@ -2582,8 +2582,8 @@
         "extension"
       ],
       "href": "/packages/pi-observational-memory?page=5",
-      "repo": "/packages/pi-observational-memory?page=5",
-      "npm": "/packages/pi-observational-memory?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 215,
@@ -2594,8 +2594,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-webui?page=5",
-      "repo": "/packages/@narumitw/pi-webui?page=5",
-      "npm": "/packages/@narumitw/pi-webui?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 216,
@@ -2606,8 +2606,8 @@
         "package"
       ],
       "href": "/packages/@danypops/enigma?page=5",
-      "repo": "/packages/@danypops/enigma?page=5",
-      "npm": "/packages/@danypops/enigma?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 217,
@@ -2618,8 +2618,8 @@
         "extension"
       ],
       "href": "/packages/@getpipher/armory-fleet?page=5",
-      "repo": "/packages/@getpipher/armory-fleet?page=5",
-      "npm": "/packages/@getpipher/armory-fleet?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 218,
@@ -2631,7 +2631,7 @@
       ],
       "href": "/packages/@agent-plan/pi-adapter?page=5",
       "repo": null,
-      "npm": "/packages/@agent-plan/pi-adapter?page=5"
+      "npm": null
     },
     {
       "rank": 219,
@@ -2642,8 +2642,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-extras?page=5",
-      "repo": "/packages/@mrclrchtr/supi-extras?page=5",
-      "npm": "/packages/@mrclrchtr/supi-extras?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 220,
@@ -2655,8 +2655,8 @@
         "prompt"
       ],
       "href": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5",
-      "repo": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5",
-      "npm": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 221,
@@ -2667,8 +2667,8 @@
         "package"
       ],
       "href": "/packages/pi-spark?page=5",
-      "repo": "/packages/pi-spark?page=5",
-      "npm": "/packages/pi-spark?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 222,
@@ -2679,8 +2679,8 @@
         "extension"
       ],
       "href": "/packages/@rahularya01/pi-cursor?page=5",
-      "repo": "/packages/@rahularya01/pi-cursor?page=5",
-      "npm": "/packages/@rahularya01/pi-cursor?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 223,
@@ -2691,8 +2691,8 @@
         "extension"
       ],
       "href": "/packages/pi-atelier?page=5",
-      "repo": "/packages/pi-atelier?page=5",
-      "npm": "/packages/pi-atelier?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 224,
@@ -2704,8 +2704,8 @@
         "theme"
       ],
       "href": "/packages/pi-studio?page=5",
-      "repo": "/packages/pi-studio?page=5",
-      "npm": "/packages/pi-studio?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 225,
@@ -2717,8 +2717,8 @@
         "skill"
       ],
       "href": "/packages/@zosmaai/pi-llm-wiki?page=5",
-      "repo": "/packages/@zosmaai/pi-llm-wiki?page=5",
-      "npm": "/packages/@zosmaai/pi-llm-wiki?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 226,
@@ -2729,8 +2729,8 @@
         "extension"
       ],
       "href": "/packages/pi-aftc-toolset?page=5",
-      "repo": "/packages/pi-aftc-toolset?page=5",
-      "npm": "/packages/pi-aftc-toolset?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 227,
@@ -2741,8 +2741,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-task-scheduler?page=5",
-      "repo": "/packages/@amaster.ai/pi-task-scheduler?page=5",
-      "npm": "/packages/@amaster.ai/pi-task-scheduler?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 228,
@@ -2753,8 +2753,8 @@
         "extension"
       ],
       "href": "/packages/pi-phoenix?page=5",
-      "repo": "/packages/pi-phoenix?page=5",
-      "npm": "/packages/pi-phoenix?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 229,
@@ -2765,8 +2765,8 @@
         "extension"
       ],
       "href": "/packages/ultra-fabric?page=5",
-      "repo": "/packages/ultra-fabric?page=5",
-      "npm": "/packages/ultra-fabric?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 230,
@@ -2777,8 +2777,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-google-genai?page=5",
-      "repo": "/packages/@narumitw/pi-google-genai?page=5",
-      "npm": "/packages/@narumitw/pi-google-genai?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 231,
@@ -2789,8 +2789,8 @@
         "extension"
       ],
       "href": "/packages/@misunders2d/pi-goal?page=5",
-      "repo": "/packages/@misunders2d/pi-goal?page=5",
-      "npm": "/packages/@misunders2d/pi-goal?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 232,
@@ -2801,8 +2801,8 @@
         "package"
       ],
       "href": "/packages/pi-agent-suite?page=5",
-      "repo": "/packages/pi-agent-suite?page=5",
-      "npm": "/packages/pi-agent-suite?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 233,
@@ -2814,7 +2814,7 @@
       ],
       "href": "/packages/@zhushanwen/pi-subagent-workflow?page=5",
       "repo": null,
-      "npm": "/packages/@zhushanwen/pi-subagent-workflow?page=5"
+      "npm": null
     },
     {
       "rank": 234,
@@ -2826,8 +2826,8 @@
         "skill"
       ],
       "href": "/packages/@tunglam/pi-lark-cli?page=5",
-      "repo": "/packages/@tunglam/pi-lark-cli?page=5",
-      "npm": "/packages/@tunglam/pi-lark-cli?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 235,
@@ -2838,8 +2838,8 @@
         "extension"
       ],
       "href": "/packages/pi-interactive-shell?page=5",
-      "repo": "/packages/pi-interactive-shell?page=5",
-      "npm": "/packages/pi-interactive-shell?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 236,
@@ -2850,8 +2850,8 @@
         "package"
       ],
       "href": "/packages/pi-spine?page=5",
-      "repo": "/packages/pi-spine?page=5",
-      "npm": "/packages/pi-spine?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 237,
@@ -2862,8 +2862,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-skills?page=5",
-      "repo": "/packages/@xynogen/pix-skills?page=5",
-      "npm": "/packages/@xynogen/pix-skills?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 238,
@@ -2875,7 +2875,7 @@
       ],
       "href": "/packages/pi-dgoal?page=5",
       "repo": null,
-      "npm": "/packages/pi-dgoal?page=5"
+      "npm": null
     },
     {
       "rank": 239,
@@ -2886,8 +2886,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-langfuse?page=5",
-      "repo": "/packages/@narumitw/pi-langfuse?page=5",
-      "npm": "/packages/@narumitw/pi-langfuse?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 240,
@@ -2898,8 +2898,8 @@
         "extension"
       ],
       "href": "/packages/pi-antigravity?page=5",
-      "repo": "/packages/pi-antigravity?page=5",
-      "npm": "/packages/pi-antigravity?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 241,
@@ -2910,8 +2910,8 @@
         "extension"
       ],
       "href": "/packages/pi-advisor-flow?page=5",
-      "repo": "/packages/pi-advisor-flow?page=5",
-      "npm": "/packages/pi-advisor-flow?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 242,
@@ -2922,8 +2922,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-starship?page=5",
-      "repo": "/packages/@narumitw/pi-starship?page=5",
-      "npm": "/packages/@narumitw/pi-starship?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 243,
@@ -2934,8 +2934,8 @@
         "extension"
       ],
       "href": "/packages/@llmgates_api/pi-llmgates-provider?page=5",
-      "repo": "/packages/@llmgates_api/pi-llmgates-provider?page=5",
-      "npm": "/packages/@llmgates_api/pi-llmgates-provider?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 244,
@@ -2946,8 +2946,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-settings?page=5",
-      "repo": "/packages/@mrclrchtr/supi-settings?page=5",
-      "npm": "/packages/@mrclrchtr/supi-settings?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 245,
@@ -2958,8 +2958,8 @@
         "extension"
       ],
       "href": "/packages/pi-smart-compact?page=5",
-      "repo": "/packages/pi-smart-compact?page=5",
-      "npm": "/packages/pi-smart-compact?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 246,
@@ -2971,7 +2971,7 @@
       ],
       "href": "/packages/@realvendex/pi-token-router?page=5",
       "repo": null,
-      "npm": "/packages/@realvendex/pi-token-router?page=5"
+      "npm": null
     },
     {
       "rank": 247,
@@ -2982,8 +2982,8 @@
         "package"
       ],
       "href": "/packages/@tmustier/pi-ralph-wiggum?page=5",
-      "repo": "/packages/@tmustier/pi-ralph-wiggum?page=5",
-      "npm": "/packages/@tmustier/pi-ralph-wiggum?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 248,
@@ -2995,7 +2995,7 @@
       ],
       "href": "/packages/@zhushanwen/pi-ask-user?page=5",
       "repo": null,
-      "npm": "/packages/@zhushanwen/pi-ask-user?page=5"
+      "npm": null
     },
     {
       "rank": 249,
@@ -3006,8 +3006,8 @@
         "extension"
       ],
       "href": "/packages/@cad0p/pi-napkin?page=5",
-      "repo": "/packages/@cad0p/pi-napkin?page=5",
-      "npm": "/packages/@cad0p/pi-napkin?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 250,
@@ -3018,8 +3018,8 @@
         "extension"
       ],
       "href": "/packages/@balaenis/pi-agents?page=5",
-      "repo": "/packages/@balaenis/pi-agents?page=5",
-      "npm": "/packages/@balaenis/pi-agents?page=5"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 251,
@@ -3031,8 +3031,8 @@
         "skill"
       ],
       "href": "/packages/@juicesharp/rpiv-workflow?page=6",
-      "repo": "/packages/@juicesharp/rpiv-workflow?page=6",
-      "npm": "/packages/@juicesharp/rpiv-workflow?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 252,
@@ -3043,8 +3043,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-github-pr?page=6",
-      "repo": "/packages/@narumitw/pi-github-pr?page=6",
-      "npm": "/packages/@narumitw/pi-github-pr?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 253,
@@ -3055,8 +3055,8 @@
         "extension"
       ],
       "href": "/packages/pi-yaml-hooks?page=6",
-      "repo": "/packages/pi-yaml-hooks?page=6",
-      "npm": "/packages/pi-yaml-hooks?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 254,
@@ -3067,8 +3067,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-web-access?page=6",
-      "repo": "/packages/@amaster.ai/pi-web-access?page=6",
-      "npm": "/packages/@amaster.ai/pi-web-access?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 255,
@@ -3079,8 +3079,8 @@
         "package"
       ],
       "href": "/packages/@upstash/context7-pi?page=6",
-      "repo": "/packages/@upstash/context7-pi?page=6",
-      "npm": "/packages/@upstash/context7-pi?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 256,
@@ -3091,8 +3091,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-browser-use?page=6",
-      "repo": "/packages/@amaster.ai/pi-browser-use?page=6",
-      "npm": "/packages/@amaster.ai/pi-browser-use?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 257,
@@ -3103,8 +3103,8 @@
         "package"
       ],
       "href": "/packages/pi-courier?page=6",
-      "repo": "/packages/pi-courier?page=6",
-      "npm": "/packages/pi-courier?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 258,
@@ -3115,8 +3115,8 @@
         "extension"
       ],
       "href": "/packages/pi-tool-display?page=6",
-      "repo": "/packages/pi-tool-display?page=6",
-      "npm": "/packages/pi-tool-display?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 259,
@@ -3127,8 +3127,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-debug?page=6",
-      "repo": "/packages/@mrclrchtr/supi-debug?page=6",
-      "npm": "/packages/@mrclrchtr/supi-debug?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 260,
@@ -3139,8 +3139,8 @@
         "extension"
       ],
       "href": "/packages/pi-loop-police?page=6",
-      "repo": "/packages/pi-loop-police?page=6",
-      "npm": "/packages/pi-loop-police?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 261,
@@ -3152,7 +3152,7 @@
       ],
       "href": "/packages/pi-cockpit?page=6",
       "repo": null,
-      "npm": "/packages/pi-cockpit?page=6"
+      "npm": null
     },
     {
       "rank": 262,
@@ -3163,8 +3163,8 @@
         "extension"
       ],
       "href": "/packages/pi-soly?page=6",
-      "repo": "/packages/pi-soly?page=6",
-      "npm": "/packages/pi-soly?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 263,
@@ -3175,8 +3175,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-channels?page=6",
-      "repo": "/packages/@amaster.ai/pi-channels?page=6",
-      "npm": "/packages/@amaster.ai/pi-channels?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 264,
@@ -3187,8 +3187,8 @@
         "extension"
       ],
       "href": "/packages/@nguyenquangthai/pi-todo?page=6",
-      "repo": "/packages/@nguyenquangthai/pi-todo?page=6",
-      "npm": "/packages/@nguyenquangthai/pi-todo?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 265,
@@ -3200,7 +3200,7 @@
       ],
       "href": "/packages/@brushes/course-proxy-ordering?page=6",
       "repo": null,
-      "npm": "/packages/@brushes/course-proxy-ordering?page=6"
+      "npm": null
     },
     {
       "rank": 266,
@@ -3211,8 +3211,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-telemetry?page=6",
-      "repo": "/packages/@amaster.ai/pi-telemetry?page=6",
-      "npm": "/packages/@amaster.ai/pi-telemetry?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 267,
@@ -3223,8 +3223,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-web-spider?page=6",
-      "repo": "/packages/@danypops/pi-web-spider?page=6",
-      "npm": "/packages/@danypops/pi-web-spider?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 268,
@@ -3235,8 +3235,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-lookup?page=6",
-      "repo": "/packages/@xaccefy/pi-lookup?page=6",
-      "npm": "/packages/@xaccefy/pi-lookup?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 269,
@@ -3247,8 +3247,8 @@
         "extension"
       ],
       "href": "/packages/pi-autopilot?page=6",
-      "repo": "/packages/pi-autopilot?page=6",
-      "npm": "/packages/pi-autopilot?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 270,
@@ -3260,8 +3260,8 @@
         "theme"
       ],
       "href": "/packages/pi-cc-header?page=6",
-      "repo": "/packages/pi-cc-header?page=6",
-      "npm": "/packages/pi-cc-header?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 271,
@@ -3272,8 +3272,8 @@
         "extension"
       ],
       "href": "/packages/pi-hashline-edit?page=6",
-      "repo": "/packages/pi-hashline-edit?page=6",
-      "npm": "/packages/pi-hashline-edit?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 272,
@@ -3284,8 +3284,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-subagent?page=6",
-      "repo": "/packages/@bacnh85/pi-subagent?page=6",
-      "npm": "/packages/@bacnh85/pi-subagent?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 273,
@@ -3296,8 +3296,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-subagent?page=6",
-      "repo": "/packages/@xynogen/pix-subagent?page=6",
-      "npm": "/packages/@xynogen/pix-subagent?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 274,
@@ -3308,8 +3308,8 @@
         "package"
       ],
       "href": "/packages/@chainingintention/pi-web-cn?page=6",
-      "repo": "/packages/@chainingintention/pi-web-cn?page=6",
-      "npm": "/packages/@chainingintention/pi-web-cn?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 275,
@@ -3320,8 +3320,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-attachments?page=6",
-      "repo": "/packages/@amaster.ai/pi-attachments?page=6",
-      "npm": "/packages/@amaster.ai/pi-attachments?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 276,
@@ -3332,8 +3332,8 @@
         "package"
       ],
       "href": "/packages/@cgh567/agent?page=6",
-      "repo": "/packages/@cgh567/agent?page=6",
-      "npm": "/packages/@cgh567/agent?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 277,
@@ -3344,8 +3344,8 @@
         "extension"
       ],
       "href": "/packages/pi-langfuse?page=6",
-      "repo": "/packages/pi-langfuse?page=6",
-      "npm": "/packages/pi-langfuse?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 278,
@@ -3356,8 +3356,8 @@
         "package"
       ],
       "href": "/packages/piwi-tui?page=6",
-      "repo": "/packages/piwi-tui?page=6",
-      "npm": "/packages/piwi-tui?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 279,
@@ -3368,8 +3368,8 @@
         "package"
       ],
       "href": "/packages/@maestria/pi?page=6",
-      "repo": "/packages/@maestria/pi?page=6",
-      "npm": "/packages/@maestria/pi?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 280,
@@ -3380,8 +3380,8 @@
         "extension"
       ],
       "href": "/packages/@koltmcbride/pi-loop?page=6",
-      "repo": "/packages/@koltmcbride/pi-loop?page=6",
-      "npm": "/packages/@koltmcbride/pi-loop?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 281,
@@ -3392,8 +3392,8 @@
         "package"
       ],
       "href": "/packages/@ch1nyzzz/pi-evo?page=6",
-      "repo": "/packages/@ch1nyzzz/pi-evo?page=6",
-      "npm": "/packages/@ch1nyzzz/pi-evo?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 282,
@@ -3404,8 +3404,8 @@
         "extension"
       ],
       "href": "/packages/@pi-stef/catalog?page=6",
-      "repo": "/packages/@pi-stef/catalog?page=6",
-      "npm": "/packages/@pi-stef/catalog?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 283,
@@ -3416,8 +3416,8 @@
         "extension"
       ],
       "href": "/packages/@kky42/pi-flow?page=6",
-      "repo": "/packages/@kky42/pi-flow?page=6",
-      "npm": "/packages/@kky42/pi-flow?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 284,
@@ -3428,8 +3428,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-memory?page=6",
-      "repo": "/packages/@amaster.ai/pi-memory?page=6",
-      "npm": "/packages/@amaster.ai/pi-memory?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 285,
@@ -3440,8 +3440,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-worktree?page=6",
-      "repo": "/packages/@narumitw/pi-worktree?page=6",
-      "npm": "/packages/@narumitw/pi-worktree?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 286,
@@ -3452,8 +3452,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-security?page=6",
-      "repo": "/packages/@amaster.ai/pi-security?page=6",
-      "npm": "/packages/@amaster.ai/pi-security?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 287,
@@ -3464,8 +3464,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-accounts?page=6",
-      "repo": "/packages/@narumitw/pi-accounts?page=6",
-      "npm": "/packages/@narumitw/pi-accounts?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 288,
@@ -3476,8 +3476,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-memory-mem0?page=6",
-      "repo": "/packages/@amaster.ai/pi-memory-mem0?page=6",
-      "npm": "/packages/@amaster.ai/pi-memory-mem0?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 289,
@@ -3488,8 +3488,8 @@
         "extension"
       ],
       "href": "/packages/pi-provider-kimi-code?page=6",
-      "repo": "/packages/pi-provider-kimi-code?page=6",
-      "npm": "/packages/pi-provider-kimi-code?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 290,
@@ -3500,8 +3500,8 @@
         "extension"
       ],
       "href": "/packages/zob-harness?page=6",
-      "repo": "/packages/zob-harness?page=6",
-      "npm": "/packages/zob-harness?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 291,
@@ -3512,8 +3512,8 @@
         "package"
       ],
       "href": "/packages/@shvax/pi-statusline?page=6",
-      "repo": "/packages/@shvax/pi-statusline?page=6",
-      "npm": "/packages/@shvax/pi-statusline?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 292,
@@ -3524,8 +3524,8 @@
         "extension"
       ],
       "href": "/packages/@patimweb/pi-email?page=6",
-      "repo": "/packages/@patimweb/pi-email?page=6",
-      "npm": "/packages/@patimweb/pi-email?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 293,
@@ -3536,8 +3536,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-teamwork?page=6",
-      "repo": "/packages/@amaster.ai/pi-teamwork?page=6",
-      "npm": "/packages/@amaster.ai/pi-teamwork?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 294,
@@ -3548,8 +3548,8 @@
         "package"
       ],
       "href": "/packages/diffing?page=6",
-      "repo": "/packages/diffing?page=6",
-      "npm": "/packages/diffing?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 295,
@@ -3560,8 +3560,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-lark?page=6",
-      "repo": "/packages/@amaster.ai/pi-lark?page=6",
-      "npm": "/packages/@amaster.ai/pi-lark?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 296,
@@ -3572,8 +3572,8 @@
         "extension"
       ],
       "href": "/packages/pi-distill?page=6",
-      "repo": "/packages/pi-distill?page=6",
-      "npm": "/packages/pi-distill?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 297,
@@ -3584,8 +3584,8 @@
         "package"
       ],
       "href": "/packages/@nquandt/pi-azure-foundry?page=6",
-      "repo": "/packages/@nquandt/pi-azure-foundry?page=6",
-      "npm": "/packages/@nquandt/pi-azure-foundry?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 298,
@@ -3596,8 +3596,8 @@
         "package"
       ],
       "href": "/packages/pi-llm-bridge?page=6",
-      "repo": "/packages/pi-llm-bridge?page=6",
-      "npm": "/packages/pi-llm-bridge?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 299,
@@ -3608,8 +3608,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-obsidian?page=6",
-      "repo": "/packages/@bacnh85/pi-obsidian?page=6",
-      "npm": "/packages/@bacnh85/pi-obsidian?page=6"
+      "repo": null,
+      "npm": null
     },
     {
       "rank": 300,
@@ -3620,8 +3620,8 @@
         "extension"
       ],
       "href": "/packages/pi-tian-usage?page=6",
-      "repo": "/packages/pi-tian-usage?page=6",
-      "npm": "/packages/pi-tian-usage?page=6"
+      "repo": null,
+      "npm": null
     }
   ]
 }

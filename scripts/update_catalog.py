@@ -27,7 +27,9 @@ def attr(tag: str, name: str) -> str:
 
 def href_for(card: str, label: str) -> str | None:
     match = re.search(
-        rf'href="([^"]+)"[^>]*>.*?{re.escape(label)}<', card, re.DOTALL
+        rf'<a href="([^"]+)"[^>]*>.*?{re.escape(label)}.*?</a>',
+        card,
+        re.DOTALL,
     )
     return unescape(match.group(1)) if match else None
 
