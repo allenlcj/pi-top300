@@ -27,6 +27,9 @@ jobs:
       - name: Validate the snapshot
         run: python scripts/validate_catalog.py
 
+      - name: Generate the full README catalog
+        run: python scripts/generate_docs.py
+
       - name: Create an update pull request
         uses: peter-evans/create-pull-request@v7
         with:

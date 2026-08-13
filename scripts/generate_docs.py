@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "packages-latest.json"
 OVERRIDES = ROOT / "data" / "categories.yaml"
-OUTPUT = ROOT / "docs" / "packages.md"
+OUTPUT = ROOT / "README.md"
 
 CATEGORIES = {
     "agent": "Agent 编排 / Subagent / Plan / Goal / Task",
@@ -92,7 +92,19 @@ def main() -> None:
     packages = payload["packages"]
     overrides = load_overrides()
     lines = [
-        "# Pi 官方热门包前 300",
+        "# Pi Top 300",
+        "",
+        "一个持续维护的 Pi 官方热门包分类与推荐目录，整理 Pi 官方 Package Catalog 中按 `All types → Most downloads` 排名的前 300 个包。",
+        "",
+        "[分类指南](docs/categories.md) · [原始 JSON 数据](data/packages-latest.json) · [历史快照](data/snapshots/)",
+        "",
+        "## 项目用途",
+        "",
+        "Pi Top 300 按工具用途帮助用户发现 Pi 的扩展、Skills、Prompt、Theme 和其他包。热门程度与推荐程度分开：下载量只是榜单依据，不代表质量、安全性或独立用户数；推荐状态需要结合用途、维护、兼容性、重复功能和安全性判断。",
+        "",
+        "> Pi 包可能以当前用户权限执行代码。安装第三方包前请审查源码、权限和依赖。",
+        "",
+        "## 当前快照",
         "",
         "> 本页按 Pi 官方 Package Catalog 的 `All types → Most downloads` 快照生成。",
         "> 下载量是采集时页面显示的 npm 月下载量，不是独立用户数，也不代表质量或安全性。",
@@ -101,14 +113,13 @@ def main() -> None:
         f"- 快照日期：`{payload['retrievedAt']}`",
         f"- 数据范围：`{payload['scope']}`",
         f"- 包数量：`{len(packages)}`",
-        "- 原始数据：[`data/packages-latest.json`](../data/packages-latest.json)",
-        "- 历史快照：[`data/snapshots/`](../data/snapshots/)",
+        "- 原始数据：[`data/packages-latest.json`](data/packages-latest.json)",
         "",
         "## 使用方法",
         "",
-        "按浏览器查找：`Ctrl+F` 搜索包名、类别或关键词。每行包含排名、包名、月下载量、用途描述、初步类别和安装命令。",
+        "这是完整的前 300 清单，可直接使用 GitHub 的 `Ctrl+F` 搜索包名、类别或关键词。每行包含排名、包名、月下载量、用途描述、初步类别、推荐状态和安装命令。",
         "",
-        "## 完整清单",
+        "## 完整前 300 清单",
         "",
         "| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 初步类别 | 推荐状态 | 安装 |",
         "| ---: | --- | ---: | --- | --- | --- | --- | --- |",

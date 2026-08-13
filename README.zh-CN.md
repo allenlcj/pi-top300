@@ -21,8 +21,9 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 - 范围：All types、Most downloads、排名 1–300
 - 快照日期：`2026-08-13`
 - 结构化数据：[`data/packages-latest.json`](data/packages-latest.json)
-- **完整 300 个包清单：[`docs/packages.md`](docs/packages.md)**
-- 历史快照：[`data/snapshots/`](data/snapshots/)
+- **完整 300 个包清单就在本 README 下方**；
+- 原始数据：[`data/packages-latest.json`](data/packages-latest.json)；
+- 历史快照：[`data/snapshots/`](data/snapshots/)。
 
 ## 主要类别
 
@@ -36,7 +37,7 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 - Skills、Prompts、Rules 和结构化提问
 - 后台任务、Runtime、Worktree 和外部平台集成
 
-代表包和选择建议见[分类指南](docs/categories.md)。全部 300 个包、排名、描述和安装命令见[`docs/packages.md`](docs/packages.md)。
+代表包和选择建议见[分类指南](docs/categories.md)。本 README 下方直接列出全部 300 个包、排名、描述和安装命令。
 
 ## 更新方式
 
