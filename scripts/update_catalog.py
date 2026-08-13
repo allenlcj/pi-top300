@@ -26,12 +26,11 @@ def attr(tag: str, name: str) -> str:
 
 
 def href_for(card: str, label: str) -> str | None:
-    match = re.search(
-        rf'<a href="([^"]+)"[^>]*>.*?{re.escape(label)}.*?</a>',
-        card,
-        re.DOTALL,
-    )
-    return unescape(match.group(1)) if match else None
+    links = re.findall(r'<a href="([^"]+)"[^>]*>(.*?)</a>', card, re.DOTALL)
+    for href, body in links:
+        if re.search(rf'{re.escape(label)}', strip_tags(body)):
+            return unescape(href)
+    return None
 
 
 def parse_page(html: str, rank_offset: int) -> list[dict]:
