@@ -28,7 +28,7 @@ def attr(tag: str, name: str) -> str:
 def href_for(card: str, label: str) -> str | None:
     links = re.findall(r'<a href="([^"]+)"[^>]*>(.*?)</a>', card, re.DOTALL)
     for href, body in links:
-        if re.search(rf'{re.escape(label)}', strip_tags(body)):
+        if re.search(rf'\b{re.escape(label)}\b', strip_tags(body)):
             return unescape(href)
     return None
 

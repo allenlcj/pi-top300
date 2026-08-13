@@ -13,8 +13,8 @@
         "extension"
       ],
       "href": "/packages/@vigolium/piolium",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/vigolium/piolium",
+      "npm": "https://www.npmjs.com/package/@vigolium/piolium"
     },
     {
       "rank": 2,
@@ -25,8 +25,8 @@
         "extension"
       ],
       "href": "/packages/pi-mcp-adapter",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-mcp-adapter",
+      "npm": "https://www.npmjs.com/package/pi-mcp-adapter"
     },
     {
       "rank": 3,
@@ -37,8 +37,8 @@
         "extension"
       ],
       "href": "/packages/pi-web-access",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-web-access",
+      "npm": "https://www.npmjs.com/package/pi-web-access"
     },
     {
       "rank": 4,
@@ -49,8 +49,8 @@
         "package"
       ],
       "href": "/packages/pi-subagents",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-subagents",
+      "npm": "https://www.npmjs.com/package/pi-subagents"
     },
     {
       "rank": 5,
@@ -61,8 +61,8 @@
         "package"
       ],
       "href": "/packages/context-mode",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mksglu/context-mode",
+      "npm": "https://www.npmjs.com/package/context-mode"
     },
     {
       "rank": 6,
@@ -73,8 +73,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-ask-user-question",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-ask-user-question"
     },
     {
       "rank": 7,
@@ -85,8 +85,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-todo",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-todo"
     },
     {
       "rank": 8,
@@ -97,8 +97,8 @@
         "extension"
       ],
       "href": "/packages/pi-lens",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/apmantza/pi-lens",
+      "npm": "https://www.npmjs.com/package/pi-lens"
     },
     {
       "rank": 9,
@@ -109,8 +109,8 @@
         "extension"
       ],
       "href": "/packages/@tintinweb/pi-subagents",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tintinweb/pi-subagents",
+      "npm": "https://www.npmjs.com/package/@tintinweb/pi-subagents"
     },
     {
       "rank": 10,
@@ -121,8 +121,8 @@
         "skill"
       ],
       "href": "/packages/@dietrichgebert/ponytail",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DietrichGebert/ponytail",
+      "npm": "https://www.npmjs.com/package/@dietrichgebert/ponytail"
     },
     {
       "rank": 11,
@@ -133,8 +133,8 @@
         "package"
       ],
       "href": "/packages/@plannotator/pi-extension",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/backnotprop/plannotator",
+      "npm": "https://www.npmjs.com/package/@plannotator/pi-extension"
     },
     {
       "rank": 12,
@@ -145,8 +145,8 @@
         "package"
       ],
       "href": "/packages/@7n/rules",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nitra/7n-rules",
+      "npm": "https://www.npmjs.com/package/@7n/rules"
     },
     {
       "rank": 13,
@@ -157,8 +157,8 @@
         "package"
       ],
       "href": "/packages/@tangle-network/tcloud-agent",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tangle-network/tcloud",
+      "npm": "https://www.npmjs.com/package/@tangle-network/tcloud-agent"
     },
     {
       "rank": 14,
@@ -169,8 +169,8 @@
         "extension"
       ],
       "href": "/packages/pi-simplify",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/MattDevy/pi-extensions",
+      "npm": "https://www.npmjs.com/package/pi-simplify"
     },
     {
       "rank": 15,
@@ -181,8 +181,8 @@
         "extension"
       ],
       "href": "/packages/@ff-labs/pi-fff",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/dmtrKovalenko/fff",
+      "npm": "https://www.npmjs.com/package/@ff-labs/pi-fff"
     },
     {
       "rank": 16,
@@ -193,8 +193,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-goal",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-goal"
     },
     {
       "rank": 17,
@@ -205,8 +205,8 @@
         "package"
       ],
       "href": "/packages/@quintinshaw/pi-dynamic-workflows",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/QuintinShaw/pi-dynamic-workflows",
+      "npm": "https://www.npmjs.com/package/@quintinshaw/pi-dynamic-workflows"
     },
     {
       "rank": 18,
@@ -217,8 +217,8 @@
         "package"
       ],
       "href": "/packages/@remnic/plugin-pi",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/joshuaswarren/remnic",
+      "npm": "https://www.npmjs.com/package/@remnic/plugin-pi"
     },
     {
       "rank": 19,
@@ -229,8 +229,8 @@
         "extension"
       ],
       "href": "/packages/pi-goal-list-loop-audit",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DraconDev/pi-goal-list-loop-audit",
+      "npm": "https://www.npmjs.com/package/pi-goal-list-loop-audit"
     },
     {
       "rank": 20,
@@ -241,8 +241,8 @@
         "extension"
       ],
       "href": "/packages/pi-fabric",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/monotykamary/pi-fabric",
+      "npm": "https://www.npmjs.com/package/pi-fabric"
     },
     {
       "rank": 21,
@@ -253,8 +253,8 @@
         "extension"
       ],
       "href": "/packages/@gotgenes/pi-permission-system",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/gotgenes/pi-packages",
+      "npm": "https://www.npmjs.com/package/@gotgenes/pi-permission-system"
     },
     {
       "rank": 22,
@@ -265,8 +265,8 @@
         "extension"
       ],
       "href": "/packages/pi-background-tasks",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ismailsaleekh/pi-background-tasks",
+      "npm": "https://www.npmjs.com/package/pi-background-tasks"
     },
     {
       "rank": 23,
@@ -277,8 +277,8 @@
         "package"
       ],
       "href": "/packages/@raindrop-ai/pi-agent",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/raindrop-ai/raindrop-js",
+      "npm": "https://www.npmjs.com/package/@raindrop-ai/pi-agent"
     },
     {
       "rank": 24,
@@ -290,8 +290,8 @@
         "skill"
       ],
       "href": "/packages/pi-hermes-memory",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/chandra447/pi-hermes-memory",
+      "npm": "https://www.npmjs.com/package/pi-hermes-memory"
     },
     {
       "rank": 25,
@@ -302,8 +302,8 @@
         "extension"
       ],
       "href": "/packages/@mjasnikovs/pi-task",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mjasnikovs/pi-task",
+      "npm": "https://www.npmjs.com/package/@mjasnikovs/pi-task"
     },
     {
       "rank": 26,
@@ -315,7 +315,7 @@
       ],
       "href": "/packages/pi-intercom",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-intercom"
     },
     {
       "rank": 27,
@@ -326,8 +326,8 @@
         "package"
       ],
       "href": "/packages/pi-memory",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jayzeng/pi-memory",
+      "npm": "https://www.npmjs.com/package/pi-memory"
     },
     {
       "rank": 28,
@@ -338,8 +338,8 @@
         "package"
       ],
       "href": "/packages/@braintrust/pi-extension",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/braintrustdata/braintrust-coding-agent-plugins",
+      "npm": "https://www.npmjs.com/package/@braintrust/pi-extension"
     },
     {
       "rank": 29,
@@ -350,8 +350,8 @@
         "package"
       ],
       "href": "/packages/@nitra/cursor",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/n/cursor",
+      "npm": "https://www.npmjs.com/package/@nitra/cursor"
     },
     {
       "rank": 30,
@@ -362,8 +362,8 @@
         "extension"
       ],
       "href": "/packages/pi-powerline-footer",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-powerline-footer",
+      "npm": "https://www.npmjs.com/package/pi-powerline-footer"
     },
     {
       "rank": 31,
@@ -374,8 +374,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-voice",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-voice"
     },
     {
       "rank": 32,
@@ -386,8 +386,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-plan-mode",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-plan-mode"
     },
     {
       "rank": 33,
@@ -398,8 +398,8 @@
         "extension"
       ],
       "href": "/packages/@howaboua/pi-codex-conversion",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-codex-conversion"
     },
     {
       "rank": 34,
@@ -410,8 +410,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-lsp",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-lsp"
     },
     {
       "rank": 35,
@@ -422,8 +422,8 @@
         "extension"
       ],
       "href": "/packages/pi-readseek",
-      "repo": null,
-      "npm": null
+      "repo": "https://gitlab.com/jarkkojs/readseek",
+      "npm": "https://www.npmjs.com/package/pi-readseek"
     },
     {
       "rank": 36,
@@ -434,8 +434,8 @@
         "extension"
       ],
       "href": "/packages/pi-hashline-edit-pro",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/YuGiMob/pi-hashline-edit-pro",
+      "npm": "https://www.npmjs.com/package/pi-hashline-edit-pro"
     },
     {
       "rank": 37,
@@ -446,8 +446,8 @@
         "skill"
       ],
       "href": "/packages/bigpowers",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/danielvm-git/bigpowers",
+      "npm": "https://www.npmjs.com/package/bigpowers"
     },
     {
       "rank": 38,
@@ -458,8 +458,8 @@
         "extension"
       ],
       "href": "/packages/@llblab/pi-telegram",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/llblab/pi-telegram",
+      "npm": "https://www.npmjs.com/package/@llblab/pi-telegram"
     },
     {
       "rank": 39,
@@ -470,8 +470,8 @@
         "package"
       ],
       "href": "/packages/gentle-pi",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Gentleman-Programming/gentle-pi",
+      "npm": "https://www.npmjs.com/package/gentle-pi"
     },
     {
       "rank": 40,
@@ -482,8 +482,8 @@
         "package"
       ],
       "href": "/packages/@hypabolic/pi-hypa",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Hypabolic/Hypa",
+      "npm": "https://www.npmjs.com/package/@hypabolic/pi-hypa"
     },
     {
       "rank": 41,
@@ -494,8 +494,8 @@
         "extension"
       ],
       "href": "/packages/pi-agent-browser-native",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/fitchmultz/pi-agent-browser-native",
+      "npm": "https://www.npmjs.com/package/pi-agent-browser-native"
     },
     {
       "rank": 42,
@@ -507,8 +507,8 @@
         "prompt"
       ],
       "href": "/packages/pi-prompt-template-model",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-prompt-template-model",
+      "npm": "https://www.npmjs.com/package/pi-prompt-template-model"
     },
     {
       "rank": 43,
@@ -519,8 +519,8 @@
         "extension"
       ],
       "href": "/packages/pi-landstrip",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/landstrip/landstrip",
+      "npm": "https://www.npmjs.com/package/pi-landstrip"
     },
     {
       "rank": 44,
@@ -531,8 +531,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-dev",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-dev"
     },
     {
       "rank": 45,
@@ -543,8 +543,8 @@
         "extension"
       ],
       "href": "/packages/pi-rtk-optimizer",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/MasuRii/pi-rtk-optimizer",
+      "npm": "https://www.npmjs.com/package/pi-rtk-optimizer"
     },
     {
       "rank": 46,
@@ -555,8 +555,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-memory",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-memory"
     },
     {
       "rank": 47,
@@ -567,8 +567,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-internal",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-internal"
     },
     {
       "rank": 48,
@@ -579,8 +579,8 @@
         "package"
       ],
       "href": "/packages/@reddb-io/red-skills-brain",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/reddb-io/red-skills",
+      "npm": "https://www.npmjs.com/package/@reddb-io/red-skills-brain"
     },
     {
       "rank": 49,
@@ -591,8 +591,8 @@
         "package"
       ],
       "href": "/packages/opencode-codebase-index",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Helweg/open-codebase-index",
+      "npm": "https://www.npmjs.com/package/opencode-codebase-index"
     },
     {
       "rank": 50,
@@ -603,8 +603,8 @@
         "extension"
       ],
       "href": "/packages/pi-cc-extensions",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/minuque/pi-cc-extensions",
+      "npm": "https://www.npmjs.com/package/pi-cc-extensions"
     },
     {
       "rank": 51,
@@ -615,8 +615,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-statusline?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-statusline"
     },
     {
       "rank": 52,
@@ -627,8 +627,8 @@
         "extension"
       ],
       "href": "/packages/pi-goosedump?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://gitlab.com/jarkkojs/goosedump",
+      "npm": "https://www.npmjs.com/package/pi-goosedump"
     },
     {
       "rank": 53,
@@ -639,8 +639,8 @@
         "extension"
       ],
       "href": "/packages/pi-deepseek-search?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/bxff/pi-deepseek-search",
+      "npm": "https://www.npmjs.com/package/pi-deepseek-search"
     },
     {
       "rank": 54,
@@ -651,8 +651,8 @@
         "prompt"
       ],
       "href": "/packages/glimpseui?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/hazat/glimpse",
+      "npm": "https://www.npmjs.com/package/glimpseui"
     },
     {
       "rank": 55,
@@ -663,8 +663,8 @@
         "package"
       ],
       "href": "/packages/pi-markdown-preview?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/omaclaren/pi-markdown-preview",
+      "npm": "https://www.npmjs.com/package/pi-markdown-preview"
     },
     {
       "rank": 56,
@@ -676,7 +676,7 @@
       ],
       "href": "/packages/@agimon-ai/log-sink-mcp?page=2",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@agimon-ai/log-sink-mcp"
     },
     {
       "rank": 57,
@@ -687,8 +687,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-btw?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-btw"
     },
     {
       "rank": 58,
@@ -699,8 +699,8 @@
         "package"
       ],
       "href": "/packages/pi-lmstudio?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/stakira/pi-lmstudio",
+      "npm": "https://www.npmjs.com/package/pi-lmstudio"
     },
     {
       "rank": 59,
@@ -711,8 +711,8 @@
         "extension"
       ],
       "href": "/packages/pi-ask-user?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/edlsh/pi-ask-user",
+      "npm": "https://www.npmjs.com/package/pi-ask-user"
     },
     {
       "rank": 60,
@@ -723,8 +723,8 @@
         "package"
       ],
       "href": "/packages/projectops?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Cassiiopeia/projectops",
+      "npm": "https://www.npmjs.com/package/projectops"
     },
     {
       "rank": 61,
@@ -735,8 +735,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-web-tools?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-web-tools"
     },
     {
       "rank": 62,
@@ -747,8 +747,8 @@
         "extension"
       ],
       "href": "/packages/pi-cursor-sdk?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/fitchmultz/pi-cursor-sdk",
+      "npm": "https://www.npmjs.com/package/pi-cursor-sdk"
     },
     {
       "rank": 63,
@@ -759,8 +759,8 @@
         "extension"
       ],
       "href": "/packages/pi-provider-litellm?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/balcsida/pi-provider-litellm",
+      "npm": "https://www.npmjs.com/package/pi-provider-litellm"
     },
     {
       "rank": 64,
@@ -772,7 +772,7 @@
       ],
       "href": "/packages/@devflow-tools/claude-code-plugin?page=2",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@devflow-tools/claude-code-plugin"
     },
     {
       "rank": 65,
@@ -784,8 +784,8 @@
         "theme"
       ],
       "href": "/packages/pi-zentui?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/lmilojevicc/pi-zentui",
+      "npm": "https://www.npmjs.com/package/pi-zentui"
     },
     {
       "rank": 66,
@@ -797,7 +797,7 @@
       ],
       "href": "/packages/@ollama/pi-web-search?page=2",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@ollama/pi-web-search"
     },
     {
       "rank": 67,
@@ -808,8 +808,8 @@
         "package"
       ],
       "href": "/packages/open-zk-kb?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrosnerr/open-zk-kb",
+      "npm": "https://www.npmjs.com/package/open-zk-kb"
     },
     {
       "rank": 68,
@@ -820,8 +820,8 @@
         "package"
       ],
       "href": "/packages/pi-crew?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/baphuongna/pi-crew",
+      "npm": "https://www.npmjs.com/package/pi-crew"
     },
     {
       "rank": 69,
@@ -832,8 +832,8 @@
         "skill"
       ],
       "href": "/packages/superpowers-zh?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jnMetaCode/superpowers-zh",
+      "npm": "https://www.npmjs.com/package/superpowers-zh"
     },
     {
       "rank": 70,
@@ -844,8 +844,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-packed?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/packed",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-packed"
     },
     {
       "rank": 71,
@@ -856,8 +856,8 @@
         "extension"
       ],
       "href": "/packages/pi-interview?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-interview-tool",
+      "npm": "https://www.npmjs.com/package/pi-interview"
     },
     {
       "rank": 72,
@@ -868,8 +868,8 @@
         "extension"
       ],
       "href": "/packages/@alexanderfortin/pi-deepseek-usage?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/shaftoe/pi-deepseek-usage",
+      "npm": "https://www.npmjs.com/package/@alexanderfortin/pi-deepseek-usage"
     },
     {
       "rank": 73,
@@ -880,8 +880,8 @@
         "extension"
       ],
       "href": "/packages/pi-harness-runtime?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ManotLuijiu/pi-harness-runtime",
+      "npm": "https://www.npmjs.com/package/pi-harness-runtime"
     },
     {
       "rank": 74,
@@ -892,8 +892,8 @@
         "extension"
       ],
       "href": "/packages/pi-btw?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/dbachelder/pi-btw",
+      "npm": "https://www.npmjs.com/package/pi-btw"
     },
     {
       "rank": 75,
@@ -904,8 +904,8 @@
         "package"
       ],
       "href": "/packages/@bdsqqq/pi?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/bdsqqq/dots",
+      "npm": "https://www.npmjs.com/package/@bdsqqq/pi"
     },
     {
       "rank": 76,
@@ -916,8 +916,8 @@
         "extension"
       ],
       "href": "/packages/pi-web-search?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ttttmr/pi-web-search",
+      "npm": "https://www.npmjs.com/package/pi-web-search"
     },
     {
       "rank": 77,
@@ -928,8 +928,8 @@
         "extension"
       ],
       "href": "/packages/pi-mcp-extension?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/irahardianto/pi-mcp-extension",
+      "npm": "https://www.npmjs.com/package/pi-mcp-extension"
     },
     {
       "rank": 78,
@@ -940,8 +940,8 @@
         "extension"
       ],
       "href": "/packages/@gotgenes/pi-subagents?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/gotgenes/pi-packages",
+      "npm": "https://www.npmjs.com/package/@gotgenes/pi-subagents"
     },
     {
       "rank": 79,
@@ -952,8 +952,8 @@
         "package"
       ],
       "href": "/packages/pi-web-ui?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xing-shuyin/pi-web-ui",
+      "npm": "https://www.npmjs.com/package/pi-web-ui"
     },
     {
       "rank": 80,
@@ -964,8 +964,8 @@
         "package"
       ],
       "href": "/packages/latchkey?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/imbue-ai/latchkey",
+      "npm": "https://www.npmjs.com/package/latchkey"
     },
     {
       "rank": 81,
@@ -976,8 +976,8 @@
         "package"
       ],
       "href": "/packages/@runfusion/fusion?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Runfusion/Fusion",
+      "npm": "https://www.npmjs.com/package/@runfusion/fusion"
     },
     {
       "rank": 82,
@@ -988,8 +988,8 @@
         "package"
       ],
       "href": "/packages/betterwright?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/BetterWright/betterwright",
+      "npm": "https://www.npmjs.com/package/betterwright"
     },
     {
       "rank": 83,
@@ -1000,8 +1000,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-image-gen?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-image-gen"
     },
     {
       "rank": 84,
@@ -1012,8 +1012,8 @@
         "extension"
       ],
       "href": "/packages/pi-llama-cpp?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/gsanhueza/pi-llama-cpp",
+      "npm": "https://www.npmjs.com/package/pi-llama-cpp"
     },
     {
       "rank": 85,
@@ -1024,8 +1024,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-advisor?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-advisor"
     },
     {
       "rank": 86,
@@ -1036,8 +1036,8 @@
         "package"
       ],
       "href": "/packages/pi-cache-optimizer?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jiangge/pi-cache-optimizer",
+      "npm": "https://www.npmjs.com/package/pi-cache-optimizer"
     },
     {
       "rank": 87,
@@ -1048,8 +1048,8 @@
         "package"
       ],
       "href": "/packages/pi-lean-ctx?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/yvgude/lean-ctx",
+      "npm": "https://www.npmjs.com/package/pi-lean-ctx"
     },
     {
       "rank": 88,
@@ -1062,8 +1062,8 @@
         "theme"
       ],
       "href": "/packages/mitsupi?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mitsuhiko/agent-stuff",
+      "npm": "https://www.npmjs.com/package/mitsupi"
     },
     {
       "rank": 89,
@@ -1074,8 +1074,8 @@
         "package"
       ],
       "href": "/packages/runline?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Michaelliv/runline",
+      "npm": "https://www.npmjs.com/package/runline"
     },
     {
       "rank": 90,
@@ -1086,8 +1086,8 @@
         "package"
       ],
       "href": "/packages/cc-safety-net?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/kenryu42/cc-safety-net",
+      "npm": "https://www.npmjs.com/package/cc-safety-net"
     },
     {
       "rank": 91,
@@ -1098,8 +1098,8 @@
         "extension"
       ],
       "href": "/packages/pi-codex-goal?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/fitchmultz/pi-codex-goal",
+      "npm": "https://www.npmjs.com/package/pi-codex-goal"
     },
     {
       "rank": 92,
@@ -1110,8 +1110,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-subagents?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-subagents"
     },
     {
       "rank": 93,
@@ -1122,8 +1122,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-papyrus?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/papyrus",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-papyrus"
     },
     {
       "rank": 94,
@@ -1134,8 +1134,8 @@
         "package"
       ],
       "href": "/packages/@tmustier/pi-usage-extension?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tmustier/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@tmustier/pi-usage-extension"
     },
     {
       "rank": 95,
@@ -1146,8 +1146,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-pretty?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-pretty"
     },
     {
       "rank": 96,
@@ -1158,8 +1158,8 @@
         "extension"
       ],
       "href": "/packages/@firstpick/pi-package-webui?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
+      "npm": "https://www.npmjs.com/package/@firstpick/pi-package-webui"
     },
     {
       "rank": 97,
@@ -1170,8 +1170,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-chrome-devtools?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-chrome-devtools"
     },
     {
       "rank": 98,
@@ -1182,8 +1182,8 @@
         "extension"
       ],
       "href": "/packages/@pi-stef/atlassian?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/sfiorini/pi-stef",
+      "npm": "https://www.npmjs.com/package/@pi-stef/atlassian"
     },
     {
       "rank": 99,
@@ -1194,8 +1194,8 @@
         "extension"
       ],
       "href": "/packages/pi-subagents-j0k3r?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r",
+      "npm": "https://www.npmjs.com/package/pi-subagents-j0k3r"
     },
     {
       "rank": 100,
@@ -1206,8 +1206,8 @@
         "package"
       ],
       "href": "/packages/@shanepadgett/tau-agent?page=2",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/shanepadgett/tau-agent",
+      "npm": "https://www.npmjs.com/package/@shanepadgett/tau-agent"
     },
     {
       "rank": 101,
@@ -1218,8 +1218,8 @@
         "extension"
       ],
       "href": "/packages/@juanibiapina/pi-extension-settings?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juanibiapina/pi-extension-settings",
+      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-extension-settings"
     },
     {
       "rank": 102,
@@ -1230,8 +1230,8 @@
         "package"
       ],
       "href": "/packages/@jmfederico/pi-web?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jmfederico/pi-web",
+      "npm": "https://www.npmjs.com/package/@jmfederico/pi-web"
     },
     {
       "rank": 103,
@@ -1242,8 +1242,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis"
     },
     {
       "rank": 104,
@@ -1254,8 +1254,8 @@
         "package"
       ],
       "href": "/packages/@langchain/langsmith-pi-extension?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/langchain-ai/langsmith-pi-extension",
+      "npm": "https://www.npmjs.com/package/@langchain/langsmith-pi-extension"
     },
     {
       "rank": 105,
@@ -1266,8 +1266,8 @@
         "extension"
       ],
       "href": "/packages/@danypops/pi-tickets?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/tickets",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-tickets"
     },
     {
       "rank": 106,
@@ -1278,8 +1278,8 @@
         "package"
       ],
       "href": "/packages/@companion-ai/feynman?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/companion-inc/feynman",
+      "npm": "https://www.npmjs.com/package/@companion-ai/feynman"
     },
     {
       "rank": 107,
@@ -1290,8 +1290,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-sync?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-sync"
     },
     {
       "rank": 108,
@@ -1302,8 +1302,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-btw?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-btw"
     },
     {
       "rank": 109,
@@ -1314,8 +1314,8 @@
         "package"
       ],
       "href": "/packages/@oas-framework/pi?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/OAS-Framework/oas",
+      "npm": "https://www.npmjs.com/package/@oas-framework/pi"
     },
     {
       "rank": 110,
@@ -1326,8 +1326,8 @@
         "package"
       ],
       "href": "/packages/@esso0428/pi-sidebar?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/esso0428/pi-sidebar",
+      "npm": "https://www.npmjs.com/package/@esso0428/pi-sidebar"
     },
     {
       "rank": 111,
@@ -1338,8 +1338,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-runtime?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-runtime"
     },
     {
       "rank": 112,
@@ -1350,8 +1350,8 @@
         "extension"
       ],
       "href": "/packages/@misunders2d/agentnet?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/misunders2d/agentnet",
+      "npm": "https://www.npmjs.com/package/@misunders2d/agentnet"
     },
     {
       "rank": 113,
@@ -1362,8 +1362,8 @@
         "extension"
       ],
       "href": "/packages/pi-caveman?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jonjonrankin/pi-caveman",
+      "npm": "https://www.npmjs.com/package/pi-caveman"
     },
     {
       "rank": 114,
@@ -1374,8 +1374,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-caffeinate?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-caffeinate"
     },
     {
       "rank": 115,
@@ -1386,8 +1386,8 @@
         "extension"
       ],
       "href": "/packages/pi-sandbox?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/carderne/pi-sandbox",
+      "npm": "https://www.npmjs.com/package/pi-sandbox"
     },
     {
       "rank": 116,
@@ -1398,8 +1398,8 @@
         "extension"
       ],
       "href": "/packages/@juicesharp/rpiv-i18n?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-i18n"
     },
     {
       "rank": 117,
@@ -1410,8 +1410,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-core?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-core"
     },
     {
       "rank": 118,
@@ -1422,8 +1422,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis-knowledge?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-knowledge"
     },
     {
       "rank": 119,
@@ -1434,8 +1434,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-data?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-data"
     },
     {
       "rank": 120,
@@ -1446,8 +1446,8 @@
         "extension"
       ],
       "href": "/packages/@tintinweb/pi-tasks?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tintinweb/pi-tasks",
+      "npm": "https://www.npmjs.com/package/@tintinweb/pi-tasks"
     },
     {
       "rank": 121,
@@ -1458,8 +1458,8 @@
         "extension"
       ],
       "href": "/packages/@myka2003/pi-dpi?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/oc101363-creator/pi-dpi",
+      "npm": "https://www.npmjs.com/package/@myka2003/pi-dpi"
     },
     {
       "rank": 122,
@@ -1470,8 +1470,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-plan?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-plan"
     },
     {
       "rank": 123,
@@ -1482,8 +1482,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-usage?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-usage"
     },
     {
       "rank": 124,
@@ -1494,8 +1494,8 @@
         "extension"
       ],
       "href": "/packages/@heyhuynhgiabuu/pi-pretty?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/heyhuynhgiabuu/pi-pretty",
+      "npm": "https://www.npmjs.com/package/@heyhuynhgiabuu/pi-pretty"
     },
     {
       "rank": 125,
@@ -1507,8 +1507,8 @@
         "skill"
       ],
       "href": "/packages/pi-vault-mind?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/kylebrodeur/pi-vault-mind",
+      "npm": "https://www.npmjs.com/package/pi-vault-mind"
     },
     {
       "rank": 126,
@@ -1519,8 +1519,8 @@
         "package"
       ],
       "href": "/packages/pi-xai-oauth?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/BlockedPath/pi-xai-oauth",
+      "npm": "https://www.npmjs.com/package/pi-xai-oauth"
     },
     {
       "rank": 127,
@@ -1532,7 +1532,7 @@
       ],
       "href": "/packages/pine-of-glass?page=3",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pine-of-glass"
     },
     {
       "rank": 128,
@@ -1543,8 +1543,8 @@
         "package"
       ],
       "href": "/packages/@galvinsan/pi-mentis-memory?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/guchengod/pi-mentis",
+      "npm": "https://www.npmjs.com/package/@galvinsan/pi-mentis-memory"
     },
     {
       "rank": 129,
@@ -1555,8 +1555,8 @@
         "package"
       ],
       "href": "/packages/@selesai/code?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/SelesaiInTech/selesai-code",
+      "npm": "https://www.npmjs.com/package/@selesai/code"
     },
     {
       "rank": 130,
@@ -1567,8 +1567,8 @@
         "package"
       ],
       "href": "/packages/@howaboua/pi-stuff?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-stuff"
     },
     {
       "rank": 131,
@@ -1579,8 +1579,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-usage?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-usage"
     },
     {
       "rank": 132,
@@ -1592,7 +1592,7 @@
       ],
       "href": "/packages/pi-maestro-flow?page=3",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-maestro-flow"
     },
     {
       "rank": 133,
@@ -1603,8 +1603,8 @@
         "package"
       ],
       "href": "/packages/pi-multica-spine?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/eiei114/pi-multica-spine",
+      "npm": "https://www.npmjs.com/package/pi-multica-spine"
     },
     {
       "rank": 134,
@@ -1615,8 +1615,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-firecrawl?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-firecrawl"
     },
     {
       "rank": 135,
@@ -1627,8 +1627,8 @@
         "extension"
       ],
       "href": "/packages/@aliou/pi-guardrails?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/aliou/pi-guardrails",
+      "npm": "https://www.npmjs.com/package/@aliou/pi-guardrails"
     },
     {
       "rank": 136,
@@ -1639,8 +1639,8 @@
         "extension"
       ],
       "href": "/packages/@baylarsadigov/omp-undo-redo?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Baylar55/omp-undo-redo",
+      "npm": "https://www.npmjs.com/package/@baylarsadigov/omp-undo-redo"
     },
     {
       "rank": 137,
@@ -1651,8 +1651,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-lector?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/lector",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-lector"
     },
     {
       "rank": 138,
@@ -1663,8 +1663,8 @@
         "package"
       ],
       "href": "/packages/@trim21/personal-pi-extensions?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/trim21/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@trim21/personal-pi-extensions"
     },
     {
       "rank": 139,
@@ -1675,8 +1675,8 @@
         "extension"
       ],
       "href": "/packages/gentle-engram?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Gentleman-Programming/engram",
+      "npm": "https://www.npmjs.com/package/gentle-engram"
     },
     {
       "rank": 140,
@@ -1687,8 +1687,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-shipd-checks?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-shipd-checks"
     },
     {
       "rank": 141,
@@ -1699,8 +1699,8 @@
         "extension"
       ],
       "href": "/packages/pi-pr-review?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/10ego/pi-pr-review",
+      "npm": "https://www.npmjs.com/package/pi-pr-review"
     },
     {
       "rank": 142,
@@ -1713,8 +1713,8 @@
         "prompt"
       ],
       "href": "/packages/@piagent/platform?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Vt-mmm/piagent",
+      "npm": "https://www.npmjs.com/package/@piagent/platform"
     },
     {
       "rank": 143,
@@ -1725,8 +1725,8 @@
         "package"
       ],
       "href": "/packages/@hyperdreamer/pi-webui?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/hyperdreamer/pi-webui",
+      "npm": "https://www.npmjs.com/package/@hyperdreamer/pi-webui"
     },
     {
       "rank": 144,
@@ -1737,8 +1737,8 @@
         "extension"
       ],
       "href": "/packages/@sreetej510/pi-hpc-tools?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-hpc-tools"
     },
     {
       "rank": 145,
@@ -1749,8 +1749,8 @@
         "package"
       ],
       "href": "/packages/bladebro?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/dondai44423/bladebro",
+      "npm": "https://www.npmjs.com/package/bladebro"
     },
     {
       "rank": 146,
@@ -1761,8 +1761,8 @@
         "package"
       ],
       "href": "/packages/@houndmcp/hound-mcp-pi?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/dondai1234/master-fetch",
+      "npm": "https://www.npmjs.com/package/@houndmcp/hound-mcp-pi"
     },
     {
       "rank": 147,
@@ -1773,8 +1773,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-codex-usage?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-codex-usage"
     },
     {
       "rank": 148,
@@ -1786,8 +1786,8 @@
         "prompt"
       ],
       "href": "/packages/@sreetej510/pi-prompt-manager?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Sreetej510/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@sreetej510/pi-prompt-manager"
     },
     {
       "rank": 149,
@@ -1798,8 +1798,8 @@
         "extension"
       ],
       "href": "/packages/@nklisch/pi-plugins?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nklisch/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@nklisch/pi-plugins"
     },
     {
       "rank": 150,
@@ -1810,8 +1810,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-context?page=3",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-context"
     },
     {
       "rank": 151,
@@ -1822,8 +1822,8 @@
         "extension"
       ],
       "href": "/packages/pi-muselinn-harness?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/MuseLinn/pi-muselinn-harness",
+      "npm": "https://www.npmjs.com/package/pi-muselinn-harness"
     },
     {
       "rank": 152,
@@ -1834,8 +1834,8 @@
         "extension"
       ],
       "href": "/packages/@zeerke/ascet-copilot-ui?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Slmplez/Pi-ascet-ui-extension",
+      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot-ui"
     },
     {
       "rank": 153,
@@ -1846,8 +1846,8 @@
         "package"
       ],
       "href": "/packages/@zzs-fun/agent-forum-skills?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/wszzs110/agent-forum-skills",
+      "npm": "https://www.npmjs.com/package/@zzs-fun/agent-forum-skills"
     },
     {
       "rank": 154,
@@ -1859,7 +1859,7 @@
       ],
       "href": "/packages/@ferris1225/pi-subagents?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@ferris1225/pi-subagents"
     },
     {
       "rank": 155,
@@ -1870,8 +1870,8 @@
         "extension"
       ],
       "href": "/packages/pi-experiences?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/misunders2d/pi-experiences",
+      "npm": "https://www.npmjs.com/package/pi-experiences"
     },
     {
       "rank": 156,
@@ -1882,8 +1882,8 @@
         "package"
       ],
       "href": "/packages/pai-acp?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ranxianglei/pai-acp",
+      "npm": "https://www.npmjs.com/package/pai-acp"
     },
     {
       "rank": 157,
@@ -1894,8 +1894,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-computer-use?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-computer-use"
     },
     {
       "rank": 158,
@@ -1906,8 +1906,8 @@
         "extension"
       ],
       "href": "/packages/pi-fovea?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/monotykamary/pi-fovea",
+      "npm": "https://www.npmjs.com/package/pi-fovea"
     },
     {
       "rank": 159,
@@ -1918,8 +1918,8 @@
         "package"
       ],
       "href": "/packages/pi-sych?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://gitlab.com/Joao-O-Santos/pi-sych",
+      "npm": "https://www.npmjs.com/package/pi-sych"
     },
     {
       "rank": 160,
@@ -1931,7 +1931,7 @@
       ],
       "href": "/packages/@zeerke/ascet-copilot?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@zeerke/ascet-copilot"
     },
     {
       "rank": 161,
@@ -1943,7 +1943,7 @@
       ],
       "href": "/packages/@eleboucher/pi-memini?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@eleboucher/pi-memini"
     },
     {
       "rank": 162,
@@ -1955,7 +1955,7 @@
       ],
       "href": "/packages/pi-oc-style-agent-switcher?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-oc-style-agent-switcher"
     },
     {
       "rank": 163,
@@ -1966,8 +1966,8 @@
         "package"
       ],
       "href": "/packages/dripline?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Michaelliv/dripline",
+      "npm": "https://www.npmjs.com/package/dripline"
     },
     {
       "rank": 164,
@@ -1978,8 +1978,8 @@
         "package"
       ],
       "href": "/packages/pi-extensible-workflows?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/vekexasia/pi-extensible-workflows",
+      "npm": "https://www.npmjs.com/package/pi-extensible-workflows"
     },
     {
       "rank": 165,
@@ -1990,8 +1990,8 @@
         "extension"
       ],
       "href": "/packages/@4fu/pi-pwsh?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/4fuu/pi-pwsh",
+      "npm": "https://www.npmjs.com/package/@4fu/pi-pwsh"
     },
     {
       "rank": 166,
@@ -2002,8 +2002,8 @@
         "package"
       ],
       "href": "/packages/pi-smart-fetch?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Thinkscape/agent-smart-fetch",
+      "npm": "https://www.npmjs.com/package/pi-smart-fetch"
     },
     {
       "rank": 167,
@@ -2014,8 +2014,8 @@
         "extension"
       ],
       "href": "/packages/nervous-system?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/10ego/NERVous-system",
+      "npm": "https://www.npmjs.com/package/nervous-system"
     },
     {
       "rank": 168,
@@ -2026,8 +2026,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-web?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-web"
     },
     {
       "rank": 169,
@@ -2038,8 +2038,8 @@
         "extension"
       ],
       "href": "/packages/killeros?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/KyrosHendrix/pi-KillerOS",
+      "npm": "https://www.npmjs.com/package/killeros"
     },
     {
       "rank": 170,
@@ -2050,8 +2050,8 @@
         "package"
       ],
       "href": "/packages/openlore?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/clay-good/openlore",
+      "npm": "https://www.npmjs.com/package/openlore"
     },
     {
       "rank": 171,
@@ -2062,8 +2062,8 @@
         "package"
       ],
       "href": "/packages/@howaboua/pi-extensions?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/IgorWarzocha/howaboua-pi-stuff",
+      "npm": "https://www.npmjs.com/package/@howaboua/pi-extensions"
     },
     {
       "rank": 172,
@@ -2075,8 +2075,8 @@
         "skill"
       ],
       "href": "/packages/@mrclrchtr/supi-claude-md?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-claude-md"
     },
     {
       "rank": 173,
@@ -2087,8 +2087,8 @@
         "extension"
       ],
       "href": "/packages/@zgltyq/pi-provider-kimi-code?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ZGltYQ/pi-provider-kimi-code",
+      "npm": "https://www.npmjs.com/package/@zgltyq/pi-provider-kimi-code"
     },
     {
       "rank": 174,
@@ -2099,8 +2099,8 @@
         "extension"
       ],
       "href": "/packages/@firstpick/pi-extension-git-footer-status?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Firstp1ck/pi-coding-agent-forge",
+      "npm": "https://www.npmjs.com/package/@firstpick/pi-extension-git-footer-status"
     },
     {
       "rank": 175,
@@ -2111,8 +2111,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-xtodo?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xtodo"
     },
     {
       "rank": 176,
@@ -2123,8 +2123,8 @@
         "extension"
       ],
       "href": "/packages/@router-for-me/pi-cliproxyapi-provider?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/router-for-me/pi-cliproxyapi-provider",
+      "npm": "https://www.npmjs.com/package/@router-for-me/pi-cliproxyapi-provider"
     },
     {
       "rank": 177,
@@ -2135,8 +2135,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-pipes?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/pipes",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-pipes"
     },
     {
       "rank": 178,
@@ -2147,8 +2147,8 @@
         "package"
       ],
       "href": "/packages/@cortexkit/pi-anthropic-auth?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/cortexkit/anthropic-auth",
+      "npm": "https://www.npmjs.com/package/@cortexkit/pi-anthropic-auth"
     },
     {
       "rank": 179,
@@ -2159,8 +2159,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-ask-user?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-ask-user"
     },
     {
       "rank": 180,
@@ -2171,8 +2171,8 @@
         "extension"
       ],
       "href": "/packages/@tunnckocore/pi-gpt-fast-mode?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tunnckoCore/pi-gpt-fast-mode",
+      "npm": "https://www.npmjs.com/package/@tunnckocore/pi-gpt-fast-mode"
     },
     {
       "rank": 181,
@@ -2184,7 +2184,7 @@
       ],
       "href": "/packages/@pi-stef/flow?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@pi-stef/flow"
     },
     {
       "rank": 182,
@@ -2195,8 +2195,8 @@
         "extension"
       ],
       "href": "/packages/pi-goal-x?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tmonk/pi-goal-x",
+      "npm": "https://www.npmjs.com/package/pi-goal-x"
     },
     {
       "rank": 183,
@@ -2207,8 +2207,8 @@
         "extension"
       ],
       "href": "/packages/pi-free?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/apmantza/pi-free",
+      "npm": "https://www.npmjs.com/package/pi-free"
     },
     {
       "rank": 184,
@@ -2219,8 +2219,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-casefile?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-casefile"
     },
     {
       "rank": 185,
@@ -2231,8 +2231,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-code-intelligence?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-code-intelligence"
     },
     {
       "rank": 186,
@@ -2243,8 +2243,8 @@
         "extension"
       ],
       "href": "/packages/@ayulab/pi-rewind?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ayu-exorcist/oh-my-pi",
+      "npm": "https://www.npmjs.com/package/@ayulab/pi-rewind"
     },
     {
       "rank": 187,
@@ -2255,8 +2255,8 @@
         "extension"
       ],
       "href": "/packages/pi-autoresearch?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/davebcn87/pi-autoresearch",
+      "npm": "https://www.npmjs.com/package/pi-autoresearch"
     },
     {
       "rank": 188,
@@ -2268,8 +2268,8 @@
         "skill"
       ],
       "href": "/packages/@juicesharp/rpiv-pi?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-pi"
     },
     {
       "rank": 189,
@@ -2280,8 +2280,8 @@
         "extension"
       ],
       "href": "/packages/pi-cliproxyapi-provider?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/0xRichardH/pi-cliproxyapi-provider",
+      "npm": "https://www.npmjs.com/package/pi-cliproxyapi-provider"
     },
     {
       "rank": 190,
@@ -2292,8 +2292,8 @@
         "extension"
       ],
       "href": "/packages/@pi9/subagent?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Chase-C/pi9",
+      "npm": "https://www.npmjs.com/package/@pi9/subagent"
     },
     {
       "rank": 191,
@@ -2304,8 +2304,8 @@
         "extension"
       ],
       "href": "/packages/@zhcsyncer/pi-extensions?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/zhcsyncer/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@zhcsyncer/pi-extensions"
     },
     {
       "rank": 192,
@@ -2316,8 +2316,8 @@
         "extension"
       ],
       "href": "/packages/pi-squad?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/picassio/pi-squad",
+      "npm": "https://www.npmjs.com/package/pi-squad"
     },
     {
       "rank": 193,
@@ -2328,8 +2328,8 @@
         "extension"
       ],
       "href": "/packages/@jachy/pi-git-sync?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jachy-h/pi-git-sync",
+      "npm": "https://www.npmjs.com/package/@jachy/pi-git-sync"
     },
     {
       "rank": 194,
@@ -2340,8 +2340,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-retry?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-retry"
     },
     {
       "rank": 195,
@@ -2352,8 +2352,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-xpi?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-xpi"
     },
     {
       "rank": 196,
@@ -2364,8 +2364,8 @@
         "package"
       ],
       "href": "/packages/@99percentpeople/pi-background-tasks?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/99percentpeople/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@99percentpeople/pi-background-tasks"
     },
     {
       "rank": 197,
@@ -2376,8 +2376,8 @@
         "extension"
       ],
       "href": "/packages/@trevonistrevon/pi-loop?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/trvon/pi-loop",
+      "npm": "https://www.npmjs.com/package/@trevonistrevon/pi-loop"
     },
     {
       "rank": 198,
@@ -2388,8 +2388,8 @@
         "skill"
       ],
       "href": "/packages/pi-context?page=4",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ttttmr/pi-context",
+      "npm": "https://www.npmjs.com/package/pi-context"
     },
     {
       "rank": 199,
@@ -2401,7 +2401,7 @@
       ],
       "href": "/packages/pi-maestro-teammate?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-maestro-teammate"
     },
     {
       "rank": 200,
@@ -2413,7 +2413,7 @@
       ],
       "href": "/packages/@brushes/xiaohongshu-mcp-server?page=4",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@brushes/xiaohongshu-mcp-server"
     },
     {
       "rank": 201,
@@ -2424,8 +2424,8 @@
         "package"
       ],
       "href": "/packages/@dreki-gg/pi-plan-mode?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/jalbarrang/pi-plan-mode",
+      "npm": "https://www.npmjs.com/package/@dreki-gg/pi-plan-mode"
     },
     {
       "rank": 202,
@@ -2438,8 +2438,8 @@
         "prompt"
       ],
       "href": "/packages/@juicesharp/rpiv-args?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-args"
     },
     {
       "rank": 203,
@@ -2450,8 +2450,8 @@
         "extension"
       ],
       "href": "/packages/@juanibiapina/pi-powerbar?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juanibiapina/pi-powerbar",
+      "npm": "https://www.npmjs.com/package/@juanibiapina/pi-powerbar"
     },
     {
       "rank": 204,
@@ -2462,8 +2462,8 @@
         "package"
       ],
       "href": "/packages/@johanthoren/jeff?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/johanthoren/jeff",
+      "npm": "https://www.npmjs.com/package/@johanthoren/jeff"
     },
     {
       "rank": 205,
@@ -2474,8 +2474,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-cache?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-cache"
     },
     {
       "rank": 206,
@@ -2486,8 +2486,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-bash-timeout?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-bash-timeout"
     },
     {
       "rank": 207,
@@ -2498,8 +2498,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-insights?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-insights"
     },
     {
       "rank": 208,
@@ -2511,7 +2511,7 @@
       ],
       "href": "/packages/@agentapprove/pi?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@agentapprove/pi"
     },
     {
       "rank": 209,
@@ -2522,8 +2522,8 @@
         "extension"
       ],
       "href": "/packages/@aliou/pi-processes?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/aliou/pi-processes",
+      "npm": "https://www.npmjs.com/package/@aliou/pi-processes"
     },
     {
       "rank": 210,
@@ -2534,8 +2534,8 @@
         "extension"
       ],
       "href": "/packages/@yusukeshib/pi-babysit?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/yusukeshib/pi-babysit",
+      "npm": "https://www.npmjs.com/package/@yusukeshib/pi-babysit"
     },
     {
       "rank": 211,
@@ -2546,8 +2546,8 @@
         "package"
       ],
       "href": "/packages/@undefineds.co/models?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/undefinedsco/models",
+      "npm": "https://www.npmjs.com/package/@undefineds.co/models"
     },
     {
       "rank": 212,
@@ -2558,8 +2558,8 @@
         "extension"
       ],
       "href": "/packages/pi-smart-router?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/beettlle/pi-smart-router",
+      "npm": "https://www.npmjs.com/package/pi-smart-router"
     },
     {
       "rank": 213,
@@ -2570,8 +2570,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-review?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-review"
     },
     {
       "rank": 214,
@@ -2582,8 +2582,8 @@
         "extension"
       ],
       "href": "/packages/pi-observational-memory?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/elpapi42/pi-observational-memory",
+      "npm": "https://www.npmjs.com/package/pi-observational-memory"
     },
     {
       "rank": 215,
@@ -2594,8 +2594,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-webui?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-webui"
     },
     {
       "rank": 216,
@@ -2606,8 +2606,8 @@
         "package"
       ],
       "href": "/packages/@danypops/enigma?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/enigma",
+      "npm": "https://www.npmjs.com/package/@danypops/enigma"
     },
     {
       "rank": 217,
@@ -2618,8 +2618,8 @@
         "extension"
       ],
       "href": "/packages/@getpipher/armory-fleet?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/getpipher/armory-fleet",
+      "npm": "https://www.npmjs.com/package/@getpipher/armory-fleet"
     },
     {
       "rank": 218,
@@ -2631,7 +2631,7 @@
       ],
       "href": "/packages/@agent-plan/pi-adapter?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@agent-plan/pi-adapter"
     },
     {
       "rank": 219,
@@ -2642,8 +2642,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-extras?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-extras"
     },
     {
       "rank": 220,
@@ -2655,8 +2655,8 @@
         "prompt"
       ],
       "href": "/packages/@mrclrchtr/supi-prompt-suggestions?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-prompt-suggestions"
     },
     {
       "rank": 221,
@@ -2667,8 +2667,8 @@
         "package"
       ],
       "href": "/packages/pi-spark?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/zlliang/pi-spark",
+      "npm": "https://www.npmjs.com/package/pi-spark"
     },
     {
       "rank": 222,
@@ -2679,8 +2679,8 @@
         "extension"
       ],
       "href": "/packages/@rahularya01/pi-cursor?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Rahularya01/pi-cursor",
+      "npm": "https://www.npmjs.com/package/@rahularya01/pi-cursor"
     },
     {
       "rank": 223,
@@ -2691,8 +2691,8 @@
         "extension"
       ],
       "href": "/packages/pi-atelier?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/michaelmjhhhh/pi-atelier",
+      "npm": "https://www.npmjs.com/package/pi-atelier"
     },
     {
       "rank": 224,
@@ -2704,8 +2704,8 @@
         "theme"
       ],
       "href": "/packages/pi-studio?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/omaclaren/pi-studio",
+      "npm": "https://www.npmjs.com/package/pi-studio"
     },
     {
       "rank": 225,
@@ -2717,8 +2717,8 @@
         "skill"
       ],
       "href": "/packages/@zosmaai/pi-llm-wiki?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/zosmaai/pi-llm-wiki",
+      "npm": "https://www.npmjs.com/package/@zosmaai/pi-llm-wiki"
     },
     {
       "rank": 226,
@@ -2729,8 +2729,8 @@
         "extension"
       ],
       "href": "/packages/pi-aftc-toolset?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DarceyLloyd/pi-aftc-toolset",
+      "npm": "https://www.npmjs.com/package/pi-aftc-toolset"
     },
     {
       "rank": 227,
@@ -2741,8 +2741,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-task-scheduler?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-task-scheduler"
     },
     {
       "rank": 228,
@@ -2753,8 +2753,8 @@
         "extension"
       ],
       "href": "/packages/pi-phoenix?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/philipbjorge/pi-phoenix",
+      "npm": "https://www.npmjs.com/package/pi-phoenix"
     },
     {
       "rank": 229,
@@ -2765,8 +2765,8 @@
         "extension"
       ],
       "href": "/packages/ultra-fabric?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ryan-brosas/ultra-fabric",
+      "npm": "https://www.npmjs.com/package/ultra-fabric"
     },
     {
       "rank": 230,
@@ -2777,8 +2777,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-google-genai?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-google-genai"
     },
     {
       "rank": 231,
@@ -2789,8 +2789,8 @@
         "extension"
       ],
       "href": "/packages/@misunders2d/pi-goal?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/misunders2d/pi-goal",
+      "npm": "https://www.npmjs.com/package/@misunders2d/pi-goal"
     },
     {
       "rank": 232,
@@ -2801,8 +2801,8 @@
         "package"
       ],
       "href": "/packages/pi-agent-suite?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/n-r-w/pi-agent-suite",
+      "npm": "https://www.npmjs.com/package/pi-agent-suite"
     },
     {
       "rank": 233,
@@ -2814,7 +2814,7 @@
       ],
       "href": "/packages/@zhushanwen/pi-subagent-workflow?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-subagent-workflow"
     },
     {
       "rank": 234,
@@ -2826,8 +2826,8 @@
         "skill"
       ],
       "href": "/packages/@tunglam/pi-lark-cli?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TungLamC/pi-packages",
+      "npm": "https://www.npmjs.com/package/@tunglam/pi-lark-cli"
     },
     {
       "rank": 235,
@@ -2838,8 +2838,8 @@
         "extension"
       ],
       "href": "/packages/pi-interactive-shell?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nicobailon/pi-interactive-shell",
+      "npm": "https://www.npmjs.com/package/pi-interactive-shell"
     },
     {
       "rank": 236,
@@ -2850,8 +2850,8 @@
         "package"
       ],
       "href": "/packages/pi-spine?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/beettlle/pi-spine",
+      "npm": "https://www.npmjs.com/package/pi-spine"
     },
     {
       "rank": 237,
@@ -2862,8 +2862,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-skills?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-skills"
     },
     {
       "rank": 238,
@@ -2875,7 +2875,7 @@
       ],
       "href": "/packages/pi-dgoal?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-dgoal"
     },
     {
       "rank": 239,
@@ -2886,8 +2886,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-langfuse?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-langfuse"
     },
     {
       "rank": 240,
@@ -2898,8 +2898,8 @@
         "extension"
       ],
       "href": "/packages/pi-antigravity?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Rahularya01/pi-antigravity",
+      "npm": "https://www.npmjs.com/package/pi-antigravity"
     },
     {
       "rank": 241,
@@ -2910,8 +2910,8 @@
         "extension"
       ],
       "href": "/packages/pi-advisor-flow?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/philipbrembeck/pi-advisor",
+      "npm": "https://www.npmjs.com/package/pi-advisor-flow"
     },
     {
       "rank": 242,
@@ -2922,8 +2922,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-starship?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-starship"
     },
     {
       "rank": 243,
@@ -2934,8 +2934,8 @@
         "extension"
       ],
       "href": "/packages/@llmgates_api/pi-llmgates-provider?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ax128/pi-llmgates",
+      "npm": "https://www.npmjs.com/package/@llmgates_api/pi-llmgates-provider"
     },
     {
       "rank": 244,
@@ -2946,8 +2946,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-settings?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-settings"
     },
     {
       "rank": 245,
@@ -2958,8 +2958,8 @@
         "extension"
       ],
       "href": "/packages/pi-smart-compact?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/alpertarhan/pi-smart-compact",
+      "npm": "https://www.npmjs.com/package/pi-smart-compact"
     },
     {
       "rank": 246,
@@ -2971,7 +2971,7 @@
       ],
       "href": "/packages/@realvendex/pi-token-router?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@realvendex/pi-token-router"
     },
     {
       "rank": 247,
@@ -2982,8 +2982,8 @@
         "package"
       ],
       "href": "/packages/@tmustier/pi-ralph-wiggum?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/tmustier/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@tmustier/pi-ralph-wiggum"
     },
     {
       "rank": 248,
@@ -2995,7 +2995,7 @@
       ],
       "href": "/packages/@zhushanwen/pi-ask-user?page=5",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@zhushanwen/pi-ask-user"
     },
     {
       "rank": 249,
@@ -3006,8 +3006,8 @@
         "extension"
       ],
       "href": "/packages/@cad0p/pi-napkin?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/cad0p/pi-napkin",
+      "npm": "https://www.npmjs.com/package/@cad0p/pi-napkin"
     },
     {
       "rank": 250,
@@ -3018,8 +3018,8 @@
         "extension"
       ],
       "href": "/packages/@balaenis/pi-agents?page=5",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/balaenis/pi-toolset",
+      "npm": "https://www.npmjs.com/package/@balaenis/pi-agents"
     },
     {
       "rank": 251,
@@ -3031,8 +3031,8 @@
         "skill"
       ],
       "href": "/packages/@juicesharp/rpiv-workflow?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/juicesharp/rpiv-mono",
+      "npm": "https://www.npmjs.com/package/@juicesharp/rpiv-workflow"
     },
     {
       "rank": 252,
@@ -3043,8 +3043,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-github-pr?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-github-pr"
     },
     {
       "rank": 253,
@@ -3055,8 +3055,8 @@
         "extension"
       ],
       "href": "/packages/pi-yaml-hooks?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/KristjanPikhof/pi-yaml-hooks",
+      "npm": "https://www.npmjs.com/package/pi-yaml-hooks"
     },
     {
       "rank": 254,
@@ -3067,8 +3067,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-web-access?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-web-access"
     },
     {
       "rank": 255,
@@ -3079,8 +3079,8 @@
         "package"
       ],
       "href": "/packages/@upstash/context7-pi?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/upstash/context7",
+      "npm": "https://www.npmjs.com/package/@upstash/context7-pi"
     },
     {
       "rank": 256,
@@ -3091,8 +3091,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-browser-use?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-browser-use"
     },
     {
       "rank": 257,
@@ -3103,8 +3103,8 @@
         "package"
       ],
       "href": "/packages/pi-courier?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Hi-Barry/pi-courier",
+      "npm": "https://www.npmjs.com/package/pi-courier"
     },
     {
       "rank": 258,
@@ -3115,8 +3115,8 @@
         "extension"
       ],
       "href": "/packages/pi-tool-display?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/MasuRii/pi-tool-display",
+      "npm": "https://www.npmjs.com/package/pi-tool-display"
     },
     {
       "rank": 259,
@@ -3127,8 +3127,8 @@
         "extension"
       ],
       "href": "/packages/@mrclrchtr/supi-debug?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/mrclrchtr/supi",
+      "npm": "https://www.npmjs.com/package/@mrclrchtr/supi-debug"
     },
     {
       "rank": 260,
@@ -3139,8 +3139,8 @@
         "extension"
       ],
       "href": "/packages/pi-loop-police?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/sebaxzero/pi-loop-police",
+      "npm": "https://www.npmjs.com/package/pi-loop-police"
     },
     {
       "rank": 261,
@@ -3152,7 +3152,7 @@
       ],
       "href": "/packages/pi-cockpit?page=6",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/pi-cockpit"
     },
     {
       "rank": 262,
@@ -3163,8 +3163,8 @@
         "extension"
       ],
       "href": "/packages/pi-soly?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/lowern1ght/pi-soly",
+      "npm": "https://www.npmjs.com/package/pi-soly"
     },
     {
       "rank": 263,
@@ -3175,8 +3175,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-channels?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-channels"
     },
     {
       "rank": 264,
@@ -3187,8 +3187,8 @@
         "extension"
       ],
       "href": "/packages/@nguyenquangthai/pi-todo?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/QuangThai/pi-todo",
+      "npm": "https://www.npmjs.com/package/@nguyenquangthai/pi-todo"
     },
     {
       "rank": 265,
@@ -3200,7 +3200,7 @@
       ],
       "href": "/packages/@brushes/course-proxy-ordering?page=6",
       "repo": null,
-      "npm": null
+      "npm": "https://www.npmjs.com/package/@brushes/course-proxy-ordering"
     },
     {
       "rank": 266,
@@ -3211,8 +3211,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-telemetry?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-telemetry"
     },
     {
       "rank": 267,
@@ -3223,8 +3223,8 @@
         "package"
       ],
       "href": "/packages/@danypops/pi-web-spider?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/DanyPops/web-spider",
+      "npm": "https://www.npmjs.com/package/@danypops/pi-web-spider"
     },
     {
       "rank": 268,
@@ -3235,8 +3235,8 @@
         "extension"
       ],
       "href": "/packages/@xaccefy/pi-lookup?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/x4cc3/pi-xpi",
+      "npm": "https://www.npmjs.com/package/@xaccefy/pi-lookup"
     },
     {
       "rank": 269,
@@ -3247,8 +3247,8 @@
         "extension"
       ],
       "href": "/packages/pi-autopilot?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ismailsaleekh/pi-autopilot",
+      "npm": "https://www.npmjs.com/package/pi-autopilot"
     },
     {
       "rank": 270,
@@ -3260,8 +3260,8 @@
         "theme"
       ],
       "href": "/packages/pi-cc-header?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/eriiic7z/pi-cc-header",
+      "npm": "https://www.npmjs.com/package/pi-cc-header"
     },
     {
       "rank": 271,
@@ -3272,8 +3272,8 @@
         "extension"
       ],
       "href": "/packages/pi-hashline-edit?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/RimuruW/pi-hashline-edit",
+      "npm": "https://www.npmjs.com/package/pi-hashline-edit"
     },
     {
       "rank": 272,
@@ -3284,8 +3284,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-subagent?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-subagent"
     },
     {
       "rank": 273,
@@ -3296,8 +3296,8 @@
         "extension"
       ],
       "href": "/packages/@xynogen/pix-subagent?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/xynogen/pix-mono",
+      "npm": "https://www.npmjs.com/package/@xynogen/pix-subagent"
     },
     {
       "rank": 274,
@@ -3308,8 +3308,8 @@
         "package"
       ],
       "href": "/packages/@chainingintention/pi-web-cn?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nayuto-wakusei/pi-web-ChineseTranslation",
+      "npm": "https://www.npmjs.com/package/@chainingintention/pi-web-cn"
     },
     {
       "rank": 275,
@@ -3320,8 +3320,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-attachments?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-attachments"
     },
     {
       "rank": 276,
@@ -3332,8 +3332,8 @@
         "package"
       ],
       "href": "/packages/@cgh567/agent?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/helios-agi/helios-agent",
+      "npm": "https://www.npmjs.com/package/@cgh567/agent"
     },
     {
       "rank": 277,
@@ -3344,8 +3344,8 @@
         "extension"
       ],
       "href": "/packages/pi-langfuse?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/gooyoung/pi-langfuse",
+      "npm": "https://www.npmjs.com/package/pi-langfuse"
     },
     {
       "rank": 278,
@@ -3356,8 +3356,8 @@
         "package"
       ],
       "href": "/packages/piwi-tui?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/JoulesDotDev/piwi-tui",
+      "npm": "https://www.npmjs.com/package/piwi-tui"
     },
     {
       "rank": 279,
@@ -3368,8 +3368,8 @@
         "package"
       ],
       "href": "/packages/@maestria/pi?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/agustinusnathaniel/maestria",
+      "npm": "https://www.npmjs.com/package/@maestria/pi"
     },
     {
       "rank": 280,
@@ -3380,8 +3380,8 @@
         "extension"
       ],
       "href": "/packages/@koltmcbride/pi-loop?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/kolt-mcb/pi-loop",
+      "npm": "https://www.npmjs.com/package/@koltmcbride/pi-loop"
     },
     {
       "rank": 281,
@@ -3392,8 +3392,8 @@
         "package"
       ],
       "href": "/packages/@ch1nyzzz/pi-evo?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Ch1nyzzz/pi",
+      "npm": "https://www.npmjs.com/package/@ch1nyzzz/pi-evo"
     },
     {
       "rank": 282,
@@ -3404,8 +3404,8 @@
         "extension"
       ],
       "href": "/packages/@pi-stef/catalog?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/sfiorini/pi-stef",
+      "npm": "https://www.npmjs.com/package/@pi-stef/catalog"
     },
     {
       "rank": 283,
@@ -3416,8 +3416,8 @@
         "extension"
       ],
       "href": "/packages/@kky42/pi-flow?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/kky42/pi-flow",
+      "npm": "https://www.npmjs.com/package/@kky42/pi-flow"
     },
     {
       "rank": 284,
@@ -3428,8 +3428,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-memory?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory"
     },
     {
       "rank": 285,
@@ -3440,8 +3440,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-worktree?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-worktree"
     },
     {
       "rank": 286,
@@ -3452,8 +3452,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-security?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-security"
     },
     {
       "rank": 287,
@@ -3464,8 +3464,8 @@
         "extension"
       ],
       "href": "/packages/@narumitw/pi-accounts?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/narumiruna/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@narumitw/pi-accounts"
     },
     {
       "rank": 288,
@@ -3476,8 +3476,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-memory-mem0?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-memory-mem0"
     },
     {
       "rank": 289,
@@ -3488,8 +3488,8 @@
         "extension"
       ],
       "href": "/packages/pi-provider-kimi-code?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Leechael/pi-provider-kimi-code",
+      "npm": "https://www.npmjs.com/package/pi-provider-kimi-code"
     },
     {
       "rank": 290,
@@ -3500,8 +3500,8 @@
         "extension"
       ],
       "href": "/packages/zob-harness?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/cgarrot/zob-harness",
+      "npm": "https://www.npmjs.com/package/zob-harness"
     },
     {
       "rank": 291,
@@ -3512,8 +3512,8 @@
         "package"
       ],
       "href": "/packages/@shvax/pi-statusline?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/martin-tahli/pi-statusline",
+      "npm": "https://www.npmjs.com/package/@shvax/pi-statusline"
     },
     {
       "rank": 292,
@@ -3524,8 +3524,8 @@
         "extension"
       ],
       "href": "/packages/@patimweb/pi-email?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/Smotherer007/pi-email",
+      "npm": "https://www.npmjs.com/package/@patimweb/pi-email"
     },
     {
       "rank": 293,
@@ -3536,8 +3536,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-teamwork?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-teamwork"
     },
     {
       "rank": 294,
@@ -3548,8 +3548,8 @@
         "package"
       ],
       "href": "/packages/diffing?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/ahmedragab20/diffing",
+      "npm": "https://www.npmjs.com/package/diffing"
     },
     {
       "rank": 295,
@@ -3560,8 +3560,8 @@
         "extension"
       ],
       "href": "/packages/@amaster.ai/pi-lark?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TGYD-helige/pi",
+      "npm": "https://www.npmjs.com/package/@amaster.ai/pi-lark"
     },
     {
       "rank": 296,
@@ -3572,8 +3572,8 @@
         "extension"
       ],
       "href": "/packages/pi-distill?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/maplezzk/pi-extensions",
+      "npm": "https://www.npmjs.com/package/pi-distill"
     },
     {
       "rank": 297,
@@ -3584,8 +3584,8 @@
         "package"
       ],
       "href": "/packages/@nquandt/pi-azure-foundry?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/nquandt/pi-azure-foundry",
+      "npm": "https://www.npmjs.com/package/@nquandt/pi-azure-foundry"
     },
     {
       "rank": 298,
@@ -3596,8 +3596,8 @@
         "package"
       ],
       "href": "/packages/pi-llm-bridge?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/theabbie/pi-llm-bridge",
+      "npm": "https://www.npmjs.com/package/pi-llm-bridge"
     },
     {
       "rank": 299,
@@ -3608,8 +3608,8 @@
         "extension"
       ],
       "href": "/packages/@bacnh85/pi-obsidian?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/bacnh85/pi-extensions",
+      "npm": "https://www.npmjs.com/package/@bacnh85/pi-obsidian"
     },
     {
       "rank": 300,
@@ -3620,8 +3620,8 @@
         "extension"
       ],
       "href": "/packages/pi-tian-usage?page=6",
-      "repo": null,
-      "npm": null
+      "repo": "https://github.com/TianZuo555/pi-tian-extensions",
+      "npm": "https://www.npmjs.com/package/pi-tian-usage"
     }
   ]
 }
