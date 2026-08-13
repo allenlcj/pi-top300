@@ -21,6 +21,7 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 - 范围：All types、Most downloads、排名 1–300
 - 快照日期：`2026-08-13`
 - 结构化数据：[`data/packages-latest.json`](data/packages-latest.json)
+- **完整 300 个包清单：[`docs/packages.md`](docs/packages.md)**
 - 历史快照：[`data/snapshots/`](data/snapshots/)
 
 ## 主要类别
@@ -35,7 +36,7 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 - Skills、Prompts、Rules 和结构化提问
 - 后台任务、Runtime、Worktree 和外部平台集成
 
-代表包和选择建议见[分类指南](docs/categories.md)。
+代表包和选择建议见[分类指南](docs/categories.md)。全部 300 个包、排名、描述和安装命令见[`docs/packages.md`](docs/packages.md)。
 
 ## 更新方式
 
@@ -44,10 +45,11 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 1. 抓取 Pi 官方目录；
 2. 保存 `data/snapshots/YYYY-MM-DD.json`；
 3. 更新 `data/packages-latest.json`；
-4. 将人工分类和推荐意见与抓取数据分开维护；
-5. 通过 Pull Request 审核后合并。
+4. 重新生成[`docs/packages.md`](docs/packages.md)；
+5. 将人工分类和推荐意见与抓取数据分开维护；
+6. 通过 Pull Request 审核后合并。
 
-在解析器和分类流程经过多次快照验证前，暂不启用自动更新。
+GitHub Actions 已配置为每周创建更新 Pull Request。
 
 ## 说明
 

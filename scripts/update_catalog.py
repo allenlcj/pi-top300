@@ -17,7 +17,8 @@ USER_AGENT = "pi-top300-catalog/0.1 (+https://github.com/allenlcj/pi-top300)"
 
 def strip_tags(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
-    return re.sub(r"\s+", " ", unescape(value)).strip()
+    cleaned = unescape(value).replace("\ufffd", "")
+    return re.sub(r"\s+", " ", cleaned).strip()
 
 
 def attr(tag: str, name: str) -> str:

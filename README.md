@@ -19,6 +19,7 @@ Popularity is not a quality or security guarantee. Pi packages can execute code 
 - Scope: All types, Most downloads, ranks 1–300
 - Snapshot: `2026-08-13`
 - Structured data: [`data/packages-latest.json`](data/packages-latest.json)
+- Full browsable list: [`docs/packages.md`](docs/packages.md)
 - Historical snapshots: [`data/snapshots/`](data/snapshots/)
 
 ## Main categories
@@ -33,7 +34,7 @@ Popularity is not a quality or security guarantee. Pi packages can execute code 
 - Skills, prompts, rules, and structured questions
 - Background work, runtime, worktrees, and integrations
 
-See [the category guide](docs/categories.md) for representative packages and selection advice.
+See [the category guide](docs/categories.md) for representative packages and selection advice. See [`docs/packages.md`](docs/packages.md) for all 300 package rows, descriptions, rankings, and install commands.
 
 ## Updating the catalog
 
@@ -42,10 +43,11 @@ The project keeps a dated raw snapshot instead of overwriting history. A future 
 1. fetch the official catalog;
 2. save a new snapshot under `data/snapshots/YYYY-MM-DD.json`;
 3. update `data/packages-latest.json`;
-4. preserve editorial classifications and notes separately from fetched data;
-5. open a pull request for review.
+4. regenerate [`docs/packages.md`](docs/packages.md);
+5. preserve editorial classifications and notes separately from fetched data;
+6. open a pull request for review.
 
-Automated updates are intentionally not enabled until the parser and classification workflow are verified against several snapshots.
+Automated updates are configured as a weekly Pull Request workflow.
 
 ## Disclaimer
 
