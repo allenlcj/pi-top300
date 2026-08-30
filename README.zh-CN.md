@@ -19,7 +19,7 @@ Pi Top 300 按“工具能做什么”帮助用户发现扩展、Skills、Prompt
 
 - 来源：[`pi.dev/packages?sort=downloads`](https://pi.dev/packages?sort=downloads)
 - 范围：All types、Most downloads、排名 1–300
-- 快照日期：`2026-08-13`
+- 快照日期：`2026-08-30`
 - 结构化数据：[`data/packages-latest.json`](data/packages-latest.json)
 - **完整 300 个包清单就在本 README 下方**；
 - 原始数据：[`data/packages-latest.json`](data/packages-latest.json)；
