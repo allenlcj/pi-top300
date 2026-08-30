@@ -2,4 +2,13 @@
 # Add a package here only after reviewing its current README, repository,
 # compatibility, maintenance, security, and overlap with existing packages.
 # recommendation: recommended | consider | niche | caution | avoid | unknown
-packages: {}
+packages:
+  @nitra/cursor:
+    category: skill
+    note: 下载 cursor 规则到本地仓库的 CLI 工具
+  @agimon-ai/doompi-extension-contracts:
+    category: runtime
+    note: DoomPi 生态的共享类型/契约库
+  @specpow/framework:
+    category: code
+    note: OpenSpec 规范驱动 + Superpowers 执行引擎的 AI 编程框架

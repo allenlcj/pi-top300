@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a browsable full catalog from data/packages-latest.json."""
+"""Generate README.md (by category) and docs/packages.md (by rank) from data/packages-latest.json."""
 
 from __future__ import annotations
 
@@ -10,7 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "packages-latest.json"
 OVERRIDES = ROOT / "data" / "categories.yaml"
-OUTPUT = ROOT / "README.md"
+README_OUT = ROOT / "README.md"
+CATALOG_OUT = ROOT / "docs" / "packages.md"
 
 CATEGORIES = {
     "agent": "Agent 编排 / Subagent / Plan / Goal / Task",
@@ -25,36 +26,68 @@ CATEGORIES = {
     "other": "其他 / 待复核",
 }
 
+# Specific categories are matched before the generic "agent" bucket, so that
+# generic phrases like "for Pi coding agent" do not capture everything.
 RULES = [
-    ("security", "permission security sandbox guard safety audit casefile"),
-    ("agent", "subagent agent goal task plan workflow orchestration harness fabric crew squad autopilot teammate superagent"),
+    ("security", "permission security sandbox guard safety audit casefile credential"),
     ("context", "context memory compact condense cache knowledge wiki mentis remnic papyrus fovea lore"),
-    ("web", "web browser chrome mcp search fetch crawl firecrawl spider pdf youtube obsidian context7 research lookup"),
-    ("code", "lsp lens ast codebase edit readseek hashline simplify review diff fff pretty compiler"),
-    ("model", "model provider router usage token litellm lmstudio llama kimi cursor openrouter fast mode accounts cache"),
-    ("ui", "ui tui footer statusline powerline cockpit atelier sidebar studio preview display insight telemetry langfuse braintrust tps usage"),
-    ("skill", "skill prompt rules powers ponytail ask question interview advisor persona superpowers"),
-    ("runtime", "background worktree sync telegram courier atlassian tickets email channel scheduler process pwsh loop lark github-pr"),
+    ("web", "web browser chrome mcp search fetch crawl firecrawl spider pdf youtube obsidian context7 research lookup query"),
+    ("code", "lsp lens ast codebase edit readseek hashline simplify review diff fff pretty compiler workbench"),
+    ("model", "provider router usage token litellm lmstudio llama kimi openrouter openai gemini deepseek vertex nvidia llm anthropic oauth accounts gpt ollama"),
+    ("ui", "ui tui footer statusline powerline cockpit atelier sidebar studio preview display insight telemetry langfuse braintrust tps usage trace tracing session conversation voice audio"),
+    ("skill", "skill prompt rules powers ponytail ask question interview advisor persona superpowers placeholder"),
+    ("runtime", "background worktree sync telegram courier atlassian tickets email channel scheduler process pwsh loop lark github-pr ssh remote desktop automation runtime linear config setting repl utility"),
+    ("agent", "subagent agent goal plan task workflow orchestration harness fabric crew squad autopilot teammate superagent team intercom dag runner todo"),
 ]
 
 
 def load_overrides() -> dict[str, dict[str, str]]:
-    """Read the deliberately small YAML override file without requiring PyYAML."""
+    """Read the deliberately small YAML override file without requiring PyYAML.
+    Format:
+      packages:
+        <package-name>:
+          category: <category-key>
+          recommendation: <status>
+          note: <text>"""
     if not OVERRIDES.exists():
         return {}
     overrides: dict[str, dict[str, str]] = {}
     current: str | None = None
     for raw in OVERRIDES.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
-        if not line or line.startswith("#") or line in {"packages:", "packages: {}"}:
+        if not line or line.startswith("#") or line == "packages:":
             continue
-        if not raw.startswith(" ") and line.endswith(":"):
-            current = line[:-1].strip().strip('"\'')
+        indent = len(raw) - len(raw.lstrip(" "))
+        if indent == 0 and line.endswith(":"):
+            continue
+        if indent == 2 and line.endswith(":"):
+            current = line[:-1].strip().strip('\"\'')
             overrides[current] = {}
         elif current and ":" in line:
             key, value = line.split(":", 1)
-            overrides[current][key.strip()] = value.strip().strip('"\'')
+            overrides[current][key.strip()] = value.strip().strip('\"\'')
     return overrides
+
+
+def stem(token: str) -> str:
+    """Rough English plural normalization so 'agents' matches 'agent'."""
+    if token.endswith("ies") and len(token) > 4:
+        return token[:-3] + "y"
+    if token.endswith("es") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("s") and len(token) > 3:
+        return token[:-1]
+    return token
+
+
+def matches(text: str, word: str, name_tokens: list[str]) -> bool:
+    """Exact stem match on the text; substring match only inside the package
+    name, so glued identifiers like 'freerouter' match 'router' without
+    description words like 'editor' false-matching 'edit'."""
+    tokens = re.findall(r"[a-z0-9]+", text.lower())
+    if word in [stem(tok) for tok in tokens]:
+        return True
+    return len(word) >= 4 and any(word in tok for tok in name_tokens)
 
 
 def classify(package: dict, overrides: dict[str, dict[str, str]]) -> tuple[str, str, str]:
@@ -64,9 +97,10 @@ def classify(package: dict, overrides: dict[str, dict[str, str]]) -> tuple[str, 
         category = override["category"]
     else:
         text = f"{name} {package.get('description', '')}".lower()
+        name_tokens = re.findall(r"[a-z0-9]+", name.lower())
         category = "other"
         for candidate, words in RULES:
-            if any(re.search(rf"(?<![a-z0-9]){re.escape(word)}(?![a-z0-9])", text) for word in words.split()):
+            if any(matches(text, word, name_tokens) for word in words.split()):
                 category = candidate
                 break
     status = override.get("recommendation", "待人工评估")
@@ -87,16 +121,48 @@ def absolute_link(url: str | None) -> str:
     return url
 
 
-def main() -> None:
-    payload = json.loads(DATA.read_text(encoding="utf-8"))
-    packages = payload["packages"]
-    overrides = load_overrides()
+def describe(package: dict, note: str) -> str:
+    description = package.get("description", "").replace("|", "\\|").replace("\n", " ")
+    if note:
+        description += f"（{note}）"
+    return description
+
+
+def package_link(package: dict) -> str:
+    name = package["name"]
+    pkg_url = absolute_link(package.get("href"))
+    return f"[{name}]({pkg_url})" if pkg_url != "—" else f"`{name}`"
+
+
+def row(package: dict, category: str, status: str, note: str, with_category: bool) -> str:
+    link = package_link(package)
+    install = f"`pi install npm:{package['name']}`"
+    base = (
+        f"| {package['rank']} | {link} | {package['downloads']:,}/mo | "
+        f"{package_type(package)} | {describe(package, note)}"
+    )
+    if with_category:
+        base += f" | {category}"
+    return f"{base} | {status} | {install} |"
+
+
+def grouped_packages(packages: list[dict], overrides: dict[str, dict[str, str]]) -> list[tuple[str, list[dict]]]:
+    buckets: dict[str, list[dict]] = {}
+    for package in packages:
+        category, _, _ = classify(package, overrides)
+        buckets.setdefault(category, []).append(package)
+    ordered = sorted(buckets, key=lambda c: (-len(buckets[c]), c == "其他 / 待复核"))
+    return [(c, buckets[c]) for c in ordered]
+
+
+def render_readme(packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict) -> None:
+    groups = grouped_packages(packages, overrides)
     lines = [
         "# Pi Top 300",
         "",
         "一个持续维护的 Pi 官方热门包分类与推荐目录，整理 Pi 官方 Package Catalog 中按 `All types → Most downloads` 排名的前 300 个包。",
         "",
-        "[分类指南](docs/categories.md) · [原始 JSON 数据](data/packages-latest.json) · [历史快照](data/snapshots/)",
+        "[分类指南](docs/categories.md) · [按排名清单](docs/packages.md) · [原始 JSON 数据](data/packages-latest.json) · [历史快照](data/snapshots/)",
         "",
         "## 项目用途",
         "",
@@ -117,29 +183,70 @@ def main() -> None:
         "",
         "## 使用方法",
         "",
-        "这是完整的前 300 清单，可直接使用 GitHub 的 `Ctrl+F` 搜索包名、类别或关键词。每行包含排名、包名、月下载量、用途描述、初步类别、推荐状态和安装命令。",
+        "下方清单已按用途类别分组，可用 GitHub 的 `Ctrl+F` 搜索包名、类别或关键词。每行包含原榜单排名（便于对照下载量）、包名、月下载量、用途描述、推荐状态和安装命令；需要按排名顺序浏览完整榜单见[按排名清单](docs/packages.md)。",
         "",
-        "## 完整前 300 清单",
+        "## 分类总览",
+        "",
+        "| 类别 | 数量 | 占比 |",
+        "| --- | ---: | ---: |",
+    ]
+    for category, group in groups:
+        lines.append(f"| {category} | {len(group)} | {len(group) / len(packages) * 100:.0f}% |")
+    lines.append("")
+    lines.append("## 按类别清单")
+    lines.append("")
+    for category, group in groups:
+        lines.append(f"### {category}（{len(group)} 个）")
+        lines.append("")
+        lines.append("| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 推荐状态 | 安装 |")
+        lines.append("| ---: | --- | ---: | --- | --- | --- | --- |")
+        for package in sorted(group, key=lambda p: p["rank"]):
+            category, status, note = classify(package, overrides)
+            lines.append(row(package, category, status, note, with_category=False))
+        lines.append("")
+    README_OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    print(f"Generated {README_OUT} with {len(packages)} packages in {len(groups)} categories")
+
+
+def render_catalog(packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict) -> None:
+    lines = [
+        "# Pi 官方热门包前 300",
+        "",
+        "> 本页按 Pi 官方 Package Catalog 的 `All types → Most downloads` 快照生成。",
+        "> 下载量是采集时页面显示的 npm 月下载量，不是独立用户数，也不代表质量或安全性。",
+        "> 分类是基于名称和描述的初步分类；推荐状态默认为“待人工评估”，人工意见维护在 `data/categories.yaml`。",
+        "",
+        f"- 快照日期：`{payload['retrievedAt']}`",
+        f"- 数据范围：`{payload['scope']}`",
+        f"- 包数量：`{len(packages)}`",
+        "- 原始数据：[`data/packages-latest.json`](../data/packages-latest.json)",
+        "- 历史快照：[`data/snapshots/`](../data/snapshots/)",
+        "",
+        "## 使用方法",
+        "",
+        "按浏览器查找：`Ctrl+F` 搜索包名、类别或关键词。每行包含排名、包名、月下载量、用途描述、初步类别和安装命令。按用途类别浏览见[README 分类清单](../README.md)。",
+        "",
+        "## 完整清单（按排名）",
         "",
         "| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 初步类别 | 推荐状态 | 安装 |",
         "| ---: | --- | ---: | --- | --- | --- | --- | --- |",
     ]
     for package in packages:
         category, status, note = classify(package, overrides)
-        description = package.get("description", "").replace("|", "\\|").replace("\n", " ")
-        if note:
-            description += f"（{note}）"
-        name = package["name"]
-        pkg_url = absolute_link(package.get("href"))
-        npm = package.get("npm") or f"https://www.npmjs.com/package/{name}"
-        package_link = f"[{name}]({pkg_url})" if pkg_url != "—" else f"`{name}`"
-        install = f"`pi install npm:{name}`"
-        lines.append(
-            f"| {package['rank']} | {package_link} | {package['downloads']:,}/mo | "
-            f"{package_type(package)} | {description} | {category} | {status} | {install} |"
-        )
-    OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Generated {OUTPUT} with {len(packages)} packages")
+        lines.append(row(package, category, status, note, with_category=True))
+    CATALOG_OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Generated {CATALOG_OUT} with {len(packages)} packages")
+
+
+def main() -> None:
+    try:
+        payload = json.loads(DATA.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"Failed to read {DATA}: {exc}") from exc
+    packages = payload["packages"]
+    overrides = load_overrides()
+    render_readme(packages, overrides, payload)
+    render_catalog(packages, overrides, payload)
 
 
 if __name__ == "__main__":
