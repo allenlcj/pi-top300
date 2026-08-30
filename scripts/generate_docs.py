@@ -30,14 +30,38 @@ CATEGORIES = {
 # generic phrases like "for Pi coding agent" do not capture everything.
 RULES = [
     ("security", "permission security sandbox guard safety audit casefile credential"),
-    ("context", "context memory compact condense cache knowledge wiki mentis remnic papyrus fovea lore"),
-    ("web", "web browser chrome mcp search fetch crawl firecrawl spider pdf youtube obsidian context7 research lookup query"),
-    ("code", "lsp lens ast codebase edit readseek hashline simplify review diff fff pretty compiler workbench"),
-    ("model", "provider router usage token litellm lmstudio llama kimi openrouter openai gemini deepseek vertex nvidia llm anthropic oauth accounts gpt ollama"),
-    ("ui", "ui tui footer statusline powerline cockpit atelier sidebar studio preview display insight telemetry langfuse braintrust tps usage trace tracing session conversation voice audio"),
-    ("skill", "skill prompt rules powers ponytail ask question interview advisor persona superpowers placeholder"),
-    ("runtime", "background worktree sync telegram courier atlassian tickets email channel scheduler process pwsh loop lark github-pr ssh remote desktop automation runtime linear config setting repl utility"),
-    ("agent", "subagent agent goal plan task workflow orchestration harness fabric crew squad autopilot teammate superagent team intercom dag runner todo"),
+    (
+        "context",
+        "context memory compact condense cache knowledge wiki mentis remnic papyrus fovea lore",
+    ),
+    (
+        "web",
+        "web browser chrome mcp search fetch crawl firecrawl spider pdf youtube obsidian context7 research lookup query",
+    ),
+    (
+        "code",
+        "lsp lens ast codebase edit readseek hashline simplify review diff fff pretty compiler workbench",
+    ),
+    (
+        "model",
+        "provider router usage token litellm lmstudio llama kimi openrouter openai gemini deepseek vertex nvidia llm anthropic oauth accounts gpt ollama",
+    ),
+    (
+        "ui",
+        "ui tui footer statusline powerline cockpit atelier sidebar studio preview display insight telemetry langfuse braintrust tps usage trace tracing session conversation voice audio",
+    ),
+    (
+        "skill",
+        "skill prompt rules powers ponytail ask question interview advisor persona superpowers placeholder",
+    ),
+    (
+        "runtime",
+        "background worktree sync telegram courier atlassian tickets email channel scheduler process pwsh loop lark github-pr ssh remote desktop automation runtime linear config setting repl utility",
+    ),
+    (
+        "agent",
+        "subagent agent goal plan task workflow orchestration harness fabric crew squad autopilot teammate superagent team intercom dag runner todo",
+    ),
 ]
 
 
@@ -61,11 +85,11 @@ def load_overrides() -> dict[str, dict[str, str]]:
         if indent == 0 and line.endswith(":"):
             continue
         if indent == 2 and line.endswith(":"):
-            current = line[:-1].strip().strip('\"\'')
+            current = line[:-1].strip().strip("\"'")
             overrides[current] = {}
         elif current and ":" in line:
             key, value = line.split(":", 1)
-            overrides[current][key.strip()] = value.strip().strip('\"\'')
+            overrides[current][key.strip()] = value.strip().strip("\"'")
     return overrides
 
 
@@ -90,7 +114,9 @@ def matches(text: str, word: str, name_tokens: list[str]) -> bool:
     return len(word) >= 4 and any(word in tok for tok in name_tokens)
 
 
-def classify(package: dict, overrides: dict[str, dict[str, str]]) -> tuple[str, str, str]:
+def classify(
+    package: dict, overrides: dict[str, dict[str, str]]
+) -> tuple[str, str, str]:
     name = package["name"]
     override = overrides.get(name, {})
     if override.get("category") in CATEGORIES:
@@ -134,7 +160,9 @@ def package_link(package: dict) -> str:
     return f"[{name}]({pkg_url})" if pkg_url != "—" else f"`{name}`"
 
 
-def row(package: dict, category: str, status: str, note: str, with_category: bool) -> str:
+def row(
+    package: dict, category: str, status: str, note: str, with_category: bool
+) -> str:
     link = package_link(package)
     install = f"`pi install npm:{package['name']}`"
     base = (
@@ -146,7 +174,9 @@ def row(package: dict, category: str, status: str, note: str, with_category: boo
     return f"{base} | {status} | {install} |"
 
 
-def grouped_packages(packages: list[dict], overrides: dict[str, dict[str, str]]) -> list[tuple[str, list[dict]]]:
+def grouped_packages(
+    packages: list[dict], overrides: dict[str, dict[str, str]]
+) -> list[tuple[str, list[dict]]]:
     buckets: dict[str, list[dict]] = {}
     for package in packages:
         category, _, _ = classify(package, overrides)
@@ -155,7 +185,9 @@ def grouped_packages(packages: list[dict], overrides: dict[str, dict[str, str]])
     return [(c, buckets[c]) for c in ordered]
 
 
-def render_readme(packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict) -> None:
+def render_readme(
+    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict
+) -> None:
     groups = grouped_packages(packages, overrides)
     lines = [
         "# Pi Top 300",
@@ -191,7 +223,9 @@ def render_readme(packages: list[dict], overrides: dict[str, dict[str, str]], pa
         "| --- | ---: | ---: |",
     ]
     for category, group in groups:
-        lines.append(f"| {category} | {len(group)} | {len(group) / len(packages) * 100:.0f}% |")
+        lines.append(
+            f"| {category} | {len(group)} | {len(group) / len(packages) * 100:.0f}% |"
+        )
     lines.append("")
     lines.append("## 按类别清单")
     lines.append("")
@@ -205,10 +239,14 @@ def render_readme(packages: list[dict], overrides: dict[str, dict[str, str]], pa
             lines.append(row(package, category, status, note, with_category=False))
         lines.append("")
     README_OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-    print(f"Generated {README_OUT} with {len(packages)} packages in {len(groups)} categories")
+    print(
+        f"Generated {README_OUT} with {len(packages)} packages in {len(groups)} categories"
+    )
 
 
-def render_catalog(packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict) -> None:
+def render_catalog(
+    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict
+) -> None:
     lines = [
         "# Pi 官方热门包前 300",
         "",
