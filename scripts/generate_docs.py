@@ -93,6 +93,31 @@ def load_overrides() -> dict[str, dict[str, str]]:
     return overrides
 
 
+TRANSLATIONS = ROOT / "data" / "translations.zh.json"
+
+
+def load_translations() -> dict[str, str]:
+    """Load Chinese descriptions keyed by package name (fall back to English)."""
+    if not TRANSLATIONS.exists():
+        return {}
+    try:
+        data = json.loads(TRANSLATIONS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def slugify(text: str) -> str:
+    """GitHub-style heading anchor: lowercase, strip punctuation, spaces to dashes.
+    CJK characters are kept so Chinese headings get stable anchors."""
+    # github-slugger punctuation set (General Punctuation + CJK punctuation + ASCII)
+    cleaned = re.sub(
+        r"[\u2000-\u206F\u2E00-\u2E7F\\'!\"#$%&()*+,./:;<=>?@\[\]^`{|}~]", "",
+        text.strip().lower(),
+    )
+    return re.sub(r"\s+", "-", cleaned)
+
+
 def stem(token: str) -> str:
     """Rough English plural normalization so 'agents' matches 'agent'."""
     if token.endswith("ies") and len(token) > 4:
@@ -116,7 +141,7 @@ def matches(text: str, word: str, name_tokens: list[str]) -> bool:
 
 def classify(
     package: dict, overrides: dict[str, dict[str, str]]
-) -> tuple[str, str, str]:
+) -> tuple[str, str]:
     name = package["name"]
     override = overrides.get(name, {})
     if override.get("category") in CATEGORIES:
@@ -129,9 +154,8 @@ def classify(
             if any(matches(text, word, name_tokens) for word in words.split()):
                 category = candidate
                 break
-    status = override.get("recommendation", "待人工评估")
     note = override.get("note", "")
-    return CATEGORIES[category], status, note
+    return CATEGORIES[category], note
 
 
 def package_type(package: dict) -> str:
@@ -147,8 +171,9 @@ def absolute_link(url: str | None) -> str:
     return url
 
 
-def describe(package: dict, note: str) -> str:
-    description = package.get("description", "").replace("|", "\\|").replace("\n", " ")
+def describe(package: dict, note: str, translations: dict[str, str]) -> str:
+    description = translations.get(package["name"]) or package.get("description", "")
+    description = description.replace("|", "\\|").replace("\n", " ")
     if note:
         description += f"（{note}）"
     return description
@@ -161,17 +186,17 @@ def package_link(package: dict) -> str:
 
 
 def row(
-    package: dict, category: str, status: str, note: str, with_category: bool
+    package: dict, category: str, note: str, with_category: bool, translations: dict[str, str]
 ) -> str:
     link = package_link(package)
     install = f"`pi install npm:{package['name']}`"
     base = (
         f"| {package['rank']} | {link} | {package['downloads']:,}/mo | "
-        f"{package_type(package)} | {describe(package, note)}"
+        f"{package_type(package)} | {describe(package, note, translations)}"
     )
     if with_category:
         base += f" | {category}"
-    return f"{base} | {status} | {install} |"
+    return f"{base} | {install} |"
 
 
 def grouped_packages(
@@ -179,43 +204,28 @@ def grouped_packages(
 ) -> list[tuple[str, list[dict]]]:
     buckets: dict[str, list[dict]] = {}
     for package in packages:
-        category, _, _ = classify(package, overrides)
+        category, _ = classify(package, overrides)
         buckets.setdefault(category, []).append(package)
     ordered = sorted(buckets, key=lambda c: (-len(buckets[c]), c == "其他 / 待复核"))
     return [(c, buckets[c]) for c in ordered]
 
 
 def render_readme(
-    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict
+    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict,
+    translations: dict[str, str],
 ) -> None:
     groups = grouped_packages(packages, overrides)
     lines = [
         "# Pi Top 300",
         "",
-        "一个持续维护的 Pi 官方热门包分类与推荐目录，整理 Pi 官方 Package Catalog 中按 `All types → Most downloads` 排名的前 300 个包。",
+        "Pi 官方 Package Catalog 前 300 热门包的用途分类目录（All types · Most downloads）。",
         "",
-        "[分类指南](docs/categories.md) · [按排名清单](docs/packages.md) · [原始 JSON 数据](data/packages-latest.json) · [历史快照](data/snapshots/)",
+        "[分类指南](docs/categories.md) · [按排名清单](docs/packages.md) · [原始 JSON 数据](data/packages-latest.json)",
         "",
-        "## 项目用途",
+        "> ⚠️ Pi 包可能以当前用户权限执行代码，安装前请审查源码和权限。",
+        "> 下载量为 npm 月下载量，不代表质量或安全性。分类基于名称和描述的初步归类，人工意见维护在 `data/categories.yaml`。",
         "",
-        "Pi Top 300 按工具用途帮助用户发现 Pi 的扩展、Skills、Prompt、Theme 和其他包。热门程度与推荐程度分开：下载量只是榜单依据，不代表质量、安全性或独立用户数；推荐状态需要结合用途、维护、兼容性、重复功能和安全性判断。",
-        "",
-        "> Pi 包可能以当前用户权限执行代码。安装第三方包前请审查源码、权限和依赖。",
-        "",
-        "## 当前快照",
-        "",
-        "> 本页按 Pi 官方 Package Catalog 的 `All types → Most downloads` 快照生成。",
-        "> 下载量是采集时页面显示的 npm 月下载量，不是独立用户数，也不代表质量或安全性。",
-        "> 分类是基于名称和描述的初步分类；推荐状态默认为“待人工评估”，人工意见维护在 `data/categories.yaml`。",
-        "",
-        f"- 快照日期：`{payload['retrievedAt']}`",
-        f"- 数据范围：`{payload['scope']}`",
-        f"- 包数量：`{len(packages)}`",
-        "- 原始数据：[`data/packages-latest.json`](data/packages-latest.json)",
-        "",
-        "## 使用方法",
-        "",
-        "下方清单已按用途类别分组，可用 GitHub 的 `Ctrl+F` 搜索包名、类别或关键词。每行包含原榜单排名（便于对照下载量）、包名、月下载量、用途描述、推荐状态和安装命令；需要按排名顺序浏览完整榜单见[按排名清单](docs/packages.md)。",
+        f"- 快照 `{payload['retrievedAt']}`（[历史快照](data/snapshots/)）· 共 {len(packages)} 包",
         "",
         "## 分类总览",
         "",
@@ -223,20 +233,21 @@ def render_readme(
         "| --- | ---: | ---: |",
     ]
     for category, group in groups:
+        anchor = slugify(category)
         lines.append(
-            f"| {category} | {len(group)} | {len(group) / len(packages) * 100:.0f}% |"
+            f"| [{category}](#{anchor}) | {len(group)} | {len(group) / len(packages) * 100:.0f}% |"
         )
     lines.append("")
     lines.append("## 按类别清单")
     lines.append("")
     for category, group in groups:
-        lines.append(f"### {category}（{len(group)} 个）")
+        lines.append(f"### {category}")
         lines.append("")
-        lines.append("| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 推荐状态 | 安装 |")
-        lines.append("| ---: | --- | ---: | --- | --- | --- | --- |")
+        lines.append("| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |")
+        lines.append("| ---: | --- | ---: | --- | --- | --- |")
         for package in sorted(group, key=lambda p: p["rank"]):
-            category, status, note = classify(package, overrides)
-            lines.append(row(package, category, status, note, with_category=False))
+            category, note = classify(package, overrides)
+            lines.append(row(package, category, note, with_category=False, translations=translations))
         lines.append("")
     README_OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(
@@ -245,33 +256,26 @@ def render_readme(
 
 
 def render_catalog(
-    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict
+    packages: list[dict], overrides: dict[str, dict[str, str]], payload: dict,
+    translations: dict[str, str],
 ) -> None:
     lines = [
         "# Pi 官方热门包前 300",
         "",
-        "> 本页按 Pi 官方 Package Catalog 的 `All types → Most downloads` 快照生成。",
-        "> 下载量是采集时页面显示的 npm 月下载量，不是独立用户数，也不代表质量或安全性。",
-        "> 分类是基于名称和描述的初步分类；推荐状态默认为“待人工评估”，人工意见维护在 `data/categories.yaml`。",
+        "> 按 Pi 官方 Package Catalog 的 `All types → Most downloads` 快照生成，下载量为 npm 月下载量，不代表质量或安全性。",
         "",
-        f"- 快照日期：`{payload['retrievedAt']}`",
-        f"- 数据范围：`{payload['scope']}`",
-        f"- 包数量：`{len(packages)}`",
-        "- 原始数据：[`data/packages-latest.json`](../data/packages-latest.json)",
-        "- 历史快照：[`data/snapshots/`](../data/snapshots/)",
+        f"- 快照 `{payload['retrievedAt']}`（[历史快照](../data/snapshots/)）· 共 {len(packages)} 包",
         "",
-        "## 使用方法",
-        "",
-        "按浏览器查找：`Ctrl+F` 搜索包名、类别或关键词。每行包含排名、包名、月下载量、用途描述、初步类别和安装命令。按用途类别浏览见[README 分类清单](../README.md)。",
+        "按排名顺序浏览；按用途类别浏览见 [README 分类清单](../README.md)。",
         "",
         "## 完整清单（按排名）",
         "",
-        "| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 初步类别 | 推荐状态 | 安装 |",
-        "| ---: | --- | ---: | --- | --- | --- | --- | --- |",
+        "| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 初步类别 | 安装 |",
+        "| ---: | --- | ---: | --- | --- | --- | --- |",
     ]
     for package in packages:
-        category, status, note = classify(package, overrides)
-        lines.append(row(package, category, status, note, with_category=True))
+        category, note = classify(package, overrides)
+        lines.append(row(package, category, note, with_category=True, translations=translations))
     CATALOG_OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Generated {CATALOG_OUT} with {len(packages)} packages")
 
@@ -283,8 +287,9 @@ def main() -> None:
         raise SystemExit(f"Failed to read {DATA}: {exc}") from exc
     packages = payload["packages"]
     overrides = load_overrides()
-    render_readme(packages, overrides, payload)
-    render_catalog(packages, overrides, payload)
+    translations = load_translations()
+    render_readme(packages, overrides, payload, translations)
+    render_catalog(packages, overrides, payload, translations)
 
 
 if __name__ == "__main__":
