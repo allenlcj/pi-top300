@@ -7,22 +7,22 @@ Pi 官方 Package Catalog 前 300 热门包的用途分类目录（All types · 
 > ⚠️ Pi 包可能以当前用户权限执行代码，安装前请审查源码和权限。
 > 下载量为 npm 月下载量，不代表质量或安全性。分类基于名称和描述的初步归类，人工意见维护在 `data/categories.yaml`。
 
-- 快照 `2026-08-30`（[历史快照](data/snapshots/)）· 共 300 包
+- 快照 `2026-09-14`（[历史快照](data/snapshots/)）· 共 300 包
 
 ## 分类总览
 
 | 类别 | 数量 | 占比 |
 | --- | ---: | ---: |
-| [模型 / Provider / 路由 / 用量](#模型-provider-路由-用量) | 51 | 17% |
-| [Context / Memory / Knowledge / Compaction](#context-memory-knowledge-compaction) | 46 | 15% |
-| [Web / Browser / Research / MCP](#web-browser-research-mcp) | 36 | 12% |
-| [Agent 编排 / Subagent / Plan / Goal / Task](#agent-编排-subagent-plan-goal-task) | 36 | 12% |
-| [Runtime / 后台任务 / Worktree / 集成](#runtime-后台任务-worktree-集成) | 34 | 11% |
+| [模型 / Provider / 路由 / 用量](#模型-provider-路由-用量) | 49 | 16% |
+| [Web / Browser / Research / MCP](#web-browser-research-mcp) | 42 | 14% |
+| [Context / Memory / Knowledge / Compaction](#context-memory-knowledge-compaction) | 41 | 14% |
+| [Agent 编排 / Subagent / Plan / Goal / Task](#agent-编排-subagent-plan-goal-task) | 38 | 13% |
 | [UI / TUI / Session / 观测](#ui-tui-session-观测) | 34 | 11% |
+| [Runtime / 后台任务 / Worktree / 集成](#runtime-后台任务-worktree-集成) | 29 | 10% |
 | [Skills / Prompt / Rules / 提问](#skills-prompt-rules-提问) | 27 | 9% |
-| [代码智能 / 编辑 / Review](#代码智能-编辑-review) | 16 | 5% |
-| [安全 / 权限 / Sandbox](#安全-权限-sandbox) | 16 | 5% |
-| [其他 / 待复核](#其他-待复核) | 4 | 1% |
+| [代码智能 / 编辑 / Review](#代码智能-编辑-review) | 19 | 6% |
+| [安全 / 权限 / Sandbox](#安全-权限-sandbox) | 15 | 5% |
+| [其他 / 待复核](#其他-待复核) | 6 | 2% |
 
 ## 按类别清单
 
@@ -30,348 +30,348 @@ Pi 官方 Package Catalog 前 300 热门包的用途分类目录（All types · 
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 26 | [@braintrust/pi-extension](https://pi.dev/packages/@braintrust/pi-extension) | 30,590/mo | package | 面向 pi 的 Braintrust 扩展，可自动将 pi 会话、轮次、LLM 调用和工具执行追踪到 Braintrust。 | `pi install npm:@braintrust/pi-extension` |
-| 46 | [@narumitw/pi-usage](https://pi.dev/packages/@narumitw/pi-usage) | 19,037/mo | extension | Pi 扩展，可显示受支持模型提供方的当前账户用量和 DeepSeek API 余额。 | `pi install npm:@narumitw/pi-usage` |
-| 48 | [pi-claude-bridge](https://pi.dev/packages/pi-claude-bridge) | 17,929/mo | extension | Pi 扩展，将 Claude Code（通过 Agent SDK）用作模型提供方，并新增 AskClaude 工具。 | `pi install npm:pi-claude-bridge` |
-| 58 | [@tunnckocore/pi-gpt-fast-mode](https://pi.dev/packages/@tunnckocore/pi-gpt-fast-mode?page=2) | 14,788/mo | extension | 一个极简 Pi 扩展，仅通过 /fast（默认 'priority'）在 GPT-5.4 / GPT-5.5 / GPT-5.6 的 Fast 模式之间切换，不含其他功能——只有一个文件。 | `pi install npm:@tunnckocore/pi-gpt-fast-mode` |
-| 60 | [@amaster.ai/pi-image-gen](https://pi.dev/packages/@amaster.ai/pi-image-gen?page=2) | 14,709/mo | extension | Pi 图片生成扩展，支持通过 OpenAI gpt-image、Google Nano Banana（Gemini）、阿里 Qwen-Image、OpenRouter 及自定义模型提供方生成图片。 | `pi install npm:@amaster.ai/pi-image-gen` |
-| 66 | [@alexanderfortin/pi-deepseek-usage](https://pi.dev/packages/@alexanderfortin/pi-deepseek-usage?page=2) | 13,290/mo | extension | Pi 扩展，用于监控 DeepSeek API 余额。 | `pi install npm:@alexanderfortin/pi-deepseek-usage` |
-| 75 | [@danypops/pi-tickets](https://pi.dev/packages/@danypops/pi-tickets?page=2) | 11,814/mo | extension | Pi 扩展，将 tickets daemon（GitHub/GitLab/Jira 问题跟踪）开放为可供 LLM 调用的工具。 | `pi install npm:@danypops/pi-tickets` |
-| 82 | [pi-provider-litellm](https://pi.dev/packages/pi-provider-litellm?page=2) | 11,156/mo | extension | 面向 Pi 的 LiteLLM 代理模型提供方扩展。 | `pi install npm:pi-provider-litellm` |
-| 83 | [pi-lmstudio](https://pi.dev/packages/pi-lmstudio?page=2) | 10,896/mo | package | 面向 Pi 编码代理的 LM Studio 模型提供方扩展。 | `pi install npm:pi-lmstudio` |
-| 92 | [pi-harness-runtime](https://pi.dev/packages/pi-harness-runtime?page=2) | 10,324/mo | extension | [BETA] 面向 pi 的 Codex 风格 /usage 状态与自主编码 harness。尚未达到生产就绪——预计会有破坏性变更。 | `pi install npm:pi-harness-runtime` |
-| 104 | [@sreetej510/pi-usage](https://pi.dev/packages/@sreetej510/pi-usage?page=3) | 9,516/mo | extension | Pi 扩展，通过 /usage 报告模型提供方的用量/速率限制预算（Codex、Anthropic OAuth 等），并提供实时状态栏小部件。 | `pi install npm:@sreetej510/pi-usage` |
-| 106 | [@gotgenes/pi-anthropic-auth](https://pi.dev/packages/@gotgenes/pi-anthropic-auth?page=3) | 9,075/mo | package | 用于 Anthropic OAuth 兼容性的 Pi 扩展包 | `pi install npm:@gotgenes/pi-anthropic-auth` |
-| 112 | [@firstpick/pi-extension-anthropic-auth-recovery](https://pi.dev/packages/@firstpick/pi-extension-anthropic-auth-recovery?page=3) | 8,527/mo | extension | 为已分类的 Anthropic 兼容性错误提供仅制定计划的 Pi 恢复流程。 | `pi install npm:@firstpick/pi-extension-anthropic-auth-recovery` |
-| 117 | [@cortexkit/pi-anthropic-auth](https://pi.dev/packages/@cortexkit/pi-anthropic-auth?page=3) | 8,173/mo | package | 为 CortexKit 提供 Anthropic OAuth 支持的 Pi 包。它用由共享的 `@cortexkit/anthropic-auth-core` 包支撑的 CortexKit 模型提供方扩展，覆盖 Pi 内置的 `anthropic` 模型提供方。 | `pi install npm:@cortexkit/pi-anthropic-auth` |
-| 121 | [pi-cursor-sdk](https://pi.dev/packages/pi-cursor-sdk?page=3) | 8,021/mo | extension | 由 @cursor/sdk 本地及云端 AI 代理支撑的 pi 模型提供方扩展 | `pi install npm:pi-cursor-sdk` |
-| 122 | [superpowers-zh](https://pi.dev/packages/superpowers-zh?page=3) | 7,937/mo | skill | AI 编程超能力中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创技能包，支持 Claude Code / Copilot CLI / Hermes Agent / Cursor / Claw Code / Windsurf / Kiro / Gemini CLI / Qoder 等 23 款工具 | `pi install npm:superpowers-zh` |
-| 128 | [@cortexkit/pi-openai-auth](https://pi.dev/packages/@cortexkit/pi-openai-auth?page=3) | 7,302/mo | package | 为 CortexKit 提供 OpenAI Codex OAuth 支持的 Pi 包。它用基于 Pi 的 OpenAI Codex Responses 传输层和 OAuth 原语的 CortexKit 模型提供方扩展，覆盖 Pi 内置的 `openai-codex` 模型提供方。 | `pi install npm:@cortexkit/pi-openai-auth` |
-| 129 | [pi-provider-kimi-code](https://pi.dev/packages/pi-provider-kimi-code?page=3) | 7,237/mo | extension | 在 Pi 中使用 Kimi Code 模型（K3、K2.7、HighSpeed）：与 kimi-code CLI 共享 OAuth 登录、文件上传以及 Kimi 原生工具 | `pi install npm:pi-provider-kimi-code` |
-| 139 | [pi-caveman](https://pi.dev/packages/pi-caveman?page=3) | 7,036/mo | extension | 既然少量 token 就能奏效，何必使用大量 token。pi 的穴居人模式 —— 在保持完整技术准确性的同时减少约 75% 的输出 token。 | `pi install npm:pi-caveman` |
-| 145 | [@diegopetrucci/pi-openai-fast](https://pi.dev/packages/@diegopetrucci/pi-openai-fast?page=3) | 6,825/mo | package | 一个 pi 扩展，通过注入优先服务层级，为使用 ChatGPT 认证的 GPT-5.5 和 GPT-5.6 Codex 变体启用 OpenAI Codex Fast 模式。 | `pi install npm:@diegopetrucci/pi-openai-fast` |
-| 149 | [pi-extension-nvidia-nim](https://pi.dev/packages/pi-extension-nvidia-nim?page=3) | 6,737/mo | package | 为 pi coding agent 提供模型感知的 NVIDIA NIM 推理兼容性 | `pi install npm:pi-extension-nvidia-nim` |
-| 160 | [pi-freeflow](https://pi.dev/packages/pi-freeflow?page=4) | 6,500/mo | extension | 面向 OMP/Pi 的轻量级模型提供方 —— 模型列表 + 简易中继代理 + 日志；思考（thinking）与规范化（normalization）由宿主 pi-ai 负责。 | `pi install npm:pi-freeflow` |
-| 170 | [pi-llama-cpp](https://pi.dev/packages/pi-llama-cpp?page=4) | 6,307/mo | extension | 用于集成 llama.cpp 的 Pi 扩展。支持 router、单模型与旧版（legacy）模型，并支持多个服务器。 | `pi install npm:pi-llama-cpp` |
-| 175 | [@zgltyq/pi-provider-kimi-code](https://pi.dev/packages/@zgltyq/pi-provider-kimi-code?page=4) | 6,222/mo | extension | 在 pi-coding-agent 中接入 Kimi Code 模型，支持 OAuth 以及 K3、K2.7、HighSpeed 选择 | `pi install npm:@zgltyq/pi-provider-kimi-code` |
-| 181 | [@robhowley/pi-openrouter](https://pi.dev/packages/@robhowley/pi-openrouter?page=4) | 6,015/mo | package | 为 Pi 提供实时 OpenRouter 花费/账户 TUI 覆盖层、按用户范围或仅免费模型同步、API key 管理与会话标记。 | `pi install npm:@robhowley/pi-openrouter` |
-| 185 | [@twogiants/pi-anthropic-vertex](https://pi.dev/packages/@twogiants/pi-anthropic-vertex?page=4) | 5,941/mo | extension | 在 Google Cloud Vertex AI 上为 pi 使用 Anthropic Claude 模型 | `pi install npm:@twogiants/pi-anthropic-vertex` |
-| 187 | [pi-clinepass-provider](https://pi.dev/packages/pi-clinepass-provider?page=4) | 5,890/mo | package | 面向 pi 的 ClinePass 模型提供方 —— 通过 Cline 每月 $9.99 的订阅访问 GLM-5.2、Kimi K2.7、DeepSeek V4 等更多开源权重编码模型。 | `pi install npm:pi-clinepass-provider` |
-| 193 | [pi-cliproxyapi-provider](https://pi.dev/packages/pi-cliproxyapi-provider?page=4) | 5,732/mo | extension | 面向 CLIProxyAPI 的 Pi 模型提供方包，支持自动发现模型并利用 models.dev 补充模型信息。 | `pi install npm:pi-cliproxyapi-provider` |
-| 196 | [@vtstech/pi-openrouter-sync](https://pi.dev/packages/@vtstech/pi-openrouter-sync?page=4) | 5,508/mo | extension | 面向 Pi 编码代理的 OpenRouter 模型同步扩展 —— 可通过 OpenRouter URL 或 ID 添加模型 | `pi install npm:@vtstech/pi-openrouter-sync` |
-| 198 | [pi-fusion](https://pi.dev/packages/pi-fusion?page=4) | 5,487/mo | extension | 受 OpenRouter Fusion 启发的 pi 多模型协同推理（deliberation） | `pi install npm:pi-fusion` |
-| 200 | [pi-openai-codex-fast](https://pi.dev/packages/pi-openai-codex-fast?page=4) | 5,473/mo | package | Pi 包，新增 openai-codex-fast 模型提供方，由 openai-codex 提供支持并享有优先服务层级。 | `pi install npm:pi-openai-codex-fast` |
-| 210 | [@beyona/pi-zai-usage](https://pi.dev/packages/@beyona/pi-zai-usage?page=5) | 5,319/mo | extension | 用于监控 Z.ai、DeepSeek、OpenAI Codex 和 Opencode Go 用量的 Pi 扩展。 | `pi install npm:@beyona/pi-zai-usage` |
-| 216 | [pi-freerouter](https://pi.dev/packages/pi-freerouter?page=5) | 5,116/mo | extension | Pi 编码代理扩展——自动路由到免费的 OpenRouter 模型。 | `pi install npm:pi-freerouter` |
-| 219 | [@tmustier/pi-usage-extension](https://pi.dev/packages/@tmustier/pi-usage-extension?page=5) | 5,102/mo | package | Pi 会话的用量统计仪表盘。 | `pi install npm:@tmustier/pi-usage-extension` |
-| 222 | [pi-llm-bridge](https://pi.dev/packages/pi-llm-bridge?page=5) | 5,075/mo | package | 将任意原始 LLM 流桥接起来，以供 pi 使用。 | `pi install npm:pi-llm-bridge` |
-| 231 | [pi-antigravity](https://pi.dev/packages/pi-antigravity?page=5) | 5,001/mo | extension | 面向 Pi Coding Agent 的个人 Antigravity / Cloud Code Assist 模型提供方。 | `pi install npm:pi-antigravity` |
-| 234 | [@agimon-ai/doompi-goal](https://pi.dev/packages/@agimon-ai/doompi-goal?page=5) | 4,903/mo | extension | Pi 的辅助模式，用于持久化代理目标、token 预算与目标历史。 | `pi install npm:@agimon-ai/doompi-goal` |
-| 239 | [pi-ollama-cloud](https://pi.dev/packages/pi-ollama-cloud?page=5) | 4,867/mo | package | 面向 [Pi](https://pi.dev) 编码代理的 Ollama Cloud 模型提供方插件。 | `pi install npm:pi-ollama-cloud` |
-| 242 | [pi-nvidia-nim](https://pi.dev/packages/pi-nvidia-nim?page=5) | 4,791/mo | package | 面向 pi 编码代理的 NVIDIA NIM API 模型提供方扩展——可访问 build.nvidia.com 上的 100 多个模型。 | `pi install npm:pi-nvidia-nim` |
-| 249 | [pi-free](https://pi.dev/packages/pi-free?page=5) | 4,717/mo | extension | 面向 Pi 的 AI 模型提供方，支持免费模型过滤与动态模型获取。 | `pi install npm:pi-free` |
-| 250 | [@latentminds/pi-quotas](https://pi.dev/packages/@latentminds/pi-quotas?page=5) | 4,694/mo | extension | 面向 Pi 的配额监控。直接在您的 Pi 会话中显示 Anthropic、OpenAI Codex、GitHub Copilot、OpenRouter、Synthetic、Z.ai、OpenCode Go 和 Kimi Code 的剩余用量与速率限制。 | `pi install npm:@latentminds/pi-quotas` |
-| 258 | [pi-xai-oauth](https://pi.dev/packages/pi-xai-oauth?page=6) | 4,517/mo | package | 为 pi 提供 xAI OAuth 模型提供方，并带有经认证的、按账户区分的 Grok 模型目录。 | `pi install npm:pi-xai-oauth` |
-| 263 | [pi-openrouter-realtime](https://pi.dev/packages/pi-openrouter-realtime?page=6) | 4,448/mo | extension | pi 的 OpenRouter 扩展——实时模型同步、模型提供方/量化信息增强、端点健康状态、额度余额，以及交互式模型选择器。 | `pi install npm:pi-openrouter-realtime` |
-| 267 | [@amaster.ai/pi-task-scheduler](https://pi.dev/packages/@amaster.ai/pi-task-scheduler?page=6) | 4,321/mo | extension | Pi 扩展，基于 cron 的定时任务管理，提供可由 LLM 调用的工具。 | `pi install npm:@amaster.ai/pi-task-scheduler` |
-| 271 | [token-stats-timer](https://pi.dev/packages/token-stats-timer?page=6) | 4,258/mo | extension | pi 扩展，用于显示 token 使用量和耗时情况，并在 pi 中按模型持久化偏好的思考级别。 | `pi install npm:token-stats-timer` |
-| 273 | [pi-openmodel-provider](https://pi.dev/packages/pi-openmodel-provider?page=6) | 4,245/mo | extension | 为 OpenModel.ai 提供的 pi 自定义模型提供方——多模型 AI 网关。 | `pi install npm:pi-openmodel-provider` |
-| 278 | [@xamfoo/pi-openrouter-pin](https://pi.dev/packages/@xamfoo/pi-openrouter-pin?page=6) | 4,168/mo | package | Pi 扩展，用于将 OpenRouter 模型固定到某个模型提供方。 | `pi install npm:@xamfoo/pi-openrouter-pin` |
-| 283 | [pi-token-speed](https://pi.dev/packages/pi-token-speed?page=6) | 4,099/mo | extension | Pi 扩展，通过滑动窗口测量每秒 token 数（tokens per second）。 | `pi install npm:pi-token-speed` |
-| 294 | [@juvio15/pi-seek](https://pi.dev/packages/@juvio15/pi-seek?page=6) | 3,976/mo | extension | pi-seek 是 Pi 的一个扩展。它将 Pi 接入 DeepSeek V4 Flash 和 V4 Pro 模型，使用 DeepSeek Responses API 和 DeepSeek beta API。 | `pi install npm:@juvio15/pi-seek` |
-| 296 | [@pentect/pi](https://pi.dev/packages/@pentect/pi?page=6) | 3,946/mo | package | Pi 的 Pentect 模型提供方扩展。 | `pi install npm:@pentect/pi` |
-| 298 | [pi-better-openai](https://pi.dev/packages/pi-better-openai?page=6) | 3,925/mo | extension | 个人用的 pi 扩展，通过快速模式、用量统计和页脚美化来改进 OpenAI 体验。 | `pi install npm:pi-better-openai` |
-
-### Context / Memory / Knowledge / Compaction
-
-| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
-| ---: | --- | ---: | --- | --- | --- |
-| 1 | [pi-mcp-adapter](https://pi.dev/packages/pi-mcp-adapter) | 732,170/mo | extension | 面向 Pi 编码代理的 MCP（Model Context Protocol）适配器扩展 | `pi install npm:pi-mcp-adapter` |
-| 8 | [context-mode](https://pi.dev/packages/context-mode) | 79,976/mo | package | 可节省 98% 上下文窗口的 MCP 插件。兼容 Claude Code、Gemini CLI、VS Code Copilot、OpenCode 与 Codex CLI。提供沙箱代码执行、FTS5 知识库和意图驱动搜索。 | `pi install npm:context-mode` |
-| 15 | [pi-memory](https://pi.dev/packages/pi-memory) | 38,668/mo | package | Pi 编码代理的记忆扩展，使用 qmd 驱动的语义搜索，跨日常日志、长期记忆和临时便笺检索。 | `pi install npm:pi-memory` |
-| 16 | [@remnic/plugin-pi](https://pi.dev/packages/@remnic/plugin-pi) | 38,647/mo | package | 面向 Pi 编码代理的 Remnic 记忆扩展。 | `pi install npm:@remnic/plugin-pi` |
-| 24 | [pi-hermes-memory](https://pi.dev/packages/pi-hermes-memory) | 31,204/mo | extension, skill | 🧠 为 Pi 提供持久记忆 + 🔍 会话搜索 + 🛡️ 密钥扫描。默认采用感知 token 的纯策略记忆，支持 SQLite FTS5 搜索、自动整合与程序化技能。732 个测试，移植自 Hermes 代理。 | `pi install npm:pi-hermes-memory` |
-| 34 | [@reddb-io/red-skills-memory](https://pi.dev/packages/@reddb-io/red-skills-memory) | 25,550/mo | package | reddb.io 记忆插件：构建于 dev 之上的受治理编码代理运维记忆。支持 markdown 笔记、RedDB 图记忆、零 token 受治理召回、上下文包、声明检查、就绪状态、可选生命周期钩子，以及 MCP/HTTP 读取面 | `pi install npm:@reddb-io/red-skills-memory` |
-| 36 | [@reddb-io/red-skills-brain](https://pi.dev/packages/@reddb-io/red-skills-brain) | 24,964/mo | package | reddb.io brain 插件：项目本地的 RedDB 知识库，用于自由记录与图连接。 | `pi install npm:@reddb-io/red-skills-brain` |
-| 52 | [@amaster.ai/pi-memory-mem0](https://pi.dev/packages/@amaster.ai/pi-memory-mem0?page=2) | 16,339/mo | extension | 为 pi 提供的 Mem0 语义记忆：自动捕获、语义召回，以及一个可供 AI 代理调用的记忆工具。支持平台版、嵌入式或自托管。 | `pi install npm:@amaster.ai/pi-memory-mem0` |
-| 53 | [pi-web-search](https://pi.dev/packages/pi-web-search?page=2) | 15,761/mo | extension | 面向 pi 的模型提供方原生网络搜索，覆盖 Google Gemini、OpenAI 和 Anthropic，并支持 Gemini URL Context。 | `pi install npm:pi-web-search` |
-| 56 | [@danypops/pi-papyrus](https://pi.dev/packages/@danypops/pi-papyrus?page=2) | 15,214/mo | package | 面向 Papyrus 的 Pi 宿主扩展：基于 daemon 支撑的图存储，提供原生工具、TUI 面板和上下文注入。 | `pi install npm:@danypops/pi-papyrus` |
-| 61 | [@agentskit/doc-bridge](https://pi.dev/packages/@agentskit/doc-bridge?page=2) | 14,525/mo | package | 连接人类与 AI 代理的文档桥梁——确定性交接、文档站链接、记忆→文档，以及可选的 AgentsKit RAG/聊天。 | `pi install npm:@agentskit/doc-bridge` |
-| 65 | [billion-context-pi](https://pi.dev/packages/billion-context-pi?page=2) | 13,368/mo | package | 十亿，而非一百万。面向 Pi 编码代理的模型驱动上下文管理。 | `pi install npm:billion-context-pi` |
-| 70 | [pi-cc-extensions](https://pi.dev/packages/pi-cc-extensions?page=2) | 12,591/mo | extension | 一套 Pi 效率增强套件，提供 Claude Code 风格 UI、上下文检查以及代理/会话引用。 | `pi install npm:pi-cc-extensions` |
-| 72 | [@galvinsan/pi-mentis-knowledge](https://pi.dev/packages/@galvinsan/pi-mentis-knowledge?page=2) | 12,518/mo | extension | 独立的 Pi Mentis 知识扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis-knowledge` |
-| 73 | [pi-cache-optimizer](https://pi.dev/packages/pi-cache-optimizer?page=2) | 12,332/mo | package | 通过稳定的提示词、兼容 OpenAI 的缓存键、代理兼容性警告和底部缓存统计，提升 Pi 的提示词/KV 缓存命中率。 | `pi install npm:pi-cache-optimizer` |
-| 76 | [pi-mcp-extension](https://pi.dev/packages/pi-mcp-extension?page=2) | 11,639/mo | extension | 面向 Pi 编码代理的 MCP（Model Context Protocol）客户端扩展——将 Pi 连接到任意 MCP 服务器。 | `pi install npm:pi-mcp-extension` |
-| 85 | [@galvinsan/pi-mentis](https://pi.dev/packages/@galvinsan/pi-mentis?page=2) | 10,845/mo | extension | 集成式的 Pi Mentis 知识优先记忆扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis` |
-| 87 | [@zosmaai/pi-llm-wiki](https://pi.dev/packages/@zosmaai/pi-llm-wiki?page=2) | 10,691/mo | extension, skill | 面向 Pi 的自维护 LLM Wiki——采用 Karpathy 模式的知识库，支持不可变源捕获、自动化摄取、搜索、lint 检查以及与 Obsidian 兼容的 vault。可自动更新的个人与公司 wiki。 | `pi install npm:@zosmaai/pi-llm-wiki` |
-| 88 | [@galvinsan/pi-mentis-memory](https://pi.dev/packages/@galvinsan/pi-mentis-memory?page=2) | 10,685/mo | extension | 独立的 Pi Mentis 记忆扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis-memory` |
-| 98 | [pi-goosedump](https://pi.dev/packages/pi-goosedump?page=2) | 10,015/mo | extension | Pi 扩展，用于 goosedump 会话搜索、持久记忆、会话管理与压缩。 | `pi install npm:pi-goosedump` |
-| 100 | [@hypabolic/pi-hypa](https://pi.dev/packages/@hypabolic/pi-hypa?page=2) | 9,834/mo | package | Pi 扩展，让嘈杂的工具输出远离你的上下文窗口。通过 Hypa 自动重写 shell 命令，实现本地确定性压缩、上下文感知的文件工具与可恢复的证据。 | `pi install npm:@hypabolic/pi-hypa` |
-| 126 | [pi-fovea](https://pi.dev/packages/pi-fovea?page=3) | 7,772/mo | extension | 面向 AI 代理会话的 token 预算化仓库映射：在跨语言代码图上进行中央凹热扩散，并支持渐进式披露。 | `pi install npm:pi-fovea` |
-| 136 | [@piagent/platform](https://pi.dev/packages/@piagent/platform?page=3) | 7,135/mo | extension, skill, prompt | 面向 AI coding agent 的护栏：在工具调用执行前拦截密钥读取、破坏性命令和未经批准的 MCP 服务器。附带项目配置文件、能力锁定、上下文引擎和任务验证。 | `pi install npm:@piagent/platform` |
-| 146 | [open-zk-kb](https://pi.dev/packages/open-zk-kb?page=3) | 6,794/mo | package | 面向 AI 代理的持久化记忆。修正会沉淀，上下文不断累积，每次会话都从更聪明的起点开始。 | `pi install npm:open-zk-kb` |
-| 161 | [@vanillagreen/pi-claude-bridge](https://pi.dev/packages/@vanillagreen/pi-claude-bridge?page=4) | 6,500/mo | package | Pi 模型提供方桥接器，通过 Claude Agent SDK 运行 Claude Code，并支持按需启用（opt-in）转发 Pi 提示词上下文。 | `pi install npm:@vanillagreen/pi-claude-bridge` |
-| 171 | [@danypops/pi-web-spider](https://pi.dev/packages/@danypops/pi-web-spider?page=4) | 6,264/mo | package | Pi 扩展，提供 web_fetch、web_search 与实时浏览器会话：7 个搜索提供方（Brave、Brave LLM Context、Tavily、Exa、Serper、SerpApi、You.com）支持自动回退、遵循 robots.txt 的爬取、感知 GitHub/Wikipedia/llms.txt 的抓取，以及一个 d | `pi install npm:@danypops/pi-web-spider` |
-| 176 | [pi-maestro-flow](https://pi.dev/packages/pi-maestro-flow?page=4) | 6,157/mo | skill | 面向 Pi 编码代理的一体化多代理编排 —— 单次安装即可获得并行队友调度、目标、计划、知识系统、MCP/LSP/浏览器与驾驶舱可视化 | `pi install npm:pi-maestro-flow` |
-| 183 | [@agimon-ai/doompi-autocompact](https://pi.dev/packages/@agimon-ai/doompi-autocompact?page=4) | 5,989/mo | extension | 为 Pi 与 DoomPi 代理会话提供迭代式上下文压缩与检查点摘要。 | `pi install npm:@agimon-ai/doompi-autocompact` |
-| 184 | [@lincoln504/pi-research](https://pi.dev/packages/@lincoln504/pi-research?page=4) | 5,984/mo | extension | 为你的代理提供联网研究能力：智能安全的工具 + 知识库（knowledge store） | `pi install npm:@lincoln504/pi-research` |
-| 197 | [pai-acp](https://pi.dev/packages/pai-acp?page=4) | 5,504/mo | package | 面向 Pi 的 Active Context Pruning（ACP）扩展 —— 通过模型驱动的上下文压缩让对话保持流畅。 | `pi install npm:pai-acp` |
-| 201 | [@tpsdev-ai/pi-flair](https://pi.dev/packages/@tpsdev-ai/pi-flair?page=5) | 5,459/mo | extension | 面向 pi 的 Flair 记忆扩展——可在 pi 会话内进行持久化记忆访问。 | `pi install npm:@tpsdev-ai/pi-flair` |
-| 226 | [billion-context-omp](https://pi.dev/packages/billion-context-omp?page=5) | 5,036/mo | package | 十亿，而非百万。面向 oh-my-pi（omp）编码代理的模型驱动上下文管理。 | `pi install npm:billion-context-omp` |
-| 243 | [pi-lean-ctx](https://pi.dev/packages/pi-lean-ctx?page=5) | 4,781/mo | package | Pi Coding Agent 扩展——将 bash/read/grep/find/ls 路由到 lean-ctx 以大幅节省 token。内置的 MCP 桥接（默认开启）增加了持久化会话缓存，使未变化的重复读取仅耗费约 13 个 token。 | `pi install npm:pi-lean-ctx` |
-| 247 | [openlore](https://pi.dev/packages/openlore?page=5) | 4,765/mo | package | 面向 AI 编码代理的持久化架构记忆与结构化认知。 | `pi install npm:openlore` |
-| 248 | [@upstash/context7-pi](https://pi.dev/packages/@upstash/context7-pi?page=5) | 4,765/mo | package | pi.dev 官方 Context7 扩展——为 pi 编码代理添加 resolve-library-id 和 query-docs 工具。 | `pi install npm:@upstash/context7-pi` |
-| 256 | [pi-observational-memory](https://pi.dev/packages/pi-observational-memory?page=6) | 4,573/mo | extension | pi 的观察记忆扩展——采用缓存友好的分层压缩机制，支持观察与反思记录。 | `pi install npm:pi-observational-memory` |
-| 264 | [@xynogen/pix-data](https://pi.dev/packages/@xynogen/pix-data?page=6) | 4,403/mo | extension | Pi 扩展——共享模型数据层（models.dev + BenchLM），缓存在 ~/.cache/pi 中。 | `pi install npm:@xynogen/pix-data` |
-| 265 | [pi-context-view](https://pi.dev/packages/pi-context-view?page=6) | 4,353/mo | extension | Pi 扩展，用于可视化上下文使用情况并查看隐藏部分：基础提示词、工具定义和扩展注入。 | `pi install npm:pi-context-view` |
-| 272 | [pi-maestro-teammate](https://pi.dev/packages/pi-maestro-teammate?page=6) | 4,250/mo | extension | Pi 扩展——通过 DAG 任务图、RPC 消息传递和紧凑型 TUI 进行队友代理分派。 | `pi install npm:pi-maestro-teammate` |
-| 274 | [@tenchi4u/pi-bifrost](https://pi.dev/packages/@tenchi4u/pi-bifrost?page=6) | 4,218/mo | extension | Pi 的查询感知模型路由扩展。可按任务复杂度、成本、上下文、速度或配置的顺序选择模型。 | `pi install npm:@tenchi4u/pi-bifrost` |
-| 277 | [pi-blackhole](https://pi.dev/packages/pi-blackhole?page=6) | 4,184/mo | extension | Pi 的统一压缩 + 观察记忆扩展——压缩对话上下文，同时保留持久的观察与反思记录。 | `pi install npm:pi-blackhole` |
-| 290 | [@d3ara1n/pi-context-include](https://pi.dev/packages/@d3ara1n/pi-context-include?page=6) | 4,015/mo | extension | 为 AGENTS.md 提供 @path 语法——通过引用包含文件，并支持递归解析。 | `pi install npm:@d3ara1n/pi-context-include` |
-| 291 | [pi-code](https://pi.dev/packages/pi-code?page=6) | 3,994/mo | extension, skill | 为 pi 编码代理带来 Claude Code 体验：读取你的 .claude 配置（规则、命令、技能包、钩子、输出样式、MCP 服务器、代理），并新增 todo、检查点、记忆、网页和子代理功能。 | `pi install npm:pi-code` |
-| 293 | [@mrclrchtr/supi-context](https://pi.dev/packages/@mrclrchtr/supi-context?page=6) | 3,981/mo | extension | 实时的上下文压力与 token 使用报告。 | `pi install npm:@mrclrchtr/supi-context` |
-| 295 | [gentle-engram](https://pi.dev/packages/gentle-engram?page=6) | 3,967/mo | extension | Pi 代理的持久记忆——一个可本地或云端部署的大脑，跨会话、压缩和 MCP 代理共享。 | `pi install npm:gentle-engram` |
-| 297 | [@rohaquinlop/pi-deepseek-cache](https://pi.dev/packages/@rohaquinlop/pi-deepseek-cache?page=6) | 3,933/mo | extension | 面向 pi 的 DeepSeek 前缀缓存优化——日期/CWD 冻结、命中率遥测、缓存友好的压缩和 TUI 覆盖层。 | `pi install npm:@rohaquinlop/pi-deepseek-cache` |
+| 25 | [pi-provider-litellm](https://pi.dev/packages/pi-provider-litellm) | 33,422/mo | extension | 面向 Pi 的 LiteLLM 代理模型提供方扩展。 | `pi install npm:pi-provider-litellm` |
+| 26 | [pi-claude-bridge](https://pi.dev/packages/pi-claude-bridge) | 33,128/mo | extension | Pi 扩展，将 Claude Code（通过 Agent SDK）用作模型提供方，并新增 AskClaude 工具。 | `pi install npm:pi-claude-bridge` |
+| 38 | [@braintrust/pi-extension](https://pi.dev/packages/@braintrust/pi-extension) | 25,744/mo | package | 面向 pi 的 Braintrust 扩展，可自动将 pi 会话、轮次、LLM 调用和工具执行追踪到 Braintrust。 | `pi install npm:@braintrust/pi-extension` |
+| 39 | [@narumitw/pi-usage](https://pi.dev/packages/@narumitw/pi-usage) | 25,368/mo | extension | Pi 扩展，可显示受支持模型提供方的当前账户用量和 DeepSeek API 余额。 | `pi install npm:@narumitw/pi-usage` |
+| 62 | [@tunnckocore/pi-gpt-fast-mode](https://pi.dev/packages/@tunnckocore/pi-gpt-fast-mode?page=2) | 14,248/mo | extension | 一个极简 Pi 扩展，仅通过 /fast（默认 'priority'）在 GPT-5.4 / GPT-5.5 / GPT-5.6 的 Fast 模式之间切换，不含其他功能——只有一个文件。 | `pi install npm:@tunnckocore/pi-gpt-fast-mode` |
+| 64 | [@amaster.ai/pi-image-gen](https://pi.dev/packages/@amaster.ai/pi-image-gen?page=2) | 14,070/mo | extension | Pi 图片生成扩展，支持通过 OpenAI gpt-image、Google Nano Banana（Gemini）、阿里 Qwen-Image、OpenRouter 及自定义模型提供方生成图片。 | `pi install npm:@amaster.ai/pi-image-gen` |
+| 83 | [auto-model-router](https://pi.dev/packages/auto-model-router?page=2) | 11,323/mo | package | Local cost/complexity-aware model router for Oh My Pi, backed by OpenRouter | `pi install npm:auto-model-router` |
+| 86 | [@alexanderfortin/pi-deepseek-usage](https://pi.dev/packages/@alexanderfortin/pi-deepseek-usage?page=2) | 11,112/mo | extension | Pi 扩展，用于监控 DeepSeek API 余额。 | `pi install npm:@alexanderfortin/pi-deepseek-usage` |
+| 87 | [pi-harness-runtime](https://pi.dev/packages/pi-harness-runtime?page=2) | 11,082/mo | extension | [BETA] 面向 pi 的 Codex 风格 /usage 状态与自主编码 harness。尚未达到生产就绪——预计会有破坏性变更。 | `pi install npm:pi-harness-runtime` |
+| 92 | [pi-extension-nvidia-nim](https://pi.dev/packages/pi-extension-nvidia-nim?page=2) | 10,774/mo | package | 为 pi coding agent 提供模型感知的 NVIDIA NIM 推理兼容性 | `pi install npm:pi-extension-nvidia-nim` |
+| 95 | [pi-freeflow](https://pi.dev/packages/pi-freeflow?page=2) | 10,257/mo | extension | 面向 OMP/Pi 的轻量级模型提供方 —— 模型列表 + 简易中继代理 + 日志；思考（thinking）与规范化（normalization）由宿主 pi-ai 负责。 | `pi install npm:pi-freeflow` |
+| 98 | [pi-nvidia-nim](https://pi.dev/packages/pi-nvidia-nim?page=2) | 10,211/mo | package | 面向 pi 编码代理的 NVIDIA NIM API 模型提供方扩展——可访问 build.nvidia.com 上的 100 多个模型。 | `pi install npm:pi-nvidia-nim` |
+| 105 | [pi-tokenrouter](https://pi.dev/packages/pi-tokenrouter?page=3) | 9,490/mo | extension | TokenRouter provider extension for pi — dynamic model discovery with OpenRouter-compatible pricing | `pi install npm:pi-tokenrouter` |
+| 116 | [@gotgenes/pi-anthropic-auth](https://pi.dev/packages/@gotgenes/pi-anthropic-auth?page=3) | 9,068/mo | package | 用于 Anthropic OAuth 兼容性的 Pi 扩展包 | `pi install npm:@gotgenes/pi-anthropic-auth` |
+| 124 | [pi-lmstudio](https://pi.dev/packages/pi-lmstudio?page=3) | 8,719/mo | package | 面向 Pi 编码代理的 LM Studio 模型提供方扩展。 | `pi install npm:pi-lmstudio` |
+| 134 | [@sreetej510/pi-usage](https://pi.dev/packages/@sreetej510/pi-usage?page=3) | 8,167/mo | extension | Pi 扩展，通过 /usage 报告模型提供方的用量/速率限制预算（Codex、Anthropic OAuth 等），并提供实时状态栏小部件。 | `pi install npm:@sreetej510/pi-usage` |
+| 135 | [@agimon-ai/doompi-goal](https://pi.dev/packages/@agimon-ai/doompi-goal?page=3) | 8,110/mo | extension | Pi 的辅助模式，用于持久化代理目标、token 预算与目标历史。 | `pi install npm:@agimon-ai/doompi-goal` |
+| 137 | [pi-antigravity](https://pi.dev/packages/pi-antigravity?page=3) | 7,959/mo | extension | 面向 Pi Coding Agent 的个人 Antigravity / Cloud Code Assist 模型提供方。 | `pi install npm:pi-antigravity` |
+| 142 | [@cortexkit/pi-anthropic-auth](https://pi.dev/packages/@cortexkit/pi-anthropic-auth?page=3) | 7,652/mo | package | 为 CortexKit 提供 Anthropic OAuth 支持的 Pi 包。它用由共享的 `@cortexkit/anthropic-auth-core` 包支撑的 CortexKit 模型提供方扩展，覆盖 Pi 内置的 `anthropic` 模型提供方。 | `pi install npm:@cortexkit/pi-anthropic-auth` |
+| 143 | [@danypops/pi-tickets](https://pi.dev/packages/@danypops/pi-tickets?page=3) | 7,621/mo | extension | Pi 扩展，将 tickets daemon（GitHub/GitLab/Jira 问题跟踪）开放为可供 LLM 调用的工具。 | `pi install npm:@danypops/pi-tickets` |
+| 144 | [@cortexkit/pi-openai-auth](https://pi.dev/packages/@cortexkit/pi-openai-auth?page=3) | 7,604/mo | package | 为 CortexKit 提供 OpenAI Codex OAuth 支持的 Pi 包。它用基于 Pi 的 OpenAI Codex Responses 传输层和 OAuth 原语的 CortexKit 模型提供方扩展，覆盖 Pi 内置的 `openai-codex` 模型提供方。 | `pi install npm:@cortexkit/pi-openai-auth` |
+| 147 | [pi-llama-cpp](https://pi.dev/packages/pi-llama-cpp?page=3) | 7,481/mo | extension | 用于集成 llama.cpp 的 Pi 扩展。支持 router、单模型与旧版（legacy）模型，并支持多个服务器。 | `pi install npm:pi-llama-cpp` |
+| 157 | [pi-provider-kimi-code](https://pi.dev/packages/pi-provider-kimi-code?page=4) | 6,839/mo | extension | 在 Pi 中使用 Kimi Code 模型（K3、K2.7、HighSpeed）：与 kimi-code CLI 共享 OAuth 登录、文件上传以及 Kimi 原生工具 | `pi install npm:pi-provider-kimi-code` |
+| 160 | [superpowers-zh](https://pi.dev/packages/superpowers-zh?page=4) | 6,703/mo | skill | AI 编程超能力中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创技能包，支持 Claude Code / Copilot CLI / Hermes Agent / Cursor / Claw Code / Windsurf / Kiro / Gemini CLI / Qoder 等 23 款工具 | `pi install npm:superpowers-zh` |
+| 162 | [@diegopetrucci/pi-openai-fast](https://pi.dev/packages/@diegopetrucci/pi-openai-fast?page=4) | 6,601/mo | package | 一个 pi 扩展，通过注入优先服务层级，为使用 ChatGPT 认证的 GPT-5.5 和 GPT-5.6 Codex 变体启用 OpenAI Codex Fast 模式。 | `pi install npm:@diegopetrucci/pi-openai-fast` |
+| 164 | [pi-ollama-cloud](https://pi.dev/packages/pi-ollama-cloud?page=4) | 6,546/mo | package | 面向 [Pi](https://pi.dev) 编码代理的 Ollama Cloud 模型提供方插件。 | `pi install npm:pi-ollama-cloud` |
+| 171 | [@robhowley/pi-openrouter](https://pi.dev/packages/@robhowley/pi-openrouter?page=4) | 6,319/mo | package | 为 Pi 提供实时 OpenRouter 花费/账户 TUI 覆盖层、按用户范围或仅免费模型同步、API key 管理与会话标记。 | `pi install npm:@robhowley/pi-openrouter` |
+| 173 | [pi-clinepass-provider](https://pi.dev/packages/pi-clinepass-provider?page=4) | 6,246/mo | package | 面向 pi 的 ClinePass 模型提供方 —— 通过 Cline 每月 $9.99 的订阅访问 GLM-5.2、Kimi K2.7、DeepSeek V4 等更多开源权重编码模型。 | `pi install npm:pi-clinepass-provider` |
+| 194 | [pi-token-speed](https://pi.dev/packages/pi-token-speed?page=4) | 5,805/mo | extension | Pi 扩展，通过滑动窗口测量每秒 token 数（tokens per second）。 | `pi install npm:pi-token-speed` |
+| 197 | [pi-caveman](https://pi.dev/packages/pi-caveman?page=4) | 5,776/mo | extension | 既然少量 token 就能奏效，何必使用大量 token。pi 的穴居人模式 —— 在保持完整技术准确性的同时减少约 75% 的输出 token。 | `pi install npm:pi-caveman` |
+| 206 | [pi-cliproxyapi-provider](https://pi.dev/packages/pi-cliproxyapi-provider?page=5) | 5,511/mo | extension | 面向 CLIProxyAPI 的 Pi 模型提供方包，支持自动发现模型并利用 models.dev 补充模型信息。 | `pi install npm:pi-cliproxyapi-provider` |
+| 208 | [@pentect/pi](https://pi.dev/packages/@pentect/pi?page=5) | 5,476/mo | package | Pi 的 Pentect 模型提供方扩展。 | `pi install npm:@pentect/pi` |
+| 212 | [@vtstech/pi-openrouter-sync](https://pi.dev/packages/@vtstech/pi-openrouter-sync?page=5) | 5,439/mo | extension | 面向 Pi 编码代理的 OpenRouter 模型同步扩展 —— 可通过 OpenRouter URL 或 ID 添加模型 | `pi install npm:@vtstech/pi-openrouter-sync` |
+| 214 | [token-stats-timer](https://pi.dev/packages/token-stats-timer?page=5) | 5,412/mo | extension | pi 扩展，用于显示 token 使用量和耗时情况，并在 pi 中按模型持久化偏好的思考级别。 | `pi install npm:token-stats-timer` |
+| 215 | [pi-commandcode-provider](https://pi.dev/packages/pi-commandcode-provider?page=5) | 5,389/mo | extension | pi custom provider for Command Code API (commandcode.ai) | `pi install npm:pi-commandcode-provider` |
+| 220 | [pi-fusion](https://pi.dev/packages/pi-fusion?page=5) | 5,288/mo | extension | 受 OpenRouter Fusion 启发的 pi 多模型协同推理（deliberation） | `pi install npm:pi-fusion` |
+| 225 | [pi-openai-codex-fast](https://pi.dev/packages/pi-openai-codex-fast?page=5) | 5,198/mo | package | Pi 包，新增 openai-codex-fast 模型提供方，由 openai-codex 提供支持并享有优先服务层级。 | `pi install npm:pi-openai-codex-fast` |
+| 232 | [pi-freerouter](https://pi.dev/packages/pi-freerouter?page=5) | 5,140/mo | extension | Pi 编码代理扩展——自动路由到免费的 OpenRouter 模型。 | `pi install npm:pi-freerouter` |
+| 237 | [agent-comms](https://pi.dev/packages/agent-comms?page=5) | 5,027/mo | package | Cross-harness communication mesh for LLM agents — rooms, DMs, presence, and real-time push delivery over TCP | `pi install npm:agent-comms` |
+| 241 | [pi-llm-bridge](https://pi.dev/packages/pi-llm-bridge?page=5) | 4,976/mo | package | 将任意原始 LLM 流桥接起来，以供 pi 使用。 | `pi install npm:pi-llm-bridge` |
+| 244 | [@firstpick/pi-extension-anthropic-auth-recovery](https://pi.dev/packages/@firstpick/pi-extension-anthropic-auth-recovery?page=5) | 4,900/mo | extension | 为已分类的 Anthropic 兼容性错误提供仅制定计划的 Pi 恢复流程。 | `pi install npm:@firstpick/pi-extension-anthropic-auth-recovery` |
+| 249 | [pi-cursor-sdk](https://pi.dev/packages/pi-cursor-sdk?page=5) | 4,816/mo | extension | 由 @cursor/sdk 本地及云端 AI 代理支撑的 pi 模型提供方扩展 | `pi install npm:pi-cursor-sdk` |
+| 258 | [@twogiants/pi-anthropic-vertex](https://pi.dev/packages/@twogiants/pi-anthropic-vertex?page=6) | 4,670/mo | extension | 在 Google Cloud Vertex AI 上为 pi 使用 Anthropic Claude 模型 | `pi install npm:@twogiants/pi-anthropic-vertex` |
+| 266 | [pi-otel](https://pi.dev/packages/pi-otel?page=6) | 4,497/mo | extension | OpenTelemetry traces for pi-coding-agent — per-prompt span tree (interaction → llm_request, tool.<name>) exported via OTLP. Aspire-dashboard ready. | `pi install npm:pi-otel` |
+| 267 | [pi-openrouter-realtime](https://pi.dev/packages/pi-openrouter-realtime?page=6) | 4,490/mo | extension | pi 的 OpenRouter 扩展——实时模型同步、模型提供方/量化信息增强、端点健康状态、额度余额，以及交互式模型选择器。 | `pi install npm:pi-openrouter-realtime` |
+| 275 | [@latentminds/pi-quotas](https://pi.dev/packages/@latentminds/pi-quotas?page=6) | 4,253/mo | extension | 面向 Pi 的配额监控。直接在您的 Pi 会话中显示 Anthropic、OpenAI Codex、GitHub Copilot、OpenRouter、Synthetic、Z.ai、OpenCode Go 和 Kimi Code 的剩余用量与速率限制。 | `pi install npm:@latentminds/pi-quotas` |
+| 279 | [pi-openmodel-provider](https://pi.dev/packages/pi-openmodel-provider?page=6) | 4,199/mo | extension | 为 OpenModel.ai 提供的 pi 自定义模型提供方——多模型 AI 网关。 | `pi install npm:pi-openmodel-provider` |
+| 280 | [@henryqw/pi-footer](https://pi.dev/packages/@henryqw/pi-footer?page=6) | 4,179/mo | package | Show concise repository, branch, and usage details in the Pi footer. | `pi install npm:@henryqw/pi-footer` |
+| 287 | [@amaster.ai/pi-task-scheduler](https://pi.dev/packages/@amaster.ai/pi-task-scheduler?page=6) | 4,127/mo | extension | Pi 扩展，基于 cron 的定时任务管理，提供可由 LLM 调用的工具。 | `pi install npm:@amaster.ai/pi-task-scheduler` |
 
 ### Web / Browser / Research / MCP
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 2 | [pi-web-access](https://pi.dev/packages/pi-web-access) | 401,589/mo | extension | 为 Pi 编码代理提供网页搜索、URL 抓取、GitHub 仓库克隆、PDF 提取、YouTube 视频理解与本地视频分析。支持 OpenAI、Brave、Parallel、TinyFish、Search1API、Searchinfinity、Querit、Tavily、Firecrawl、Jina、SERPdive、Ka | `pi install npm:pi-web-access` |
-| 4 | [@companion-ai/feynman](https://pi.dev/packages/@companion-ai/feynman) | 288,419/mo | package | 基于 Pi 和 alphaXiv 构建的研究优先 CLI 代理 | `pi install npm:@companion-ai/feynman` |
-| 18 | [@ff-labs/pi-fff](https://pi.dev/packages/@ff-labs/pi-fff) | 34,882/mo | extension | pi 扩展：由 FFF 驱动的模糊文件与内容搜索。 | `pi install npm:@ff-labs/pi-fff` |
-| 20 | [@quintinshaw/pi-dynamic-workflows](https://pi.dev/packages/@quintinshaw/pi-dynamic-workflows) | 34,402/mo | package | 面向 Pi 的 Claude Code 风格动态工作流：将任务扇出至数百个子代理，具备真实模型路由、token/成本核算、断点续跑、git 工作树隔离、交互式 /workflows TUI，以及真正的 /deep-research。 | `pi install npm:@quintinshaw/pi-dynamic-workflows` |
-| 39 | [pi-web-ui](https://pi.dev/packages/pi-web-ui) | 22,689/mo | package | 基于 pi SDK（@earendil-works/pi-coding-agent）的 pi 编码代理 Web 聊天界面——一条命令即可运行，支持 Docker/systemd/launchd 部署。 | `pi install npm:pi-web-ui` |
-| 44 | [@agimon-ai/log-sink-mcp](https://pi.dev/packages/@agimon-ai/log-sink-mcp) | 19,638/mo | package | 支持 HTTP 摄取与 AI 分析的日志汇聚（log sink）MCP 服务器。 | `pi install npm:@agimon-ai/log-sink-mcp` |
-| 50 | [@mjasnikovs/pi-task](https://pi.dev/packages/@mjasnikovs/pi-task) | 17,514/mo | extension | 为本地模型提供确定性的任务规划与规格编排：崩溃安全的 /task 流水线，带 verify/enforce 关卡、实时远程 Web 视图，以及 web/docs/fetch/worker 子代理工具。 | `pi install npm:@mjasnikovs/pi-task` |
-| 55 | [pi-markdown-preview](https://pi.dev/packages/pi-markdown-preview?page=2) | 15,282/mo | package | 面向 pi 的渲染版 Markdown + LaTeX 预览，支持终端、浏览器和 PDF 输出。 | `pi install npm:pi-markdown-preview` |
-| 63 | [pi-agent-browser-native](https://pi.dev/packages/pi-agent-browser-native?page=2) | 14,007/mo | extension | pi 扩展，将 agent-browser 作为原生工具开放，用于浏览器自动化。 | `pi install npm:pi-agent-browser-native` |
-| 64 | [@juicesharp/rpiv-web-tools](https://pi.dev/packages/@juicesharp/rpiv-web-tools?page=2) | 13,412/mo | extension | Pi 扩展。为模型提供网络搜索与抓取能力，支持可插拔的模型提供方（Brave、Tavily、Serper、Exa、You.com、Jina、Firecrawl、Perplexity、SearXNG、Ollama）。 | `pi install npm:@juicesharp/rpiv-web-tools` |
-| 69 | [pi-deepseek-search](https://pi.dev/packages/pi-deepseek-search?page=2) | 12,765/mo | extension | 面向 Pi 的网络搜索，使用 DeepSeek 的服务器端搜索。仅适用于 DeepSeek 模型。 | `pi install npm:pi-deepseek-search` |
-| 77 | [@ollama/pi-web-search](https://pi.dev/packages/@ollama/pi-web-search?page=2) | 11,481/mo | extension | 面向 Pi 代理的网络搜索与抓取工具——使用 Ollama 的网络搜索与抓取 API。 | `pi install npm:@ollama/pi-web-search` |
-| 80 | [opencode-codebase-index](https://pi.dev/packages/opencode-codebase-index?page=2) | 11,364/mo | package | 宿主无关的语义化代码库搜索，支持嵌入（embeddings）、符号发现与调用图工具。 | `pi install npm:opencode-codebase-index` |
-| 89 | [@vincenthanxiaodu/pi-web](https://pi.dev/packages/@vincenthanxiaodu/pi-web?page=2) | 10,636/mo | package | 面向真实工作区中持久化 Pi Coding Agent 会话的 Web UI。 | `pi install npm:@vincenthanxiaodu/pi-web` |
-| 105 | [@jmfederico/pi-web](https://pi.dev/packages/@jmfederico/pi-web?page=3) | 9,159/mo | package | 为真实工作区中持久化的 Pi Coding Agent 会话提供 Web UI。 | `pi install npm:@jmfederico/pi-web` |
-| 109 | [@amaster.ai/pi-web-access](https://pi.dev/packages/@amaster.ai/pi-web-access?page=3) | 8,750/mo | extension | Pi 扩展，提供网页搜索、URL 内容提取和图片搜索（Tavily、Kimi、DeepSeek、Mimo、Z.AI、DashScope、Unsplash 等）。 | `pi install npm:@amaster.ai/pi-web-access` |
-| 114 | [donsetch](https://pi.dev/packages/donsetch?page=3) | 8,438/mo | package | 面向 AI 代理的网页抓取、搜索与爬取能力。零 API 密钥。Chrome 级真实 TLS。 | `pi install npm:donsetch` |
-| 119 | [@xynogen/pix-pretty](https://pi.dev/packages/@xynogen/pix-pretty?page=3) | 8,125/mo | extension | 增强的工具输出渲染：语法高亮、文件图标、树形视图、diff 渲染和 FFF 搜索 | `pi install npm:@xynogen/pix-pretty` |
-| 125 | [@selesai/code](https://pi.dev/packages/@selesai/code?page=3) | 7,835/mo | package | 持续维护、以扩展为先的 Pi coding agent，内置工作流、子代理、网页研究、提问、技能包以及增强的终端 UI。 | `pi install npm:@selesai/code` |
-| 134 | [pi2dsh](https://pi.dev/packages/pi2dsh?page=3) | 7,174/mo | package | 打通 Pi 与 DeepSeek Harness 生态系统：一种通用的 Pi Host ABI，可将未经修改的 Pi 扩展作为原生 DSH 插件运行，并支持兼容性检查以及 Pi 到 DSH 的 MCP 配置转换。 | `pi install npm:pi2dsh` |
-| 140 | [pi-claude-marketplace](https://pi.dev/packages/pi-claude-marketplace?page=3) | 7,000/mo | extension | 从 Pi Coding Agent 访问 Claude 插件市场。支持 Claude 命令、技能包、AI 代理、hooks 和 MCP 服务器。 | `pi install npm:pi-claude-marketplace` |
-| 150 | [bladebro](https://pi.dev/packages/bladebro?page=3) | 6,718/mo | package | 面向 AI 代理的隐蔽而高效的自主浏览器驱动。工具少、控制全、真实隐蔽、token 效率最大化。 | `pi install npm:bladebro` |
-| 152 | [@narumitw/pi-chrome-devtools](https://pi.dev/packages/@narumitw/pi-chrome-devtools?page=4) | 6,687/mo | extension | Pi 扩展，提供 Chrome DevTools Protocol 工具。 | `pi install npm:@narumitw/pi-chrome-devtools` |
-| 155 | [@firstpick/pi-package-webui](https://pi.dev/packages/@firstpick/pi-package-webui?page=4) | 6,640/mo | extension | Pi Web UI 配套包，提供本地浏览器界面 CLI，以及 /webui-start 和 /webui-status 命令。 | `pi install npm:@firstpick/pi-package-webui` |
-| 167 | [@agimon-ai/doompi-mcp](https://pi.dev/packages/@agimon-ai/doompi-mcp?page=4) | 6,331/mo | extension | 为使用 DoomPi 组合的 Pi 会话提供领域感知（domain-aware）的 MCP 服务器选择与访问边界。 | `pi install npm:@agimon-ai/doompi-mcp` |
-| 173 | [@agimon-ai/doompi](https://pi.dev/packages/@agimon-ai/doompi?page=4) | 6,229/mo | package | 为受限范围的代理工具、技能包（skills）、MCP 服务器与开发者工作流提供的一套有主张、可组合的 Pi 发行版。 | `pi install npm:@agimon-ai/doompi` |
-| 186 | [@narumitw/pi-firecrawl](https://pi.dev/packages/@narumitw/pi-firecrawl?page=4) | 5,906/mo | extension | Pi 扩展，提供 Firecrawl 网页抓取与爬取工具。 | `pi install npm:@narumitw/pi-firecrawl` |
-| 191 | [pi-studio](https://pi.dev/packages/pi-studio?page=4) | 5,756/mo | extension, theme | 面向 pi 的双栏浏览器工作区，支持提示词/响应编辑、批注、评审、实时测验、提示词/响应历史、实时预览，以及基于 tmux 的 REPL/文学式（literate）REPL 工作流 | `pi install npm:pi-studio` |
-| 204 | [@adia-ai/adia-ui-factory](https://pi.dev/packages/@adia-ai/adia-ui-factory?page=5) | 5,406/mo | package | 编写并验证构建在 adia-ui（@adia-ai）light-DOM 网页组件框架之上的应用——在 SPA 与 SSR 渲染模式之间进行定位、脚手架搭建、组装、接线、验证和迁移；并接入 a2ui MCP 以完成目录检索、UI 生成与验证。 | `pi install npm:@adia-ai/adia-ui-factory` |
-| 211 | [@juicesharp/rpiv-pi](https://pi.dev/packages/@juicesharp/rpiv-pi?page=5) | 5,273/mo | extension, skill | 基于技能包的 Pi Agent 开发工作流：30 个带契约的技能（discover → research → design → plan → implement → validate → code-review → commit 等）、它们派发的 15 个具名子代理，以及四个内置的 /wf 工作流串联流程 | `pi install npm:@juicesharp/rpiv-pi` |
-| 235 | [awesome-pi-themes](https://pi.dev/packages/awesome-pi-themes?page=5) | 4,901/mo | theme | 精心挑选的 46 款 Pi Coding Agent 原创深色主题合集，附带实时网页预览。 | `pi install npm:awesome-pi-themes` |
-| 237 | [pi-autoresearch](https://pi.dev/packages/pi-autoresearch?page=5) | 4,885/mo | extension | 面向 pi 的自主实验循环——运行、度量、保留或舍弃。灵感来自 karpathy/autoresearch。 | `pi install npm:pi-autoresearch` |
-| 254 | [@brushes/xiaohongshu-mcp-server](https://pi.dev/packages/@brushes/xiaohongshu-mcp-server?page=6) | 4,586/mo | package | 用于小红书内容创作与发布自动化的 MCP 服务器。 | `pi install npm:@brushes/xiaohongshu-mcp-server` |
-| 261 | [pi-smart-fetch](https://pi.dev/packages/pi-smart-fetch?page=6) | 4,468/mo | package | 智能 web_fetch，带有桌面浏览器 TLS 模拟和 defuddle 提取功能。 | `pi install npm:pi-smart-fetch` |
-| 279 | [@amaster.ai/pi-browser-use](https://pi.dev/packages/@amaster.ai/pi-browser-use?page=6) | 4,158/mo | extension | Pi 扩展，通过 chrome-devtools-mcp 实现浏览器自动化，提供 browser_ 前缀的工具。 | `pi install npm:@amaster.ai/pi-browser-use` |
-| 288 | [dripline](https://pi.dev/packages/dripline?page=6) | 4,029/mo | package | 一次一滴地查询任何内容。 | `pi install npm:dripline` |
+| 2 | [pi-web-access](https://pi.dev/packages/pi-web-access) | 435,217/mo | extension | 为 Pi 编码代理提供网页搜索、URL 抓取、GitHub 仓库克隆、PDF 提取、YouTube 视频理解与本地视频分析。支持 OpenAI、Brave、Parallel、TinyFish、Search1API、Searchinfinity、Querit、Tavily、Firecrawl、Jina、SERPdive、Ka | `pi install npm:pi-web-access` |
+| 4 | [@companion-ai/feynman](https://pi.dev/packages/@companion-ai/feynman) | 354,233/mo | package | 基于 Pi 和 alphaXiv 构建的研究优先 CLI 代理 | `pi install npm:@companion-ai/feynman` |
+| 20 | [@quintinshaw/pi-dynamic-workflows](https://pi.dev/packages/@quintinshaw/pi-dynamic-workflows) | 40,017/mo | package | 面向 Pi 的 Claude Code 风格动态工作流：将任务扇出至数百个子代理，具备真实模型路由、token/成本核算、断点续跑、git 工作树隔离、交互式 /workflows TUI，以及真正的 /deep-research。 | `pi install npm:@quintinshaw/pi-dynamic-workflows` |
+| 23 | [@ff-labs/pi-fff](https://pi.dev/packages/@ff-labs/pi-fff) | 35,867/mo | extension | pi 扩展：由 FFF 驱动的模糊文件与内容搜索。 | `pi install npm:@ff-labs/pi-fff` |
+| 40 | [pi-web-ui](https://pi.dev/packages/pi-web-ui) | 24,335/mo | package | 基于 pi SDK（@earendil-works/pi-coding-agent）的 pi 编码代理 Web 聊天界面——一条命令即可运行，支持 Docker/systemd/launchd 部署。 | `pi install npm:pi-web-ui` |
+| 43 | [@agimon-ai/log-sink-mcp](https://pi.dev/packages/@agimon-ai/log-sink-mcp) | 21,654/mo | package | 支持 HTTP 摄取与 AI 分析的日志汇聚（log sink）MCP 服务器。 | `pi install npm:@agimon-ai/log-sink-mcp` |
+| 63 | [@mjasnikovs/pi-task](https://pi.dev/packages/@mjasnikovs/pi-task?page=2) | 14,142/mo | extension | 为本地模型提供确定性的任务规划与规格编排：崩溃安全的 /task 流水线，带 verify/enforce 关卡、实时远程 Web 视图，以及 web/docs/fetch/worker 子代理工具。 | `pi install npm:@mjasnikovs/pi-task` |
+| 68 | [pi-markdown-preview](https://pi.dev/packages/pi-markdown-preview?page=2) | 13,471/mo | package | 面向 pi 的渲染版 Markdown + LaTeX 预览，支持终端、浏览器和 PDF 输出。 | `pi install npm:pi-markdown-preview` |
+| 73 | [donsetch](https://pi.dev/packages/donsetch?page=2) | 12,576/mo | package | 面向 AI 代理的网页抓取、搜索与爬取能力。零 API 密钥。Chrome 级真实 TLS。 | `pi install npm:donsetch` |
+| 77 | [@ollama/pi-web-search](https://pi.dev/packages/@ollama/pi-web-search?page=2) | 12,029/mo | extension | 面向 Pi 代理的网络搜索与抓取工具——使用 Ollama 的网络搜索与抓取 API。 | `pi install npm:@ollama/pi-web-search` |
+| 81 | [pi-agent-browser-native](https://pi.dev/packages/pi-agent-browser-native?page=2) | 11,575/mo | extension | pi 扩展，将 agent-browser 作为原生工具开放，用于浏览器自动化。 | `pi install npm:pi-agent-browser-native` |
+| 89 | [@juicesharp/rpiv-web-tools](https://pi.dev/packages/@juicesharp/rpiv-web-tools?page=2) | 11,015/mo | extension | Pi 扩展。为模型提供网络搜索与抓取能力，支持可插拔的模型提供方（Brave、Tavily、Serper、Exa、You.com、Jina、Firecrawl、Perplexity、SearXNG、Ollama）。 | `pi install npm:@juicesharp/rpiv-web-tools` |
+| 91 | [@jmfederico/pi-web](https://pi.dev/packages/@jmfederico/pi-web?page=2) | 10,776/mo | package | 为真实工作区中持久化的 Pi Coding Agent 会话提供 Web UI。 | `pi install npm:@jmfederico/pi-web` |
+| 93 | [@selesai/code](https://pi.dev/packages/@selesai/code?page=2) | 10,654/mo | package | 持续维护、以扩展为先的 Pi coding agent，内置工作流、子代理、网页研究、提问、技能包以及增强的终端 UI。 | `pi install npm:@selesai/code` |
+| 102 | [pi2dsh](https://pi.dev/packages/pi2dsh?page=3) | 9,879/mo | package | 打通 Pi 与 DeepSeek Harness 生态系统：一种通用的 Pi Host ABI，可将未经修改的 Pi 扩展作为原生 DSH 插件运行，并支持兼容性检查以及 Pi 到 DSH 的 MCP 配置转换。 | `pi install npm:pi2dsh` |
+| 110 | [@agimon-ai/doompi-mcp](https://pi.dev/packages/@agimon-ai/doompi-mcp?page=3) | 9,290/mo | extension | 为使用 DoomPi 组合的 Pi 会话提供领域感知（domain-aware）的 MCP 服务器选择与访问边界。 | `pi install npm:@agimon-ai/doompi-mcp` |
+| 120 | [@agimon-ai/doompi](https://pi.dev/packages/@agimon-ai/doompi?page=3) | 8,909/mo | package | 为受限范围的代理工具、技能包（skills）、MCP 服务器与开发者工作流提供的一套有主张、可组合的 Pi 发行版。 | `pi install npm:@agimon-ai/doompi` |
+| 126 | [@narumitw/pi-firecrawl](https://pi.dev/packages/@narumitw/pi-firecrawl?page=3) | 8,608/mo | extension | Pi 扩展，提供 Firecrawl 网页抓取与爬取工具。 | `pi install npm:@narumitw/pi-firecrawl` |
+| 130 | [@amaster.ai/pi-web-access](https://pi.dev/packages/@amaster.ai/pi-web-access?page=3) | 8,408/mo | extension | Pi 扩展，提供网页搜索、URL 内容提取和图片搜索（Tavily、Kimi、DeepSeek、Mimo、Z.AI、DashScope、Unsplash 等）。 | `pi install npm:@amaster.ai/pi-web-access` |
+| 136 | [opencode-codebase-index](https://pi.dev/packages/opencode-codebase-index?page=3) | 7,971/mo | package | 宿主无关的语义化代码库搜索，支持嵌入（embeddings）、符号发现与调用图工具。 | `pi install npm:opencode-codebase-index` |
+| 152 | [pi-claude-marketplace](https://pi.dev/packages/pi-claude-marketplace?page=4) | 7,131/mo | extension | 从 Pi Coding Agent 访问 Claude 插件市场。支持 Claude 命令、技能包、AI 代理、hooks 和 MCP 服务器。 | `pi install npm:pi-claude-marketplace` |
+| 161 | [awesome-pi-themes](https://pi.dev/packages/awesome-pi-themes?page=4) | 6,672/mo | theme | 精心挑选的 46 款 Pi Coding Agent 原创深色主题合集，附带实时网页预览。 | `pi install npm:awesome-pi-themes` |
+| 167 | [@xynogen/pix-pretty](https://pi.dev/packages/@xynogen/pix-pretty?page=4) | 6,518/mo | extension | 增强的工具输出渲染：语法高亮、文件图标、树形视图、diff 渲染和 FFF 搜索 | `pi install npm:@xynogen/pix-pretty` |
+| 174 | [@agimon-ai/doompi-domain](https://pi.dev/packages/@agimon-ai/doompi-domain?page=4) | 6,149/mo | extension, skill | Domain selection, resource staging, and MCP scoping for DoomPi sessions. | `pi install npm:@agimon-ai/doompi-domain` |
+| 175 | [@agimon-ai/doompi-web-components](https://pi.dev/packages/@agimon-ai/doompi-web-components?page=4) | 6,136/mo | theme | Shared web components and theme tokens for the DoomPi cockpit and its web plugins: shadcn-style primitives on Radix, tuned to the Doom palette, with runtime theme configs. | `pi install npm:@agimon-ai/doompi-web-components` |
+| 190 | [@agimon-ai/doompi-skill](https://pi.dev/packages/@agimon-ai/doompi-skill?page=4) | 5,900/mo | extension | Session skill catalogue, deferred skill discovery, and the skill browser for DoomPi. | `pi install npm:@agimon-ai/doompi-skill` |
+| 209 | [@agimon-ai/doompi-web-contracts](https://pi.dev/packages/@agimon-ai/doompi-web-contracts?page=5) | 5,471/mo | package | Web cockpit plugin contracts for DoomPi: plugin definitions, slot contributions, session data channels, and hub channel sources. | `pi install npm:@agimon-ai/doompi-web-contracts` |
+| 218 | [@firstpick/pi-package-webui](https://pi.dev/packages/@firstpick/pi-package-webui?page=5) | 5,350/mo | extension | Pi Web UI 配套包，提供本地浏览器界面 CLI，以及 /webui-start 和 /webui-status 命令。 | `pi install npm:@firstpick/pi-package-webui` |
+| 223 | [pi-deepseek-search](https://pi.dev/packages/pi-deepseek-search?page=5) | 5,223/mo | extension | 面向 Pi 的网络搜索，使用 DeepSeek 的服务器端搜索。仅适用于 DeepSeek 模型。 | `pi install npm:pi-deepseek-search` |
+| 226 | [pi-outpost](https://pi.dev/packages/pi-outpost?page=5) | 5,195/mo | package | A web interface for the pi coding agent: a browser chat UI you run with npx — no clone, no build. | `pi install npm:pi-outpost` |
+| 236 | [pi-autoresearch](https://pi.dev/packages/pi-autoresearch?page=5) | 5,069/mo | extension | 面向 pi 的自主实验循环——运行、度量、保留或舍弃。灵感来自 karpathy/autoresearch。 | `pi install npm:pi-autoresearch` |
+| 242 | [pi-studio](https://pi.dev/packages/pi-studio?page=5) | 4,956/mo | extension, theme | 面向 pi 的双栏浏览器工作区，支持提示词/响应编辑、批注、评审、实时测验、提示词/响应历史、实时预览，以及基于 tmux 的 REPL/文学式（literate）REPL 工作流 | `pi install npm:pi-studio` |
+| 246 | [pi-control-chrome](https://pi.dev/packages/pi-control-chrome?page=5) | 4,859/mo | package | Codex-aligned Chrome and Edge browser control for Pi, Codex and DSH | `pi install npm:pi-control-chrome` |
+| 255 | [@juicesharp/rpiv-pi](https://pi.dev/packages/@juicesharp/rpiv-pi?page=6) | 4,703/mo | extension, skill | 基于技能包的 Pi Agent 开发工作流：30 个带契约的技能（discover → research → design → plan → implement → validate → code-review → commit 等）、它们派发的 15 个具名子代理，以及四个内置的 /wf 工作流串联流程 | `pi install npm:@juicesharp/rpiv-pi` |
+| 259 | [@amaster.ai/pi-browser-use](https://pi.dev/packages/@amaster.ai/pi-browser-use?page=6) | 4,662/mo | extension | Pi 扩展，通过 chrome-devtools-mcp 实现浏览器自动化，提供 browser_ 前缀的工具。 | `pi install npm:@amaster.ai/pi-browser-use` |
+| 264 | [@adia-ai/adia-ui-factory](https://pi.dev/packages/@adia-ai/adia-ui-factory?page=6) | 4,526/mo | package | 编写并验证构建在 adia-ui（@adia-ai）light-DOM 网页组件框架之上的应用——在 SPA 与 SSR 渲染模式之间进行定位、脚手架搭建、组装、接线、验证和迁移；并接入 a2ui MCP 以完成目录检索、UI 生成与验证。 | `pi install npm:@adia-ai/adia-ui-factory` |
+| 272 | [askweb](https://pi.dev/packages/askweb?page=6) | 4,314/mo | extension | Unified web search and read provider for agents and CLI. | `pi install npm:askweb` |
+| 273 | [bladebro](https://pi.dev/packages/bladebro?page=6) | 4,296/mo | package | 面向 AI 代理的隐蔽而高效的自主浏览器驱动。工具少、控制全、真实隐蔽、token 效率最大化。 | `pi install npm:bladebro` |
+| 281 | [dripline](https://pi.dev/packages/dripline?page=6) | 4,173/mo | package | 一次一滴地查询任何内容。 | `pi install npm:dripline` |
+| 291 | [@onkernel/browser-loop](https://pi.dev/packages/@onkernel/browser-loop?page=6) | 4,098/mo | extension | Browser tools for your agent: framework-neutral tool catalog, per-model compilation, Kernel-browser execution, and a pi binding + extension | `pi install npm:@onkernel/browser-loop` |
+| 295 | [pi-docparser](https://pi.dev/packages/pi-docparser?page=6) | 4,063/mo | extension, skill | Pi package that adds document_parse, document_search, document_screenshot, and a companion skill for local document understanding with LiteParse v2. | `pi install npm:pi-docparser` |
+| 296 | [@fadhilp/pylon](https://pi.dev/packages/@fadhilp/pylon?page=6) | 4,061/mo | package | Pi workflow extensions and a local web interface. | `pi install npm:@fadhilp/pylon` |
+
+### Context / Memory / Knowledge / Compaction
+
+| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
+| ---: | --- | ---: | --- | --- | --- |
+| 1 | [pi-mcp-adapter](https://pi.dev/packages/pi-mcp-adapter) | 939,658/mo | extension | 面向 Pi 编码代理的 MCP（Model Context Protocol）适配器扩展 | `pi install npm:pi-mcp-adapter` |
+| 9 | [billion-context](https://pi.dev/packages/billion-context) | 82,837/mo | package | Context-compression proxy that lets AI coding agents run for days — billions of tokens through one context window. Sits between any agent (Claude Code, Codex, Cursor, Aider, …) and its model API, folding consumed conversation into reversible, prefix-cache | `pi install npm:billion-context` |
+| 10 | [context-mode](https://pi.dev/packages/context-mode) | 72,466/mo | package | 可节省 98% 上下文窗口的 MCP 插件。兼容 Claude Code、Gemini CLI、VS Code Copilot、OpenCode 与 Codex CLI。提供沙箱代码执行、FTS5 知识库和意图驱动搜索。 | `pi install npm:context-mode` |
+| 21 | [pi-memory](https://pi.dev/packages/pi-memory) | 39,313/mo | package | Pi 编码代理的记忆扩展，使用 qmd 驱动的语义搜索，跨日常日志、长期记忆和临时便笺检索。 | `pi install npm:pi-memory` |
+| 27 | [@amaster.ai/pi-memory-mem0](https://pi.dev/packages/@amaster.ai/pi-memory-mem0) | 32,252/mo | extension | 为 pi 提供的 Mem0 语义记忆：自动捕获、语义召回，以及一个可供 AI 代理调用的记忆工具。支持平台版、嵌入式或自托管。 | `pi install npm:@amaster.ai/pi-memory-mem0` |
+| 32 | [@agentskit/doc-bridge](https://pi.dev/packages/@agentskit/doc-bridge) | 28,847/mo | package | 连接人类与 AI 代理的文档桥梁——确定性交接、文档站链接、记忆→文档，以及可选的 AgentsKit RAG/聊天。 | `pi install npm:@agentskit/doc-bridge` |
+| 33 | [billion-context-pi](https://pi.dev/packages/billion-context-pi) | 28,414/mo | package | 十亿，而非一百万。面向 Pi 编码代理的模型驱动上下文管理。 | `pi install npm:billion-context-pi` |
+| 34 | [pi-hermes-memory](https://pi.dev/packages/pi-hermes-memory) | 28,110/mo | extension, skill | 🧠 为 Pi 提供持久记忆 + 🔍 会话搜索 + 🛡️ 密钥扫描。默认采用感知 token 的纯策略记忆，支持 SQLite FTS5 搜索、自动整合与程序化技能。732 个测试，移植自 Hermes 代理。 | `pi install npm:pi-hermes-memory` |
+| 35 | [@remnic/plugin-pi](https://pi.dev/packages/@remnic/plugin-pi) | 27,841/mo | package | 面向 Pi 编码代理的 Remnic 记忆扩展。 | `pi install npm:@remnic/plugin-pi` |
+| 50 | [@reddb-io/red-skills-memory](https://pi.dev/packages/@reddb-io/red-skills-memory) | 18,245/mo | package | reddb.io 记忆插件：构建于 dev 之上的受治理编码代理运维记忆。支持 markdown 笔记、RedDB 图记忆、零 token 受治理召回、上下文包、声明检查、就绪状态、可选生命周期钩子，以及 MCP/HTTP 读取面 | `pi install npm:@reddb-io/red-skills-memory` |
+| 52 | [@reddb-io/red-skills-brain](https://pi.dev/packages/@reddb-io/red-skills-brain?page=2) | 17,825/mo | package | reddb.io brain 插件：项目本地的 RedDB 知识库，用于自由记录与图连接。 | `pi install npm:@reddb-io/red-skills-brain` |
+| 55 | [pi-web-search](https://pi.dev/packages/pi-web-search?page=2) | 17,156/mo | extension | 面向 pi 的模型提供方原生网络搜索，覆盖 Google Gemini、OpenAI 和 Anthropic，并支持 Gemini URL Context。 | `pi install npm:pi-web-search` |
+| 61 | [pi-cc-extensions](https://pi.dev/packages/pi-cc-extensions?page=2) | 14,275/mo | extension | 一套 Pi 效率增强套件，提供 Claude Code 风格 UI、上下文检查以及代理/会话引用。 | `pi install npm:pi-cc-extensions` |
+| 79 | [pi-cache-optimizer](https://pi.dev/packages/pi-cache-optimizer?page=2) | 11,820/mo | package | 通过稳定的提示词、兼容 OpenAI 的缓存键、代理兼容性警告和底部缓存统计，提升 Pi 的提示词/KV 缓存命中率。 | `pi install npm:pi-cache-optimizer` |
+| 80 | [@d3ara1n/pi-context-include](https://pi.dev/packages/@d3ara1n/pi-context-include?page=2) | 11,705/mo | extension | 为 AGENTS.md 提供 @path 语法——通过引用包含文件，并支持递归解析。 | `pi install npm:@d3ara1n/pi-context-include` |
+| 84 | [pi-code](https://pi.dev/packages/pi-code?page=2) | 11,156/mo | extension, skill | 为 pi 编码代理带来 Claude Code 体验：读取你的 .claude 配置（规则、命令、技能包、钩子、输出样式、MCP 服务器、代理），并新增 todo、检查点、记忆、网页和子代理功能。 | `pi install npm:pi-code` |
+| 96 | [pi-mcp-extension](https://pi.dev/packages/pi-mcp-extension?page=2) | 10,222/mo | extension | 面向 Pi 编码代理的 MCP（Model Context Protocol）客户端扩展——将 Pi 连接到任意 MCP 服务器。 | `pi install npm:pi-mcp-extension` |
+| 99 | [@zosmaai/pi-llm-wiki](https://pi.dev/packages/@zosmaai/pi-llm-wiki?page=2) | 10,180/mo | extension, skill | 面向 Pi 的自维护 LLM Wiki——采用 Karpathy 模式的知识库，支持不可变源捕获、自动化摄取、搜索、lint 检查以及与 Obsidian 兼容的 vault。可自动更新的个人与公司 wiki。 | `pi install npm:@zosmaai/pi-llm-wiki` |
+| 104 | [@galvinsan/pi-mentis-knowledge](https://pi.dev/packages/@galvinsan/pi-mentis-knowledge?page=3) | 9,568/mo | extension | 独立的 Pi Mentis 知识扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis-knowledge` |
+| 112 | [@henryqw/pi-auto-compact](https://pi.dev/packages/@henryqw/pi-auto-compact?page=3) | 9,201/mo | package | Proactively compact Pi context at a configurable threshold and resume the current task. | `pi install npm:@henryqw/pi-auto-compact` |
+| 118 | [@agimon-ai/doompi-autocompact](https://pi.dev/packages/@agimon-ai/doompi-autocompact?page=3) | 9,019/mo | extension | 为 Pi 与 DoomPi 代理会话提供迭代式上下文压缩与检查点摘要。 | `pi install npm:@agimon-ai/doompi-autocompact` |
+| 158 | [@galvinsan/pi-mentis-memory](https://pi.dev/packages/@galvinsan/pi-mentis-memory?page=4) | 6,738/mo | extension | 独立的 Pi Mentis 记忆扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis-memory` |
+| 163 | [open-zk-kb](https://pi.dev/packages/open-zk-kb?page=4) | 6,550/mo | package | 面向 AI 代理的持久化记忆。修正会沉淀，上下文不断累积，每次会话都从更聪明的起点开始。 | `pi install npm:open-zk-kb` |
+| 165 | [@hypabolic/pi-hypa](https://pi.dev/packages/@hypabolic/pi-hypa?page=4) | 6,533/mo | package | Pi 扩展，让嘈杂的工具输出远离你的上下文窗口。通过 Hypa 自动重写 shell 命令，实现本地确定性压缩、上下文感知的文件工具与可恢复的证据。 | `pi install npm:@hypabolic/pi-hypa` |
+| 176 | [@galvinsan/pi-mentis](https://pi.dev/packages/@galvinsan/pi-mentis?page=4) | 6,102/mo | extension | 集成式的 Pi Mentis 知识优先记忆扩展，适用于 Pi >= 0.84.0。 | `pi install npm:@galvinsan/pi-mentis` |
+| 180 | [@danypops/pi-papyrus](https://pi.dev/packages/@danypops/pi-papyrus?page=4) | 6,035/mo | package | 面向 Papyrus 的 Pi 宿主扩展：基于 daemon 支撑的图存储，提供原生工具、TUI 面板和上下文注入。 | `pi install npm:@danypops/pi-papyrus` |
+| 186 | [@lincoln504/pi-research](https://pi.dev/packages/@lincoln504/pi-research?page=4) | 5,936/mo | extension | 为你的代理提供联网研究能力：智能安全的工具 + 知识库（knowledge store） | `pi install npm:@lincoln504/pi-research` |
+| 188 | [pi-context-view](https://pi.dev/packages/pi-context-view?page=4) | 5,912/mo | extension | Pi 扩展，用于可视化上下文使用情况并查看隐藏部分：基础提示词、工具定义和扩展注入。 | `pi install npm:pi-context-view` |
+| 189 | [gentle-engram](https://pi.dev/packages/gentle-engram?page=4) | 5,908/mo | extension | Pi 代理的持久记忆——一个可本地或云端部署的大脑，跨会话、压缩和 MCP 代理共享。 | `pi install npm:gentle-engram` |
+| 201 | [billion-context-omp](https://pi.dev/packages/billion-context-omp?page=5) | 5,612/mo | package | 十亿，而非百万。面向 oh-my-pi（omp）编码代理的模型驱动上下文管理。 | `pi install npm:billion-context-omp` |
+| 210 | [pi-blackhole](https://pi.dev/packages/pi-blackhole?page=5) | 5,466/mo | extension | Pi 的统一压缩 + 观察记忆扩展——压缩对话上下文，同时保留持久的观察与反思记录。 | `pi install npm:pi-blackhole` |
+| 224 | [@upstash/context7-pi](https://pi.dev/packages/@upstash/context7-pi?page=5) | 5,200/mo | package | pi.dev 官方 Context7 扩展——为 pi 编码代理添加 resolve-library-id 和 query-docs 工具。 | `pi install npm:@upstash/context7-pi` |
+| 229 | [@vanillagreen/pi-claude-bridge](https://pi.dev/packages/@vanillagreen/pi-claude-bridge?page=5) | 5,171/mo | package | Pi 模型提供方桥接器，通过 Claude Agent SDK 运行 Claude Code，并支持按需启用（opt-in）转发 Pi 提示词上下文。 | `pi install npm:@vanillagreen/pi-claude-bridge` |
+| 240 | [openlore](https://pi.dev/packages/openlore?page=5) | 4,982/mo | package | 面向 AI 编码代理的持久化架构记忆与结构化认知。 | `pi install npm:openlore` |
+| 251 | [@henryqw/pi-memory](https://pi.dev/packages/@henryqw/pi-memory?page=6) | 4,811/mo | package | Auto-managed markdown memory for Pi: capped MEMORY.md/USER.md entry stores with frozen session snapshots. | `pi install npm:@henryqw/pi-memory` |
+| 260 | [pi-maestro-flow](https://pi.dev/packages/pi-maestro-flow?page=6) | 4,658/mo | skill | 面向 Pi 编码代理的一体化多代理编排 —— 单次安装即可获得并行队友调度、目标、计划、知识系统、MCP/LSP/浏览器与驾驶舱可视化 | `pi install npm:pi-maestro-flow` |
+| 268 | [pi-observational-memory](https://pi.dev/packages/pi-observational-memory?page=6) | 4,384/mo | extension | pi 的观察记忆扩展——采用缓存友好的分层压缩机制，支持观察与反思记录。 | `pi install npm:pi-observational-memory` |
+| 282 | [@agimon-ai/doompi-cache](https://pi.dev/packages/@agimon-ai/doompi-cache?page=6) | 4,155/mo | extension | Provider prompt cache policy and deterministic routing for DoomPi | `pi install npm:@agimon-ai/doompi-cache` |
+| 286 | [@matthewfl/pi-contemplator](https://pi.dev/packages/@matthewfl/pi-contemplator?page=6) | 4,131/mo | extension | A Pi extension that keeps long-running agentic sessions on track with background memory, contemplation, and structural review. | `pi install npm:@matthewfl/pi-contemplator` |
+| 293 | [@tpsdev-ai/pi-flair](https://pi.dev/packages/@tpsdev-ai/pi-flair?page=6) | 4,088/mo | extension | 面向 pi 的 Flair 记忆扩展——可在 pi 会话内进行持久化记忆访问。 | `pi install npm:@tpsdev-ai/pi-flair` |
+| 299 | [pi-fovea](https://pi.dev/packages/pi-fovea?page=6) | 4,021/mo | extension | 面向 AI 代理会话的 token 预算化仓库映射：在跨语言代码图上进行中央凹热扩散，并支持渐进式披露。 | `pi install npm:pi-fovea` |
 
 ### Agent 编排 / Subagent / Plan / Goal / Task
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 3 | [pi-subagents](https://pi.dev/packages/pi-subagents) | 361,606/mo | package | 用于单代理委派和脚本化多代理工作流的 Pi 扩展 | `pi install npm:pi-subagents` |
-| 11 | [@narumitw/pi-goal](https://pi.dev/packages/@narumitw/pi-goal) | 49,839/mo | extension | Pi 扩展，用于通过 /goal 自主完成单一目标。 | `pi install npm:@narumitw/pi-goal` |
-| 13 | [@tintinweb/pi-subagents](https://pi.dev/packages/@tintinweb/pi-subagents) | 48,370/mo | extension | 一个 pi 扩展，为 pi 带来类 Claude Code 的子代理与工作流编排：并行执行、实时组件、代理集群视图、自定义代理类型、运行中转向、动态工作流、Claude Code 兼容性以及整体外观与体验。 | `pi install npm:@tintinweb/pi-subagents` |
-| 29 | [@narumitw/pi-plan-mode](https://pi.dev/packages/@narumitw/pi-plan-mode) | 29,490/mo | extension | Pi 扩展，新增一个类似 Codex 的只读 /plan 协作模式。 | `pi install npm:@narumitw/pi-plan-mode` |
-| 30 | [pi-intercom](https://pi.dev/packages/pi-intercom) | 28,777/mo | package | <p> <img src="banner.png" alt="pi-intercom" width="1100"> </p> | `pi install npm:pi-intercom` |
-| 41 | [@akagilnc/pi-workflow-roles](https://pi.dev/packages/@akagilnc/pi-workflow-roles) | 21,332/mo | package | 面向 Pi 的灵魂绑定（soul-bound）工作流角色。 | `pi install npm:@akagilnc/pi-workflow-roles` |
-| 62 | [pi-rtk-optimizer](https://pi.dev/packages/pi-rtk-optimizer?page=2) | 14,322/mo | extension | Pi 扩展，为编码代理优化 RTK 命令重写与工具输出压缩。 | `pi install npm:pi-rtk-optimizer` |
-| 79 | [pi-landstrip](https://pi.dev/packages/pi-landstrip?page=2) | 11,411/mo | extension | 面向 Pi 的沙箱化 Bash 与基于进程的 AI 代理。 | `pi install npm:pi-landstrip` |
-| 91 | [@langchain/langsmith-pi-extension](https://pi.dev/packages/@langchain/langsmith-pi-extension?page=2) | 10,335/mo | package | 面向 Pi Coding Agent 的 LangSmith 扩展。 | `pi install npm:@langchain/langsmith-pi-extension` |
-| 95 | [@narumitw/pi-subagents](https://pi.dev/packages/@narumitw/pi-subagents?page=2) | 10,099/mo | extension | 面向 Pi 的子代理任务，支持与主代理的异步消息通信。 | `pi install npm:@narumitw/pi-subagents` |
-| 97 | [@gotgenes/pi-subagents](https://pi.dev/packages/@gotgenes/pi-subagents?page=2) | 10,030/mo | extension | 面向 pi 的专注型进程内子代理核心——提供自主 AI 代理，以及供其他扩展构建的类型化 API 与生命周期事件。是 @tintinweb/pi-subagents 的友好分支（fork）。 | `pi install npm:@gotgenes/pi-subagents` |
-| 108 | [@myka2003/pi-dpi](https://pi.dev/packages/@myka2003/pi-dpi?page=3) | 8,930/mo | extension | dπ — 拆解 π：pi 的解耦 AI 代理仓库引擎 | `pi install npm:@myka2003/pi-dpi` |
-| 110 | [@tintinweb/pi-tasks](https://pi.dev/packages/@tintinweb/pi-tasks?page=3) | 8,632/mo | extension | 一个 pi 扩展，为 pi 带来 Claude Code 风格的任务跟踪与协调能力。 | `pi install npm:@tintinweb/pi-tasks` |
-| 124 | [@danypops/pi-pipes](https://pi.dev/packages/@danypops/pi-pipes?page=3) | 7,854/mo | package | Pi 扩展：面向 AI 代理的跨平台 CI（GitHub Actions、GitLab CI、Jenkins）工具 | `pi install npm:@danypops/pi-pipes` |
-| 127 | [@runfusion/fusion](https://pi.dev/packages/@runfusion/fusion?page=3) | 7,304/mo | package | Fusion CLI：面向 Fusion AI coding agent 的 HTTP API 服务器、守护进程、仪表盘启动器和任务工具。 | `pi install npm:@runfusion/fusion` |
-| 131 | [pi-crew](https://pi.dev/packages/pi-crew?page=3) | 7,200/mo | package | Pi 扩展，用于协调 AI 团队、工作流、工作树以及异步任务编排 | `pi install npm:pi-crew` |
-| 138 | [runline](https://pi.dev/packages/runline?page=3) | 7,073/mo | package | 面向 AI 代理的代码模式 —— 将任意 API 或命令变成可调用的操作 | `pi install npm:runline` |
-| 141 | [@henryqw/pi-subagent](https://pi.dev/packages/@henryqw/pi-subagent?page=3) | 6,945/mo | package | 将受限的单个、并行或链式任务委派给隔离的 Pi 角色。 | `pi install npm:@henryqw/pi-subagent` |
-| 144 | [pi-subagents-j0k3r](https://pi.dev/packages/pi-subagents-j0k3r?page=3) | 6,838/mo | extension | 可安装的 Pi 包，新增 markdown 定义的子代理、委派任务工具、历史记录和模型配置文件。 | `pi install npm:pi-subagents-j0k3r` |
-| 156 | [@agimon-ai/doompi-team](https://pi.dev/packages/@agimon-ai/doompi-team?page=4) | 6,636/mo | package | 为 Pi 编码代理提供异步具名子代理、团队运行、对讲（intercom）与模型策略。 | `pi install npm:@agimon-ai/doompi-team` |
-| 163 | [@agimon-ai/doompi-workflow](https://pi.dev/packages/@agimon-ai/doompi-workflow?page=4) | 6,481/mo | extension | 为 DoomPi 提供 GitHub Actions 风格的工作流图、产物（artifacts）、恢复与异步运行。 | `pi install npm:@agimon-ai/doompi-workflow` |
-| 168 | [@agimon-ai/doompi-plan](https://pi.dev/packages/@agimon-ai/doompi-plan?page=4) | 6,324/mo | extension | 可审核的 Pi 规划模式：移除文件编辑工具并持久化实现计划。 | `pi install npm:@agimon-ai/doompi-plan` |
-| 178 | [@agent-plan/pi-adapter](https://pi.dev/packages/@agent-plan/pi-adapter?page=4) | 6,079/mo | package | 用于 Agent Plan 的 Pi 代理扩展 —— 在 .planner/ 中实现结构化项目规划。 | `pi install npm:@agent-plan/pi-adapter` |
-| 207 | [pi-codex-goal](https://pi.dev/packages/pi-codex-goal?page=5) | 5,378/mo | extension | 针对 pi 的 Codex 风格目标跟踪与延续。 | `pi install npm:pi-codex-goal` |
-| 209 | [@giladbarnea/pi-simple-team](https://pi.dev/packages/@giladbarnea/pi-simple-team?page=5) | 5,354/mo | package | 一个扁平、实时的 Pi 代理团队。 | `pi install npm:@giladbarnea/pi-simple-team` |
-| 215 | [@narumitw/pi-caffeinate](https://pi.dev/packages/@narumitw/pi-caffeinate?page=5) | 5,159/mo | extension | 在代理运行期间保持计算机不睡眠的 Pi 扩展。 | `pi install npm:@narumitw/pi-caffeinate` |
-| 223 | [@cgh567/agent](https://pi.dev/packages/@cgh567/agent?page=5) | 5,062/mo | package | Helios 自我改进实验室。 | `pi install npm:@cgh567/agent` |
-| 227 | [@henryqw/pi-task-models](https://pi.dev/packages/@henryqw/pi-task-models?page=5) | 5,029/mo | package | 面向 HenryQW Pi 扩展的共享任务模型配置与路由。 | `pi install npm:@henryqw/pi-task-models` |
-| 230 | [@pi-unipi/unipi](https://pi.dev/packages/@pi-unipi/unipi?page=5) | 5,006/mo | extension | 面向 Pi 编码代理的一体化扩展套件。 | `pi install npm:@pi-unipi/unipi` |
-| 238 | [@astrosheep/square](https://pi.dev/packages/@astrosheep/square?page=5) | 4,881/mo | package | 一个共享的公共广场：代理们在此加入、获取动态、发表意见，并在完成后离开。 | `pi install npm:@astrosheep/square` |
-| 244 | [@astrosheep/keiyaku](https://pi.dev/packages/@astrosheep/keiyaku?page=5) | 4,780/mo | package | Keiyaku 是一个面向代理的契约工作流。 | `pi install npm:@astrosheep/keiyaku` |
-| 246 | [pine-of-glass](https://pi.dev/packages/pine-of-glass?page=5) | 4,769/mo | extension | 面向 Pi 编码代理的可观测性扩展。 | `pi install npm:pine-of-glass` |
-| 257 | [shariq-pi-extensions](https://pi.dev/packages/shariq-pi-extensions?page=6) | 4,571/mo | extension | Pi 编码代理的跨平台扩展套件。 | `pi install npm:shariq-pi-extensions` |
-| 285 | [zob-harness](https://pi.dev/packages/zob-harness?page=6) | 4,060/mo | extension | Pi 的受治理 AI 代理工厂：启动可相互通信的代理团队、运行基于 tmux 的工厂、校验产物，并打包可重复的工作流。 | `pi install npm:zob-harness` |
-| 286 | [@henryqw/pi-auto-dag](https://pi.dev/packages/@henryqw/pi-auto-dag?page=6) | 4,037/mo | package | 通过 Pi 和 Herdr 执行 Delivery Graphs（交付图）。 | `pi install npm:@henryqw/pi-auto-dag` |
-| 292 | [wj-pi-subagents](https://pi.dev/packages/wj-pi-subagents?page=6) | 3,993/mo | extension | 在 Pi 中创建和管理递归子代理。 | `pi install npm:wj-pi-subagents` |
-
-### Runtime / 后台任务 / Worktree / 集成
-
-| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
-| ---: | --- | ---: | --- | --- | --- |
-| 6 | [pi-background-tasks](https://pi.dev/packages/pi-background-tasks) | 107,140/mo | extension | Pi 扩展：支持持久的后台 shell 任务、只读委托代理、本地认证的 Pi 运行，以及通过子 Pi 进程运行的固定用途 Fusion 工作流。 | `pi install npm:pi-background-tasks` |
-| 22 | [confluence-cli](https://pi.dev/packages/confluence-cli) | 32,089/mo | package | 面向 Atlassian Confluence 的命令行界面，具备页面创建与编辑能力。 | `pi install npm:confluence-cli` |
-| 37 | [pi-fabric](https://pi.dev/packages/pi-fabric) | 24,792/mo | extension | 面向 Pi 的可编程工具与代理运行时。 | `pi install npm:pi-fabric` |
-| 45 | [@llblab/pi-telegram](https://pi.dev/packages/@llblab/pi-telegram) | 19,186/mo | extension | 面向 Pi 的 Telegram 运行时适配器。 | `pi install npm:@llblab/pi-telegram` |
-| 74 | [@caichengle/omp-feishu-lark](https://pi.dev/packages/@caichengle/omp-feishu-lark?page=2) | 11,992/mo | extension | 面向 OMP 编码代理的飞书/Lark 桥接。 | `pi install npm:@caichengle/omp-feishu-lark` |
-| 78 | [@agimon-ai/doompi-extension-contracts](https://pi.dev/packages/@agimon-ai/doompi-extension-contracts?page=2) | 11,478/mo | extension | 为独立打包的 DoomPi 扩展提供的类型化生命周期、协议与 Leader 契约。（DoomPi 生态的共享类型/契约库） | `pi install npm:@agimon-ai/doompi-extension-contracts` |
-| 84 | [@ferris1225/pi-subagents](https://pi.dev/packages/@ferris1225/pi-subagents?page=2) | 10,845/mo | extension | 面向 pi 的托管子代理团队：专职角色、提交前文档同步、保留线程、自动修复链、模型回退与 Git worktree 隔离。 | `pi install npm:@ferris1225/pi-subagents` |
-| 115 | [@xynogen/pix-runtime](https://pi.dev/packages/@xynogen/pix-runtime?page=3) | 8,342/mo | extension | Pix 共享运行时 —— 带版本号的 pix.json 配置、原子化持久化、类型化变更事件 | `pi install npm:@xynogen/pix-runtime` |
-| 118 | [pi-mesh-extension](https://pi.dev/packages/pi-mesh-extension?page=3) | 8,158/mo | extension | 面向 Pi 的实时 AI 代理间通信 —— 本地代理、mesh.v1 协议、如实反映的已送达/已读/已应答状态、仅含哈希的账本。零运行时依赖。在 npm 上以 pi-mesh-extension 名称发布（纯 pi-mesh 名称已被其他项目占用）。 | `pi install npm:pi-mesh-extension` |
-| 120 | [@bdsqqq/pi](https://pi.dev/packages/@bdsqqq/pi?page=3) | 8,096/mo | package | 面向 pi-coding-agent 的扩展与核心工具 | `pi install npm:@bdsqqq/pi` |
-| 133 | [@pi-unipi/core](https://pi.dev/packages/@pi-unipi/core?page=3) | 7,178/mo | extension | 面向 Unipi 扩展套件的共享工具、事件类型和常量 | `pi install npm:@pi-unipi/core` |
-| 137 | [@undefineds.co/models](https://pi.dev/packages/@undefineds.co/models?page=3) | 7,125/mo | package | `@undefineds.co/models` 是面向 LinX 应用、桌面端、CLI、边车组件及未来 worker 的共享 Solid Pod 数据模型契约。 | `pi install npm:@undefineds.co/models` |
-| 154 | [@sreetej510/pi-hpc-tools](https://pi.dev/packages/@sreetej510/pi-hpc-tools?page=4) | 6,660/mo | extension | Pi 扩展，用于通过 plink 探索远程 HPC/SSH 主机，提供 ls/read/grep 工具，并可通过 /hpc:on 和 /hpc:off 按项目开关。 | `pi install npm:@sreetej510/pi-hpc-tools` |
-| 157 | [@narumitw/pi-sync](https://pi.dev/packages/@narumitw/pi-sync?page=4) | 6,559/mo | extension | Pi 扩展，可通过 Git、WebDAV、Cloudflare R2 或兼容 S3 的存储同步 Pi 配置。 | `pi install npm:@narumitw/pi-sync` |
-| 162 | [@agimon-ai/doompi-runner](https://pi.dev/packages/@agimon-ai/doompi-runner?page=4) | 6,494/mo | package | 为 Pi 编码代理提供受监督的 shell 执行、后台进程控制与运行日志。 | `pi install npm:@agimon-ai/doompi-runner` |
-| 174 | [@amaster.ai/pi-computer-use](https://pi.dev/packages/@amaster.ai/pi-computer-use?page=4) | 6,225/mo | extension | 面向 Pi 桌面自动化的跨平台 computer-use（计算机操作）工具 | `pi install npm:@amaster.ai/pi-computer-use` |
-| 182 | [@agimon-ai/doompi-runner-rmux-linux-x64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-linux-x64?page=4) | 6,013/mo | package | 适用于 Linux x64 上 DoomPi Runner 的预编译 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-linux-x64` |
-| 188 | [@agimon-ai/doompi-runner-rmux-darwin-arm64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-darwin-arm64?page=4) | 5,833/mo | package | 适用于 macOS arm64 上 DoomPi Runner 的预编译 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-darwin-arm64` |
-| 190 | [@aliou/pi-processes](https://pi.dev/packages/@aliou/pi-processes?page=4) | 5,784/mo | extension | ![banner](https://assets.aliou.me/github/aliou/pi-processes/banner-v0.10.x.png) | `pi install npm:@aliou/pi-processes` |
-| 192 | [@juanibiapina/pi-extension-settings](https://pi.dev/packages/@juanibiapina/pi-extension-settings?page=4) | 5,745/mo | extension | Pi 扩展，用于跨扩展集中管理设置。 | `pi install npm:@juanibiapina/pi-extension-settings` |
-| 194 | [@trevonistrevon/pi-loop](https://pi.dev/packages/@trevonistrevon/pi-loop?page=4) | 5,671/mo | extension | Pi 扩展，支持基于 cron/事件的代理重新唤醒循环与后台进程监控。 | `pi install npm:@trevonistrevon/pi-loop` |
-| 203 | [@agimon-ai/doompi-runner-rmux-linux-arm64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-linux-arm64?page=5) | 5,407/mo | package | 面向 Linux arm64 平台的 DoomPi Runner 预构建 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-linux-arm64` |
-| 208 | [@agimon-ai/doompi-runner-rmux-darwin-x64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-darwin-x64?page=5) | 5,377/mo | package | 面向 macOS x64 平台的 DoomPi Runner 预构建 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-darwin-x64` |
-| 217 | [@yhong91/cpac](https://pi.dev/packages/@yhong91/cpac?page=5) | 5,112/mo | package | 将 Codex 和 Claude Code 连接到远程 CLIProxyAPI 网关。 | `pi install npm:@yhong91/cpac` |
-| 224 | [@pi-stef/atlassian](https://pi.dev/packages/@pi-stef/atlassian?page=5) | 5,053/mo | extension | 面向经过验证的 Atlassian Jira 和 Confluence 工具的 Pi 扩展与 CLI。 | `pi install npm:@pi-stef/atlassian` |
-| 241 | [@zhcsyncer/pi-extensions](https://pi.dev/packages/@zhcsyncer/pi-extensions?page=5) | 4,828/mo | extension | zhcsyncer 制作的 Pi 扩展合集。 | `pi install npm:@zhcsyncer/pi-extensions` |
-| 245 | [@osolmaz/pi-workflows](https://pi.dev/packages/@osolmaz/pi-workflows?page=5) | 4,776/mo | package | 面向 pi 编码代理的工作流与控制器运行时，附带实时终端查看器。 | `pi install npm:@osolmaz/pi-workflows` |
-| 252 | [ultra-fabric](https://pi.dev/packages/ultra-fabric?page=6) | 4,652/mo | extension | 面向 Pi 的弹性、自适应的编排运行时。 | `pi install npm:ultra-fabric` |
-| 275 | [pi-repl-py](https://pi.dev/packages/pi-repl-py?page=6) | 4,202/mo | package | 一个只含单一工具 execute 的 pi 扩展：运行一个 TypeScript 宿主，带有持久化的 Python（ipykernel）求值器和一个用户可配置的函数工具箱。 | `pi install npm:pi-repl-py` |
-| 281 | [@alasano/pi-linear](https://pi.dev/packages/@alasano/pi-linear?page=6) | 4,147/mo | package | pi 的 Linear 集成，提供 64+ 个工具、多工作区认证以及按工具配置的设置。 | `pi install npm:@alasano/pi-linear` |
-| 282 | [@jachy/pi-git-sync](https://pi.dev/packages/@jachy/pi-git-sync?page=6) | 4,126/mo | extension | 通过 GitHub 私有仓库在多台机器间同步 Pi 配置。 | `pi install npm:@jachy/pi-git-sync` |
-| 284 | [@narumitw/pi-worktree](https://pi.dev/packages/@narumitw/pi-worktree?page=6) | 4,092/mo | extension | Pi 扩展，用于安全的交互式 Git worktree 管理和工作区切换。 | `pi install npm:@narumitw/pi-worktree` |
-| 287 | [@pi-unipi/notify](https://pi.dev/packages/@pi-unipi/notify?page=6) | 4,030/mo | extension | Pi 的跨平台通知扩展——为代理生命周期事件提供原生操作系统、Gotify 和 Telegram 通知。 | `pi install npm:@pi-unipi/notify` |
-| 300 | [@amaster.ai/pi-channels](https://pi.dev/packages/@amaster.ai/pi-channels?page=6) | 3,882/mo | extension | Pi 扩展，支持飞书、钉钉、企业微信和 webhook 等原生消息渠道。 | `pi install npm:@amaster.ai/pi-channels` |
+| 3 | [pi-subagents](https://pi.dev/packages/pi-subagents) | 428,818/mo | package | 用于单代理委派和脚本化多代理工作流的 Pi 扩展 | `pi install npm:pi-subagents` |
+| 12 | [pi-goal-x](https://pi.dev/packages/pi-goal-x) | 68,685/mo | extension | pi 的目标模式扩展：持久的长期目标、五个模型工具、结构化任务、独立的完成审计、西西弗斯模式、自动继续和状态浮层。 | `pi install npm:pi-goal-x` |
+| 14 | [@tintinweb/pi-subagents](https://pi.dev/packages/@tintinweb/pi-subagents) | 46,942/mo | extension | 一个 pi 扩展，为 pi 带来类 Claude Code 的子代理与工作流编排：并行执行、实时组件、代理集群视图、自定义代理类型、运行中转向、动态工作流、Claude Code 兼容性以及整体外观与体验。 | `pi install npm:@tintinweb/pi-subagents` |
+| 18 | [@narumitw/pi-goal](https://pi.dev/packages/@narumitw/pi-goal) | 40,574/mo | extension | Pi 扩展，用于通过 /goal 自主完成单一目标。 | `pi install npm:@narumitw/pi-goal` |
+| 22 | [@akagilnc/pi-workflow-roles](https://pi.dev/packages/@akagilnc/pi-workflow-roles) | 38,766/mo | package | 面向 Pi 的灵魂绑定（soul-bound）工作流角色。 | `pi install npm:@akagilnc/pi-workflow-roles` |
+| 31 | [@narumitw/pi-plan-mode](https://pi.dev/packages/@narumitw/pi-plan-mode) | 28,906/mo | extension | Pi 扩展，新增一个类似 Codex 的只读 /plan 协作模式。 | `pi install npm:@narumitw/pi-plan-mode` |
+| 41 | [@langchain/langsmith-pi-extension](https://pi.dev/packages/@langchain/langsmith-pi-extension) | 23,007/mo | package | 面向 Pi Coding Agent 的 LangSmith 扩展。 | `pi install npm:@langchain/langsmith-pi-extension` |
+| 42 | [pi-intercom](https://pi.dev/packages/pi-intercom) | 22,752/mo | package | <p> <img src="banner.png" alt="pi-intercom" width="1100"> </p> | `pi install npm:pi-intercom` |
+| 60 | [@cgh567/agent](https://pi.dev/packages/@cgh567/agent?page=2) | 14,543/mo | package | Helios 自我改进实验室。 | `pi install npm:@cgh567/agent` |
+| 67 | [@henryqw/pi-subagent](https://pi.dev/packages/@henryqw/pi-subagent?page=2) | 13,482/mo | package | 将受限的单个、并行或链式任务委派给隔离的 Pi 角色。 | `pi install npm:@henryqw/pi-subagent` |
+| 70 | [@gotgenes/pi-subagents](https://pi.dev/packages/@gotgenes/pi-subagents?page=2) | 12,977/mo | extension | 面向 pi 的专注型进程内子代理核心——提供自主 AI 代理，以及供其他扩展构建的类型化 API 与生命周期事件。是 @tintinweb/pi-subagents 的友好分支（fork）。 | `pi install npm:@gotgenes/pi-subagents` |
+| 71 | [pi-rtk-optimizer](https://pi.dev/packages/pi-rtk-optimizer?page=2) | 12,964/mo | extension | Pi 扩展，为编码代理优化 RTK 命令重写与工具输出压缩。 | `pi install npm:pi-rtk-optimizer` |
+| 109 | [@agimon-ai/doompi-team](https://pi.dev/packages/@agimon-ai/doompi-team?page=3) | 9,305/mo | package | 为 Pi 编码代理提供异步具名子代理、团队运行、对讲（intercom）与模型策略。 | `pi install npm:@agimon-ai/doompi-team` |
+| 115 | [pi-subagents-j0k3r](https://pi.dev/packages/pi-subagents-j0k3r?page=3) | 9,090/mo | extension | 可安装的 Pi 包，新增 markdown 定义的子代理、委派任务工具、历史记录和模型配置文件。 | `pi install npm:pi-subagents-j0k3r` |
+| 121 | [@agimon-ai/doompi-workflow](https://pi.dev/packages/@agimon-ai/doompi-workflow?page=3) | 8,866/mo | extension | 为 DoomPi 提供 GitHub Actions 风格的工作流图、产物（artifacts）、恢复与异步运行。 | `pi install npm:@agimon-ai/doompi-workflow` |
+| 123 | [@agimon-ai/doompi-plan](https://pi.dev/packages/@agimon-ai/doompi-plan?page=3) | 8,747/mo | extension | 可审核的 Pi 规划模式：移除文件编辑工具并持久化实现计划。 | `pi install npm:@agimon-ai/doompi-plan` |
+| 132 | [@tintinweb/pi-tasks](https://pi.dev/packages/@tintinweb/pi-tasks?page=3) | 8,191/mo | extension | 一个 pi 扩展，为 pi 带来 Claude Code 风格的任务跟踪与协调能力。 | `pi install npm:@tintinweb/pi-tasks` |
+| 138 | [@henryqw/pi-task-models](https://pi.dev/packages/@henryqw/pi-task-models?page=3) | 7,866/mo | package | 面向 HenryQW Pi 扩展的共享任务模型配置与路由。 | `pi install npm:@henryqw/pi-task-models` |
+| 139 | [@narumitw/pi-subagents](https://pi.dev/packages/@narumitw/pi-subagents?page=3) | 7,804/mo | extension | 面向 Pi 的子代理任务，支持与主代理的异步消息通信。 | `pi install npm:@narumitw/pi-subagents` |
+| 146 | [shariq-pi-extensions](https://pi.dev/packages/shariq-pi-extensions?page=3) | 7,552/mo | extension | Pi 编码代理的跨平台扩展套件。 | `pi install npm:shariq-pi-extensions` |
+| 182 | [@runfusion/fusion](https://pi.dev/packages/@runfusion/fusion?page=4) | 6,015/mo | package | Fusion CLI：面向 Fusion AI coding agent 的 HTTP API 服务器、守护进程、仪表盘启动器和任务工具。 | `pi install npm:@runfusion/fusion` |
+| 192 | [pi-landstrip](https://pi.dev/packages/pi-landstrip?page=4) | 5,846/mo | extension | 面向 Pi 的沙箱化 Bash 与基于进程的 AI 代理。 | `pi install npm:pi-landstrip` |
+| 195 | [infinity-harness](https://pi.dev/packages/infinity-harness?page=4) | 5,802/mo | extension | A pi agent extension that runs a gated build pipeline unattended — enforces phases, validates with deterministic gates, and keeps working for hours or days without losing the plan. | `pi install npm:infinity-harness` |
+| 196 | [@astrosheep/keiyaku](https://pi.dev/packages/@astrosheep/keiyaku?page=4) | 5,778/mo | package | Keiyaku 是一个面向代理的契约工作流。 | `pi install npm:@astrosheep/keiyaku` |
+| 199 | [@schovest/pi-goal](https://pi.dev/packages/@schovest/pi-goal?page=4) | 5,630/mo | extension | Pi extension for autonomous single-objective /goal completion. | `pi install npm:@schovest/pi-goal` |
+| 205 | [@pi-unipi/unipi](https://pi.dev/packages/@pi-unipi/unipi?page=5) | 5,515/mo | extension | 面向 Pi 编码代理的一体化扩展套件。 | `pi install npm:@pi-unipi/unipi` |
+| 213 | [@astrosheep/square](https://pi.dev/packages/@astrosheep/square?page=5) | 5,414/mo | package | 一个共享的公共广场：代理们在此加入、获取动态、发表意见，并在完成后离开。 | `pi install npm:@astrosheep/square` |
+| 216 | [wj-pi-subagents](https://pi.dev/packages/wj-pi-subagents?page=5) | 5,369/mo | extension | 在 Pi 中创建和管理递归子代理。 | `pi install npm:wj-pi-subagents` |
+| 219 | [runline](https://pi.dev/packages/runline?page=5) | 5,348/mo | package | 面向 AI 代理的代码模式 —— 将任意 API 或命令变成可调用的操作 | `pi install npm:runline` |
+| 234 | [pi-zense](https://pi.dev/packages/pi-zense?page=5) | 5,118/mo | theme | Spec-gated, human-signed (zense/เซ็น) SDLC harness for pi — sub-agents, dual eval, escalation gates — plus the Zense dark theme. | `pi install npm:pi-zense` |
+| 238 | [@henryqw/pi-auto-dag](https://pi.dev/packages/@henryqw/pi-auto-dag?page=5) | 5,013/mo | package | 通过 Pi 和 Herdr 执行 Delivery Graphs（交付图）。 | `pi install npm:@henryqw/pi-auto-dag` |
+| 270 | [@danypops/pi-pipes](https://pi.dev/packages/@danypops/pi-pipes?page=6) | 4,339/mo | package | Pi 扩展：面向 AI 代理的跨平台 CI（GitHub Actions、GitLab CI、Jenkins）工具 | `pi install npm:@danypops/pi-pipes` |
+| 271 | [@agent-plan/pi-adapter](https://pi.dev/packages/@agent-plan/pi-adapter?page=6) | 4,328/mo | package | 用于 Agent Plan 的 Pi 代理扩展 —— 在 .planner/ 中实现结构化项目规划。 | `pi install npm:@agent-plan/pi-adapter` |
+| 276 | [pi-extensible-workflows](https://pi.dev/packages/pi-extensible-workflows?page=6) | 4,253/mo | package | Deterministic multi-agent workflow orchestration for Pi | `pi install npm:pi-extensible-workflows` |
+| 284 | [stepstone](https://pi.dev/packages/stepstone?page=6) | 4,135/mo | extension | A shared roadmap of project goals for coding agents and the humans working beside them. | `pi install npm:stepstone` |
+| 288 | [@giladbarnea/pi-simple-team](https://pi.dev/packages/@giladbarnea/pi-simple-team?page=6) | 4,120/mo | package | 一个扁平、实时的 Pi 代理团队。 | `pi install npm:@giladbarnea/pi-simple-team` |
+| 292 | [@agwab/pi-workflow](https://pi.dev/packages/@agwab/pi-workflow?page=6) | 4,090/mo | extension | Workflow orchestration for Pi subagents. | `pi install npm:@agwab/pi-workflow` |
+| 300 | [@agimon-ai/doompi-runner-rtk-linux-x64](https://pi.dev/packages/@agimon-ai/doompi-runner-rtk-linux-x64?page=6) | 3,997/mo | package | Prebuilt RTK v0.45.0 log processor for DoomPi Runner on Linux x64. | `pi install npm:@agimon-ai/doompi-runner-rtk-linux-x64` |
 
 ### UI / TUI / Session / 观测
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 7 | [@juicesharp/rpiv-todo](https://pi.dev/packages/@juicesharp/rpiv-todo) | 96,795/mo | extension | Pi 扩展：为模型提供待办事项列表，以实时浮层渲染，且 /reload 与会话压缩后依然保留。 | `pi install npm:@juicesharp/rpiv-todo` |
-| 25 | [@raindrop-ai/pi-agent](https://pi.dev/packages/@raindrop-ai/pi-agent) | 30,613/mo | package | 为 Pi Agent 提供 Raindrop 可观测性——通过 subscriber 或 pi-coding-agent 扩展实现自动追踪。 | `pi install npm:@raindrop-ai/pi-agent` |
-| 28 | [pi-powerline-footer](https://pi.dev/packages/pi-powerline-footer) | 29,663/mo | extension | 面向 pi 编码代理的 Powerline 风格状态栏扩展。 | `pi install npm:pi-powerline-footer` |
-| 51 | [@juicesharp/rpiv-voice](https://pi.dev/packages/@juicesharp/rpiv-voice?page=2) | 16,858/mo | extension | Pi 扩展。通过 /voice 进行语音听写——使用 sherpa-onnx Whisper（base multilingual int8）在设备端本地完成语音转文字，麦克风声音由 decibri 采集。 | `pi install npm:@juicesharp/rpiv-voice` |
-| 57 | [glimpseui](https://pi.dev/packages/glimpseui?page=2) | 15,101/mo | prompt | 面向脚本和 AI 代理的原生微 UI——提供跨平台 WebView 窗口与双向 JSON 通信。 | `pi install npm:glimpseui` |
-| 67 | [@danypops/pi-packed](https://pi.dev/packages/@danypops/pi-packed?page=2) | 13,133/mo | package | Pi 包生命周期、验证、daemon、工具、配置（profiles）与 TUI。 | `pi install npm:@danypops/pi-packed` |
-| 68 | [@narumitw/pi-statusline](https://pi.dev/packages/@narumitw/pi-statusline?page=2) | 13,058/mo | extension | Pi 扩展，将底部栏替换为信息丰富的状态行（statusline）。 | `pi install npm:@narumitw/pi-statusline` |
-| 90 | [@agimon-ai/doompi-telemetry](https://pi.dev/packages/@agimon-ai/doompi-telemetry?page=2) | 10,596/mo | package | 面向 DoomPi 会话的宿主无关遥测、OpenTelemetry 控制与 Log Sink 适配器。 | `pi install npm:@agimon-ai/doompi-telemetry` |
-| 94 | [pi-ask-user](https://pi.dev/packages/pi-ask-user?page=2) | 10,160/mo | extension | 面向 pi-coding-agent 的交互式 ask_user 工具，提供可搜索的分栏选择 UI、多选与自由文本输入。 | `pi install npm:pi-ask-user` |
-| 96 | [@agimon-ai/doompi-ui](https://pi.dev/packages/@agimon-ai/doompi-ui?page=2) | 10,077/mo | extension | 面向 DoomPi 与 Pi 扩展的 Leader 键菜单、主题与 TUI 组件。 | `pi install npm:@agimon-ai/doompi-ui` |
-| 99 | [pi-zentui](https://pi.dev/packages/pi-zentui?page=2) | 9,911/mo | extension, theme | 灵感源自 Starship 的状态行与 Opencode 风格 TUI，适用于 Pi。 | `pi install npm:pi-zentui` |
-| 101 | [@juicesharp/rpiv-btw](https://pi.dev/packages/@juicesharp/rpiv-btw?page=3) | 9,706/mo | extension | Pi 扩展。/btw 斜杠命令，用于向同一个主模型提出一次性附带问题，而不污染主对话。 | `pi install npm:@juicesharp/rpiv-btw` |
-| 102 | [pi-phoenix](https://pi.dev/packages/pi-phoenix?page=3) | 9,639/mo | extension | 面向 pi 的 Phoenix 追踪扩展 | `pi install npm:pi-phoenix` |
-| 103 | [pi-btw](https://pi.dev/packages/pi-btw?page=3) | 9,584/mo | extension | 一个 pi 扩展，通过 /btw 进行并行的旁路对话 | `pi install npm:pi-btw` |
-| 111 | [@agimon-ai/doompi-config](https://pi.dev/packages/@agimon-ai/doompi-config?page=3) | 8,587/mo | package | 用于编排 DoomPi 会话的类型化配置加载、校验以及宿主适配器。 | `pi install npm:@agimon-ai/doompi-config` |
-| 135 | [killeros](https://pi.dev/packages/killeros?page=3) | 7,140/mo | extension | 面向 Pi coding agent 的 TUI、目标与工作流自动化 | `pi install npm:killeros` |
-| 147 | [@janvitos/pi-plan-build](https://pi.dev/packages/@janvitos/pi-plan-build?page=3) | 6,764/mo | package | 安全地制定计划，明确地批准，然后在此处或在一个干净的新会话中实施。 | `pi install npm:@janvitos/pi-plan-build` |
-| 153 | [@agimon-ai/doompi-task](https://pi.dev/packages/@agimon-ai/doompi-task?page=4) | 6,661/mo | package | 为 Pi 编码会话提供持久化、感知依赖的任务图与子代理委派。 | `pi install npm:@agimon-ai/doompi-task` |
-| 158 | [@agimon-ai/doompi-loop](https://pi.dev/packages/@agimon-ai/doompi-loop?page=4) | 6,554/mo | extension | 为 Pi 编码代理提供会话级循环提示词调度器与循环控制。 | `pi install npm:@agimon-ai/doompi-loop` |
-| 159 | [@agimon-ai/doompi-voice](https://pi.dev/packages/@agimon-ai/doompi-voice?page=4) | 6,530/mo | extension | 为 Pi 代理提供客户端音频采集、主机端转写与自主叙述功能。 | `pi install npm:@agimon-ai/doompi-voice` |
-| 164 | [@agimon-ai/doompi-log](https://pi.dev/packages/@agimon-ai/doompi-log?page=4) | 6,397/mo | extension | 为代理可观测性提供 Pi 会话指标、发现（findings）、数据接收端（sink）状态与 Log Metrics 覆盖层。 | `pi install npm:@agimon-ai/doompi-log` |
-| 169 | [pi-open-tui](https://pi.dev/packages/pi-open-tui?page=4) | 6,316/mo | extension, theme | 面向 Pi 编码代理的精美 TUI：动态 logo 头部、Starship 风格底部栏、带模型元数据的圆角编辑器，以及提示框形式的用户消息。 | `pi install npm:pi-open-tui` |
-| 195 | [@groeponline/pi-wishcraft](https://pi.dev/packages/@groeponline/pi-wishcraft?page=4) | 5,516/mo | extension | 面向 Pi 的操作员驾驶舱：实时 powerline 状态、可搜索的技能包、灵感队列、可置顶 Bash、钩子（hooks）、策略控制与会话体验。 | `pi install npm:@groeponline/pi-wishcraft` |
-| 206 | [@narumitw/pi-starship](https://pi.dev/packages/@narumitw/pi-starship?page=5) | 5,391/mo | extension | 面向 Pi 编码代理的原生 Starship 风格 TOML 状态栏。 | `pi install npm:@narumitw/pi-starship` |
-| 213 | [@zhushanwen/pi-ask-user](https://pi.dev/packages/@zhushanwen/pi-ask-user?page=5) | 5,194/mo | extension | 面向 Pi 的内联自适应 ask_user 工具——支持单/多问题结构化输入，带分栏预览、内联编辑器与可选评论。 | `pi install npm:@zhushanwen/pi-ask-user` |
-| 218 | [@agimon-ai/doompi-user-feedback](https://pi.dev/packages/@agimon-ai/doompi-user-feedback?page=5) | 5,111/mo | extension | 为 Pi 代理提供结构化用户提问，并支持交互式与自主式 Voice 交接。 | `pi install npm:@agimon-ai/doompi-user-feedback` |
-| 220 | [@moyai/pi-session-hoarder](https://pi.dev/packages/@moyai/pi-session-hoarder?page=5) | 5,099/mo | package | 🐿️ 一个将会话归档到本地内容寻址存储的 Pi 扩展。 | `pi install npm:@moyai/pi-session-hoarder` |
-| 240 | [@zhushanwen/pi-subagent-workflow](https://pi.dev/packages/@zhushanwen/pi-subagent-workflow?page=5) | 4,835/mo | extension | 面向 Pi 的统一子代理执行与多代理工作流编排——支持同步/后台模式的子进程代理运行时，带有持久化的有状态工作流管理、状态机与执行追踪。 | `pi install npm:@zhushanwen/pi-subagent-workflow` |
-| 255 | [pi-interactive-shell](https://pi.dev/packages/pi-interactive-shell?page=6) | 4,581/mo | extension | 在 pi 的 TUI 覆盖层中运行 AI 编码代理，支持交互式、免手动及分派式监督。 | `pi install npm:pi-interactive-shell` |
-| 259 | [@magiusche/pi-webview](https://pi.dev/packages/@magiusche/pi-webview?page=6) | 4,500/mo | extension | pi 编码代理的 WebView 界面，集成到 IDE 中（优先支持 VS Code）。 | `pi install npm:@magiusche/pi-webview` |
-| 266 | [pi-cockpit](https://pi.dev/packages/pi-cockpit?page=6) | 4,334/mo | extension | 为 Pi 提供响应式 Maestro 操作侧边栏、备用状态组件和页脚。 | `pi install npm:pi-cockpit` |
-| 268 | [pi-langfuse](https://pi.dev/packages/pi-langfuse?page=6) | 4,321/mo | extension | Pi 编码代理的 Langfuse 扩展。 | `pi install npm:pi-langfuse` |
-| 270 | [@4fu/pi-pwsh](https://pi.dev/packages/@4fu/pi-pwsh?page=6) | 4,263/mo | extension | 在 Windows 上为 pi 提供持久化的 PowerShell 任务，支持 ConPTY 会话和用户请求。 | `pi install npm:@4fu/pi-pwsh` |
-| 299 | [@amaster.ai/pi-telemetry](https://pi.dev/packages/@amaster.ai/pi-telemetry?page=6) | 3,888/mo | extension | Pi 扩展，通过 Langfuse 和 OpenTelemetry 导出器提供运行时遥测。 | `pi install npm:@amaster.ai/pi-telemetry` |
+| 6 | [@juicesharp/rpiv-todo](https://pi.dev/packages/@juicesharp/rpiv-todo) | 147,619/mo | extension | Pi 扩展：为模型提供待办事项列表，以实时浮层渲染，且 /reload 与会话压缩后依然保留。 | `pi install npm:@juicesharp/rpiv-todo` |
+| 28 | [pi-powerline-footer](https://pi.dev/packages/pi-powerline-footer) | 30,553/mo | extension | 面向 pi 编码代理的 Powerline 风格状态栏扩展。 | `pi install npm:pi-powerline-footer` |
+| 29 | [@raindrop-ai/pi-agent](https://pi.dev/packages/@raindrop-ai/pi-agent) | 29,230/mo | package | 为 Pi Agent 提供 Raindrop 可观测性——通过 subscriber 或 pi-coding-agent 扩展实现自动追踪。 | `pi install npm:@raindrop-ai/pi-agent` |
+| 54 | [@agimon-ai/doompi-telemetry](https://pi.dev/packages/@agimon-ai/doompi-telemetry?page=2) | 17,585/mo | package | 面向 DoomPi 会话的宿主无关遥测、OpenTelemetry 控制与 Log Sink 适配器。 | `pi install npm:@agimon-ai/doompi-telemetry` |
+| 57 | [@agimon-ai/doompi-ui](https://pi.dev/packages/@agimon-ai/doompi-ui?page=2) | 15,881/mo | extension | 面向 DoomPi 与 Pi 扩展的 Leader 键菜单、主题与 TUI 组件。 | `pi install npm:@agimon-ai/doompi-ui` |
+| 65 | [@moyai/pi-session-hoarder](https://pi.dev/packages/@moyai/pi-session-hoarder?page=2) | 14,059/mo | package | 🐿️ 一个将会话归档到本地内容寻址存储的 Pi 扩展。 | `pi install npm:@moyai/pi-session-hoarder` |
+| 66 | [@agimon-ai/doompi-config](https://pi.dev/packages/@agimon-ai/doompi-config?page=2) | 13,539/mo | package | 用于编排 DoomPi 会话的类型化配置加载、校验以及宿主适配器。 | `pi install npm:@agimon-ai/doompi-config` |
+| 69 | [pi-phoenix](https://pi.dev/packages/pi-phoenix?page=2) | 13,026/mo | extension | 面向 pi 的 Phoenix 追踪扩展 | `pi install npm:pi-phoenix` |
+| 74 | [glimpseui](https://pi.dev/packages/glimpseui?page=2) | 12,224/mo | prompt | 面向脚本和 AI 代理的原生微 UI——提供跨平台 WebView 窗口与双向 JSON 通信。 | `pi install npm:glimpseui` |
+| 85 | [pi-btw](https://pi.dev/packages/pi-btw?page=2) | 11,154/mo | extension | 一个 pi 扩展，通过 /btw 进行并行的旁路对话 | `pi install npm:pi-btw` |
+| 88 | [@janvitos/pi-plan-build](https://pi.dev/packages/@janvitos/pi-plan-build?page=2) | 11,078/mo | package | 安全地制定计划，明确地批准，然后在此处或在一个干净的新会话中实施。 | `pi install npm:@janvitos/pi-plan-build` |
+| 103 | [@agimon-ai/doompi-loop](https://pi.dev/packages/@agimon-ai/doompi-loop?page=3) | 9,684/mo | extension | 为 Pi 编码代理提供会话级循环提示词调度器与循环控制。 | `pi install npm:@agimon-ai/doompi-loop` |
+| 107 | [@agimon-ai/doompi-task](https://pi.dev/packages/@agimon-ai/doompi-task?page=3) | 9,323/mo | package | 为 Pi 编码会话提供持久化、感知依赖的任务图与子代理委派。 | `pi install npm:@agimon-ai/doompi-task` |
+| 111 | [pi-open-tui](https://pi.dev/packages/pi-open-tui?page=3) | 9,247/mo | extension, theme | 面向 Pi 编码代理的精美 TUI：动态 logo 头部、Starship 风格底部栏、带模型元数据的圆角编辑器，以及提示框形式的用户消息。 | `pi install npm:pi-open-tui` |
+| 113 | [@narumitw/pi-statusline](https://pi.dev/packages/@narumitw/pi-statusline?page=3) | 9,189/mo | extension | Pi 扩展，将底部栏替换为信息丰富的状态行（statusline）。 | `pi install npm:@narumitw/pi-statusline` |
+| 114 | [@agimon-ai/doompi-log](https://pi.dev/packages/@agimon-ai/doompi-log?page=3) | 9,162/mo | extension | 为代理可观测性提供 Pi 会话指标、发现（findings）、数据接收端（sink）状态与 Log Metrics 覆盖层。 | `pi install npm:@agimon-ai/doompi-log` |
+| 119 | [@agimon-ai/doompi-voice](https://pi.dev/packages/@agimon-ai/doompi-voice?page=3) | 8,981/mo | extension | 为 Pi 代理提供客户端音频采集、主机端转写与自主叙述功能。 | `pi install npm:@agimon-ai/doompi-voice` |
+| 125 | [@juicesharp/rpiv-btw](https://pi.dev/packages/@juicesharp/rpiv-btw?page=3) | 8,702/mo | extension | Pi 扩展。/btw 斜杠命令，用于向同一个主模型提出一次性附带问题，而不污染主对话。 | `pi install npm:@juicesharp/rpiv-btw` |
+| 127 | [pi-ask-user](https://pi.dev/packages/pi-ask-user?page=3) | 8,605/mo | extension | 面向 pi-coding-agent 的交互式 ask_user 工具，提供可搜索的分栏选择 UI、多选与自由文本输入。 | `pi install npm:pi-ask-user` |
+| 129 | [pi-zentui](https://pi.dev/packages/pi-zentui?page=3) | 8,488/mo | extension, theme | 灵感源自 Starship 的状态行与 Opencode 风格 TUI，适用于 Pi。 | `pi install npm:pi-zentui` |
+| 141 | [@agimon-ai/doompi-user-feedback](https://pi.dev/packages/@agimon-ai/doompi-user-feedback?page=3) | 7,741/mo | extension | 为 Pi 代理提供结构化用户提问，并支持交互式与自主式 Voice 交接。 | `pi install npm:@agimon-ai/doompi-user-feedback` |
+| 149 | [@groeponline/pi-wishcraft](https://pi.dev/packages/@groeponline/pi-wishcraft?page=3) | 7,371/mo | extension | 面向 Pi 的操作员驾驶舱：实时 powerline 状态、可搜索的技能包、灵感队列、可置顶 Bash、钩子（hooks）、策略控制与会话体验。 | `pi install npm:@groeponline/pi-wishcraft` |
+| 151 | [@magiusche/pi-webview](https://pi.dev/packages/@magiusche/pi-webview?page=4) | 7,294/mo | extension | pi 编码代理的 WebView 界面，集成到 IDE 中（优先支持 VS Code）。 | `pi install npm:@magiusche/pi-webview` |
+| 172 | [@agimon-ai/doompi-profile](https://pi.dev/packages/@agimon-ai/doompi-profile?page=4) | 6,272/mo | extension | Persona and environment profile switching for DoomPi sessions. | `pi install npm:@agimon-ai/doompi-profile` |
+| 178 | [@agimon-ai/doompi-notification](https://pi.dev/packages/@agimon-ai/doompi-notification?page=4) | 6,061/mo | extension | Desktop notifications and an animated shell-tab title for DoomPi sessions. | `pi install npm:@agimon-ai/doompi-notification` |
+| 184 | [@juicesharp/rpiv-voice](https://pi.dev/packages/@juicesharp/rpiv-voice?page=4) | 5,971/mo | extension | Pi 扩展。通过 /voice 进行语音听写——使用 sherpa-onnx Whisper（base multilingual int8）在设备端本地完成语音转文字，麦克风声音由 decibri 采集。 | `pi install npm:@juicesharp/rpiv-voice` |
+| 185 | [@agimon-ai/doompi-major-mode](https://pi.dev/packages/@agimon-ai/doompi-major-mode?page=4) | 5,960/mo | extension | Named major-mode selection and layer composition switching for DoomPi sessions. | `pi install npm:@agimon-ai/doompi-major-mode` |
+| 193 | [@danypops/pi-packed](https://pi.dev/packages/@danypops/pi-packed?page=4) | 5,827/mo | package | Pi 包生命周期、验证、daemon、工具、配置（profiles）与 TUI。 | `pi install npm:@danypops/pi-packed` |
+| 198 | [@agimon-ai/doompi-hook](https://pi.dev/packages/@agimon-ai/doompi-hook?page=4) | 5,654/mo | extension | Claude-Code-compatible repository and plugin hook runner for DoomPi sessions. | `pi install npm:@agimon-ai/doompi-hook` |
+| 200 | [@agimon-ai/doompi-autostop](https://pi.dev/packages/@agimon-ai/doompi-autostop?page=4) | 5,627/mo | extension | Shuts a DoomPi session down once the agent settles and stays idle. | `pi install npm:@agimon-ai/doompi-autostop` |
+| 248 | [@henryqw/pi-herdr-rename](https://pi.dev/packages/@henryqw/pi-herdr-rename?page=5) | 4,833/mo | package | Generate short Pi display titles and rename the current Herdr location. | `pi install npm:@henryqw/pi-herdr-rename` |
+| 261 | [pi-interactive-shell](https://pi.dev/packages/pi-interactive-shell?page=6) | 4,589/mo | extension | 在 pi 的 TUI 覆盖层中运行 AI 编码代理，支持交互式、免手动及分派式监督。 | `pi install npm:pi-interactive-shell` |
+| 285 | [@tian.zuo/pi-antigravity](https://pi.dev/packages/@tian.zuo/pi-antigravity?page=6) | 4,132/mo | extension | Use Antigravity (agy) models inside the pi coding agent via the agy stream-json RPC, with pi as the UI. | `pi install npm:@tian.zuo/pi-antigravity` |
+| 297 | [pi-queue-steer-factory](https://pi.dev/packages/pi-queue-steer-factory?page=6) | 4,052/mo | extension | Visible steering, follow-up, and session-control queues for Pi and Pi Fabric. | `pi install npm:pi-queue-steer-factory` |
+
+### Runtime / 后台任务 / Worktree / 集成
+
+| 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
+| ---: | --- | ---: | --- | --- | --- |
+| 8 | [pi-background-tasks](https://pi.dev/packages/pi-background-tasks) | 86,262/mo | extension | Pi 扩展：支持持久的后台 shell 任务、只读委托代理、本地认证的 Pi 运行，以及通过子 Pi 进程运行的固定用途 Fusion 工作流。 | `pi install npm:pi-background-tasks` |
+| 24 | [confluence-cli](https://pi.dev/packages/confluence-cli) | 33,960/mo | package | 面向 Atlassian Confluence 的命令行界面，具备页面创建与编辑能力。 | `pi install npm:confluence-cli` |
+| 46 | [pi-fabric](https://pi.dev/packages/pi-fabric) | 19,781/mo | extension | 面向 Pi 的可编程工具与代理运行时。 | `pi install npm:pi-fabric` |
+| 49 | [@llblab/pi-telegram](https://pi.dev/packages/@llblab/pi-telegram) | 18,511/mo | extension | 面向 Pi 的 Telegram 运行时适配器。 | `pi install npm:@llblab/pi-telegram` |
+| 51 | [@agimon-ai/doompi-extension-contracts](https://pi.dev/packages/@agimon-ai/doompi-extension-contracts?page=2) | 18,094/mo | extension | 为独立打包的 DoomPi 扩展提供的类型化生命周期、协议与 Leader 契约。（DoomPi 生态的共享类型/契约库） | `pi install npm:@agimon-ai/doompi-extension-contracts` |
+| 78 | [@caichengle/omp-feishu-lark](https://pi.dev/packages/@caichengle/omp-feishu-lark?page=2) | 11,830/mo | extension | 面向 OMP 编码代理的飞书/Lark 桥接。 | `pi install npm:@caichengle/omp-feishu-lark` |
+| 108 | [@agimon-ai/doompi-runner](https://pi.dev/packages/@agimon-ai/doompi-runner?page=3) | 9,311/mo | package | 为 Pi 编码代理提供受监督的 shell 执行、后台进程控制与运行日志。 | `pi install npm:@agimon-ai/doompi-runner` |
+| 117 | [@ferris1225/pi-subagents](https://pi.dev/packages/@ferris1225/pi-subagents?page=3) | 9,061/mo | extension | 面向 pi 的托管子代理团队：专职角色、提交前文档同步、保留线程、自动修复链、模型回退与 Git worktree 隔离。 | `pi install npm:@ferris1225/pi-subagents` |
+| 131 | [@agimon-ai/doompi-runner-rmux-linux-x64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-linux-x64?page=3) | 8,193/mo | package | 适用于 Linux x64 上 DoomPi Runner 的预编译 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-linux-x64` |
+| 145 | [@agimon-ai/doompi-runner-rmux-darwin-arm64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-darwin-arm64?page=3) | 7,567/mo | package | 适用于 macOS arm64 上 DoomPi Runner 的预编译 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-darwin-arm64` |
+| 148 | [@osolmaz/pi-workflows](https://pi.dev/packages/@osolmaz/pi-workflows?page=3) | 7,453/mo | package | 面向 pi 编码代理的工作流与控制器运行时，附带实时终端查看器。 | `pi install npm:@osolmaz/pi-workflows` |
+| 154 | [@agimon-ai/doompi-runner-rmux-linux-arm64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-linux-arm64?page=4) | 7,070/mo | package | 面向 Linux arm64 平台的 DoomPi Runner 预构建 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-linux-arm64` |
+| 155 | [@agimon-ai/doompi-runner-rmux-darwin-x64](https://pi.dev/packages/@agimon-ai/doompi-runner-rmux-darwin-x64?page=4) | 7,055/mo | package | 面向 macOS x64 平台的 DoomPi Runner 预构建 RMUX 运行时。 | `pi install npm:@agimon-ai/doompi-runner-rmux-darwin-x64` |
+| 156 | [@pi-unipi/core](https://pi.dev/packages/@pi-unipi/core?page=4) | 6,962/mo | extension | 面向 Unipi 扩展套件的共享工具、事件类型和常量 | `pi install npm:@pi-unipi/core` |
+| 169 | [@bdsqqq/pi](https://pi.dev/packages/@bdsqqq/pi?page=4) | 6,337/mo | package | 面向 pi-coding-agent 的扩展与核心工具 | `pi install npm:@bdsqqq/pi` |
+| 170 | [@amaster.ai/pi-computer-use](https://pi.dev/packages/@amaster.ai/pi-computer-use?page=4) | 6,322/mo | extension | 面向 Pi 桌面自动化的跨平台 computer-use（计算机操作）工具 | `pi install npm:@amaster.ai/pi-computer-use` |
+| 177 | [@alasano/pi-linear](https://pi.dev/packages/@alasano/pi-linear?page=4) | 6,073/mo | package | pi 的 Linear 集成，提供 64+ 个工具、多工作区认证以及按工具配置的设置。 | `pi install npm:@alasano/pi-linear` |
+| 187 | [@sreetej510/pi-hpc-tools](https://pi.dev/packages/@sreetej510/pi-hpc-tools?page=4) | 5,916/mo | extension | Pi 扩展，用于通过 plink 探索远程 HPC/SSH 主机，提供 ls/read/grep 工具，并可通过 /hpc:on 和 /hpc:off 按项目开关。 | `pi install npm:@sreetej510/pi-hpc-tools` |
+| 203 | [@trevonistrevon/pi-loop](https://pi.dev/packages/@trevonistrevon/pi-loop?page=5) | 5,584/mo | extension | Pi 扩展，支持基于 cron/事件的代理重新唤醒循环与后台进程监控。 | `pi install npm:@trevonistrevon/pi-loop` |
+| 204 | [pi-repl-py](https://pi.dev/packages/pi-repl-py?page=5) | 5,575/mo | package | 一个只含单一工具 execute 的 pi 扩展：运行一个 TypeScript 宿主，带有持久化的 Python（ipykernel）求值器和一个用户可配置的函数工具箱。 | `pi install npm:pi-repl-py` |
+| 207 | [@xynogen/pix-runtime](https://pi.dev/packages/@xynogen/pix-runtime?page=5) | 5,500/mo | extension | Pix 共享运行时 —— 带版本号的 pix.json 配置、原子化持久化、类型化变更事件 | `pi install npm:@xynogen/pix-runtime` |
+| 211 | [@juanibiapina/pi-extension-settings](https://pi.dev/packages/@juanibiapina/pi-extension-settings?page=5) | 5,441/mo | extension | Pi 扩展，用于跨扩展集中管理设置。 | `pi install npm:@juanibiapina/pi-extension-settings` |
+| 227 | [@aliou/pi-processes](https://pi.dev/packages/@aliou/pi-processes?page=5) | 5,188/mo | extension | ![banner](https://assets.aliou.me/github/aliou/pi-processes/banner-v0.10.x.png) | `pi install npm:@aliou/pi-processes` |
+| 247 | [@narumitw/pi-sync](https://pi.dev/packages/@narumitw/pi-sync?page=5) | 4,837/mo | extension | Pi 扩展，可通过 Git、WebDAV、Cloudflare R2 或兼容 S3 的存储同步 Pi 配置。 | `pi install npm:@narumitw/pi-sync` |
+| 254 | [@pi-unipi/notify](https://pi.dev/packages/@pi-unipi/notify?page=6) | 4,751/mo | extension | Pi 的跨平台通知扩展——为代理生命周期事件提供原生操作系统、Gotify 和 Telegram 通知。 | `pi install npm:@pi-unipi/notify` |
+| 256 | [pi-until-loop](https://pi.dev/packages/pi-until-loop?page=6) | 4,692/mo | package | Spend your time on the engineering trade-offs that matter. Let the Until Loop make sure your agents deliver what you want, how you want it. | `pi install npm:pi-until-loop` |
+| 262 | [@undefineds.co/models](https://pi.dev/packages/@undefineds.co/models?page=6) | 4,571/mo | package | `@undefineds.co/models` 是面向 LinX 应用、桌面端、CLI、边车组件及未来 worker 的共享 Solid Pod 数据模型契约。 | `pi install npm:@undefineds.co/models` |
+| 278 | [@d3ara1n/pi-subagent](https://pi.dev/packages/@d3ara1n/pi-subagent?page=6) | 4,230/mo | extension | Role-based subagent orchestration for pi — delegates tasks to specialized pi child processes with configurable model roles | `pi install npm:@d3ara1n/pi-subagent` |
+| 289 | [@zhcsyncer/pi-extensions](https://pi.dev/packages/@zhcsyncer/pi-extensions?page=6) | 4,115/mo | extension | zhcsyncer 制作的 Pi 扩展合集。 | `pi install npm:@zhcsyncer/pi-extensions` |
 
 ### Skills / Prompt / Rules / 提问
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 5 | [@juicesharp/rpiv-ask-user-question](https://pi.dev/packages/@juicesharp/rpiv-ask-user-question) | 114,716/mo | extension | Pi 扩展：当模型只能靠猜测时，它可以向你提出一份结构化问卷，用带类型的选项代替自由文本回答。 | `pi install npm:@juicesharp/rpiv-ask-user-question` |
-| 12 | [@dietrichgebert/ponytail](https://pi.dev/packages/@dietrichgebert/ponytail) | 49,538/mo | skill | 面向 AI 代理的『懒人资深开发』模式。最好的代码就是你从未写过的代码。 | `pi install npm:@dietrichgebert/ponytail` |
-| 21 | [bigpowers](https://pi.dev/packages/bigpowers) | 32,792/mo | skill | 73 个代理技能，将 17 年的软件工程纪律凝练为一套面向独立开发者的规范性方法论。 | `pi install npm:bigpowers` |
-| 31 | [@7n/rules](https://pi.dev/packages/@7n/rules) | 26,588/mo | package | 规则与技能包（前缀 n-）的基准 CLI：同步到仓库、delta-lint、合规性检查。 | `pi install npm:@7n/rules` |
-| 35 | [@reddb-io/red-skills-internal](https://pi.dev/packages/@reddb-io/red-skills-internal) | 25,101/mo | package | reddb.io 内部插件：仅限维护者使用的技能，用于运营 red-skills 仓库。 | `pi install npm:@reddb-io/red-skills-internal` |
-| 38 | [@nitra/cursor](https://pi.dev/packages/@nitra/cursor) | 23,001/mo | package | 用于将 cursor 规则（前缀 n-）下载到本地仓库的 CLI。（下载 cursor 规则到本地仓库的 CLI 工具） | `pi install npm:@nitra/cursor` |
-| 40 | [@narumitw/pi-btw](https://pi.dev/packages/@narumitw/pi-btw) | 21,704/mo | extension | Pi 扩展，新增一个 /btw 顺带提问命令。 | `pi install npm:@narumitw/pi-btw` |
-| 43 | [pi-prompt-template-model](https://pi.dev/packages/pi-prompt-template-model) | 19,916/mo | extension, prompt | 面向 pi 编码代理的提示词模板模型选择扩展。 | `pi install npm:pi-prompt-template-model` |
-| 49 | [@howaboua/pi-codex-conversion](https://pi.dev/packages/@howaboua/pi-codex-conversion) | 17,521/mo | extension | 面向 pi 编码代理的 Codex 导向工具与提示词适配器。 | `pi install npm:@howaboua/pi-codex-conversion` |
-| 59 | [@arhen/pi-core-subagent](https://pi.dev/packages/@arhen/pi-core-subagent?page=2) | 14,756/mo | extension | pi 扩展：提供带依赖图调度器的快速进程内子代理——'needs' 边会约束任务执行并把上游输出带入依赖任务的提示词中；此外还支持后台运行、intercom 与代理间邮箱。Leader 内联定义代理。 | `pi install npm:@arhen/pi-core-subagent` |
-| 71 | [pi-interview](https://pi.dev/packages/pi-interview?page=2) | 12,534/mo | extension | 面向 pi 编码代理的交互式访谈表单扩展。 | `pi install npm:pi-interview` |
-| 81 | [@juicesharp/rpiv-advisor](https://pi.dev/packages/@juicesharp/rpiv-advisor?page=2) | 11,220/mo | extension | Pi 扩展。模型在行动之前，可以向更强的评审模型征求第二意见。 | `pi install npm:@juicesharp/rpiv-advisor` |
-| 86 | [@devflow-tools/claude-code-plugin](https://pi.dev/packages/@devflow-tools/claude-code-plugin?page=2) | 10,780/mo | skill | 面向 DevFlow 开发智能运行时的 Claude Code hooks 与技能包（skills）。 | `pi install npm:@devflow-tools/claude-code-plugin` |
-| 93 | [@mutmutco/pi-plugin](https://pi.dev/packages/@mutmutco/pi-plugin?page=2) | 10,248/mo | package | 提供 MMI 工作流技能包与 org 门控交付。 | `pi install npm:@mutmutco/pi-plugin` |
-| 113 | [@juicesharp/rpiv-i18n](https://pi.dev/packages/@juicesharp/rpiv-i18n?page=3) | 8,492/mo | extension | Pi 扩展。rpiv-* 技能包的本地化基础：区域设置检测、/languages 命令、--locale 标志以及跨包的区域设置注册表。 | `pi install npm:@juicesharp/rpiv-i18n` |
-| 151 | [@sreetej510/pi-prompt-manager](https://pi.dev/packages/@sreetej510/pi-prompt-manager?page=4) | 6,688/mo | extension, prompt | Pi 扩展，可快速保存、管理并粘贴可复用的提示词，无需重新输入。 | `pi install npm:@sreetej510/pi-prompt-manager` |
-| 179 | [@juicesharp/rpiv-args](https://pi.dev/packages/@juicesharp/rpiv-args?page=4) | 6,077/mo | extension, skill, prompt | Pi 扩展。支持 Shell 风格的 $1 / $ARGUMENTS 占位符与 !`cmd` / ```! shell 替换，并在调用时展开到你的 Pi 技能包中。 | `pi install npm:@juicesharp/rpiv-args` |
-| 205 | [@howaboua/pi-stuff](https://pi.dev/packages/@howaboua/pi-stuff?page=5) | 5,397/mo | package | Howaboua 的全部 Pi 扩展与技能包。 | `pi install npm:@howaboua/pi-stuff` |
-| 214 | [ry-skill](https://pi.dev/packages/ry-skill?page=5) | 5,188/mo | skill | 用于快速 Herdr 工作流的自定义 Pi 技能包与扩展。 | `pi install npm:ry-skill` |
-| 228 | [bestony-pi-preset](https://pi.dev/packages/bestony-pi-preset?page=5) | 5,015/mo | extension, skill, theme, prompt | Bestony 的个人 Pi 编码代理预设——包含技能包、扩展、提示词和主题。 | `pi install npm:bestony-pi-preset` |
-| 229 | [pi-courier](https://pi.dev/packages/pi-courier?page=5) | 5,012/mo | package | 从 Matrix 运行 pi 编码代理。通过 RPC 协议，斜杠命令、技能包和提示词可在各类消息客户端中完整使用。 | `pi install npm:pi-courier` |
-| 232 | [mitsupi](https://pi.dev/packages/mitsupi?page=5) | 4,922/mo | extension, skill, theme | Armin 的 pi 编码代理命令、技能包、扩展和主题。 | `pi install npm:mitsupi` |
-| 233 | [@juicesharp/rpiv-workflow](https://pi.dev/packages/@juicesharp/rpiv-workflow?page=5) | 4,921/mo | extension, skill | Pi 扩展。将技能包串联成带类型的多阶段工作流，具备可审计的 JSONL 状态、谓词路由和逐阶段输出验证。与技能包无关——可自带技能包。 | `pi install npm:@juicesharp/rpiv-workflow` |
-| 253 | [@dotdotgod/pi](https://pi.dev/packages/@dotdotgod/pi?page=6) | 4,628/mo | extension, skill | 面向 dotdotgod 的 Pi 适配器：项目初始化技能包、共享文档脚手架、计划/归档工作流，以及项目加载扩展。 | `pi install npm:@dotdotgod/pi` |
-| 262 | [pi-gauntlet](https://pi.dev/packages/pi-gauntlet?page=6) | 4,451/mo | skill | 为 pi 编码代理提供有主张、带门控的工作流技能包、子代理人设和运行时扩展。 | `pi install npm:pi-gauntlet` |
-| 269 | [@outlit/pi](https://pi.dev/packages/@outlit/pi?page=6) | 4,268/mo | package | 用于 Outlit 客户情报工具和技能指导的 Pi 包。 | `pi install npm:@outlit/pi` |
-| 280 | [@agimon-ai/doompi-help](https://pi.dev/packages/@agimon-ai/doompi-help?page=6) | 4,147/mo | extension, skill | 面向 DoomPi 和 Pi 扩展的、激活门控的包使用指南与帮助技能包。 | `pi install npm:@agimon-ai/doompi-help` |
+| 5 | [@juicesharp/rpiv-ask-user-question](https://pi.dev/packages/@juicesharp/rpiv-ask-user-question) | 162,375/mo | extension | Pi 扩展：当模型只能靠猜测时，它可以向你提出一份结构化问卷，用带类型的选项代替自由文本回答。 | `pi install npm:@juicesharp/rpiv-ask-user-question` |
+| 11 | [bigpowers](https://pi.dev/packages/bigpowers) | 70,261/mo | skill | 73 个代理技能，将 17 年的软件工程纪律凝练为一套面向独立开发者的规范性方法论。 | `pi install npm:bigpowers` |
+| 15 | [@dietrichgebert/ponytail](https://pi.dev/packages/@dietrichgebert/ponytail) | 43,641/mo | skill | 面向 AI 代理的『懒人资深开发』模式。最好的代码就是你从未写过的代码。 | `pi install npm:@dietrichgebert/ponytail` |
+| 30 | [@narumitw/pi-btw](https://pi.dev/packages/@narumitw/pi-btw) | 28,954/mo | extension | Pi 扩展，新增一个 /btw 顺带提问命令。 | `pi install npm:@narumitw/pi-btw` |
+| 36 | [pi-prompt-template-model](https://pi.dev/packages/pi-prompt-template-model) | 27,288/mo | extension, prompt | 面向 pi 编码代理的提示词模板模型选择扩展。 | `pi install npm:pi-prompt-template-model` |
+| 44 | [pi-interview](https://pi.dev/packages/pi-interview) | 20,740/mo | extension | 面向 pi 编码代理的交互式访谈表单扩展。 | `pi install npm:pi-interview` |
+| 45 | [@7n/rules](https://pi.dev/packages/@7n/rules) | 20,258/mo | package | 规则与技能包（前缀 n-）的基准 CLI：同步到仓库、delta-lint、合规性检查。 | `pi install npm:@7n/rules` |
+| 47 | [@nitra/cursor](https://pi.dev/packages/@nitra/cursor) | 19,089/mo | package | 用于将 cursor 规则（前缀 n-）下载到本地仓库的 CLI。（下载 cursor 规则到本地仓库的 CLI 工具） | `pi install npm:@nitra/cursor` |
+| 53 | [@reddb-io/red-skills-internal](https://pi.dev/packages/@reddb-io/red-skills-internal?page=2) | 17,689/mo | package | reddb.io 内部插件：仅限维护者使用的技能，用于运营 red-skills 仓库。 | `pi install npm:@reddb-io/red-skills-internal` |
+| 56 | [@mutmutco/pi-plugin](https://pi.dev/packages/@mutmutco/pi-plugin?page=2) | 16,465/mo | package | 提供 MMI 工作流技能包与 org 门控交付。 | `pi install npm:@mutmutco/pi-plugin` |
+| 58 | [@arhen/pi-core-subagent](https://pi.dev/packages/@arhen/pi-core-subagent?page=2) | 15,711/mo | extension | pi 扩展：提供带依赖图调度器的快速进程内子代理——'needs' 边会约束任务执行并把上游输出带入依赖任务的提示词中；此外还支持后台运行、intercom 与代理间邮箱。Leader 内联定义代理。 | `pi install npm:@arhen/pi-core-subagent` |
+| 72 | [@howaboua/pi-codex-conversion](https://pi.dev/packages/@howaboua/pi-codex-conversion?page=2) | 12,746/mo | extension | 面向 pi 编码代理的 Codex 导向工具与提示词适配器。 | `pi install npm:@howaboua/pi-codex-conversion` |
+| 75 | [pi-advisor-flow](https://pi.dev/packages/pi-advisor-flow?page=2) | 12,222/mo | extension | Advanced Executor/Advisor flow for Pi, fully configurable and extendable. | `pi install npm:pi-advisor-flow` |
+| 94 | [@juicesharp/rpiv-advisor](https://pi.dev/packages/@juicesharp/rpiv-advisor?page=2) | 10,597/mo | extension | Pi 扩展。模型在行动之前，可以向更强的评审模型征求第二意见。 | `pi install npm:@juicesharp/rpiv-advisor` |
+| 133 | [@juicesharp/rpiv-i18n](https://pi.dev/packages/@juicesharp/rpiv-i18n?page=3) | 8,174/mo | extension | Pi 扩展。rpiv-* 技能包的本地化基础：区域设置检测、/languages 命令、--locale 标志以及跨包的区域设置注册表。 | `pi install npm:@juicesharp/rpiv-i18n` |
+| 150 | [@agimon-ai/doompi-help](https://pi.dev/packages/@agimon-ai/doompi-help?page=3) | 7,300/mo | extension, skill | 面向 DoomPi 和 Pi 扩展的、激活门控的包使用指南与帮助技能包。 | `pi install npm:@agimon-ai/doompi-help` |
+| 153 | [@devflow-tools/claude-code-plugin](https://pi.dev/packages/@devflow-tools/claude-code-plugin?page=4) | 7,092/mo | skill | 面向 DevFlow 开发智能运行时的 Claude Code hooks 与技能包（skills）。 | `pi install npm:@devflow-tools/claude-code-plugin` |
+| 181 | [pi-gauntlet](https://pi.dev/packages/pi-gauntlet?page=4) | 6,017/mo | skill | 为 pi 编码代理提供有主张、带门控的工作流技能包、子代理人设和运行时扩展。 | `pi install npm:pi-gauntlet` |
+| 183 | [@sreetej510/pi-prompt-manager](https://pi.dev/packages/@sreetej510/pi-prompt-manager?page=4) | 6,011/mo | extension, prompt | Pi 扩展，可快速保存、管理并粘贴可复用的提示词，无需重新输入。 | `pi install npm:@sreetej510/pi-prompt-manager` |
+| 202 | [pi-template-kit](https://pi.dev/packages/pi-template-kit?page=5) | 5,593/mo | prompt | Shared LiquidJS prompt-template engine, filters, XML tag, and file loader for Pi packages. | `pi install npm:pi-template-kit` |
+| 217 | [@juicesharp/rpiv-args](https://pi.dev/packages/@juicesharp/rpiv-args?page=5) | 5,364/mo | extension, skill, prompt | Pi 扩展。支持 Shell 风格的 $1 / $ARGUMENTS 占位符与 !`cmd` / ```! shell 替换，并在调用时展开到你的 Pi 技能包中。 | `pi install npm:@juicesharp/rpiv-args` |
+| 228 | [ry-skill](https://pi.dev/packages/ry-skill?page=5) | 5,175/mo | skill | 用于快速 Herdr 工作流的自定义 Pi 技能包与扩展。 | `pi install npm:ry-skill` |
+| 231 | [@llblab/pi-kit](https://pi.dev/packages/@llblab/pi-kit?page=5) | 5,148/mo | extension | Version-pinned distribution of LLB Lab extensions and Skills for Pi | `pi install npm:@llblab/pi-kit` |
+| 233 | [bestony-pi-preset](https://pi.dev/packages/bestony-pi-preset?page=5) | 5,138/mo | extension, skill, theme, prompt | Bestony 的个人 Pi 编码代理预设——包含技能包、扩展、提示词和主题。 | `pi install npm:bestony-pi-preset` |
+| 274 | [@juicesharp/rpiv-workflow](https://pi.dev/packages/@juicesharp/rpiv-workflow?page=6) | 4,289/mo | extension, skill | Pi 扩展。将技能包串联成带类型的多阶段工作流，具备可审计的 JSONL 状态、谓词路由和逐阶段输出验证。与技能包无关——可自带技能包。 | `pi install npm:@juicesharp/rpiv-workflow` |
+| 277 | [@abelxiaoxing/cadence](https://pi.dev/packages/@abelxiaoxing/cadence?page=6) | 4,236/mo | package | Four explicit Abel workflow prompts with stage-isolated design and diagnosis, durable resumable implementation, and three package-owned professional Agents. | `pi install npm:@abelxiaoxing/cadence` |
+| 290 | [@chankov/agent-fleet](https://pi.dev/packages/@chankov/agent-fleet?page=6) | 4,108/mo | skill | Multi-agent fleet orchestration for coding agents. Pi as the primary runtime, Herdr as the workspace control plane, coms as the peer data plane, and Hermes for remote control — plus skills, personas, harnesses, and a guided setup CLI. | `pi install npm:@chankov/agent-fleet` |
 
 ### 代码智能 / 编辑 / Review
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 9 | [pi-lens](https://pi.dev/packages/pi-lens) | 59,329/mo | extension | 面向 pi 的实时代码反馈——LSP、linter、格式化工具、类型检查、结构分析与 booboo | `pi install npm:pi-lens` |
-| 10 | [@plannotator/pi-extension](https://pi.dev/packages/@plannotator/pi-extension) | 53,079/mo | package | Plannotator Pi 扩展：支持带注释的交互式计划审查、为代理消息添加注释，以及审查代码/PR。 | `pi install npm:@plannotator/pi-extension` |
-| 14 | [pi-simplify](https://pi.dev/packages/pi-simplify) | 42,875/mo | extension | 一个 Pi 扩展，用于审查最近改动的代码，以提升其清晰度、一致性和可维护性。 | `pi install npm:pi-simplify` |
-| 33 | [@reddb-io/red-skills-dev](https://pi.dev/packages/@reddb-io/red-skills-dev) | 26,022/mo | package | reddb.io 开发插件——为编码代理提供工程类技能（自主 /afk 循环、/go 调度、问题分类、TDD、诊断、图感知代码库理解等） | `pi install npm:@reddb-io/red-skills-dev` |
-| 42 | [pi-hashline-edit-pro](https://pi.dev/packages/pi-hashline-edit-pro) | 20,141/mo | extension | 适用于 pi-coding-agent 的哈希锚定 read/replace/insert/grep 工具：每一行都会获得唯一的 3 字符哈希（A-Za-z0-9），且跨编辑保持稳定；过期或有歧义的锚点会被拒绝，绝不模糊匹配。撤销记录在重启后依然保留。 | `pi install npm:pi-hashline-edit-pro` |
-| 54 | [@narumitw/pi-lsp](https://pi.dev/packages/@narumitw/pi-lsp?page=2) | 15,644/mo | extension | Pi 扩展，通过共享的 runner 提供可配置、语言无关的 LSP 工具。 | `pi install npm:@narumitw/pi-lsp` |
-| 123 | [gentle-pi](https://pi.dev/packages/gentle-pi?page=3) | 7,897/mo | package | 将 Pi 变成 el Gentleman：一个资深架构师级的开发框架，具备 SDD/OpenSpec、子代理、严格的 TDD 证据、审查护栏和技能包发现能力。 | `pi install npm:gentle-pi` |
-| 142 | [@sreetej510/pi-shipd-checks](https://pi.dev/packages/@sreetej510/pi-shipd-checks?page=3) | 6,892/mo | extension | Pi 扩展，通过 /checks 对基准任务的 agent_prompt.md、test.patch 和 solution.patch 进行严格的多 AI 代理公平性审查，并附带行为测试缺口分析。 | `pi install npm:@sreetej510/pi-shipd-checks` |
-| 143 | [pi-readseek](https://pi.dev/packages/pi-readseek?page=3) | 6,858/mo | extension | Pi 扩展，提供基于 LINE:HASH 锚定的文件操作和结构化代码导航 | `pi install npm:pi-readseek` |
-| 148 | [@danypops/pi-lector](https://pi.dev/packages/@danypops/pi-lector?page=3) | 6,744/mo | package | 面向 Lector 的 Pi 宿主适配器：用由守护进程支撑、哈希防护的文件系统覆写 read/write/edit | `pi install npm:@danypops/pi-lector` |
-| 165 | [@agimon-ai/doompi-file-edit](https://pi.dev/packages/@agimon-ai/doompi-file-edit?page=4) | 6,384/mo | extension | Pi 扩展，提供会话级文件变更时间线与外部编辑器工作流。 | `pi install npm:@agimon-ai/doompi-file-edit` |
-| 180 | [pi-pr-review](https://pi.dev/packages/pi-pr-review?page=4) | 6,077/mo | extension | 在 Pi 编码代理中为 GitHub pull request 提供并行 AI 代码审查：与模型无关的分层子代理、结构化审查意见、可选验证，以及由宿主控制的 COMMENT 或符合条件时的 APPROVE 发布。 | `pi install npm:pi-pr-review` |
-| 189 | [@specpow/framework](https://pi.dev/packages/@specpow/framework?page=4) | 5,819/mo | skill | Spec-Powered AI Development Framework - 融合 OpenSpec 规范驱动 + Superpowers 执行引擎的企业级 AI 辅助编程框架（OpenSpec 规范驱动 + Superpowers 执行引擎的 AI 编程框架） | `pi install npm:@specpow/framework` |
-| 199 | [pi-sych](https://pi.dev/packages/pi-sych?page=4) | 5,483/mo | package | 面向 Pi 的通用项目与产物（artifact）开发工作台 | `pi install npm:pi-sych` |
-| 212 | [@adia-ai/adia-ui-forge](https://pi.dev/packages/@adia-ai/adia-ui-forge?page=5) | 5,269/mo | package | 维护 adia-ui（@adia-ai）框架本身——编写原语与外壳、运行 A2UI 生成流水线及其语料库、审查生成 UI 质量、全面 QA、发布版本并部署；是 adia-factory（面向消费者/应用作者）的维护者对应物 | `pi install npm:@adia-ai/adia-ui-forge` |
-| 221 | [@heyhuynhgiabuu/pi-pretty](https://pi.dev/packages/@heyhuynhgiabuu/pi-pretty?page=5) | 5,084/mo | extension | 让 pi 的终端输出更美观——语法高亮的文件读取、彩色 bash 输出、树状目录列表等。 | `pi install npm:@heyhuynhgiabuu/pi-pretty` |
+| 7 | [pi-lens](https://pi.dev/packages/pi-lens) | 88,889/mo | extension | 面向 pi 的实时代码反馈——LSP、linter、格式化工具、类型检查、结构分析与 booboo | `pi install npm:pi-lens` |
+| 13 | [@plannotator/pi-extension](https://pi.dev/packages/@plannotator/pi-extension) | 56,433/mo | package | Plannotator Pi 扩展：支持带注释的交互式计划审查、为代理消息添加注释，以及审查代码/PR。 | `pi install npm:@plannotator/pi-extension` |
+| 16 | [pi-simplify](https://pi.dev/packages/pi-simplify) | 41,841/mo | extension | 一个 Pi 扩展，用于审查最近改动的代码，以提升其清晰度、一致性和可维护性。 | `pi install npm:pi-simplify` |
+| 48 | [@reddb-io/red-skills-dev](https://pi.dev/packages/@reddb-io/red-skills-dev) | 18,714/mo | package | reddb.io 开发插件——为编码代理提供工程类技能（自主 /afk 循环、/go 调度、问题分类、TDD、诊断、图感知代码库理解等） | `pi install npm:@reddb-io/red-skills-dev` |
+| 59 | [pi-hashline-edit-pro](https://pi.dev/packages/pi-hashline-edit-pro?page=2) | 15,711/mo | extension | 适用于 pi-coding-agent 的哈希锚定 read/replace/insert/grep 工具：每一行都会获得唯一的 3 字符哈希（A-Za-z0-9），且跨编辑保持稳定；过期或有歧义的锚点会被拒绝，绝不模糊匹配。撤销记录在重启后依然保留。 | `pi install npm:pi-hashline-edit-pro` |
+| 97 | [@narumitw/pi-lsp](https://pi.dev/packages/@narumitw/pi-lsp?page=2) | 10,221/mo | extension | Pi 扩展，通过共享的 runner 提供可配置、语言无关的 LSP 工具。 | `pi install npm:@narumitw/pi-lsp` |
+| 101 | [gentle-pi](https://pi.dev/packages/gentle-pi?page=3) | 9,925/mo | package | 将 Pi 变成 el Gentleman：一个资深架构师级的开发框架，具备 SDD/OpenSpec、子代理、严格的 TDD 证据、审查护栏和技能包发现能力。 | `pi install npm:gentle-pi` |
+| 106 | [@agimon-ai/doompi-hashline](https://pi.dev/packages/@agimon-ai/doompi-hashline?page=3) | 9,368/mo | package | Shared snapshot-bound file tags and line anchors for DoomPi tools. | `pi install npm:@agimon-ai/doompi-hashline` |
+| 122 | [@agimon-ai/doompi-file-edit](https://pi.dev/packages/@agimon-ai/doompi-file-edit?page=3) | 8,748/mo | extension | Pi 扩展，提供会话级文件变更时间线与外部编辑器工作流。 | `pi install npm:@agimon-ai/doompi-file-edit` |
+| 128 | [@specpow/framework](https://pi.dev/packages/@specpow/framework?page=3) | 8,560/mo | skill | Spec-Powered AI Development Framework - 融合 OpenSpec 规范驱动 + Superpowers 执行引擎的企业级 AI 辅助编程框架（OpenSpec 规范驱动 + Superpowers 执行引擎的 AI 编程框架） | `pi install npm:@specpow/framework` |
+| 140 | [pi-pr-review](https://pi.dev/packages/pi-pr-review?page=3) | 7,771/mo | extension | 在 Pi 编码代理中为 GitHub pull request 提供并行 AI 代码审查：与模型无关的分层子代理、结构化审查意见、可选验证，以及由宿主控制的 COMMENT 或符合条件时的 APPROVE 发布。 | `pi install npm:pi-pr-review` |
+| 159 | [@heyhuynhgiabuu/pi-pretty](https://pi.dev/packages/@heyhuynhgiabuu/pi-pretty?page=4) | 6,735/mo | extension | 让 pi 的终端输出更美观——语法高亮的文件读取、彩色 bash 输出、树状目录列表等。 | `pi install npm:@heyhuynhgiabuu/pi-pretty` |
+| 166 | [@viccydev/pi-fpa](https://pi.dev/packages/@viccydev/pi-fpa?page=4) | 6,529/mo | package | Full-cycle FP&A planning, strategy, forecast, and review prompts, skills, and data tools for Pi | `pi install npm:@viccydev/pi-fpa` |
+| 179 | [@sreetej510/pi-shipd-checks](https://pi.dev/packages/@sreetej510/pi-shipd-checks?page=4) | 6,058/mo | extension | Pi 扩展，通过 /checks 对基准任务的 agent_prompt.md、test.patch 和 solution.patch 进行严格的多 AI 代理公平性审查，并附带行为测试缺口分析。 | `pi install npm:@sreetej510/pi-shipd-checks` |
+| 239 | [@cad0p/pi-steering](https://pi.dev/packages/@cad0p/pi-steering?page=5) | 4,984/mo | extension | AST-backed steering hooks for pi — deterministic tool-call guardrails with command-level effective-cwd scoping. | `pi install npm:@cad0p/pi-steering` |
+| 245 | [@agimon-ai/doompi-edit](https://pi.dev/packages/@agimon-ai/doompi-edit?page=5) | 4,885/mo | extension | Snapshot-bound hashline edit tool for Pi and DoomPi. | `pi install npm:@agimon-ai/doompi-edit` |
+| 250 | [@agimon-ai/doompi-read](https://pi.dev/packages/@agimon-ai/doompi-read?page=5) | 4,815/mo | extension | Snapshot-bound hashline read tool for Pi and DoomPi. | `pi install npm:@agimon-ai/doompi-read` |
+| 252 | [@agimon-ai/doompi-grep](https://pi.dev/packages/@agimon-ai/doompi-grep?page=6) | 4,797/mo | extension | Snapshot-bound hashline grep for Pi and DoomPi. | `pi install npm:@agimon-ai/doompi-grep` |
+| 257 | [@adia-ai/adia-ui-forge](https://pi.dev/packages/@adia-ai/adia-ui-forge?page=6) | 4,676/mo | package | 维护 adia-ui（@adia-ai）框架本身——编写原语与外壳、运行 A2UI 生成流水线及其语料库、审查生成 UI 质量、全面 QA、发布版本并部署；是 adia-factory（面向消费者/应用作者）的维护者对应物 | `pi install npm:@adia-ai/adia-ui-forge` |
 
 ### 安全 / 权限 / Sandbox
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 17 | [@trim21/personal-pi-extensions](https://pi.dev/packages/@trim21/personal-pi-extensions) | 36,054/mo | package | 自定义 pi 编码代理扩展：bwrap 沙箱、工作区守卫、opencode 编辑，以及更多。 | `pi install npm:@trim21/personal-pi-extensions` |
-| 19 | [pi-goal-x](https://pi.dev/packages/pi-goal-x) | 34,771/mo | extension | pi 的目标模式扩展：持久的长期目标、五个模型工具、结构化任务、独立的完成审计、西西弗斯模式、自动继续和状态浮层。 | `pi install npm:pi-goal-x` |
-| 23 | [@tangle-network/tcloud-agent](https://pi.dev/packages/@tangle-network/tcloud-agent) | 31,205/mo | package | 基于 Tangle 沙箱传输层的代理 run-loop 原语：依据 brief 运行 AgentProfile，并设有标准关卡、预算上限和流式事件。内含用于 Pi 工具集成的 TangleToolProvider。 | `pi install npm:@tangle-network/tcloud-agent` |
-| 27 | [@gotgenes/pi-permission-system](https://pi.dev/packages/@gotgenes/pi-permission-system) | 30,156/mo | extension | 面向 Pi 编码代理的权限强制扩展。 | `pi install npm:@gotgenes/pi-permission-system` |
-| 32 | [pi-goal-list-loop-audit](https://pi.dev/packages/pi-goal-list-loop-audit) | 26,028/mo | extension | 自主 pi 的任务控制：访谈起草的目标、受审计的任务队列，以及可运行数小时的永久循环（metric、spec、project-audit）。一个独立的、无需扩展的审计进程会用原始证据重新验证每次完成，而不会持有 | `pi install npm:pi-goal-list-loop-audit` |
-| 47 | [cc-safety-net](https://pi.dev/packages/cc-safety-net) | 18,773/mo | package | 编码代理 CLI 钩子：阻止破坏性命令与机密文件访问。 | `pi install npm:cc-safety-net` |
-| 107 | [latchkey](https://pi.dev/packages/latchkey?page=3) | 9,002/mo | package | 一个 CLI 工具，可将 API 凭据注入到发往第三方服务的 curl 请求中。 | `pi install npm:latchkey` |
-| 116 | [pi-pair](https://pi.dev/packages/pi-pair?page=3) | 8,340/mo | package | 面向 pi coding agent 的结对决策审计：全新生成的结对审计器、真实产物门禁、交付门禁、决策链捕获（英文 README + 中文文档） | `pi install npm:pi-pair` |
-| 130 | [pi-muselinn-harness](https://pi.dev/packages/pi-muselinn-harness?page=3) | 7,202/mo | extension | 面向 Pi coding agent 的 Kimi Code 风格 AI 代理编排框架 —— Swarm（并发子代理 + 盲文 TUI）、Goal（生命周期 + 预算 + 队列）、Plan（计划模式 + 工具限制）、Permission（18 级策略链：auto/yolo/manual）、Task（后台 + | `pi install npm:pi-muselinn-harness` |
-| 132 | [betterwright](https://pi.dev/packages/betterwright?page=3) | 7,181/mo | package | 面向 AI 代理的持久化、受策略保护的 Playwright 浏览器，具备网络控制、可信凭据自动填充、证据截图和 CAPTCHA 辅助功能。 | `pi install npm:betterwright` |
-| 166 | [@aliou/pi-guardrails](https://pi.dev/packages/@aliou/pi-guardrails?page=4) | 6,373/mo | extension | ![banner](https://assets.aliou.me/github/aliou/pi-guardrails/banner.png) | `pi install npm:@aliou/pi-guardrails` |
-| 172 | [@cad0p/pi-napkin](https://pi.dev/packages/@cad0p/pi-napkin?page=4) | 6,237/mo | extension | 📜 为 pi 提供的 Napkin 集成 —— 保管库（vault）上下文、知识工具，以及具备 git-worktree 并发安全性的自动蒸馏（distillation） | `pi install npm:@cad0p/pi-napkin` |
-| 225 | [pi-smart-compact](https://pi.dev/packages/pi-smart-compact?page=5) | 5,047/mo | extension | 面向 Pi Coding Agent、以验证为导向的智能压缩扩展——支持确定性提取、探索、综合、验证、指标统计与安全检查。 | `pi install npm:pi-smart-compact` |
-| 236 | [@vigolium/piolium](https://pi.dev/packages/@vigolium/piolium?page=5) | 4,896/mo | extension | 多阶段安全审计，由专业子代理负责执行，具备隔离的上下文窗口、受限并发与可恢复状态——以 Pi 扩展形式打包提供。 | `pi install npm:@vigolium/piolium` |
-| 251 | [pi-sandbox](https://pi.dev/packages/pi-sandbox?page=6) | 4,684/mo | extension | 为 pi 提供操作系统级沙箱，带交互式权限提示。 | `pi install npm:pi-sandbox` |
-| 260 | [@danypops/enigma](https://pi.dev/packages/@danypops/enigma?page=6) | 4,476/mo | package | 加密凭证库守护进程：保管委托的 OAuth/API 凭证，通过经认证的本地端点，只向每个注册的消费方提供其自身作用域内的凭证。 | `pi install npm:@danypops/enigma` |
+| 17 | [@gotgenes/pi-permission-system](https://pi.dev/packages/@gotgenes/pi-permission-system) | 41,154/mo | extension | 面向 Pi 编码代理的权限强制扩展。 | `pi install npm:@gotgenes/pi-permission-system` |
+| 19 | [@trim21/personal-pi-extensions](https://pi.dev/packages/@trim21/personal-pi-extensions) | 40,468/mo | package | 自定义 pi 编码代理扩展：bwrap 沙箱、工作区守卫、opencode 编辑，以及更多。 | `pi install npm:@trim21/personal-pi-extensions` |
+| 37 | [cc-safety-net](https://pi.dev/packages/cc-safety-net) | 25,909/mo | package | 编码代理 CLI 钩子：阻止破坏性命令与机密文件访问。 | `pi install npm:cc-safety-net` |
+| 76 | [pi-goal-list-loop-audit](https://pi.dev/packages/pi-goal-list-loop-audit?page=2) | 12,119/mo | extension | 自主 pi 的任务控制：访谈起草的目标、受审计的任务队列，以及可运行数小时的永久循环（metric、spec、project-audit）。一个独立的、无需扩展的审计进程会用原始证据重新验证每次完成，而不会持有 | `pi install npm:pi-goal-list-loop-audit` |
+| 90 | [latchkey](https://pi.dev/packages/latchkey?page=2) | 10,959/mo | package | 一个 CLI 工具，可将 API 凭据注入到发往第三方服务的 curl 请求中。 | `pi install npm:latchkey` |
+| 100 | [betterwright](https://pi.dev/packages/betterwright?page=2) | 10,137/mo | package | 面向 AI 代理的持久化、受策略保护的 Playwright 浏览器，具备网络控制、可信凭据自动填充、证据截图和 CAPTCHA 辅助功能。 | `pi install npm:betterwright` |
+| 168 | [pi-pair](https://pi.dev/packages/pi-pair?page=4) | 6,385/mo | package | 面向 pi coding agent 的结对决策审计：全新生成的结对审计器、真实产物门禁、交付门禁、决策链捕获（英文 README + 中文文档） | `pi install npm:pi-pair` |
+| 221 | [@tangle-network/tcloud-agent](https://pi.dev/packages/@tangle-network/tcloud-agent?page=5) | 5,259/mo | package | 基于 Tangle 沙箱传输层的代理 run-loop 原语：依据 brief 运行 AgentProfile，并设有标准关卡、预算上限和流式事件。内含用于 Pi 工具集成的 TangleToolProvider。 | `pi install npm:@tangle-network/tcloud-agent` |
+| 230 | [@aliou/pi-guardrails](https://pi.dev/packages/@aliou/pi-guardrails?page=5) | 5,165/mo | extension | ![banner](https://assets.aliou.me/github/aliou/pi-guardrails/banner.png) | `pi install npm:@aliou/pi-guardrails` |
+| 243 | [rolebox](https://pi.dev/packages/rolebox?page=5) | 4,904/mo | extension, skill | Agent plugin — define custom AI agent roles with per-role prompts, models, skills, and permissions | `pi install npm:rolebox` |
+| 253 | [pi-muselinn-harness](https://pi.dev/packages/pi-muselinn-harness?page=6) | 4,786/mo | extension | 面向 Pi coding agent 的 Kimi Code 风格 AI 代理编排框架 —— Swarm（并发子代理 + 盲文 TUI）、Goal（生命周期 + 预算 + 队列）、Plan（计划模式 + 工具限制）、Permission（18 级策略链：auto/yolo/manual）、Task（后台 + | `pi install npm:pi-muselinn-harness` |
+| 265 | [@erichll/pi-auto-review](https://pi.dev/packages/@erichll/pi-auto-review?page=6) | 4,522/mo | extension | Fail-closed, model-backed approval broker for Pi: deterministically hard-denies dangerous operations, reviews dangerous boundaries with a reviewer model, and issues one-shot expiring grants that OS sandbox adapters must consume before retrying. | `pi install npm:@erichll/pi-auto-review` |
+| 269 | [pi-sandbox](https://pi.dev/packages/pi-sandbox?page=6) | 4,376/mo | extension | 为 pi 提供操作系统级沙箱，带交互式权限提示。 | `pi install npm:pi-sandbox` |
+| 294 | [@erichll/pi-sandbox](https://pi.dev/packages/@erichll/pi-sandbox?page=6) | 4,066/mo | extension | Linux (bubblewrap) and macOS (Seatbelt) process sandbox for Pi backed by Anthropic's @anthropic-ai/sandbox-runtime. Fail-closed static filesystem policy plus per-connection network approval from pi-auto-review; sandboxes main-agent Bash and built-in subag | `pi install npm:@erichll/pi-sandbox` |
+| 298 | [@agimon-ai/doompi-web-security](https://pi.dev/packages/@agimon-ai/doompi-web-security?page=6) | 4,027/mo | package | Shared security primitives for the DoomPi web cockpit: sealed channels and signed bundle manifests for independently trusted verifiers. | `pi install npm:@agimon-ai/doompi-web-security` |
 
 ### 其他 / 待复核
 
 | 排名 | 包 | 月下载量 | 类型 | 主要用途 | 安装 |
 | ---: | --- | ---: | --- | --- | --- |
-| 177 | [pi-spark](https://pi.dev/packages/pi-spark?page=4) | 6,085/mo | package | 提升日常使用体验的 Pi 包。 | `pi install npm:pi-spark` |
-| 202 | [@xynogen/pix-core](https://pi.dev/packages/@xynogen/pix-core?page=5) | 5,458/mo | extension | Pi 扩展捆绑包——安装并激活所有核心 pix-* 扩展。 | `pi install npm:@xynogen/pix-core` |
-| 276 | [bermudis-pi-goodies](https://pi.dev/packages/bermudis-pi-goodies?page=6) | 4,185/mo | package | 一组小巧且常用的 Pi 扩展合集。 | `pi install npm:bermudis-pi-goodies` |
-| 289 | [@howaboua/pi-extensions](https://pi.dev/packages/@howaboua/pi-extensions?page=6) | 4,026/mo | package | Howaboua 的全部 Pi 扩展。 | `pi install npm:@howaboua/pi-extensions` |
+| 82 | [@narumitw/pi-stamp](https://pi.dev/packages/@narumitw/pi-stamp?page=2) | 11,539/mo | extension | Pi extension for transcript timestamps, assistant metadata, and tool timing. | `pi install npm:@narumitw/pi-stamp` |
+| 191 | [bermudis-pi-goodies](https://pi.dev/packages/bermudis-pi-goodies?page=4) | 5,885/mo | package | 一组小巧且常用的 Pi 扩展合集。 | `pi install npm:bermudis-pi-goodies` |
+| 222 | [@henryqw/pi-pr](https://pi.dev/packages/@henryqw/pi-pr?page=5) | 5,230/mo | package | Run /pr to safely discover or link the current pull request, then create, update, address feedback, fix CI, or merge when ready. | `pi install npm:@henryqw/pi-pr` |
+| 235 | [pi-spark](https://pi.dev/packages/pi-spark?page=5) | 5,073/mo | package | 提升日常使用体验的 Pi 包。 | `pi install npm:pi-spark` |
+| 263 | [@henryqw/pi-herdr](https://pi.dev/packages/@henryqw/pi-herdr?page=6) | 4,529/mo | package | Shared client for interacting with Herdr from Node.js tools and Pi packages. | `pi install npm:@henryqw/pi-herdr` |
+| 283 | [@czottmann/pi-automode](https://pi.dev/packages/@czottmann/pi-automode?page=6) | 4,143/mo | extension | Claude Code-style auto mode guardrail for pi. | `pi install npm:@czottmann/pi-automode` |
